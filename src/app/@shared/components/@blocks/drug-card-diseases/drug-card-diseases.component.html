@@ -1,0 +1,15 @@
+<ion-grid>
+  <ion-row (click)="processCard()">
+    <ion-col size="2">
+      <div [ngClass]="['card-img', convert(object?.type)]">
+        <img style="width: 30px; margin-top: 8px;" [src]="imagePath" alt="image">
+      </div>
+    </ion-col>
+
+    <ion-col size="10">
+      <div [ngClass]="inputSubTitle ? 'mt7' : 'mt14' " >{{inputTitle}}</div>
+      <div style="font-size: 12px;">Раздел: {{getTitle()}}</div>
+    </ion-col>
+
+  </ion-row>
+</ion-grid>

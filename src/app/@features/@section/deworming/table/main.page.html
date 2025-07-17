@@ -1,0 +1,53 @@
+<!-- App Header -->
+<ion-header>
+<ion-toolbar>
+  <ion-title>Таблица</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+<!-- Table for Deworming Pills -->
+<div style="margin: 15px;">
+  <table>
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Active Substance</th>
+        <!-- <th>Type of Deworming</th> -->
+        <th>Indications</th>
+        <th>Contraindications</th>
+        <th>How to Give</th>
+        <th>Dosage</th>
+        <th>Precautions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of $collection">
+        <td style="text-align-last: center;">
+          <img src="{{element?.image }}" style="max-height: 150px;" (click)="onOpenPdfDocument(element?.link)">
+        </td>
+        <td>{{ element.title }}</td>
+        <td>{{ element.activeSubstance.join(', ') }}</td>
+        <!-- <td>{{ element.typeDeworming }}</td> -->
+        <td>{{ element.indications.join(', ') }}</td>
+        <td>{{ element.contraindications }}</td>
+        <td>{{ element.howToGive }}</td>
+        <td>
+          @if(element?.dosage.startsWith("@")) {
+            <img src="{{renderImage(element?.dosage)}}"/>
+          }
+          @else {
+            <div style="padding-left: 5px; max-height: 350px;">{{element?.dosage}}</div>
+          }
+        </td>
+        <td>{{ element.precautions }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</ion-content>

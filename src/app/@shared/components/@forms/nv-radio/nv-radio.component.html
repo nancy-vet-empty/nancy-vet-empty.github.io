@@ -1,0 +1,20 @@
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <div
+        #nvRadioElement
+        class="button-idle is-selected"
+        (click)="processOnSelect($event, 'title')">
+        Название
+      </div>
+    </ion-col>
+    <ion-col>
+      <div
+        #nvRadioElement
+        class="button-idle"
+        (click)="processOnSelect($event, 'activeSubstance')">
+        Активна съставка
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>

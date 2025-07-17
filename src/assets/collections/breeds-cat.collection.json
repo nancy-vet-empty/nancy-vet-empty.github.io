@@ -1,0 +1,473 @@
+  [
+      {
+        "id"                : "Екзотична късокосместа котка",
+        "name"              : "Екзотична късокосместа котка",
+        "nameEn"            : "Exotic Shorthair",
+        "code"              : "1",
+        "image_link"        : "0",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : ["Бъбречна поликистоза", "Neonatal Isoerythrolysis (NI)"],
+        "predispositions"   : ["Дистоция", "Уролитиаза с калциеви оксалати", "Наследствена глухота"]
+      },
+      {
+        "id"                : "Персийска котка",
+        "name"              : "Персийска котка",
+        "nameEn"            : "Persian cat",
+        "code"              : "2",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : ["Бъбречна поликистоза", "Хипертрофична кардиомиопатия", "Постоянен дуктус артериозус", "Портосистемен шънт", "Neonatal Isoerythrolysis (NI)"],
+        "predispositions"   : ["Секвестър на роговицата"]
+      },
+      {
+        "id"                : "Рагдол",
+        "name"              : "Рагдол",
+        "nameEn"            : "Ragdoll",
+        "code"              : "3",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Бирманска котка",
+        "name"              : "Бирманска котка",
+        "nameEn"            : "Sacred Birman",
+        "code"              : "4",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Турски Ван",
+        "name"              : "Турски Ван",
+        "nameEn"            : "Turkish Van",
+        "code"              : "5",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Американски кърл, дългокосмест",
+        "name"              : "Американски кърл, дългокосмест",
+        "nameEn"            : "American Curl Longhair",
+        "code"              : "6",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Американски кърл, късокосмест",
+        "name"              : "Американски кърл, късокосмест",
+        "nameEn"            : "American Curl Shorthair",
+        "code"              : "7",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "LaPerm Longhair",
+        "name"              : "LaPerm Longhair",
+        "nameEn"            : "LaPerm Longhair",
+        "code"              : "8",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "LaPerm Shorthair",
+        "name"              : "LaPerm Shorthair",
+        "nameEn"            : "LaPerm Shorthair",
+        "code"              : "9",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Мейн Кун",
+        "name"              : "Мейн Кун",
+        "nameEn"            : "Maine Coon",
+        "code"              : "10",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Невска маскарадна котка",
+        "name"              : "Невска маскарадна котка",
+        "nameEn"            : "Neva Masquerade",
+        "code"              : "11",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Норвежка горска котка",
+        "name"              : "Норвежка горска котка",
+        "nameEn"            : "Norwegian Forest cat",
+        "code"              : "12",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Сибирска котка",
+        "name"              : "Сибирска котка",
+        "nameEn"            : "Siberian cat",
+        "code"              : "13",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Турска ангорска котка",
+        "name"              : "Турска ангорска котка",
+        "nameEn"            : "Turkish Angora",
+        "code"              : "14",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Бенгалска котка",
+        "name"              : "Бенгалска котка",
+        "nameEn"            : "Bengal cat",
+        "code"              : "15",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Британска дългокосместа котка",
+        "name"              : "Британска дългокосместа котка",
+        "nameEn"            : "British Longhair",
+        "code"              : "16",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Бурмила",
+        "name"              : "Бурмила",
+        "nameEn"            : "Burmilla",
+        "code"              : "17",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Британска късокосместа",
+        "name"              : "Британска късокосместа",
+        "nameEn"            : "British Shorthair",
+        "code"              : "18",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Бурманска котка",
+        "name"              : "Бурманска котка",
+        "nameEn"            : "Burmese cat",
+        "code"              : "19",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Шартрьо",
+        "name"              : "Шартрьо",
+        "nameEn"            : "Chartreux",
+        "code"              : "20",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Кимрик",
+        "name"              : "Кимрик",
+        "nameEn"            : "Cymric",
+        "code"              : "21",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Европейска късокосместа",
+        "name"              : "Европейска късокосместа",
+        "nameEn"            : "European Shorthair",
+        "code"              : "22",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Курилски бобтейл",
+        "name"              : "Курилски бобтейл",
+        "nameEn"            : "Kurilian bobtail",
+        "code"              : "23",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Корат",
+        "name"              : "Корат",
+        "nameEn"            : "Korat",
+        "code"              : "24",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Манкс",
+        "name"              : "Манкс",
+        "nameEn"            : "Manx cat",
+        "code"              : "25",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Египетска мау",
+        "name"              : "Египетска мау",
+        "nameEn"            : "Egyptian Mau",
+        "code"              : "26",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Оцикет",
+        "name"              : "Оцикет",
+        "nameEn"            : "Ocicat",
+        "code"              : "27",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Сингапурска котка",
+        "name"              : "Сингапурска котка",
+        "nameEn"            : "Singapura cat",
+        "code"              : "28",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Сноушу",
+        "name"              : "Сноушу",
+        "nameEn"            : "Snowshoe cat",
+        "code"              : "29",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Кенийска горска котка",
+        "name"              : "Кенийска горска котка",
+        "nameEn"            : "Sokoke",
+        "code"              : "30",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Селкърк Рекс, дългокосмест",
+        "name"              : "Селкърк Рекс, дългокосмест",
+        "nameEn"            : "Selkirk Rex Longhair",
+        "code"              : "31",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Селкърк Рекс, късокосмест",
+        "name"              : "Селкърк Рекс, късокосмест",
+        "nameEn"            : "Selkirk Rex Shorthair",
+        "code"              : "32",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Абисинска котка",
+        "name"              : "Абисинска котка",
+        "nameEn"            : "Abyssinian",
+        "code"              : "33",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Балийска котка",
+        "name"              : "Балийска котка",
+        "nameEn"            : "Balinese cat",
+        "code"              : "34",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Корниш рекс",
+        "name"              : "Корниш рекс",
+        "nameEn"            : "Cornish Rex",
+        "code"              : "35",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Девън рекс",
+        "name"              : "Девън рекс",
+        "nameEn"            : "Devon Rex",
+        "code"              : "36",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Донски сфинкс",
+        "name"              : "Донски сфинкс",
+        "nameEn"            : "Donskoy",
+        "code"              : "37",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Герман рекс",
+        "name"              : "Герман рекс",
+        "nameEn"            : "German Rex",
+        "code"              : "38",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Японски бобтейл",
+        "name"              : "Японски бобтейл",
+        "nameEn"            : "Japanese Bobtail",
+        "code"              : "39",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Ориенталска дългокосместа котка",
+        "name"              : "Ориенталска дългокосместа котка",
+        "nameEn"            : "Oriental Longhair",
+        "code"              : "40",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Ориенталска късокосместа котка",
+        "name"              : "Ориенталска късокосместа котка",
+        "nameEn"            : "Oriental Shorthair",
+        "code"              : "41",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Петерболд",
+        "name"              : "Петерболд",
+        "nameEn"            : "Peterbald",
+        "code"              : "42",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Руска синя котка",
+        "name"              : "Руска синя котка",
+        "nameEn"            : "Russian Blue",
+        "code"              : "43",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Сиамска котка",
+        "name"              : "Сиамска котка",
+        "nameEn"            : "Siamese",
+        "code"              : "44",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Сомали",
+        "name"              : "Сомали",
+        "nameEn"            : "Somali cat",
+        "code"              : "45",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Канадски сфинкс",
+        "name"              : "Канадски сфинкс",
+        "nameEn"            : "Sphynx cat",
+        "code"              : "46",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      },
+      {
+        "id"                : "Тайска котка",
+        "name"              : "Тайска котка",
+        "nameEn"            : "Thai cat",
+        "code"              : "47",
+        "image_link"        : "",
+        "history"           : "Добави историята тук.",
+        "inheritedDiseases" : [""],
+        "predispositions"   : [""]
+      }
+    ]
+

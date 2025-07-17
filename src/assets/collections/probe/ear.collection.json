@@ -1,0 +1,287 @@
+[
+
+
+
+  {
+    "title"     : "Malassezia spp.",
+    "frontImage": "assets/pdfs/@probes/skin/malassezia-1.png",
+    "gallery"   : [
+      "assets/pdfs/@probes/skin/malassezia-1.png",
+      "assets/pdfs/@probes/skin/malassezia-2.png",
+      "assets/pdfs/@probes/skin/malassezia-3.png",
+      "assets/pdfs/@probes/skin/malassezia-4.png",
+      "assets/pdfs/@probes/skin/malassezia-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Причинител: Malassezia pachydermatis.",
+          "комензал на кожата, ушите и мукокутанните зони; може да се размножава и да причинява дерматит, хейлит и външен отит."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "еритема",
+          "сърбеж",
+          "люспене на кожата",
+          "хиперпигментация и загрубяване на кожата при хронични случаи",
+          "себореен отит"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Откриване на прекомерно количество Malassezia на засегнатата кожа и значително подобрение след премахването на Malassezia.",
+          "Цитология на кожата - тъч, памучен тампон или целофаново тиксо; нанесете боя директно върху слайда (Malassezia може да се измие по време на оцветяване); подложете слайда на пламък, за да подобрите проникването на боята и визуализацията. Мазни и/или лъскави области са с най-голяма вероятност да се открие Malassezia."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Кандизол табл!!!",
+          "Кетоконазол крем",
+          "Vetexpert - Specialist Shampoo (кетоконазол, хлорхексидин)",
+          "Кетоконазол 10 mg/kg q24h, флуконазол 10 mg/kg q24h, or итраконазол 5 mg/kg q24h за 2-4 седмици при разпространени или хронични случаи."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Дерматофитоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-2.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-3.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-4.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-5.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-6.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-7.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-8.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-9.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-10.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-11.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-12.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-13.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-14-nt.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-15.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Причинители: Microsporum canis, Trichophyton mentagrophytes, Microsporum gypseum.",
+          "Дерматофитите растат в кератинизиралия слой на космите, ноктите и кожата;",
+          "те не могат да оживеят върху живи тъкани или при тежко възпаление;",
+          "инкубационен период: 1-4 седмици;",
+          "кортикостероидите потискат възпалението и удължават инфекцията;",
+          "Зооноза"
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "алопеция с цилиндрична форма",
+          "люспене на кожата (невинаги)",
+          "еритема (невинаги)",
+          "сърбеж (невинаги)",
+          "Възможно е да се появят: паронихия, грануломи, кериони."
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма и дълбоко остъргване на кожата със скалпел.",
+          "Лампа на Ууд - фалшиво положителния резултат е често срещан (някои лекарства, кератинът и себумът може да дадат фалшиво-позитивен резултат). Лампата трябва да се затопли за минимум 5 мин., след което да свети върху поразената тъкан около 5 мин. Истински положителния резултат вследствие на M. canis е когато има флуоресценция на космите."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Кетоконазол",
+          "Итраконазол",
+          "Гризеофулвин",
+          "Тербинафин",
+          "Клотримазол - не е много ефективен за котки",
+          "Енилконазол",
+          "Миконазол",
+          "Флуконазол",
+          "Vetexpert - Specialist Shampoo (кетоконазол, хлорхексидин)"
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Otodectes cynotis",
+    "frontImage": "assets/pdfs/@probes/ear/otodectes-1.jpg",
+    "gallery"   : [
+      "assets/pdfs/@probes/ear/otodectes-1.jpg",
+      "assets/pdfs/@probes/ear/otodectes-2.jpg",
+      "assets/pdfs/@probes/ear/otodectes-3.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : ["Отодектозата е силно контагиозна краста, тъй като кърлежите са силно подвижни. Новородените животни се инвазират от майките, които могат да бъдат безсимптомни носители или просто да проявяват слабо изразени клинични признаци.", "Обикновено целите котила и кучила се инвазират от майките си по време на бозаенето."]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : ["Otodectes cynotis предизвиква възпаление на ушния канал, паразитират повърхностно на кожата. но възпалението е интензивно и води до образуване на обилно количество ушна кал, която  представлява дебели мазни кафяви крусти, които са най-характерния клиничен признак, също тръскането на главата, разчесването и разраняването, което може да предизвика образуване на хематоми. "]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : ["Основава се на клиничните признаци. Сърбежът не е постоянен не е и силно изразен. Той се увеличава, когато се намеси вторична микрофлора.", "При преглед се проверява ушно-крачния рефлекс. Ако се почеше животното зад ухото и то се опита да се почеше със задните крайници, това е положителен ушно-крачен рефлекс. При което трябва да се изследва секрет от ушния канал. Паразитологичното изследване е с висока ефективност, тъй като на малка площ се констатират голям брой кърлежи."]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : ["Moxiclear (imidacloprid, moxidectin) – ЖВ се накапва 3 пъти през две седмици, като един месец след третото накапване се извършва отново микроскопско изследване и при нужда се поставя четвърта доза.", "При слабо действие на моксидектина -> Ивермектин – 300 microg/kg every 1–2 weeks for 4 treatments.", "Котки под 1,2 кг не се дава нищо освен Inspector.", "KT над 4 кг – 0,32 мл моксиклиър.", "KT под 4 кг – 0,16 мл моксиклиър."]
+      }
+    ]
+  },
+  {
+    "title"     : "Otobius megnini",
+    "frontImage": "assets/pdfs/@probes/ear/otobius-1.ppm",
+    "gallery"   : [
+      "assets/pdfs/@probes/ear/otobius-1.ppm",
+      "assets/pdfs/@probes/ear/otobius-2.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : ["Otobius megnini е мек ушен кърлеж, който се среща в югозападните щати на САЩ. Паразитните ларви и нимфите се хранят в ухото, причинявайки значителна възпалителна реакция в ушния канал. Лечението включва отстраняване на кърлежа, подходящи мерки за контрол на кърлежите и лечение на отита."]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : []
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : []
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : []
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Демодекоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/demodex-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/demodex-1.png",
+      "/assets/pdfs/@probes/trichogram/demodex-2.png",
+      "/assets/pdfs/@probes/trichogram/demodex-3.png",
+      "/assets/pdfs/@probes/trichogram/demodex-4.png",
+      "/assets/pdfs/@probes/trichogram/demodex-5.png",
+      "/assets/pdfs/@probes/trichogram/demodex-6.png",
+      "/assets/pdfs/@probes/trichogram/demodex-7.png",
+      "/assets/pdfs/@probes/trichogram/demodex-8.png",
+      "/assets/pdfs/@probes/trichogram/demodex-9.png",
+      "/assets/pdfs/@probes/trichogram/demodex-10.png",
+      "/assets/pdfs/@probes/trichogram/demodex-11.png",
+      "/assets/pdfs/@probes/trichogram/demodex-12.png",
+      "/assets/pdfs/@probes/trichogram/demodex-13.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Причинител: Demodex canis, D. injai, D. cornei, D. cati, D. gotoi",
+          "- част от нормалната фауна на кожата, обикновено в малки количества;",
+          "- живее в космените фоликули и мастните жлези на кожата;",
+          "- предава се от майка на новородено през първите 2-3 дни от кърменето;",
+          "- демодекоза се развива при прекалено количество демодекси или при имуносупресия."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "бива локализирана и генерализирана;",
+          "еритема;",
+          "алопеция;",
+          "люспене на кожата.",
+          "т. нар. 'демодекозни очила'"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма заедно с дълбоко остъргване на кожата със скалпел.",
+          "Проба с тиксо - не винаги се откриват демодекси, но при наличие в тази проба се счита, че те са в голямо количество."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Симпарика (сароланер)",
+          "Бравекто (флураланер)",
+          "Адвокейт (моксидектин)",
+          "Моксиклиър (моксидектин)",
+          "НексГард Спектра",
+          "Неостомозан"
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Тромбикулоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/trombicula-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/trombicula-1.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-2.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-3.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-4.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-5.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-6.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "само техните шестоноги ларви са паразити",
+          "осмоногите нимфи и възрастните паразити живеят в околната среда и не са паразити",
+          "ларвите секретират слюнчени протеолитични ензими, които смилат тъканите на гостоприемника.",
+          "В същото време кожата се втвърдява.",
+          "ларвите паразитират за 3-4 дни, след което напускат гостоприемника"
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "оранжеви гнезда, прикрепени към космите"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Ектолуцил - външно, локално, чрез напръскване. Напръскват се заболелите участъци от разстояние 10-15 cm един път дневно в продължение на 2–3 дни. След 15 дни процедурата се повтаря."
+        ]
+      }
+    ]
+  }
+
+]

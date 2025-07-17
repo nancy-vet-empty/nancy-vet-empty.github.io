@@ -1,0 +1,14 @@
+<nv-info-modal
+  [inputTitle]="'Галерия'"
+  class="ion-page">
+
+  <swiper-container style="height: 100%;">
+
+    @for(element of selectedObject; track element) {
+      <swiper-slide>
+        <img src="{{element}}">
+      </swiper-slide>
+    }
+  </swiper-container>
+
+</nv-info-modal>

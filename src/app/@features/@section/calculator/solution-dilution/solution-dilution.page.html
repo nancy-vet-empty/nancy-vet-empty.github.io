@@ -1,0 +1,148 @@
+<!-- Header component -->
+<ion-header
+  [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>
+      Разреждане на разтвор
+    </ion-title>
+
+    <ion-buttons slot="end" style="margin-right: 10px;">
+      <ion-icon  (click)="clearAllValues()" name="trash-outline"></ion-icon>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<!-- Main content -->
+<ion-content id="main-content" [fullscreen]="true">
+
+  <!-- ИНФУЗИЯ С ЛИДОКАИН -->
+  <ion-grid>
+    <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px; margin-top: 20px;">
+      <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+        🟥 Разреждане на разтвор
+      </div>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          Количеството на разтвора, който имам (V):
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.solutionVolume"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="мл"
+          style="height: 44px;">
+        </ion-input>
+        <div style="width: 63px; margin-left: 10px; margin-top: 26px;">мл</div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          Концентрацията на разтвора, който имам (C1):
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.solutionConcentrationAvailable"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          style="height: 44px;">
+        </ion-input>
+
+        <ion-radio-group value="custom-checked" style="margin-top: 14px;">
+          <ion-radio value="custom" aria-label="percent" style="width: 70%; margin-left: 12px; min-width: 115px;">%</ion-radio>
+          <ion-radio value="custom-checked" aria-label="mg-kg" style="width: 70%; margin-left: 12px; min-width: 115px;">мг/мл</ion-radio>
+        </ion-radio-group>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8">
+          Концентрацията на разтвора, който искам (C2):
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  class="flex">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.solutionConcentrationWanted"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="15-50 мг/кг"
+          style="height: 44px;">
+        </ion-input>
+
+        <ion-radio-group value="custom-checked" style="margin-top: 14px;">
+          <ion-radio value="custom" aria-label="percent" style="width: 70%; margin-left: 12px; min-width: 115px;">%</ion-radio>
+          <ion-radio value="custom-checked" aria-label="mg-kg" style=" width: 70%; margin-left: 12px; min-width: 115px;">мг/мл</ion-radio>
+        </ion-radio-group>
+      </ion-col>
+    </ion-row>
+
+
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          (click)="processCalculationWaterNeeded()"
+          size="default"
+          expand="block">Изчисли
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+  <ion-row>
+      <div class="ml8">
+        Формула: Aq = V.(C1/C2 - 1)
+      </div>
+  </ion-row>
+
+  <ion-row class="ml8">
+    C1/C2 = <div class="ml8 mr5 fb600">{{$ui.c1c2}}</div>
+  </ion-row>
+  <ion-row class="ml8">
+    Aq = {{$formProperty.solutionVolume}} * ({{$ui.c1c2}} - 1)
+  </ion-row>
+
+  <ion-row class="ml8">
+    Обем вода (или физиологичен р-р), който трябва да добавя (Aq) = <div class="ml8 mr5 fb600">{{$ui.waterNeeded}}</div> мл в разтвора, който имам.
+  </ion-row>
+
+  <ion-row class="mt8">
+    <ion-col>
+      <div style="background-color: #f7810452; padding: 5px;">
+      Разрежда се разтвор, който е с по-<strong>голяма</strong> концентрация от разтвора, който се иска. Ако желания разтвор е с по-голяма концентрация от наличния, то се използва калкулатора "Смесване на разтвори".
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-content>

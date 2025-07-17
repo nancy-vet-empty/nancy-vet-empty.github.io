@@ -1,0 +1,19 @@
+<ion-grid>
+  <ion-row>
+
+    @for(element of imageCollection; track element) {
+
+      <ion-col size="4">
+        <div
+          class="category-circle"
+          [ngClass]="{ 'is-selected': element.isSelected }">
+          <img
+            (click)="selectCategory(element)"
+            style="margin-top: 12px; max-width: 63%;"
+            [src]="element.imgPath" alt="image">
+        </div>
+      </ion-col>
+    }
+
+  </ion-row>
+</ion-grid>

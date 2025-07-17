@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Филтрирай</ion-title>
+    <ion-buttons slot="end">
+      <ion-button  (click)="onCancel()" [strong]="true">
+        <ion-icon name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <div class="h4">Категория:</div>
+  <category-picker
+    #categoryPicker
+    (onSelect)="processOnCategorySelect($event)">
+  </category-picker>
+</ion-content>
+
+<ion-footer [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="onReset()">Премахни</ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="onConfirm()" [strong]="true">Филтрирай</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,48 @@
+.component-header {
+  font-weight   : bold;
+  margin-top    : 10px;
+  margin-bottom : 10px;
+}
+
+.component-content {
+  border        : solid #dedede 1px;
+  border-radius : 3px;
+}
+
+.component-list {
+  margin: 2px;
+}
+
+.component-list ul {
+  margin-left: -22px;
+}
+
+
+.large-button {
+  display: flex;
+  //background-color: #eafff3;
+  background-color: #59f59b57;
+  padding: 10px;
+  border: solid 1px #dedede;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+.label {
+  display: inline-block;
+  padding: 2px 4px;
+  margin-top: 4px;
+  //background-color: #eafff3;
+  background-color: #59f59b57;
+  color: #60dba3;
+  border: solid #60dba3 1px;
+  border-radius: 2px;
+}
+
+
+
+.gallery {
+  padding: 7px;
+  border-radius: 5px;
+}

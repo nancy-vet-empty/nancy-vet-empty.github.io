@@ -1,0 +1,149 @@
+[
+  {
+    "title"                 : "",
+    "type"                  : "катетър",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "18",
+    "diameterMm"            : "1.3",
+    "maximumFlowRateMlMin"  : "90",
+    "color"                 : "зелен",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/catheter-18.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "катетър",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "20",
+    "diameterMm"            : "1.1",
+    "maximumFlowRateMlMin"  : "60",
+    "color"                 : "розов",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/catheter-20.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "катетър",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "22",
+    "diameterMm"            : "0.9",
+    "maximumFlowRateMlMin"  : "36",
+    "color"                 : "син",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/catheter-22.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "катетър",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "24",
+    "diameterMm"            : "0.7",
+    "maximumFlowRateMlMin"  : "20",
+    "color"                 : "жълт",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/catheter-24.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "катетър",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "26",
+    "diameterMm"            : "0.6",
+    "maximumFlowRateMlMin"  : "13",
+    "color"                 : "лилав",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/catheter-26.png"
+  },
+
+
+
+
+
+
+  {
+    "title"                 : "",
+    "type"                  : "игла",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "18",
+    "diameterMm"            : "",
+    "maximumFlowRateMlMin"  : "",
+    "color"                 : "розов",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/needle-18.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "игла",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "19",
+    "diameterMm"            : "",
+    "maximumFlowRateMlMin"  : "",
+    "color"                 : "светложълт",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/needle-19.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "игла",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "20",
+    "diameterMm"            : "",
+    "maximumFlowRateMlMin"  : "",
+    "color"                 : "жълт",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/needle-20.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "игла",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "21",
+    "diameterMm"            : "",
+    "maximumFlowRateMlMin"  : "",
+    "color"                 : "зелен",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/needle-21.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "игла",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "22",
+    "diameterMm"            : "",
+    "maximumFlowRateMlMin"  : "",
+    "color"                 : "черен",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/needle-22.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "игла",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "23",
+    "diameterMm"            : "",
+    "maximumFlowRateMlMin"  : "",
+    "color"                 : "син",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/needle-23.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "игла",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "25",
+    "diameterMm"            : "",
+    "maximumFlowRateMlMin"  : "",
+    "color"                 : "оранжев",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/needle-25.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "игла",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "26",
+    "diameterMm"            : "",
+    "maximumFlowRateMlMin"  : "",
+    "color"                 : "кафяв",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/needle-26.png"
+  },
+  {
+    "title"                 : "",
+    "type"                  : "игла",
+    "typeGauge"             : "ISO",
+    "gauge"                 : "27",
+    "diameterMm"            : "",
+    "maximumFlowRateMlMin"  : "",
+    "color"                 : "сив",
+    "image"                 : "assets/pdfs/@haematology/needle-gauges/needle-27.png"
+
+  }
+]

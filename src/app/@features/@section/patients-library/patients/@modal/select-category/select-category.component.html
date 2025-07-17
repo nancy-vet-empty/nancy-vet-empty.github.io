@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Филтрирай</ion-title>
+    <ion-buttons slot="end">
+      <ion-button  (click)="onCancel()" [strong]="true">
+        <ion-icon name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <!-- Section 1 -->
+  <!-- ======================================================== -->
+  <div style="font-weight: bold; font-size: 14px;">Търси по:</div>
+  <nv-radio
+    (onSelect)="processOnSelect($event)">
+  </nv-radio>
+
+  <!-- Section 2 -->
+  <!-- ======================================================== -->
+  <div style="font-weight: bold; font-size: 14px;">Категория:</div>
+  <category-picker
+    #categoryPicker
+    (onSelect)="processOnCategorySelect($event)">
+  </category-picker>
+
+</ion-content>
+
+<ion-footer [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="onReset()">Премахни</ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="onConfirm()" [strong]="true">Филтрирай</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

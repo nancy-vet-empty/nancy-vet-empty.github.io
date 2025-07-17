@@ -1,0 +1,27 @@
+.card-img {
+  display       : inline-block;
+  width         : 48px;
+  height        : 48px;
+  background    : #dedede;
+  border-radius : 28px;
+  text-align    : center;
+}
+
+.card-img img {
+  margin-top: 6px;
+}
+
+
+.respiratory      { background-color: #356cfe;  }
+.gastrointestinal { background-color: #85c15b;  }
+.cardiovascular   { background-color: #fe5241;  }
+.urogenital       { background-color: #fd7539;  }
+.nervous          { background-color: #7e55c2;  }
+.eyes             { background-color: #c8dd47;  }
+.ears             { background-color: #fffe5d;  }
+.skin             { background-color: #fac935;  }
+.antibiotics      { background-color: #b9476f;  }
+.antiparasitic    { background-color: #80542f;  }
+.endocrine        { background-color: #9e34c0;  }
+.antiinflammatory { background-color: #fcad35;  }
+.others           { background-color: #D0D4CA;  }

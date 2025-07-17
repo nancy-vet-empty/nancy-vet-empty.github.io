@@ -1,0 +1,12 @@
+[
+  {
+    "section"   : [
+      {
+        "sectionTitle": "Основни характеристики",
+        "content"     : [
+          "@/assets/pdfs/@trivia/teeth/table1.png"
+        ]
+      }
+    ]
+  }
+]

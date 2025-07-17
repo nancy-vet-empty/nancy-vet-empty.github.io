@@ -1,0 +1,52 @@
+.pill {
+  padding       : 3px 8px;
+  margin        : 5px;
+  border-radius : 4px;
+}
+
+
+
+#old-vaccination-table td, th {
+  border: 2px solid #50a88b;
+  padding: 3px;
+}
+
+#old-calculator, #wsava-calculator {
+  width: 100%;
+  padding: 2%;
+}
+
+#old-vaccination-table .first-td {
+  background-color: #005f60;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+#old-vaccination-table tr:nth-child(odd) {
+  background-color: #09855b75;
+}
+
+
+#old-calculate-btn, #calculate-btn {
+  width: 90px;
+  border-radius: 19px;
+  margin: 10px;
+  padding: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, rgba(253,89,13,1) 0%, rgb(233 30 99) 100%);
+  border: 0px;
+  box-shadow: 3px 3px 8px #0d0e0f;
+  text-shadow: 0 0 5px black;
+}
+
+
+#old-calculate-btn {
+  background: linear-gradient(90deg, rgb(36 158 160) 0%, #E91E63 100%);
+}
+
+.calculator-calendar h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}

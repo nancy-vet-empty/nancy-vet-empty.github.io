@@ -1,0 +1,94 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Състав на кръвта</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  class="ion-padding"
+  [fullscreen]="true">
+
+  <!-- @for(element of $data; track element) {
+    <nv-section-content-view
+      [inputSectionContent]="element.section">
+    </nv-section-content-view>
+  } -->
+
+  <ion-row>
+    <!-- <img src="../../../../../../assets/pdfs/@haematology/blood-smear/blood-composition-table.png"> -->
+    <img src="/assets/pdfs/@haematology/blood-smear/blood-composition-table.png">
+  </ion-row>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="4" class="bold">Кръвна плазма:</ion-col>
+      <ion-col>течният компонент на кръвта, в който плават кръвните клетки. Съставлява около 55% от обема на кръвта. Основната съставка е водата (90%-92%) с разтворени в нея органични (7%-8%) и неорганични вещества (1%).</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4" class="bold">Кръвен серум:</ion-col>
+      <ion-col>кръвна плазма, която е лишена от белтъка фибриноген и други кръвосъсирващи фактори.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4" class="bold">Имунен серум (антисерум):</ion-col>
+      <ion-col>кръвен серум, съдържащ антитела против определени антигени. Такива серуми се инжектират на болния с лечебна цел или като временна защита (за създаване на пасивен имунитет) срещу различни заболявания.</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <div class="bold fs18 mt14 border-bottom-blue">Кръв - състав</div>
+        <strong>I. Кръвна плазма</strong>
+        <ol>
+          <li>Кръвен серум</li>
+            <ul>
+              <li>Протеини</li>
+                <ul>
+                  <li>Серумен албумин</li>
+                  <li>глобулини</li>
+                    <ul>
+                      <li>α-албумини</li>
+                      <li>β-глобулини</li>
+                      <li>γ-глобулини</li>
+                    </ul>
+                  <li>трансферини - Хемоглобин, CEPT, PLTP</li>
+                </ul>
+              <li>липиди</li>
+                <ul>
+                  <li>Фосфолипиди</li>
+                  <li>Триглицериди</li>
+                  <li>Холестерол (HDL, LDL, VLDL)</li>
+                </ul>
+              <li>Глюкоза</li>
+              <li>хормони</li>
+              <li>електролити - Na+, K+, Ca2+, Cl-, Fe2+, креатинин, урея</li>
+              <li>вода</li>
+            </ul>
+          <li>Фибриноген</li>
+        </ol>
+        <strong>II. Формени елементи</strong>
+        <ol>
+          <li>Еритроцити</li>
+          <li>Левкоцити</li>
+            <ul>
+              <li>Гранулоцити</li>
+                <ul>
+                  <li>Еозинофили</li>
+                  <li>неутрофили</li>
+                  <li>Базофили</li>
+                </ul>
+              <li>Агранулоцити</li>
+                <ul>
+                  <li>лимфоцити</li>
+                  <li>Моноцити</li>
+                </ul>
+            </ul>
+          <li>Тромбоцити</li>
+        </ol>
+  </ion-grid>
+
+</ion-content>

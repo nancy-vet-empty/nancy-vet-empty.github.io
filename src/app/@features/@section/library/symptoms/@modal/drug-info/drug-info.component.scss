@@ -1,0 +1,20 @@
+.component-header {
+  font-weight   : bold;
+  margin-top    : 10px;
+  margin-bottom : 10px;
+}
+
+.component-content {
+  border        : solid #dedede 1px;
+  border-radius : 3px;
+}
+
+.large-button {
+  display: flex;
+  //background-color: #eafff3;
+  background-color: #59f59b57;
+  padding: 10px;
+  border: solid 1px #dedede;
+  border-radius: 5px;
+  margin-top: 10px;
+}

@@ -1,0 +1,214 @@
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import '@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+.h1 { font-size: 20px; font-weight: bold; }
+.h2 { font-size: 18px; font-weight: bold; }
+.h3 { font-size: 16px; font-weight: bold; text-transform: uppercase; }
+.h4 { font-size: 14px; font-weight: bold; }
+
+.bold { font-weight: bold;}
+
+
+.c-success   { color      : #28b02f; }
+.c-fail      { color      : #d60b52; }
+.c-blue      { color      : #2196f3; }
+.c-lightblue { color      : #bab7ff; }
+.c-orange    { color      : #fdc576; }
+.c-purple    { color      : #dca3b7; }
+.c-pink      { color      : #f99a9a; }
+
+.bc-success  { background : #28b02f; }
+.bc-fail     { background : #d60b52; }
+.bc-blue     { color      : #2196f3; }
+// .bc-lightblue{ background : #bab7ff; }
+// .bc-orange   { background : #fdc576; }
+// .bc-purple   { background : #dca3b7; }
+// .bc-pink     { background : #f99a9a; }
+.bc-lightblue{ background : #6760ff85; }
+.bc-orange   { background : #ff950087; }
+.bc-purple   { background : #d5678d8c; }
+.bc-pink     { background : #ef4c4c87; }
+
+.bcn-orange    { background : #f78104; }
+//.bcn-lightblue { background : #249ea0; }
+.bcn-lightblue { background : #009fa1b5; }
+
+.border-bottom-blue {border-bottom: 7px solid #249ea0;}
+
+
+.italic   { font-style: italic; }
+.fb600    { font-weight: 600;   }
+
+
+.flex { display :  flex; }
+
+.pill-orange {
+
+  display       : inline-block;
+  padding       : 2px 4px;
+  margin-top    : 4px;
+
+  border        : solid #f78104 1px;
+
+  font-size     : 12px;
+  font-weight   : bold;
+  background    : #f78104;
+  color         : #ffffff;
+  border-radius : 2px;
+}
+
+.pill-purple {
+
+  display       : inline-block;
+  padding       : 2px 4px;
+  margin-top    : 4px;
+
+  border        : solid #dca3b7 1px;
+
+  font-size     : 12px;
+  font-weight   : bold;
+  background    : #dca3b7;
+  color         : #ffffff;
+  border-radius : 2px;
+}
+
+.pill-green {
+
+  display       : inline-block;
+  padding       : 2px 4px;
+  margin-top    : 4px;
+
+  border        : solid #60dba3 1px;
+
+  font-size     : 12px;
+  font-weight   : bold;
+  //background    : #eafff3;
+  background    : #59f59b57;
+  color         : #60dba3;
+  border-radius : 2px;
+}
+
+.pill-blue {
+
+  display       : inline-block;
+  padding       : 2px 4px;
+  margin-top    : 4px;
+
+  border        : solid #2196f3 1px;
+
+  font-size     : 12px;
+  font-weight   : bold;
+  //background    : #2196f3;
+  background    : #016fc6c9;
+  color         : #fff;
+  border-radius : 2px;
+}
+
+.pill-red {
+
+  display       : inline-block;
+  padding       : 2px 4px;
+  margin-top    : 4px;
+
+  border        : solid #f32146 1px;
+
+  font-size     : 12px;
+  font-weight   : bold;
+  background    : #ff002dc2;
+  background    : #f32146;
+  color         : #fff;
+  border-radius : 2px;
+}
+
+.mt5   { margin-top  : 5px;  }
+.mt6   { margin-top  : 6px;  }
+.mt7   { margin-top  : 7px;  }
+.mt8   { margin-top  : 8px;  }
+.mt9   { margin-top  : 9px;  }
+.mt10  { margin-top  : 10px; }
+.mt14  { margin-top  : 14px; }
+.mt16  { margin-top  : 16px; }
+.mt20  { margin-top  : 20px; }
+.mt25  { margin-top  : 25px; }
+.mt32  { margin-top  : 32px; }
+.mt64  { margin-top  : 64px; }
+
+.ml8   { margin-left : 8px;  }
+.ml16  { margin-left : 16px; }
+.ml32  { margin-left : 32px; }
+
+.mr5   { margin-right  : 5px;  }
+.mr6   { margin-right  : 6px;  }
+.mr7   { margin-right  : 7px;  }
+.mr8   { margin-right  : 8px;  }
+.mr9   { margin-right  : 9px;  }
+.mr10  { margin-right  : 10px; }
+.mr14  { margin-right  : 14px; }
+.mr16  { margin-right  : 16px; }
+.mr32  { margin-right  : 32px; }
+.mr64  { margin-right  : 64px; }
+
+.mb5   { margin-bottom  : 5px;  }
+.mb6   { margin-bottom  : 6px;  }
+.mb7   { margin-bottom  : 7px;  }
+.mb8   { margin-bottom  : 8px;  }
+.mb9   { margin-bottom  : 9px;  }
+.mb10  { margin-bottom  : 10px; }
+.mb14  { margin-bottom  : 14px; }
+.mb16  { margin-bottom  : 16px; }
+.mb20  { margin-bottom  : 20px; }
+.mb25  { margin-bottom  : 25px; }
+.mb32  { margin-bottom  : 32px; }
+.mb64  { margin-bottom  : 64px; }
+
+.m-gap1 { margin-top: 8px; margin-bottom: 8px; color: #ff0000a3; }
+.m-gap2 { margin-top: 16px; margin-bottom: 16px; color: #ff00f0b8; }
+
+.m-gap1drug { margin-top: 8px; margin-bottom: 8px; }
+.m-gap2drug { margin-top: 16px; margin-bottom: 16px; }
+
+.fs10 { font-size: 10px; }
+.fs12 { font-size: 12px; }
+.fs13 { font-size: 13px; }
+.fs14 { font-size: 14px; }
+.fs16 { font-size: 16px; }
+.fs18 { font-size: 18px; }
+.fs20 { font-size: 20px; }
+
+.p6 { padding: 6px; }
+.p8 { padding: 8px; }
+.p20 { padding: 20px; }
+.p24 { padding: 24px; }
+
+
+
+.is-selected {
+  background : rgba(214,11,82, 0.5)!important;
+}
+
+ion-toolbar.sc-ion-searchbar-ios-h, ion-toolbar .sc-ion-searchbar-ios-h {
+  padding-top: 11px!important;
+}
+
+ion-menu-button {
+  font-size: 22px!important;
+  margin-left: 5px!important;
+}
+
+
+.tac { text-align: center;  }
+.tal { text-align: left;    }
+.tar { text-align: right;   }

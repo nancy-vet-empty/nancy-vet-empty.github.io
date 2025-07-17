@@ -1,0 +1,340 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Ехограф</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  class="ion-padding"
+  [fullscreen]="true">
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="5">
+        Животно
+      </ion-col>
+
+      <ion-col size="7"  style="display: flex;">
+        <div style="margin-top: 5px; margin-right: 25px;">куче</div>
+        <ion-toggle
+          [checked]="false"
+          (ionChange)="selectAnimalType($event)">
+        </ion-toggle>
+        <div style="margin-top: 5px; margin-left: 25px;">котка</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">
+        Бременност
+      </ion-col>
+
+      <ion-col size="7"  style="display: flex;">
+        <div style="margin-top: 5px; margin-right: 25px;">преди 40 д.</div>
+        <ion-toggle
+          [checked]="false"
+          (ionChange)="selectWhenType($event)">
+        </ion-toggle>
+        <div style="margin-top: 5px; margin-left: 25px;">след 40 д.</div>
+      </ion-col>
+    </ion-row>
+
+    @if($formProperty.animalType === 'dog' && $formProperty.when === 'before') {
+
+      <ion-row>
+        <ion-col size="4">
+          <div class="mt20">GSD</div>
+        </ion-col>
+        <ion-col size="8" style="display: flex;">
+          <ion-input
+            type="number"
+            aria-label="Custom input"
+            class="custom"
+            [counter]="true"
+            [(ngModel)]="GSD"></ion-input>
+            <div style="width: 50px; margin-left: 10px; margin-top: 26px;">см</div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="4">
+          <div class="mt20">CRL</div>
+        </ion-col>
+        <ion-col size="8" style="display: flex;">
+          <ion-input
+            type="number"
+            aria-label="Custom input"
+            class="custom"
+            [counter]="true"
+            [(ngModel)]="CRL"></ion-input>
+            <div style="width: 50px; margin-left: 10px; margin-top: 26px;">см</div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <ion-button
+            size="default"
+            expand="block"
+            (click)="processCalculation()">Калкулирай
+          </ion-button>
+        </ion-col>
+      </ion-row>
+
+      <ion-grid>
+
+        <ion-row class="mt8">
+          <ion-col>Възраст на плода</ion-col>
+          <ion-col>{{GAB}} дни ±3 дни</ion-col>
+        </ion-row>
+
+        <ion-row class="mt8">
+          <ion-col>Оставащи дни до раждане</ion-col>
+          <ion-col>{{DBP1}} дни</ion-col>
+        </ion-row>
+      </ion-grid>
+    }
+
+
+    @if($formProperty.animalType === 'dog' && $formProperty.when === 'after') {
+
+      <ion-row>
+        <ion-col size="4">
+          <div class="mt20">HD</div>
+        </ion-col>
+        <ion-col size="8" style="display: flex;">
+          <ion-input
+            type="number"
+            aria-label="Custom input"
+            class="custom"
+            [counter]="true"
+            [(ngModel)]="HD"></ion-input>
+            <div style="width: 50px; margin-left: 10px; margin-top: 26px;">см</div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="4">
+          <div class="mt20">BD</div>
+        </ion-col>
+        <ion-col size="8" style="display: flex;">
+          <ion-input
+            type="number"
+            aria-label="Custom input"
+            class="custom"
+            [counter]="true"
+            [(ngModel)]="BD"></ion-input>
+            <div style="width: 50px; margin-left: 10px; margin-top: 26px;">см</div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <ion-button
+            size="default"
+            expand="block"
+            (click)="processCalculation()">Калкулирай
+          </ion-button>
+        </ion-col>
+      </ion-row>
+
+      <ion-grid>
+
+        <ion-row class="mt8">
+          <ion-col>Възраст на плода</ion-col>
+          <ion-col>{{GAA}} дни ±3 дни</ion-col>
+        </ion-row>
+
+        <ion-row class="mt8">
+          <ion-col>Оставащи дни до раждане</ion-col>
+          <ion-col>{{DBP2}} дни</ion-col>
+        </ion-row>
+      </ion-grid>
+    }
+  </ion-grid>
+
+
+  @if($formProperty.animalType === 'cat' && $formProperty.when === 'before') {
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">IGCD</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="IGCD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">EGCD</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="EGCD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">Embryonic length</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="EL"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          size="default"
+          expand="block"
+          (click)="processCalculation()">Калкулирай
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-grid>
+
+      <ion-row class="mt8">
+        <ion-col>Възраст на плода</ion-col>
+        <ion-col>{{GAB}} дни ±3 дни</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>Оставащи дни до раждане</ion-col>
+        <ion-col>{{DBP1}} дни</ion-col>
+      </ion-row>
+    </ion-grid>
+  }
+
+  @if($formProperty.animalType === 'cat' && $formProperty.when === 'after') {
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">HD</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="HD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">см</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">BD</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="BD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">см</div>
+      </ion-col>
+    </ion-row>
+<!--
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">Fetal Abdominal  diameter (FAD)</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="FAD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">Fetal biparietal diameter (FBD)</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="FBD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">Fetal Stomach Diameter (FSD)</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="FSD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row> -->
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          size="default"
+          expand="block"
+          (click)="processCalculation()">Калкулирай
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-grid>
+
+      <ion-row class="mt8">
+        <ion-col>Възраст на плода</ion-col>
+        <ion-col>{{GAB}} дни ±3 дни</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>Оставащи дни до раждане</ion-col>
+        <ion-col>{{DBP1}} дни</ion-col>
+      </ion-row>
+    </ion-grid>
+  }
+
+
+
+
+
+</ion-content>

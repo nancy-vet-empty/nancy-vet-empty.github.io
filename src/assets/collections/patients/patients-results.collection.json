@@ -1,0 +1,22 @@
+[
+  {
+    "result_number" : 0,
+    "result_type"   : "biochemistry",
+    "result_creation_date": "2021-01-01",
+    "pet_id"        : 9,
+    "animal_type"   : "cat",
+    "TP": 100,
+    "GLO": 84.1,
+    "ALB": 21.6,
+    "TBIL": 78.95,
+    "TBA": 39.7
+  },
+  {
+    "result_number" : 1,
+    "result_type"   : "cbc",
+    "result_creation_date": "2021-01-01",
+    "pet_id"        : 10,
+    "animal_type"   : "cat",
+    "WBC": 100
+  }
+]

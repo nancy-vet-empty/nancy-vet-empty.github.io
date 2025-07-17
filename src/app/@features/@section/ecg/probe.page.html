@@ -1,0 +1,53 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Електрокардиограма (ЕКГ)</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+
+  <div style="margin: 5px 15px;">
+    <nv-link-button
+    [inputTitle]="'Принципи на ЕКГ'"
+    (onClick)="onOpenPdfDocument('assets/pdfs/@ecg/heart-arrhythmias.pdf')">
+    </nv-link-button>
+  </div>
+
+  @for(element of $data; track element) {
+
+    <ion-grid style="border-bottom: dotted 2px rgb(143 81 153);">
+      <ion-row>
+        <ion-col size="12">
+
+
+          <div (click)="onSelectCard(element)">
+
+            <div class="bold fs16">{{element.title}}</div>
+            <div class="fs10">({{element.titleEn}})</div>
+
+            <ion-row>
+              <ion-col class="fs13"><strong>Тип:</strong> {{element.type}}</ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col class="fs13"><strong>Пояснение:</strong> {{element.definition}}</ion-col>
+            </ion-row>
+
+            <div>
+              <img src="{{element.frontImage}}" style="width: 100%; height: 200px; object-fit: cover;"/>
+            </div>
+          </div>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  }
+
+</ion-content>

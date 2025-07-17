@@ -1,0 +1,2113 @@
+[
+  {
+    "id"        : "0",
+    "name"      : "0",
+    "nameEn"    : "French Spaniel",
+    "code"      : "175",
+    "image_link": "assets/pdfs/@breeds/dog/french_spaniel.png",
+    "general"   : {
+        "country"           : "Франция",
+        "life_length_min"   : 10,
+        "life_length_max"   : 12,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 21.5,
+        "height_female_max"   : 24,
+        "height_male_min"     : 21.5,
+        "height_male_max"     : 24
+    },
+    "weight"    : {
+        "weight_female_min"   : 50,
+        "weight_female_max"   : 60,
+        "weight_male_min"     : 50,
+        "weight_male_max"     : 60
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 1,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 5,
+        "playfulness"             : 4,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 5,
+        "energy"                  : 4,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+ {
+   "id"        : "породноиме",
+   "name"      : "породноиме",
+   "nameEn"    : "American English Coonhound",
+   "code"      : "0",
+   "image_link": "https://api-ninjas.com/images/dogs/american_english_coonhound.jpg",
+   "general"   : {
+       "country"           : "0",
+       "life_length_min"   : 11,
+       "life_length_max"   : 12,
+       "coat_length_word"  : 0,
+       "walk_time"         : 0,
+       "owner_experience"  : 0
+   },
+   "size"      : {
+   "size"      : "medium",
+   "height"    : {
+       "height_female_min"   : 24,
+       "height_female_max"   : 26,
+       "height_male_min"     : 24,
+       "height_male_max"     : 26
+   },
+   "weight"    : {
+       "weight_female_min"   : 45,
+       "weight_female_max"   : 65,
+       "weight_male_min"     : 45,
+       "weight_male_max"     : 65
+   }
+   },
+   "history"       : "Добави историята тук.",
+   "health"        : "Добави имената на наследствените заболявания тук.",
+   "score": {
+   "family"   : {
+       "affectionate_with_family" : 0,
+       "good_with_children"       : 3,
+       "good_with_other_dogs"     : 5
+   },
+   "physical" : {
+       "shedding"                : 2,
+       "grooming"                : 1,
+       "drooling"                : 1,
+       "coat_length"             : 1
+   },
+   "social"   : {
+       "openness_to_strangers"   : 3,
+       "playfulness"             : 3,
+       "protectiveness"          : 3,
+       "adaptability"            : 0
+   },
+   "character": {
+       "trainability"            : 3,
+       "energy"                  : 4,
+       "barking"                 : 4,
+       "mental_stimulation_needs": 0
+   }
+   }
+},
+{
+   "id"        : "породноиме",
+   "name"      : "породноиме",
+   "nameEn"    : "American Eskimo Dog",
+   "code"      : "0",
+   "image_link": "https://api-ninjas.com/images/dogs/american_eskimo_dog.jpg",
+   "general"   : {
+       "country"           : "0",
+       "life_length_min"   : 13,
+       "life_length_max"   : 15,
+       "coat_length_word"  : 0,
+       "walk_time"         : 0,
+       "owner_experience"  : 0
+   },
+   "size"      : {
+   "size"      : "medium",
+   "height"    : {
+       "height_female_min"   : 24,
+       "height_female_max"   : 26,
+       "height_male_min"     : 24,
+       "height_male_max"     : 26
+   },
+   "weight"    : {
+       "weight_female_min"   : 45,
+       "weight_female_max"   : 65,
+       "weight_male_min"     : 45,
+       "weight_male_max"     : 65
+   }
+   },
+   "history"       : "Добави историята тук.",
+   "health"        : "Добави имената на наследствените заболявания тук.",
+   "score": {
+   "family"   : {
+       "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 3,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 5,
+        "playfulness"             : 3,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 4,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "American Hairless Terrier",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/american_hairless_terrier.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 14,
+        "life_length_max"   : 16,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 12,
+        "height_female_max"   : 16,
+        "height_male_min"     : 12,
+        "height_male_max"     : 16
+    },
+    "weight"    : {
+        "weight_female_min"   : 12,
+        "weight_female_max"   : 16,
+        "weight_male_min"     : 12,
+        "weight_male_max"     : 16
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 1,
+        "grooming"                : 1,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 3,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 5,
+        "energy"                  : 3,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "American Leopard Hound",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/american_leopard_hound.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 21,
+        "height_female_max"   : 27,
+        "height_male_min"     : 21,
+        "height_male_max"     : 27
+    },
+    "weight"    : {
+        "weight_female_min"   : 45,
+        "weight_female_max"   : 70,
+        "weight_male_min"     : 45,
+        "weight_male_max"     : 70
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 1,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 3,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 4,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Anatolian Shepherd Dog",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/anatolian_shepherd_dog.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 11,
+        "life_length_max"   : 13,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 29,
+        "height_female_max"   : 29,
+        "height_male_min"     : 29,
+        "height_male_max"     : 29
+    },
+    "weight"    : {
+        "weight_female_min"   : 80,
+        "weight_female_max"   : 120,
+        "weight_male_min"     : 110,
+        "weight_male_max"     : 150
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 1,
+        "playfulness"             : 3,
+        "protectiveness"          : 5,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 2,
+        "energy"                  : 3,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Australian Stumpy Tail Cattle Dog",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/australian_stumpy_tail_cattle_dog.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 18,
+        "height_female_max"   : 20,
+        "height_male_min"     : 18,
+        "height_male_max"     : 20
+    },
+    "weight"    : {
+        "weight_female_min"   : 32,
+        "weight_female_max"   : 35,
+        "weight_male_min"     : 38,
+        "weight_male_max"     : 45
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 1
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 3,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 1,
+        "playfulness"             : 3,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 5,
+        "barking"                 : 1,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Biewer Terrier",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/biewer_terrier.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 16,
+        "life_length_max"   : 16,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 7,
+        "height_female_max"   : 11,
+        "height_male_min"     : 7,
+        "height_male_max"     : 11
+    },
+    "weight"    : {
+        "weight_female_min"   : 4,
+        "weight_female_max"   : 8,
+        "weight_male_min"     : 4,
+        "weight_male_max"     : 8
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 1,
+        "grooming"                : 3,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 4,
+        "protectiveness"          : 2,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 3,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Bluetick Coonhound",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/bluetick_coonhound.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 11,
+        "life_length_max"   : 12,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 22,
+        "height_female_max"   : 27,
+        "height_male_min"     : 22,
+        "height_male_max"     : 27
+    },
+    "weight"    : {
+        "weight_female_min"   : 45,
+        "weight_female_max"   : 65,
+        "weight_male_min"     : 55,
+        "weight_male_max"     : 80
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 3,
+        "protectiveness"          : 2,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 4,
+        "barking"                 : 4,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Boerboel",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/boerboel.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 9,
+        "life_length_max"   : 11,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 24,
+        "height_female_max"   : 27,
+        "height_male_min"     : 24,
+        "height_male_max"     : 27
+    },
+    "weight"    : {
+        "weight_female_min"   : 150,
+        "weight_female_max"   : 200,
+        "weight_male_min"     : 150,
+        "weight_male_max"     : 200
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 4,
+        "good_with_other_dogs"     : 2
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 3,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 3,
+        "protectiveness"          : 5,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 3,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Bohemian Shepherd",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/bohemian_shepherd.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 20.5,
+        "height_female_max"   : 21.7,
+        "height_male_min"     : 20.5,
+        "height_male_max"     : 21.7
+    },
+    "weight"    : {
+        "weight_female_min"   : 37,
+        "weight_female_max"   : 53,
+        "weight_male_min"     : 41,
+        "weight_male_max"     : 60
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 4,
+        "playfulness"             : 3,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 3,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Boykin Spaniel",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/boykin_spaniel.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 10,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 15.5,
+        "height_female_max"   : 18,
+        "height_male_min"     : 15.5,
+        "height_male_max"     : 18
+    },
+    "weight"    : {
+        "weight_female_min"   : 25,
+        "weight_female_max"   : 35,
+        "weight_male_min"     : 30,
+        "weight_male_max"     : 40
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 3,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 4,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 4,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Carolina Dog",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/carolina_dog.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 17.75,
+        "height_female_max"   : 19.5,
+        "height_male_min"     : 17.75,
+        "height_male_max"     : 19.5
+    },
+    "weight"    : {
+        "weight_female_min"   : 30,
+        "weight_female_max"   : 55,
+        "weight_male_min"     : 30,
+        "weight_male_max"     : 55
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 1,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 3,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 3,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Catahoula Leopard Dog",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/catahoula_leopard_dog.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 10,
+        "life_length_max"   : 14,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 22,
+        "height_female_max"   : 24,
+        "height_male_min"     : 22,
+        "height_male_max"     : 24
+    },
+    "weight"    : {
+        "weight_female_min"   : 50,
+        "weight_female_max"   : 95,
+        "weight_male_min"     : 50,
+        "weight_male_max"     : 95
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 3,
+        "protectiveness"          : 4,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 5,
+        "barking"                 : 1,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Chinook",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/chinook.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 24,
+        "height_female_max"   : 26,
+        "height_male_min"     : 24,
+        "height_male_max"     : 26
+    },
+    "weight"    : {
+        "weight_female_min"   : 50,
+        "weight_female_max"   : 65,
+        "weight_male_min"     : 55,
+        "weight_male_max"     : 90
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 3,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 3,
+        "protectiveness"          : 4,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 3,
+        "barking"                 : 5,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "English Toy Spaniel",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/english_toy_spaniel.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 10,
+        "life_length_max"   : 12,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 9,
+        "height_female_max"   : 10,
+        "height_male_min"     : 9,
+        "height_male_max"     : 10
+    },
+    "weight"    : {
+        "weight_female_min"   : 8,
+        "weight_female_max"   : 14,
+        "weight_male_min"     : 8,
+        "weight_male_max"     : 14
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 3,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 4,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 3,
+        "barking"                 : 2,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Lancashire Heeler",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/lancashire_heeler.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 10,
+        "height_female_max"   : 12,
+        "height_male_min"     : 10,
+        "height_male_max"     : 12
+    },
+    "weight"    : {
+        "weight_female_min"   : 9,
+        "weight_female_max"   : 17,
+        "weight_male_min"     : 9,
+        "weight_male_max"     : 17
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 1,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 4,
+        "playfulness"             : 4,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 4,
+        "barking"                 : 4,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Manchester Terrier (Toy)",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/manchester_terrier_(toy).jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 15,
+        "life_length_max"   : 17,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 10,
+        "height_female_max"   : 12,
+        "height_male_min"     : 10,
+        "height_male_max"     : 12
+    },
+    "weight"    : {
+        "weight_female_min"   : 8,
+        "weight_female_max"   : 12,
+        "weight_male_min"     : 8,
+        "weight_male_max"     : 12
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 4,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 2,
+        "grooming"                : 2,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 4,
+        "protectiveness"          : 4,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 4,
+        "barking"                 : 4,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Miniature American Shepherd",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/miniature_american_shepherd.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 13,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 14,
+        "height_female_max"   : 18,
+        "height_male_min"     : 14,
+        "height_male_max"     : 18
+    },
+    "weight"    : {
+        "weight_female_min"   : 20,
+        "weight_female_max"   : 40,
+        "weight_male_min"     : 20,
+        "weight_male_max"     : 40
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 3,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 4,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 5,
+        "energy"                  : 5,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Mountain Cur",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/mountain_cur.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 10,
+        "life_length_max"   : 13,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 16,
+        "height_female_max"   : 26,
+        "height_male_min"     : 16,
+        "height_male_max"     : 26
+    },
+    "weight"    : {
+        "weight_female_min"   : 30,
+        "weight_female_max"   : 60,
+        "weight_male_min"     : 30,
+        "weight_male_max"     : 60
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 1,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 3,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 5,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Pointer",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/pointer.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 17,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 25,
+        "height_female_max"   : 28,
+        "height_male_min"     : 25,
+        "height_male_max"     : 28
+    },
+    "weight"    : {
+        "weight_female_min"   : 45,
+        "weight_female_max"   : 65,
+        "weight_male_min"     : 55,
+        "weight_male_max"     : 75
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 4,
+        "playfulness"             : 4,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 5,
+        "energy"                  : 4,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Portuguese Podengo Pequeno",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/portuguese_podengo_pequeno.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 8,
+        "height_female_max"   : 12,
+        "height_male_min"     : 8,
+        "height_male_max"     : 12
+    },
+    "weight"    : {
+        "weight_female_min"   : 9,
+        "weight_female_max"   : 13,
+        "weight_male_min"     : 9,
+        "weight_male_max"     : 13
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 4,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 4,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Rat Terrier",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/rat_terrier.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 18,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 10,
+        "height_female_max"   : 13,
+        "height_male_min"     : 10,
+        "height_male_max"     : 13
+    },
+    "weight"    : {
+        "weight_female_min"   : 10,
+        "weight_female_max"   : 25,
+        "weight_male_min"     : 10,
+        "weight_male_max"     : 25
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 5,
+        "playfulness"             : 5,
+        "protectiveness"          : 4,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 5,
+        "energy"                  : 4,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Redbone Coonhound",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/redbone_coonhound.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 22,
+        "height_female_max"   : 27,
+        "height_male_min"     : 22,
+        "height_male_max"     : 27
+    },
+    "weight"    : {
+        "weight_female_min"   : 45,
+        "weight_female_max"   : 70,
+        "weight_male_min"     : 45,
+        "weight_male_max"     : 70
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 3,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 3,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 3,
+        "barking"                 : 4,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Russian Tsvetnaya Bolonka",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/russian_tsvetnaya_bolonka.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 16,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 9,
+        "height_female_max"   : 10,
+        "height_male_min"     : 9,
+        "height_male_max"     : 10
+    },
+    "weight"    : {
+        "weight_female_min"   : 4.5,
+        "weight_female_max"   : 11,
+        "weight_male_min"     : 4.5,
+        "weight_male_max"     : 11
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 1,
+        "grooming"                : 3,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 4,
+        "playfulness"             : 5,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 3,
+        "barking"                 : 4,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Segugio Italiano",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/segugio_italiano.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 11,
+        "life_length_max"   : 13,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 19,
+        "height_female_max"   : 23,
+        "height_male_min"     : 19,
+        "height_male_max"     : 23
+    },
+    "weight"    : {
+        "weight_female_min"   : 40,
+        "weight_female_max"   : 60,
+        "weight_male_min"     : 40,
+        "weight_male_max"     : 60
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 1,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 5,
+        "playfulness"             : 3,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 4,
+        "barking"                 : 4,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Swedish Vallhund",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/swedish_vallhund.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 12.5,
+        "height_female_max"   : 13.75,
+        "height_male_min"     : 12.5,
+        "height_male_max"     : 13.75
+    },
+    "weight"    : {
+        "weight_female_min"   : 20,
+        "weight_female_max"   : 35,
+        "weight_male_min"     : 20,
+        "weight_male_max"     : 35
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 4,
+        "grooming"                : 2,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 4,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 4,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Teddy Roosevelt Terrier",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/teddy_roosevelt_terrier.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 14,
+        "life_length_max"   : 16,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 8,
+        "height_female_max"   : 15,
+        "height_male_min"     : 8,
+        "height_male_max"     : 15
+    },
+    "weight"    : {
+        "weight_female_min"   : 8,
+        "weight_female_max"   : 25,
+        "weight_male_min"     : 8,
+        "weight_male_max"     : 25
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 1,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 4,
+        "playfulness"             : 4,
+        "protectiveness"          : 4,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 5,
+        "barking"                 : 4,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Treeing Tennessee Brindle",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/treeing_tennessee_brindle.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 10,
+        "life_length_max"   : 12,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 16,
+        "height_female_max"   : 24,
+        "height_male_min"     : 16,
+        "height_male_max"     : 24
+    },
+    "weight"    : {
+        "weight_female_min"   : 30,
+        "weight_female_max"   : 50,
+        "weight_male_min"     : 30,
+        "weight_male_max"     : 50
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 2,
+        "grooming"                : 2,
+        "drooling"                : 3,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 3,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 3,
+        "barking"                 : 5,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Treeing Walker Coonhound",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/treeing_walker_coonhound.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 13,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 22,
+        "height_female_max"   : 27,
+        "height_male_min"     : 22,
+        "height_male_max"     : 27
+    },
+    "weight"    : {
+        "weight_female_min"   : 50,
+        "weight_female_max"   : 70,
+        "weight_male_min"     : 50,
+        "weight_male_max"     : 70
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 5
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 1,
+        "drooling"                : 3,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 3,
+        "playfulness"             : 4,
+        "protectiveness"          : 3,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 5,
+        "energy"                  : 5,
+        "barking"                 : 4,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Working Kelpie",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/working_kelpie.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 12,
+        "life_length_max"   : 15,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 19,
+        "height_female_max"   : 25,
+        "height_male_min"     : 19,
+        "height_male_max"     : 25
+    },
+    "weight"    : {
+        "weight_female_min"   : 28,
+        "weight_female_max"   : 60,
+        "weight_male_min"     : 28,
+        "weight_male_max"     : 60
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 1,
+        "drooling"                : 2,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 5,
+        "playfulness"             : 5,
+        "protectiveness"          : 4,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 5,
+        "energy"                  : 5,
+        "barking"                 : 3,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Yakutian Laika",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/yakutian_laika.jpg",
+    "general"   : {
+        "country"           : "0",
+        "life_length_min"   : 10,
+        "life_length_max"   : 12,
+        "coat_length_word"  : 0,
+        "walk_time"         : 0,
+        "owner_experience"  : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"   : 21,
+        "height_female_max"   : 23,
+        "height_male_min"     : 21,
+        "height_male_max"     : 23
+    },
+    "weight"    : {
+        "weight_female_min"   : 40,
+        "weight_female_max"   : 55,
+        "weight_male_min"     : 40,
+        "weight_male_max"     : 55
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 5,
+        "good_with_other_dogs"     : 4
+    },
+    "physical" : {
+        "shedding"                : 4,
+        "grooming"                : 2,
+        "drooling"                : 3,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 1,
+        "playfulness"             : 4,
+        "protectiveness"          : 5,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 5,
+        "barking"                 : 4,
+        "mental_stimulation_needs": 0
+    }
+        }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Japanese Akitainu",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/japanese_akitainu.jpg",
+    "general"   : {
+        "country"          : "0",
+        "life_length_min"  : 12,
+        "life_length_max"  : 15,
+        "coat_length_word" : "0",
+        "walk_time"        : 0,
+        "owner_experience" : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"    : 25,
+        "height_female_max"    : 27.5,
+        "height_male_min"      : 25,
+        "height_male_max"      : 27.5
+    },
+    "weight"    : {
+        "weight_female_min"    : 55,
+        "weight_female_max"    : 65,
+        "weight_male_min"      : 65,
+        "weight_male_max"      : 75
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 0,
+        "good_with_other_dogs"     : 0
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 1,
+        "drooling"                : 0,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 0,
+        "playfulness"             : 0,
+        "protectiveness"          : 0,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 2,
+        "energy"                  : 3,
+        "barking"                 : 0,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Alaskan Klee Kai",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/alaskan_klee_kai.jpg",
+    "general"   : {
+        "country"          : "0",
+        "life_length_min"  : 13,
+        "life_length_max"  : 16,
+        "coat_length_word" : "0",
+        "walk_time"        : 0,
+        "owner_experience" : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"    : 25,
+        "height_female_max"    : 28,
+        "height_male_min"      : 26,
+        "height_male_max"      : 28
+    },
+    "weight"    : {
+        "weight_female_min"    : 70,
+        "weight_female_max"    : 100,
+        "weight_male_min"      : 100,
+        "weight_male_max"      : 130
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 0,
+        "good_with_other_dogs"     : 0
+    },
+    "physical" : {
+        "shedding"                : 3,
+        "grooming"                : 2,
+        "drooling"                : 0,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 0,
+        "playfulness"             : 0,
+        "protectiveness"          : 0,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 3,
+        "energy"                  : 4,
+        "barking"                 : 0,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "American Bulldog",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/american_bulldog.jpg",
+    "general"   : {
+        "country"          : "0",
+        "life_length_min"  : 10,
+        "life_length_max"  : 12,
+        "coat_length_word" : "0",
+        "walk_time"        : 0,
+        "owner_experience" : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"    : 20,
+        "height_female_max"    : 24,
+        "height_male_min"      : 20,
+        "height_male_max"      : 28
+    },
+    "weight"    : {
+        "weight_female_min"    : 60,
+        "weight_female_max"    : 80,
+        "weight_male_min"      : 75,
+        "weight_male_max"      : 100
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 3,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 2,
+        "grooming"                : 1,
+        "drooling"                : 0,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 0,
+        "playfulness"             : 0,
+        "protectiveness"          : 0,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 4,
+        "energy"                  : 0,
+        "barking"                 : 1,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Barbado da Terceira",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/barbado_da_terceira.jpg",
+    "general"   : {
+        "country"          : "0",
+        "life_length_min"  : 12,
+        "life_length_max"  : 14,
+        "coat_length_word" : "0",
+        "walk_time"        : 0,
+        "owner_experience" : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"    : 20.5,
+        "height_female_max"    : 22,
+        "height_male_min"      : 20.5,
+        "height_male_max"      : 22
+    },
+    "weight"    : {
+        "weight_female_min"    : 46,
+        "weight_female_max"    : 57,
+        "weight_male_min"      : 55,
+        "weight_male_max"      : 60
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 4,
+        "good_with_other_dogs"     : 3
+    },
+    "physical" : {
+        "shedding"                : 1,
+        "grooming"                : 0,
+        "drooling"                : 0,
+        "coat_length"             : 1
+    },
+    "social"   : {
+        "openness_to_strangers"   : 0,
+        "playfulness"             : 0,
+        "protectiveness"          : 0,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 5,
+        "energy"                  : 5,
+        "barking"                 : 0,
+        "mental_stimulation_needs": 0
+    }
+    }
+},
+{
+    "id"        : "породноиме",
+    "name"      : "породноиме",
+    "nameEn"    : "Plott Hound",
+    "code"      : "0",
+    "image_link": "https://api-ninjas.com/images/dogs/plott_hound.jpg",
+    "general"   : {
+        "country"          : "0",
+        "life_length_min"  : 12,
+        "life_length_max"  : 14,
+        "coat_length_word" : "0",
+        "walk_time"        : 0,
+        "owner_experience" : 0
+    },
+    "size"      : {
+    "size"      : "medium",
+    "height"    : {
+        "height_female_min"    : 20,
+        "height_female_max"    : 25,
+        "height_male_min"      : 20,
+        "height_male_max"      : 25
+    },
+    "weight"    : {
+        "weight_female_min"    : 40,
+        "weight_female_max"    : 55,
+        "weight_male_min"      : 50,
+        "weight_male_max"      : 60
+    }
+    },
+    "history"       : "Добави историята тук.",
+    "health"        : "Добави имената на наследствените заболявания тук.",
+    "score": {
+    "family"   : {
+        "affectionate_with_family" : 0,
+        "good_with_children"       : 0,
+        "good_with_other_dogs"     : 0
+    },
+    "physical" : {
+        "shedding"                : 0,
+        "grooming"                : 0,
+        "drooling"                : 0,
+        "coat_length"             : 0
+    },
+    "social"   : {
+        "openness_to_strangers"   : 0,
+        "playfulness"             : 0,
+        "protectiveness"          : 0,
+        "adaptability"            : 0
+    },
+    "character": {
+        "trainability"            : 0,
+        "energy"                  : 0,
+        "barking"                 : 0,
+        "mental_stimulation_needs": 0
+    }
+    }
+}
+
+]

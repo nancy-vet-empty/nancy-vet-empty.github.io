@@ -1,0 +1,31 @@
+.card-img {
+  display       : inline-block;
+  width         : 48px;
+  height        : 48px;
+  background    : #dedede;
+  border-radius : 28px;
+  text-align    : center;
+}
+
+.card-img img {
+  margin-top: 6px;
+}
+
+.infectious 	    { background-color: #2880BB }
+.parasitic  	    { background-color: #88C829 }
+.neoplasms  	    { background-color: #FFCA2D }
+.blood            { background-color: #E82D30 }
+.nervous  	      { background-color: #6E4B98 }
+.eye 	            { background-color: #4166B0 }
+.ear 	            { background-color: #4AB073 }
+.mental 	        { background-color: #C6CE2C }
+.endocrine  	    { background-color: #FF8C3A }
+.circulatory  	  { background-color: #FF4346 }
+.respiratory  	  { background-color: #399897 }
+.digestive  	    { background-color: #69BC4E }
+.skin 	          { background-color: #FFAB34 }
+.muskuloskeletal  { background-color: #FF773D }
+.genitourinary  	{ background-color: #D3292C }
+.pregnancy  	    { background-color: #3573B6 }
+.congenital 	    { background-color: #409297 }
+.injuries 	      { background-color: #588CC3 }

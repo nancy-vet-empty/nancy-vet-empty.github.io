@@ -1,0 +1,461 @@
+[
+
+  {
+    "title"     : "Дерматофитоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-2.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-3.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-4.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-5.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-6.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-7.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-8.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-9.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-10.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-11.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-12.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-13.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-14-nt.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-15.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Причинители: Microsporum canis, Trichophyton mentagrophytes, Microsporum gypseum.",
+          "Дерматофитите растат в кератинизиралия слой на космите, ноктите и кожата;",
+          "те не могат да оживеят върху живи тъкани или при тежко възпаление;",
+          "инкубационен период: 1-4 седмици;",
+          "кортикостероидите потискат възпалението и удължават инфекцията;",
+          "Зооноза"
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "алопеция с цилиндрична форма",
+          "люспене на кожата (невинаги)",
+          "еритема (невинаги)",
+          "сърбеж (невинаги)",
+          "Възможно е да се появят: паронихия, грануломи, кериони."
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма и дълбоко остъргване на кожата със скалпел.",
+          "Лампа на Ууд - фалшиво положителния резултат е често срещан (някои лекарства, кератинът и себумът може да дадат фалшиво-позитивен резултат). Лампата трябва да се затопли за минимум 5 мин., след което да свети върху поразената тъкан около 5 мин. Истински положителния резултат вследствие на M. canis е когато има флуоресценция на космите."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Кетоконазол",
+          "Итраконазол",
+          "Гризеофулвин",
+          "Тербинафин",
+          "Клотримазол - не е много ефективен за котки",
+          "Енилконазол",
+          "Миконазол",
+          "Флуконазол"
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Malassezia spp.",
+    "frontImage": "assets/pdfs/@probes/skin/malassezia-1.png",
+    "gallery"   : [
+      "assets/pdfs/@probes/skin/malassezia-1.png",
+      "assets/pdfs/@probes/skin/malassezia-2.png",
+      "assets/pdfs/@probes/skin/malassezia-3.png",
+      "assets/pdfs/@probes/skin/malassezia-4.png",
+      "assets/pdfs/@probes/skin/malassezia-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Причинител: Malassezia pachydermatis.",
+          "комензал на кожата, ушите и мукокутанните зони; може да се размножава и да причинява дерматит, хейлит и външен отит."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "еритема",
+          "сърбеж",
+          "люспене на кожата",
+          "хиперпигментация и загрубяване на кожата при хронични случаи",
+          "себореен отит"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Откриване на прекомерно количество Malassezia на засегнатата кожа и значително подобрение след премахването на Malassezia.",
+          "Цитология на кожата - тъч, памучен тампон или целофаново тиксо; нанесете боя директно върху слайда (Malassezia може да се измие по време на оцветяване); подложете слайда на пламък, за да подобрите проникването на боята и визуализацията. Мазни и/или лъскави области са с най-голяма вероятност да се открие Malassezia."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Кандизол табл!!!",
+          "Кетоконазол крем",
+          "Vetexpert - Specialist Shampoo (кетоконазол, хлорхексидин)",
+          "Кетоконазол 10 mg/kg q24h, флуконазол 10 mg/kg q24h, or итраконазол 5 mg/kg q24h за 2-4 седмици при разпространени или хронични случаи."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Саркоптоза",
+    "frontImage": "/assets/pdfs/@probes/skin/sarcoptes-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/skin/sarcoptes-1.png",
+      "/assets/pdfs/@probes/skin/sarcoptes-2.png",
+      "/assets/pdfs/@probes/skin/sarcoptes-3.png",
+      "/assets/pdfs/@probes/skin/sarcoptes-4.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Най-злокачествено протичащата краста при кучетата.",
+          "Саркоптидните кърлежи паразитират в изкопани от тях тунели под епидермиса, които са свързани с повърхността на кожата чрез вертикални галерии.",
+          "Предпочитат места, покрити от нежна кожа и къси косми.",
+          "Най-често това са: лице, уши, гърдите, корема, около гениталиите, между предни и задни крайници (локална форма). При млади животни може да се разпространи по цялото тяло и крайниците (генерализирана форма).",
+          "В тунелите под епидермиса женските снасят 40-50 яйца => след около 2-3 дни се излюпват: ларви => протонимфи => телеонимфи => имаго. Цялата онтогенеза трае 21 дни.",
+          "Източник на инвазията са животни от същия вид. По-рядко с други ЖВ видове или контаминирани предмети.",
+          "Инвазията се осъществява чрез пряк контакт между животните.",
+          "Поради сърбежа животните се чешат и замърсяват повърхностите в помещенията.",
+          "Кърлежите могат да се придвижат 5 см към гостоприемника.",
+          "Могат да оцелеят извън гостоприемника до 15 дни.",
+          "Срещат се целогодишно, но при оборно отглеждани, стадни животни се наблюдава предимно зимна сезонност.",
+          "Всички видове могат да инвазират кръстосано неспецифични гостоприемници, включително човек. Пазете се от инвазиране!"
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "Локалната форма засяга ръбовете на ушите, муцуната, лицето, гърдите, корема, лактите и краката.",
+          "Кожата се удебелява, набръчква и напуква",
+          "Саркоптидните кърлежи се хранят с клетки и тъканни течности, а не с кръв. Оказват Травматично действие",
+          "- Разрушават кожата при прокопаването на тунелите.",
+          "- причиняват силен сърбеж.",
+          "- Възпаление на кожата",
+          "- Образуват се везикули и пустули, след спукването на които се образуват крусти.",
+          "- алопеция",
+          "- удебеляване на кожата = hyperkeratosis",
+          "- резорбция на токсични продукти – обща интоксикация на организма",
+          "- алергични реакции"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "ушно-крачен рефлекс при кучета – третиране при положителен резултат",
+          "Паразитологично изследване – получаване на материал, чрез дълбоко остъргване на границата между здрава и изменена тъкан и обработка с:",
+          "- млечна киселина",
+          "- глицерин и вода по равни части",
+          "- 10% КОН или NaOH",
+          "При поява на някои признаци, но отсъствие на сърбеж, саркоптидната краста следва да бъде изключена!!!"
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Селамектин (Stronghold) е единственото системно лекарство, разрешено за лечение на саркоптоза при кучета; най-добри резултати се постигат при нанасяне на продукта върху кожата в доза 6–12 mg/kg всеки 2 седмици за 3–4 терапии (при кучета и котки).",
+          "Моксидектин (Moxiclear, Advocate) в доза от 200 микрог/кг, перорално или подкожно, всеки 2 седмици за 2 терапии, е по-малко използвана опция за саркоптоза."
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "title"     : "Нотоедроза",
+    "frontImage": "/assets/pdfs/@probes/skin/notoedres-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/skin/notoedres-1.png",
+      "/assets/pdfs/@probes/skin/notoedres-2.png",
+      "/assets/pdfs/@probes/skin/notoedres-3.png",
+      "/assets/pdfs/@probes/skin/notoedres-4.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Демодекоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/demodex-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/demodex-1.png",
+      "/assets/pdfs/@probes/trichogram/demodex-2.png",
+      "/assets/pdfs/@probes/trichogram/demodex-3.png",
+      "/assets/pdfs/@probes/trichogram/demodex-4.png",
+      "/assets/pdfs/@probes/trichogram/demodex-5.png",
+      "/assets/pdfs/@probes/trichogram/demodex-6.png",
+      "/assets/pdfs/@probes/trichogram/demodex-7.png",
+      "/assets/pdfs/@probes/trichogram/demodex-8.png",
+      "/assets/pdfs/@probes/trichogram/demodex-9.png",
+      "/assets/pdfs/@probes/trichogram/demodex-10.png",
+      "/assets/pdfs/@probes/trichogram/demodex-11.png",
+      "/assets/pdfs/@probes/trichogram/demodex-12.png",
+      "/assets/pdfs/@probes/trichogram/demodex-13.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Причинител: Demodex canis, D. injai, D. cornei, D. cati, D. gotoi",
+          "- част от нормалната фауна на кожата, обикновено в малки количества;",
+          "- живее в космените фоликули и мастните жлези на кожата;",
+          "- предава се от майка на новородено през първите 2-3 дни от кърменето;",
+          "- демодекоза се развива при прекалено количество демодекси или при имуносупресия."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "бива локализирана и генерализирана;",
+          "еритема;",
+          "алопеция;",
+          "люспене на кожата.",
+          "т. нар. 'демодекозни очила'"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма заедно с дълбоко остъргване на кожата със скалпел.",
+          "Проба с тиксо - не винаги се откриват демодекси, но при наличие в тази проба се счита, че те са в голямо количество."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Витамин АД3Е и ивермектин инж. (4 пъти през 7 дни, след това 4 пъти през 17 дни.)",
+          "Симпарика (сароланер) - веднъж месечно за 4-5 месеца.",
+          "Бравекто (флураланер)",
+          "Адвокейт (моксидектин)",
+          "Моксиклиър (моксидектин)",
+          "НексГард Спектра",
+          "Неостомозан"
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Хейлетиелоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-2.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-3.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-4.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Причинител: Cheyletiella spp., микроскопични кърлежи",
+          "нар. се „пълзящ пърхот“",
+          "не проявяват строга гостоприемникова специфичност, могат да инвазират и човека",
+          "най-често се заразяват млади ЖВ, взети наскоро от развъдници"
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "сърбеж",
+          "люспи по кожата",
+          "движещи се кожни люспи (пълзящ пърхот)",
+          "може да е асимптоматично"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма",
+          "Остъргване на кожата",
+          "Проба с тиксо"
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Неостомозан ампула - пръска се по гърба и по тила на 5 дена, разрежда се 1 мл в 400 мл вода.",
+          "Ектолуцил - от него е възможно да се получи алергична реакция."
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Тромбикулоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/trombicula-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/trombicula-1.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-2.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-3.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-4.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-5.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-6.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "само техните шестоноги ларви са паразити",
+          "осмоногите нимфи и възрастните паразити живеят в околната среда и не са паразити",
+          "ларвите секретират слюнчени протеолитични ензими, които смилат тъканите на гостоприемника.",
+          "В същото време кожата се втвърдява.",
+          "ларвите паразитират за 3-4 дни, след което напускат гостоприемника"
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "оранжеви гнезда, прикрепени към космите"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Ектолуцил - външно, локално, чрез напръскване. Напръскват се заболелите участъци от разстояние 10-15 cm един път дневно в продължение на 2–3 дни. След 15 дни процедурата се повтаря."
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Gliricola Porcelli",
+    "frontImage": "/assets/pdfs/@probes/skin/gliricola-porcelli-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/skin/gliricola-porcelli-1.png",
+      "/assets/pdfs/@probes/skin/gliricola-porcelli-nt.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Засяга морските свинчета."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "Сърбеж.",
+          "Алопеция.",
+          "Люспене на кожата."
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Проба с тиксо."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Неостомозан ампула - 1 ампула се разрежда в 5 л вода. Морското свинче се пръска всяка седмица."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Trixacarus caviae",
+    "frontImage": "/assets/pdfs/@probes/skin/trixacarus-caviae-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/skin/trixacarus-caviae-1.png",
+      "/assets/pdfs/@probes/skin/trixacarus-caviae-nt.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Засяга морските свинчета."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "Сърбеж.",
+          "Алопеция.",
+          "Люспене на кожата."
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Проба с тиксо."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Неостомозан ампула - 1 ампула се разрежда в 5 л вода. Морското свинче се пръска всяка седмица."
+        ]
+      }
+    ]
+  }
+
+
+
+]

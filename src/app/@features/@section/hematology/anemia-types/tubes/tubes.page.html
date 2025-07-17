@@ -1,0 +1,33 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Видове анемии</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  @for(element of $data; track element) {
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div>
+            <div class="mb8 bold h2">{{element.title}}</div>
+            @for(section of element.section; track section) {
+              <div class=""><strong>{{section.sectionTitle}}</strong>: {{section.content}}</div>
+            }
+
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  }
+
+</ion-content>

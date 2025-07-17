@@ -1,0 +1,26 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Методи</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  class="ion-padding"
+  [fullscreen]="true">
+
+  @for(element of $data; track element) {
+
+    <dc-card
+      [inputTitle]="element?.title"
+      [inputSubTitle]="element?.type"
+      [object]="element"
+      (onSelectCard)="onSelectCard($event)">
+    </dc-card>
+  }
+
+</ion-content>

@@ -1,0 +1,22 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Новородени</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  class="ion-padding"
+  [fullscreen]="true">
+
+  @for(element of $data; track element) {
+    <nv-section-content-view
+      [inputSectionContent]="element.section">
+    </nv-section-content-view>
+  }
+
+</ion-content>

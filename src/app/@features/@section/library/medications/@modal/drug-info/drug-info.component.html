@@ -1,0 +1,120 @@
+<nv-info-modal [inputTitle]="'Инфо'" class="ion-page">
+
+  <div class="h1">
+    {{ selectedObject.title }}
+  </div>
+
+  @for(element of selectedObject.activeSubstance.split(','); track element) {
+
+    <div class="pill-green mr6">
+      {{ element }}
+    </div>
+  }
+
+  @for(element of selectedDrugApplicationCollection; track element) {
+
+    <div class="component">
+
+      <div
+        class="component-header">
+        {{ element.typeTitle }}
+      </div>
+
+      <ion-grid
+        class="component-content">
+        <ion-row>
+          <ion-col>
+            Доза
+          </ion-col>
+          <ion-col>
+            {{ element.activeSubstanceDose          | splitPipe }}
+            {{ element.activeSubstanceDoseDecorator | docePipe  }}
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            Приложение
+          </ion-col>
+          <ion-col>
+            {{ element.applicationMethod }}
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  }
+
+  @for(element of selectedObject.links; track element) {
+
+    <nv-link-button
+      *ngIf="element.title !== 'няма-линк'"
+      [inputTitle]="element.title"
+      (onClick)="onOpenPdfDocument(element.link)">
+    </nv-link-button>
+  }
+
+  @if(selectedObject.indications && selectedObject.indications.length > 0) {
+
+    <div class="mt16">
+      <div class="h2 c-success m-gap1drug">
+        Показания:
+      </div>
+
+      @for(element of selectedObject.indications; track element) {
+        <div>{{element}}</div>
+      }
+    </div>
+  }
+
+  @if(selectedObject.contraindications && selectedObject.contraindications.length > 0) {
+
+    <div>
+      <div class="h2 c-fail m-gap1drug">
+        Противопоказания:
+      </div>
+
+      @for(element of selectedObject.contraindications; track element) {
+        <div>{{element}}</div>
+      }
+    </div>
+  }
+
+  @if(selectedObject.drugInteractions && selectedObject.drugInteractions.length > 0) {
+
+    <div>
+      <div class="h2 c-blue m-gap1drug">
+        Взаимодействие с ВМП:
+      </div>
+
+      @for(element of selectedObject.drugInteractions; track element) {
+        <div>{{element}}</div>
+      }
+    </div>
+  }
+
+  @if(selectedObject.adverseEffects && selectedObject.adverseEffects.length > 0) {
+
+    <div>
+      <div class="h2 c-blue m-gap1drug">
+        Нежелани реакции:
+      </div>
+
+      @for(element of selectedObject.adverseEffects; track element) {
+        <div>{{element}}</div>
+      }
+    </div>
+  }
+
+  @if(selectedObject.pharmacology && selectedObject.pharmacology.length > 0) {
+
+    <div>
+      <div class="h2 c-blue m-gap1drug">
+        Фармакология:
+      </div>
+
+      @for(element of selectedObject.pharmacology; track element) {
+        <div>{{element}}</div>
+      }
+    </div>
+  }
+
+</nv-info-modal>

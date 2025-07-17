@@ -1,0 +1,125 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Ехограф</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  class="ion-padding"
+  [fullscreen]="true">
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="5">
+        Животно
+      </ion-col>
+
+      <ion-col size="7"  style="display: flex;">
+        <div style="margin-top: 5px; margin-right: 25px;">куче</div>
+        <ion-toggle
+          [checked]="false"
+          (ionChange)="selectAnimalType($event)">
+        </ion-toggle>
+        <div style="margin-top: 5px; margin-left: 25px;">котка</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  @if($formProperty.animalType == 'dog') {
+  <ion-grid class="table">
+    <ion-row>
+      <ion-col>Органи</ion-col>
+      <ion-col>Куче</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Пикочен мехур (стена)</ion-col>
+      <ion-col>от 1,4 до 2,3 мм (при много големи КЧ до 1 мм повече). По-празният мехур е по-дебел.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Простата</ion-col>
+      <ion-col>по формула</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Бъбреци</ion-col>
+      <ion-col>съотношение ББ:аорта да е от 5,5 до 9,1</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Надб. жлези</ion-col>
+      <ion-col>под 7,4</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Далак</ion-col>
+      <ion-col>Миниатюрни породи - 15 мм. Средноголеми - 20 мм. Големи - 25 мм. Гигантски - 30 мм.</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Черен дроб</ion-col>
+      <ion-col>Остри краища. Да не покрива повече от 50% десния ББ</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Жлъчен мехур (стена)</ion-col>
+      <ion-col>до 2 мм</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Дуоденум (стена)</ion-col>
+      <ion-col>2-4 мм</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Колон (стена)</ion-col>
+      <ion-col>1,5 до 2 мм</ion-col>
+    </ion-row>
+  </ion-grid>
+  }
+
+  @if($formProperty.animalType == 'cat') {
+    <ion-grid class="table">
+      <ion-row>
+        <ion-col>Органи</ion-col>
+        <ion-col>Котка</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Пикочен мехур (стена)</ion-col>
+        <ion-col>от 1,3 до 1,7 мм</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Простата</ion-col>
+        <ion-col>-</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Бъбреци</ion-col>
+        <ion-col>30-45 мм</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Надб. жлези</ion-col>
+        <ion-col>под 5,3 мм</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Далак</ion-col>
+        <ion-col>5-10 мм. Патология - над 1-1,5 см.</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Черен дроб</ion-col>
+        <ion-col>Остри краища. Да не покрива повече от 50% десния ББ</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Жлъчен мехур (стена)</ion-col>
+        <ion-col>до 1 мм</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Дуоденум (стена)</ion-col>
+        <ion-col>2-4 мм</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Колон (стена)</ion-col>
+        <ion-col>1,5 до 2 мм</ion-col>
+      </ion-row>
+    </ion-grid>
+    }
+
+
+</ion-content>

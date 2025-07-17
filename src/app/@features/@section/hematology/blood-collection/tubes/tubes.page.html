@@ -1,0 +1,40 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Видове епруветки</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  @for(element of $data; track element) {
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div>
+            <img src="{{element.frontImage}}" style="height: 150px;"/>
+          </div>
+        </ion-col>
+        <ion-col size="8">
+
+          <!-- <div (click)="onSelectCard(element)"> -->
+          <div>
+            <div class="mb8 bold h2">{{element.title}}</div>
+            <div class=""><strong>Добавка</strong>: {{element.additive}}</div>
+            <div class=""><strong>Механизъм</strong>: {{element.additiveFunction}}</div>
+            <div class=""><strong>Приложение</strong>: {{element.uses}}</div>
+            <div class=""><strong>Отделя</strong> се: {{element.yield}}</div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  }
+
+</ion-content>

@@ -1,0 +1,56 @@
+{
+  "PH" : {
+    "dog" : {
+      "arteria" : { "start": 7.35, "end": 7.46 },
+      "vein"    : { "start": 7.35, "end": 7.44 }
+    },
+    "cat" : {
+      "arteria" : { "start": 7.31, "end": 7.46 },
+      "vein"    : { "start": 7.28, "end": 7.41 }
+    }
+  },
+
+  "PCO2" : {
+    "dog" : {
+      "arteria" : { "start": 30.8, "end": 42.8 },
+      "vein"    : { "start": 33.6, "end": 41.2 }
+    },
+    "cat" : {
+      "arteria" : { "start": 25.2, "end": 36.8 },
+      "vein"    : { "start": 32.7, "end": 44.7 }
+    }
+  },
+
+  "PO2" : {
+    "dog" : {
+      "arteria" : { "start": 80.9, "end": 103.3 },
+      "vein"    : { "start": 47.9, "end": 56.3 }
+    },
+    "cat" : {
+      "arteria" : { "start": 95.4, "end": 118.2 },
+      "vein"    : { "start": 27.0, "end": 50.0 }
+    }
+  },
+
+  "HCO3" : {
+    "dog" : {
+      "arteria" : { "start": 18.8, "end": 25.6 },
+      "vein"    : { "start": 20.8, "end": 24.2 }
+    },
+    "cat" : {
+      "arteria" : { "start": 14.4, "end": 21.6 },
+      "vein"    : { "start": 18.0, "end": 23.2 }
+    }
+  },
+
+  "BE" : {
+    "dog" : {
+      "arteria" : { "start": -4, "end": 4 },
+      "vein"    : { "start": -4, "end": 4 }
+    },
+    "cat" : {
+      "arteria" : { "start": -4, "end": 4 },
+      "vein"    : { "start": -4, "end": 4 }
+    }
+  }
+}

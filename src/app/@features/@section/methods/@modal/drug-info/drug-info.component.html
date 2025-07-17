@@ -1,0 +1,44 @@
+<nv-info-modal [inputTitle]="'Инфо'" class="ion-page">
+
+  <div class="h1">
+    {{selectedObject.title}}
+  </div>
+
+
+
+
+  @for(element of selectedObject.links; track element) {
+
+    <nv-link-button
+      [inputTitle]="element.title"
+      (onClick)="onOpenPdfDocument(element.link)">
+    </nv-link-button>
+  }
+
+  @for(element of selectedObject.section; track element) {
+      <div class="h3 mt16">{{element.title}}</div>
+
+
+    @for(sectionElement of element.content; track sectionElement) {
+
+      @if(sectionElement.startsWith("$")) {
+        <div class="mt5">
+          <video width="320" height="240" controls>
+            <source src="{{renderVideo(sectionElement)}}" type="video/mp4">
+          </video>
+        </div>
+      }
+      @if(sectionElement.startsWith("@")) {
+        <img src="{{renderImage(sectionElement)}}"/>
+      }
+      @else {
+        <div class="mt5">{{sectionElement}}</div>
+      }
+    }
+
+
+  }
+
+
+
+</nv-info-modal>

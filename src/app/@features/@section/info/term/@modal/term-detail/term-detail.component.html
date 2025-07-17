@@ -1,0 +1,54 @@
+<nv-info-modal
+  [inputTitle]="'Инфо'"
+  class="ion-page">
+
+  <div class="h1">
+    {{ selectedObject.title }}
+  </div>
+
+  <div class="label">
+    {{ selectedObject.id }}
+  </div>
+
+  <div class="mt25">
+    {{ selectedObject.description }}
+  </div>
+
+  <div class="component mt25">
+
+    @if(selectedObject.increaseWhen.length > 0) {
+
+      <div class="component-header c-success">
+        <ion-icon name="arrow-up-circle-outline"></ion-icon>
+        Повишен при
+      </div>
+
+      <div class="component-list">
+        <ul>
+          @for(element of selectedObject.increaseWhen; track element) {
+            <li>{{element}}</li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+
+  @if(selectedObject.decreaseWhen.length > 0) {
+
+    <div class="component">
+      <div class="component-header c-fail">
+        <ion-icon name="arrow-down-circle-outline"></ion-icon>
+        Понижен при
+      </div>
+
+      <div class="component-list">
+        <ul>
+          @for(element of selectedObject.decreaseWhen; track element) {
+            <li>{{element}}</li>
+          }
+        </ul>
+      </div>
+    </div>
+  }
+
+</nv-info-modal>
