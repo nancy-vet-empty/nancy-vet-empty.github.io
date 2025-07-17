@@ -1,0 +1,163 @@
+[
+  {
+    "title"       : "Възпаление на външното ухо",
+    "titleEn"     : "Otitis Externa",
+    "type"        : "ear",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+  },
+  {
+    "title"       : "Заболявания на ушната мида",
+    "titleEn"     : "Diseases of the Ear Pinna",
+    "type"        : "ear",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+  },
+  {
+    "title"       : "Отохематом",
+    "titleEn"     : "Otohematoma",
+    "type"        : "ear",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+  },
+  {
+    "title"       : "Възпаление на средното ухо",
+    "titleEn"     : "Otitis Media",
+    "type"        : "ear",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+  },
+  {
+    "title"       : "Перфорация на тъпанчето",
+    "titleEn"     : "Perforation of tympanic membrane",
+    "type"        : "ear",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Хронично възпаление, чуждо тяло, холестеатом (доброкачествено образувание зад тъпанчето)."],
+    "signs"         : ["тръскане на главата", "наклонена глава", "атаксия", "въртене в кръг", "парализа на лицевия нерв", "синдром на Хорнер (миоза, птоза, енофталм)", "загуба на слух"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Отоскопия"],
+    "treatment"     : ["(Стоя): Лекува се с чист офлоксацин! Хлоксидерм и Отодин, в който имаше 1 мл Байтрил."],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/tympanic-anatomy.png"]
+  },
+  {
+    "title"       : "Маласезиен отит",
+    "titleEn"     : "Malassezia Otitis",
+    "type"        : "ear",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Malassezia pachydermatis е нормален обитател на кожата и на външните ушни канали на кучето.", "Маласезийният отит обикновено възниква вторично при алергична реакция, бактериална пиодермия, хипотиреоидизъм, повишена влажност, продължителна кортикостероидна терапия.", "Терапията трябва да продължи 7-10 дни след изчезване на симптомите."],
+    "signs"         : ["сърбеж", "неориятна миризма като чорапи", "алопеция", "зачервяване на ушния канал", "себорея", "крусти по ушния канал", "хиперпигментация"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Проба с тиксо", "Повърхностно остъргване на кожата"],
+    "treatment"     : ["Почистване на ушните канали преди всяко третиране с капки.", "Митекс", "3-4 седмици след начало на терапията отново се прави микроскопско изследване."],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+  },
+  {
+    "title"       : "Отодектоза (Ушна краста)",
+    "titleEn"     : "Otodectosis (Ear Mites)",
+    "type"        : "ear",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Виж в Инфекциозни болести"],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+  },
+  {
+    "title"       : "Заболяване на вестибуларния апарат",
+    "titleEn"     : "Vestibular Apparatus",
+    "type"        : "ear",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+  },
+  {
+    "title"       : "Заболяване на мембранозния лабиринт",
+    "titleEn"     : "Cochlear Disorders",
+    "type"        : "ear",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  }
+]

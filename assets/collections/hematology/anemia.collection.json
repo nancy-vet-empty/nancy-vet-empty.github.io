@@ -1,0 +1,118 @@
+[
+  {
+    "title": "Regenerative Anemia",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "Decreased circulating red blood cell (RBC) mass (indicated by low packed cell volume [PCV] or hematocrit [HCT], hemoglobin, and total RBC count) accompanied by appropriate, compensatory increase in RBC production by the bone marrow."
+        ]
+      },
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "Caused by blood loss or hemolysis.", "• Hemolysis—caused by intrinsic RBC defects (e.g., congenital RBC membrane defects or enzyme deficiencies) or extrinsic factors (e.g., RBC parasites, oxidative injury, hemolysins, osmotic changes, immune-mediated RBC destruction, hemophagocytic neoplasia, heat stroke, and severe hypophosphatemia)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hemolytic anemia",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "assets/pdfs/@haematology/anemia/CKD/hemolytic-infectious.png",
+          "assets/pdfs/@haematology/anemia/CKD/hemolytic-infectious-chart.png"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Nonregenerative Anemia",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "Low red blood cell (RBC) mass due to low erythroid production, without evidence of polychromasia or reticulocytosis in peripheral blood.", "Caused by altered erythropoiesis or bone marrow injury.", "Anemia of inflammatory disease.", "Chronic kidney disease.", "Chronic liver disease.", "Hypothyroidism, hypoadrenocorticism - thyroid hormones and cortisol stimulate erythropoiesis.", "Immune-hemolytic anemia.", "Nutritional or Mineral Deficiency - iron, copper, cobalamin..", "Lead toxicity.", "Infectious - FeLV/ FIV infection, babesiosis, ehrlichiosis, parvovirus.", "Infiltrative processes — myelodysplasia, myeloproliferative and lymphoproliferative diseases, histiocytic sarcoma, metastatic neoplasia, myelofibrosis, osteosclerosis."
+        ]
+      },
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Anemia of Chronic Kidney Disease",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "assets/pdfs/@haematology/anemia/CKD/ethiology.png",
+          "assets/pdfs/@haematology/anemia/CKD/approach.png",
+          "assets/pdfs/@haematology/anemia/CKD/treatment.png"
+        ]
+      },
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "Primary cause of anemia in CKD is inadequate production of erythropoietin (EPO) by the kidneys.", "Anemia is normocytic, normochromic, nonregenerative, and proportional to stage of CKD; underlying cause of anemia is multifactorial."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Iron-deficiency anemia",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "Caused by chronic external blood loss or iron-limited erythropoiesis."
+        ]
+      },
+      {
+        "sectionTitle": "Algorithm",
+        "content"     : [
+          "assets/pdfs/@haematology/anemia/iron-deficiency-anemia.png",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Heinz-body anemia",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "Heinz bodies occur in red blood cells (RBCs) following damage from chemical or dietary oxidants, can cause hemolytic anemia."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Immune-mediated anemia",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "Accelerated removal or hemolysis of red blood cells (RBCs) due to a type II hypersensitivity reaction."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Anemia, Nuclear Maturation Defects (Anemia, Megaloblastic)",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "Nonregenerative anemia characterized byimpaired DNA synthesis in red blood cell(RBC) precursors (nuclear : cytoplasmic asynchrony)."
+        ]
+      }
+    ]
+  }
+]

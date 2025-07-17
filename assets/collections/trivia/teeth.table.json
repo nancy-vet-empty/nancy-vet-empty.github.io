@@ -1,0 +1,36 @@
+[
+  {
+    "section"   : [
+      {
+        "sectionTitle": "Млечни зъби",
+        "content"     : [
+          "@/assets/pdfs/@trivia/teeth/table2.png"
+        ]
+      },
+      {
+        "sectionTitle": "Постоянни зъби",
+        "content"     : [
+          "@/assets/pdfs/@trivia/teeth/table3.png"
+        ]
+      },
+      {
+        "sectionTitle": "Зъбни квадранти",
+        "content"     : [
+          "@/assets/pdfs/@trivia/teeth/teeth1.png"
+        ]
+      },
+      {
+        "sectionTitle": "Зъби смесименти",
+        "content"     : [
+          "@/assets/pdfs/@trivia/teeth/teeth2.png",
+          "@/assets/pdfs/@trivia/teeth/teeth3.png",
+          "@/assets/pdfs/@trivia/teeth/teeth4.png",
+          "@/assets/pdfs/@trivia/teeth/teeth5.png",
+          "@/assets/pdfs/@trivia/teeth/teeth6.png",
+          "@/assets/pdfs/@trivia/teeth/teeth7.png",
+          "@/assets/pdfs/@trivia/teeth/teeth8.png"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1572 @@
+[
+  {
+    "symptom" : "Диария, остра",
+    "type"    :"gastrointestinal",
+    "meaning" : "diarrhea less than 7-14 days",
+    "causes"  : [
+      {
+        "group": "Diet", "children": [
+          {"title": "Intolerance/ allergy"      },
+          {"title": "Poor quality food"         },
+          {"title": "Rapid dietary change"      },
+          {"title": "Bacterial food poisoning"  },
+          {"title": "Dietary indiscretion"      }
+        ]
+      },
+      {
+        "group": "Parasites", "children": [
+          {"title": "Helminths" },
+          {"title": "Protozoa", "children": [
+            {"title": "Giardia"             },
+            {"title": "Trichomonas (feline)"},
+            {"title": "Coccidia"            }
+          ]}
+        ]
+      },
+      {
+        "group": "Infectious causes", "children": [
+          {"title": "Viral causes"          },
+          {"title": "Bacterial causes"      },
+          {"title": "Rickettsial infection" }
+        ]
+      },
+      {
+        "group": "Other causes", "children": [
+          {"title": "Gastroenteritis" },
+          {"title": "Spoiled food"    },
+          {"title": "Various drugs"   }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
+      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
+      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Диария, хронична",
+    "type"    :"gastrointestinal",
+    "meaning" : "diarrhea more than 7-14 days",
+    "causes"  : [
+      {
+        "group" : "Small bowel diarrhea", "children": [
+          {"title": "Food intolerance or allergy"},
+          {"title": "Inflammatory bowel disease"},
+          {"title": "GI lymphoma"},
+          {"title": "Pancreatic exocrine insufficiency"},
+          {"title": "Chronic parasitism (hookworm, Giardia)"},
+          {"title": "Histoplasmosis"},
+          {"title": "Intestinal lymphangiectasia"},
+          {"title": "Partial obstruction"},
+          {"title": "Pancreatic carcinoma"},
+          {"title": "Gastrinoma"},
+          {"title": "Liver disease (hepatocellular failure, cholestasis)"},
+          {"title": "Endocrine disease (hypoadrenocorticism, hypothyroidism, hyperthyroidism)"},
+          {"title": "Renal disease (uremia, nephrotic syndrome)"},
+          {"title": "Chronic intussusception"},
+          {"title": "Small intestinal bacterial overgrowth"},
+          {"title": "Pythiosis"}
+        ]
+      },
+      {
+        "group" : "Large bowel diarrhea", "children": [
+          {"title": "Food intolerance or allergy"},
+          {"title": "Parasitism (whipworm, Giardia, Trichomonas, Heterobilharzia)"},
+          {"title": "Clostridial colitis"},
+          {"title": "Irritable bowel syndrome (fiber-responsive)"},
+          {"title": "Histoplasmosis"},
+          {"title": "Pythiosis"},
+          {"title": "Inflammatory bowel disease"},
+          {"title": "Neoplasia (lymphoma, adenocarcinoma)"},
+          {"title": "FeLV/FIV (infections secondary to these viruses)"}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
+      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
+      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" },
+      { "title": "Хронична диария Котки" , "link": "pdfs/@algorithms/gastrointestinal/chronic-diarrhea-cats.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Status epilepticus",
+    "type"    :"nervous",
+    "meaning" : "a state of continuous seizure activity lasting at least 5 minutes or when two or more seizures occur without complete recovery between them.",
+    "causes"  : [
+      {
+          "group": "INTRACRANIAL", "children": [
+            { "title" : "Neoplasia" },
+            { "title" : "Inflammatory/Infectious" },
+            { "title" : "Vascular" },
+            { "title" : "Degenerative/congenital/anomalous/malformation" },
+            { "title" : "Traumatic" }
+          ]
+      },
+      {
+          "group": "EXTRACRANIAL", "children": [
+            { "title" : "Metabolic" , "children": [
+                {"title" : "Hepatic encephalopathy"},
+                {"title" : "Hyperthyroidism"},
+                {"title" : "Hypocalcemia"},
+                {"title" : "Hypoglycemia"},
+                {"title" : "Severe uremia (end-stage renal disease)"}
+              ]
+            },
+            { "title" : "Toxins" },
+            { "title" : "Nutritional - Thiamine deficiency (terminal stage)" }
+          ]
+      },
+      {
+        "group": "EPILEPSY", "children": [
+            { "title" : "Functional: Idiopathic or Genetic" },
+            { "title" : "Structural: Postencephalitic; Posttraumatic; Postischemic (FIE, hypoxic event)" }
+          ]
+      }
+    ],
+    "links" : [
+      { "title": "алгоритъм", "link": "pdfs/@algorithms/nervous/status_epilepticus.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Dysuria, Stranguria, Pollakiuria",
+    "type"    :"urogenital",
+    "meaning" : "Dysuria—difficult or painful urination. Pollakiuria—voiding small quantities of urine with increased frequency. Stranguria—straining to urinate.",
+    "causes"  : [
+      {
+        "group": "Inflammatory disease", "children": [
+          { "title" : "Feline idiopathic cystitis, urethritis (idiopathic feline lower urinary tract disease) - No.1 cause" },
+          { "title" : "Urinary tract infection" },
+          { "title" : "Chemically induced inflammation (e.g., cyclophosphamide-induced cystitis)" },
+
+          { "title" : "Polypoid cystitis" },
+          { "title" : "Proliferative urethritis (granulomatous urethritis)" }
+        ]
+      },
+      {
+        "group": "Urolithiasis - No.2 cause", "children": [
+          {"title": "Cystic calculi"    },
+          {"title": "Urethral calculi"  }
+        ]
+      },
+      {
+        "group": "Neoplasia", "children": [
+          {"title": "Transitional cell carcinoma of bladder or urethra"    },
+          {"title": "Prostatic neoplasia"  },
+          {"title": "Vaginal neoplasia"    }
+        ]
+      },
+      {
+        "group": "Trauma", "children": [
+          {"title": "Bladder or urethral rupture"    },
+          {"title": "Urethral stricture (previous trauma or surgery)"  }
+        ]
+      },
+      {
+        "group": "Neurogenic disorder", "children": [
+          {"title": "Reflex dyssynergia"    }
+        ]
+      },
+      {
+        "group": "Other", "children": [
+          {"title": "Perineal hernia"    }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Алопеция",
+    "type"    :"skin",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "", "children": [
+          {"title": ""      }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Алопеция алгоритъм" , "link": "pdfs/@algorithms/skin/alopecia-algorithm.png" }
+    ]
+  },
+  {
+    "symptom" : "Dysphagia -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Oral Pain", "children": [
+          { "title" : "Fractured bones or teeth"  },
+          { "title" : "Trauma"                    },
+          { "title" : "Periodontitis"             },
+          { "title" : "Stomatitis, glossitis, pharyngitis, gingivitis, tonsillitis, or sialoadenitis" },
+          { "title" : "Uremia"                    }
+        ]
+      },
+      {
+        "group": "Oral Trauma", "children": [
+          {"title": "Fractured bones"         },
+          {"title": "Soft tissue laceration"  },
+          {"title": "Hematoma"                }
+        ]
+      },
+      {
+        "group": "Oral Mass", "children": [
+          {"title": "Tumor"                   },
+          {"title": "Eosinophilic granuloma"  },
+          {"title": "Foreign object"          }
+        ]
+      },
+      {
+        "group": "Neuromuscular Disease", "children": [
+          {"title": "Localized myasthenia"            },
+          {"title": "myositis"                        },
+          {"title": "Temporomandibular joint disease" }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Halitosis -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Bacterial Causes", "children": [
+          { "title" : "Food retained"            },
+          { "title" : "Tartar or periodontitis"  },
+          { "title" : "Stomatitis/ glossitis"    },
+          { "title" : "Stomatitis, glossitis, pharyngitis, gingivitis, tonsillitis, or sialoadenitis" },
+          { "title" : "Uremia"                   }
+        ]
+      },
+      {
+        "group": "Eating Noxious Substances", "children": [
+          {"title": "Feces"                        },
+          {"title": "Necrotic or odoriferous food" }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Drooling -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Ptyalism", "children": [
+          { "title" : "Nausea"           },
+          { "title" : "Seizure"          },
+          { "title" : "Behavior"         },
+          { "title" : "Salivary gland hypersecretion" }
+        ]
+      },
+      {
+        "group": "Pseudoptyalism", "children": [
+          {"title": "Oral pain" },
+          {"title": "Dysphagia" }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Regurgitation -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Dysphagia"
+      },
+      {
+        "group": "Esophageal dysfunction", "children": [
+          {"title": "Esophageal obstruction"  },
+          {"title": "Esophageal weakness"     },
+          {"title": "Esophagitis"             }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/gastrointestinal/regurgitation-algorihm-saim.png" }
+    ]
+  },
+  {
+    "symptom" : "Vomiting -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Motion Sickness (Acute)"
+      },
+      {
+        "group": "Diet", "children": [
+          {"title": "Dietary intolerance"  },
+          {"title": "Dietary indiscretion" }
+        ]
+      },
+      {
+        "group": "Emetogenic Substances (Acute)", "children": [
+          {"title": "Drugs: almost any drug can cause vomiting (especially drugs administered orally [PO]), but the following drugs seem especially likely to cause vomiting:"  },
+          {"title": "Toxic chemicals: strychnine, heavy metals"  }
+        ]
+      },
+      {
+        "group": "Gastrointestinal Tract Obstruction (Acute or Chronic)", "children": [
+          {"title": "Gastric outflow obstruction", "children": [
+            {"title": "Pyloric stenosis"  },
+            {"title": "Foreign object"    },
+            {"title": "Neoplasia"         },
+            {"title": "Gastric dilation or volvulus"  }
+          ] },
+          {"title": "Intestinal"  , "children": [
+            {"title": "Foreign object"    },
+            {"title": "Neoplasia"         },
+            {"title": "Torsion/ volvulus" }
+          ] }
+        ]
+      },
+      {
+        "group": "Gastrointestinal/Abdominal Inflammation (Acute or Chronic)", "children": [
+          {"title": "Gastritis"    },
+          {"title": "Enteritis"    },
+          {"title": "Pancreatitis" },
+          {"title": "Peritonitis"  },
+          {"title": "Colitis"      },
+          {"title": "Splenitis"    }
+        ]
+      },
+      {
+        "group": "Extraalimentary Tract Diseases (Acute or Chronic)", "children": [
+          {"title": "Uremia"                },
+          {"title": "Pyometra"              },
+          {"title": "Diabetic ketoacidosis" },
+          {"title": "Hypercalcemia"         },
+          {"title": "Adrenal insufficiency" },
+          {"title": "Cholecytitis"          },
+          {"title": "Hepatic insufficiency or disease" },
+          {"title": "Endotoxemia/ septicemia" }
+        ]
+      },
+      {
+        "group": "Miscellaneous Causes (Acute or Chronic)", "children": [
+          {"title": "Feline hyperthyroidism" },
+          {"title": "Overeating"             }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "алгоритъм - CSAD" , "link": "pdfs/@algorithms/gastrointestinal/vomiting-algorithm-csad.png" },
+      { "title": "алгоритъм - CB"   , "link": "pdfs/@algorithms/gastrointestinal/vomiting-algorithm-clinicians-brief.pdf" }
+    ]
+  },
+
+  {
+    "symptom" : "Hematemesis -",
+    "type"    :"gastrointestinal",
+    "meaning" : "the vomiting of blood",
+    "causes"  : [
+      {
+        "group": "Coagulopathy (uncommon)", "children": [
+          { "title" : "DIC (Disseminated intravascular coagulation)"  },
+          { "title" : "Thrombocytopenia"                              },
+          { "title" : "Clotting factor deficiency"                    },
+          { "title" : "Salivary gland hypersecretion"                 }
+        ]
+      },
+      {
+        "group": "Alimentary Tract Lesion", "children": [
+          {"title": "Ulceration/ erosion"   },
+          {"title": "Gastritis"             },
+          {"title": "Mucosal trauma"        },
+          {"title": "Polyps"                },
+          {"title": "Bleeding oral lesion"  },
+          {"title": "Other causes: Hepatic disease, hypoadrenocorticism, pancreatitis" }
+        ]
+      },
+      {
+        "group": "Extraalimentary Tract Lesion (blood is swallowed and then vomited) (rare)", "children": [
+          {"title": "Respiratory tract disorders" },
+          {"title": "Dietary indiscretion" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "symptom" : "Hematochezia -",
+    "type"    :"gastrointestinal",
+    "meaning" : "the passage of fresh blood per anus, usually in or with stools",
+    "causes"  : [
+      {
+        "group": "Dog", "children": [
+          { "title" : "Anal-rectal disease", "children":[
+            {"title": "Anal sacculitis"   },
+            {"title": "Neoplasia"         },
+            {"title": "Perianal fistulas" }
+          ]           },
+          { "title" : "Colonic/ Intestinal disease", "children": [
+            {"title": "Parasitism"        },
+            {"title": "IBD"               },
+            {"title": "Hemorrhagic gastroenteritis" },
+            {"title": "Parvoviral gastroenteritis"  }
+          ]}
+        ]
+      },
+      {
+        "group": "Cat", "children": [
+          {"title": "Dietary responsive" },
+          {"title": "IBD"                },
+          {"title": "Coccidia"           }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Melena -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Dog", "children": [
+          { "title" : "Hookworms"            },
+          { "title" : "Ulceration/ erosion"  },
+          { "title" : "Tumor/ polyp"         },
+          { "title" : "Ingested food"        },
+          { "title" : "Hypoadrenocorticism"  },
+          { "title" : "Coagulopathies"       }
+        ]
+      },
+      {
+        "group": "Cat", "children": [
+          {"title": "Tumor"           },
+          {"title": "Coagulopathies"  }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Tenesmus and/or Dyschezia -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Dog", "children": [
+          { "title" : "Anal sacculitis"             },
+          { "title" : "Rectal inflammation/ pain"   },
+          { "title" : "Colonic/ rectal obstruction" }
+        ]
+      },
+      {
+        "group": "Cat", "children": [
+          {"title": "Urethral obstruction"  },
+          {"title": "Rectal obstruction"    },
+          {"title": "Constipation"          }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Constipation -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Iatrogenic causes - Drugs" },
+      {
+        "group": "Behavioral/ Environmental causes", "children": [
+          {"title": "Change in household routine" },
+          {"title": "Inactivity" }
+        ]
+      },
+      {
+        "group": "Refusal to defecate", "children": [
+          {"title": "Pain" },
+          {"title": "Inability to assume position to defecate" }
+        ]
+      },
+      {
+        "group": "Dietary causes", "children": [
+          {"title": "Excessive fiber" },
+          {"title": "Abnormal diet: hair, bones, plants, etc." }
+        ]
+      },
+      {
+        "group": "Colonic obstruction", "children": [
+          {"title": "Hernia"  },
+          {"title": "Tumor"   },
+          {"title": "Abscess" }
+        ]
+      },
+      {
+        "group": "Colonic weakness", "children": [
+          {"title": "Systemic disease" },
+          {"title": "Localized neuromuscular disease" }
+        ]
+      },
+      {
+        "group": "Miscellaneous causes", "children": [
+          {"title": "Severe dehydration"  },
+          {"title": "Megacolon"           }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Fecal incontinence",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      { "group": "Neuromuscular disease"       },
+      { "group": "Partial rectal obstruction"  },
+      { "group": "Severe irritative proctitis" }
+    ]
+  },
+  {
+    "symptom" : "Weight loss -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Food", "children": [
+          { "title" : "Not enough"       },
+          { "title" : "Poor quality"     }
+        ]
+      },
+      { "group": "Anorexia"              },
+      { "group": "Dysphagia"             },
+      { "group": "Vomiting"              },
+      { "group": "Maldigestive disease"  },
+      { "group": "Malabsorptive disease" },
+      {
+        "group": "Malassimilation", "children": [
+          {"title": "Organ failure: cardiac, hepatic, renal, adrenal" }
+        ]
+      },
+      {
+        "group": "Cancer"
+      },
+      {
+        "group": "Excessive utilization of calories", "children": [
+          {"title": "Lactation"       },
+          {"title": "Increased work"  },
+          {"title": "Pregnancy"       },
+          {"title": "Fever"           }
+        ]
+      },
+      {
+        "group": "Increased loss of nutrients", "children": [
+          {"title": "Diabetes mellitus" },
+          {"title": "Nephropathy"       },
+          {"title": "Enteropathy"       }
+        ]
+      },
+      {
+        "group": "Neuromuscular disease"
+      }
+    ]
+  },
+  {
+    "symptom" : "Anorexia/ Hyporexia -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Inflammatory disease", "children": [
+          { "title" : "Bacterial infections"    },
+          { "title" : "Viral infections"        },
+          { "title" : "Fungal infections"       },
+          { "title" : "Rickettsial infections"  },
+          { "title" : "Protozoal infections"    },
+          { "title" : "Sterile inflammation"    },
+          { "title" : "Fever"                   }
+        ]
+      },
+      { "group": "Dysphagia"                      },
+      { "group": "Nausea"                         },
+      { "group": "Metabolic disease"              },
+      { "group": "Central nervous system disease" },
+      { "group": "Cancer cachexia"                },
+      { "group": "Anosmia (rare)"                 },
+      { "group": "Psychological causes"           }
+    ]
+  },
+  {
+    "symptom" : "Abdominal effusion -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      { "title" : "Hypoalbuminemia"         },
+      { "title" : "Portal hypertension"     },
+      { "title" : "Peritoneal inflammation" }
+    ]
+  },
+  {
+    "symptom" : "Acute abdomen -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Septic inflammation", "children": [
+          { "title" : ""           },
+          { "title" : ""          },
+          { "title" : ""         },
+          { "title" : "" }
+        ]
+      },
+      {
+        "group": "Nonseptic Inflammation", "children": [
+          {"title": "Pancreatitis (common and important)" },
+          {"title": "Uroabdomen (important)" },
+          {"title": "Pansteatitis (възпаление на мазнините)" }
+        ]
+      },
+      {
+        "group": "Organ Distention or Obstruction", "children": [
+          {"title": "Gastric dilation or volvulus (common and important)" },
+          {"title": "Intestinal obstruction resulting from many causes (common and important)" },
+          {"title": "Intussusception (important, especially younger animals) (вгъване на част от червото в др. част" }
+        ]
+      },
+      {
+        "group": "Ishemia", "children": [
+          {"title": "Torsion of spleen, liver lobe, testicle, or other organ (rare)" },
+          {"title": "Thromboembolism of abdominal organ(s) (rare)" }
+        ]
+      },
+      {
+        "group": "Abdominal hemorrhage", "children": [
+          {"title": "Abdominal neoplasia" },
+          {"title": "Coagulopathy" }
+        ]
+      },
+      {
+        "group": "Abdominal neoplasia"
+      }
+    ]
+  },
+  {
+    "symptom" : "Abdominal pain -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Poor Palpation Technique (“Pseudo-pain”)"
+      },
+      {
+        "group": "Peritoneum", "children": [
+          {"title": "Peritonitis" },
+          {"title": "Adhesions" }
+        ]
+      },
+      {
+        "group": "Gastrointestinal Tract", "children": [
+          {"title": "ulcer" },
+          {"title": "Foreign object" },
+          {"title": "Neoplasm" }
+        ]
+      },
+      {
+        "group": "Hepatobiliary Tract", "children": [
+          {"title": "Hepatitis" },
+          {"title": "Cholelithiasis or cholecystitis" }
+        ]
+      },
+      {
+        "group": "Pancreas", "children": [
+          {"title": "Pancreatitis (common and important)" }
+        ]
+      },
+      {
+        "group": "Spleen", "children": [
+          {"title": "Rupture" },
+          {"title": "Neoplasm" },
+          {"title": "Torsion (rare)" },
+          {"title": "Infection (rare)" }
+        ]
+      },
+      {
+        "group": "Urogenital system", "children": [
+          {"title": "Pyelonephritis (important)" },
+          {"title": "Prostatitis (common)" },
+          {"title": "Nonseptic cystitis (common in cats)" },
+          {"title": "Urethritis or obstruction (common)" }
+        ]
+      },
+      {
+        "group": "Musculoskeletal system (mimics abdominal pain", "children": [
+          { "title" : "fractures"                                           },
+          { "title" : "intervertebral disk disease (important and common)"  },
+          { "title" : "diskospondylitis (important)"                        },
+          { "title" : "Abscesses"                                           }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Abdominal enlargement/ distention -",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Tissue", "children": [
+          { "title" : "Pregnancy (common and important)"                                          },
+          { "title" : "Hepatomegaly (infiltrative or inflammatory disease, lipidosis, neoplasia)" },
+          { "title" : "Splenomegaly (infiltrative or inflammatory disease, neoplasia, hematoma)"  },
+          { "title" : "Renomegaly (neoplasia, infiltrative disease, compensatory hypertrophy)"    },
+          { "title" : "Miscellaneous neoplasia"                                                   },
+          { "title" : "Granuloma (e.g., pythiosis)"                                               }
+        ]
+      },
+      {
+        "group": "Fluid", "children": [
+          {"title": "Contained in organ(s)", "children": [
+            {"title": "Torsion, volvulus, fluid from heart failure" },
+            {"title": "Pyometra"                                    },
+            {"title": "Cysts: paraprostatic, perinephric, hepatic"  },
+            {"title": "Hydronephrosis"                              }
+            ]
+          },
+          {"title": "Free in abdomen (common and important)" }
+        ]
+      },
+      {
+        "group": "Gas", "children": [
+          {"title": "Stomach (gastric dilation or volvulus)" },
+          {"title": "Intestines (resulting from obstruction)" }
+        ]
+      },
+      {
+        "group": "Fat", "children": [
+          {"title": "Obesity" }
+        ]
+      },
+      {
+        "group": "Weak abdominal muscles", "children": [
+          {"title": "Hyperadrenocorticism (important)" }
+        ]
+      },
+      {
+        "group": "Feces"
+      }
+    ],
+    "links" : [
+      { "title": "алгоритъм - SAIM" , "link": "pdfs/@algorithms/gastrointestinal/abdominal-distention-algorithm-saim.png" },
+      { "title": "алгоритъм - CSAD" , "link": "pdfs/@algorithms/gastrointestinal/abdominal-enlargement-CSAD.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Abdominal pain",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Tissue", "children": []
+      }
+    ],
+    "links" : [
+      { "title": "Algorithm" , "link": "pdfs/@algorithms/gastrointestinal/acute-abdominal-pain-algorithm.png" }
+    ]
+  },
+  {
+    "symptom" : "Jaundice",
+    "type"    :"gastrointestinal",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Prehepatic jaundice" },
+      {
+        "group": "Hepatic", "children": [
+          { "title" : "Infectious", "children": [
+            { "title" : "Leishmaniasis" },
+            { "title" : "Leptospirosis" },
+            { "title" : "Canine adenovirus" }
+            ]
+          },
+          { "title" : "Inflammatory/immune-mediated", "children": [
+            { "title" : "Chronic active hepatitis" }
+            ]
+          },
+          { "title" : "Toxic" , "children": [
+            { "title" : "Copper hepatopathy" }
+            ]
+          },
+          { "title" : "Neoplastic", "children": [
+            { "title" : "Lymphoma" },
+            { "title" : "Carcinoma" },
+            { "title" : "Metastasis" }
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Posthepatic", "children": [
+          { "title" : "Intraluminal obstruction", "children": [
+            { "title" : "Mucocele" },
+            { "title" : "Cholelithiasis" },
+            { "title" : "Cholangitis" },
+            { "title" : "Neoplasm" }
+            ]
+          },
+          { "title" : "Extraluminal obstruction", "children": [
+            { "title" : "Duodenal foreign body" },
+            { "title" : "Regional lymphadenopathy" },
+            { "title" : "Pancreatitis" },
+            { "title" : "Intestinal neoplasm" }
+            ]
+          }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "" , "link": "pdfs/@algorithms/gastrointestinal/jaundice-algorithm.png" }
+    ]
+  },
+
+
+
+
+
+  {
+    "symptom" : "Syncope",
+    "type"    :"cardiovascular",
+    "meaning" : "",
+    "causes"  : [
+      {
+          "group": "Cardiovascular Causes", "children": [
+            { "title" : "Bradyarrhythmias (second- or third-degree AV block, sinus arrest, sick sinus syndrome, atrial standstill)" },
+            { "title" : "Tachyarrhythmias (paroxysmal atrial or ventricular tachycardia, reentrant supraventricular tachycardia, atrial fibrillation)" },
+            { "title" : "Congenital ventricular outflow obstruction (pulmonic stenosis, subaortic stenosis)" },
+            { "title" : "Acquired ventricular outflow obstruction (heartworm disease and other causes of pulmonary hypertension, hypertrophic obstructive cardiomyopathy, intracardiac tumor, thrombus)" },
+            { "title" : "Cyanotic heart disease (tetralogy of Fallot, pulmonary hypertension, and “reversed” shunt)" },
+            { "title" : "Impaired forward cardiac output (severe valvular insufficiency, dilated cardiomyopathy, myocardial infarction or inflammation)" },
+            { "title" : "Impaired cardiac filling (e.g., cardiac tamponade, constrictive pericarditis, hypertrophic or restrictive cardiomyopathy, intracardiac tumor, thrombus)" },
+            { "title" : "Cardiovascular drugs (diuretics, vasodilators)" },
+            { "title" : "Neurocardiogenic reflexes (vasovagal, cough-syncope, other situational syncope)" }
+          ]
+      },
+      {
+        "group": "Pulmonary Causes", "children": [
+          { "title" : "Diseases causing hypoxemia" },
+          { "title" : "Pulmonary hypertension" },
+          { "title" : "Pulmonary thromboembolism" }
+        ]
+      },
+      {
+        "group": "Metabolic and Hematologic Causes", "children": [
+          { "title" : "Hypoglycemia" },
+          { "title" : "Hypoadrenocorticism" },
+          { "title" : "Electrolyte imbalance (especially potassium, calcium)" },
+          { "title" : "Anemia" },
+          { "title" : "Sudden hemorrhage" }
+       ]
+      },
+      {
+       "group": "Neurologic Causes", "children": [
+          { "title" : "Cerebrovascular accident" },
+          { "title" : "Brain tumor (seizures)" }
+        ]
+      },
+      {
+        "group": "Neuromuscular Disease", "children": [
+          { "title" : "(Narcolepsy, cataplexy)" }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Abnormal arterial pulse",
+    "type"    :"cardiovascular",
+    "meaning" : "",
+    "causes"  : [
+      {
+          "group": "Weak Pulses", "children": [
+            { "title" : "Dilated cardiomyopathy" },
+            { "title" : "(Sub)aortic stenosis" },
+            { "title" : "Pulmonic stenosis" },
+            { "title" : "Shock" },
+            { "title" : "Dehydration" }
+          ]
+      },
+      {
+        "group": "Strong Pulses", "children": [
+          { "title" : "Excitement" },
+          { "title" : "Hyperthyroidism" },
+          { "title" : "Fever" },
+          { "title" : "Hypertrophic cardiomyopathy" }
+        ]
+      },
+      {
+        "group": "Very Strong, Bounding Pulses", "children": [
+          { "title" : "Patent ductus arteriosus" },
+          { "title" : "Fever/sepsis" },
+          { "title" : "Severe aortic regurgitation" }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Hypovolemia -",
+    "type"    :"cardiovascular",
+    "meaning" : "a decrease in the volume of blood circulating within the body",
+    "causes"  : [
+      {"group": "Dehydration"                           },
+      {"group": "Hemorrhage"                            },
+      {"group": "Shock"                                 },
+      {"group": "Burns"                                 },
+      {"group": "Gastrointestinal diseases"             },
+      {"group": "Kidney disease"                        },
+      {"group": "Fluid loss from the respiratory tract" },
+      {"group": "Diuretics"                             },
+      {"group": "Diabetes insipidus"                    },
+      {"group": "Gastrointestinal obstructions"         },
+      {"group": "Heatstroke"                            }
+    ]
+  },
+
+
+
+  {
+    "symptom" : "Cough",
+    "type"    :"respiratory",
+    "meaning" : "",
+    "causes"  : [
+      {
+          "group": "", "children": [
+            { "title" : "cardiogenic pulmonary edema" },
+            { "title" : "" }
+          ]
+      }
+    ],
+    "links" : [
+      { "title": "" , "link": "pdfs/@algorithms/respiratory/.png" }
+    ]
+  },
+  {
+    "symptom" : "Nasal discharge",
+    "type"    :"respiratory",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Serous Discharge", "children": [
+          { "title" : "Normal" },
+          { "title" : "Viral infection" },
+          { "title" : "Early sign of etiology of mucopurulent discharge" }
+        ]
+      },
+      {
+        "group": "Mucopurulent Discharge with or without Hemorrhage", "children": [
+          { "title" : "Viral infection", "children" : [
+            { "title" : "Feline herpesvirus (rhinotracheitis virus)" },
+            { "title" : "Feline calicivirus" },
+            { "title" : "Canine influenza virus" }
+            ]
+          },
+          { "title" : "Bacterial infection (usually secondary)" },
+          { "title" : "Fungal infection", "children": [
+            { "title" : "Aspergillus" },
+            { "title" : "Cryptococcus" },
+            { "title" : "Penicillium" },
+            { "title" : "Rhinosporidium" }
+            ]
+          },
+          { "title" : "Nasal parasites", "children": [
+            { "title" : "Pneumonyssoides" },
+            { "title" : "Capillaria (Eucoleus)" }
+            ]
+          },
+          { "title" : "Foreign body" },
+          { "title" : "Neoplasia" },
+          { "title" : "Nasopharyngeal polyp" },
+          { "title" : "Extension of oral disease" },
+          { "title" : "Allergic rhinitis" },
+          { "title" : "Feline chronic rhinosinusitis" },
+          { "title" : "Canine chronic/lymphoplasmacytic rhinitis" }
+        ]
+      },
+      {
+        "group": "Pure Hemorrhagic Discharge (Epistaxis)", "children": [
+          { "title" : "Nasal disease", "children": [
+            { "title" : "Acute trauma" },
+            { "title" : "Acute foreign body" },
+            { "title" : "Neoplasia" },
+            { "title" : "Fungal infection" },
+            { "title" : "Less commonly, other etiologies as listed for mucopurulent discharge" }
+           ]
+          },
+          { "title" : "Systemic disease", "children": [
+            { "title" : "Clotting disorders" },
+            { "title" : "Vasculitis" },
+            { "title" : "Hyperviscosity syndrome" },
+            { "title" : "Polycythemia" },
+            { "title" : "Systemic hypertension" }
+           ]
+          }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "General Diagnostic Approach to Chronic Nasal Discharge" , "link": "pdfs/@algorithms/respiratory/nasal-discharge-chronic-saim.png" }
+    ]
+  },
+  {
+    "symptom" : "Dyspnea (respiratory distress)",
+    "type"    :"respiratory",
+    "meaning" : "abnormally increased effort in breathing",
+    "causes"  : [
+      {"group" : "Pale Mucous Membranes", "children": [
+          {"title" : "Anemia - Anemic animals may not appear cyanotic even with marked hypoxemia because 5 g/dL of desaturated hemoglobin is necessary for visible cyanosis."},
+          {"title" : "Poor cardiac output/high sympathetic tone"}
+        ]
+      },
+      {"group" : "Injected, Brick-Red Membranes", "children": [
+          {"title" : "Polycythemia (erythrocytosis)"},
+          {"title" : "Sepsis"},
+          {"title" : "Excitement"},
+          {"title" : "Other causes of peripheral vasodilation"}
+        ]
+      },
+      {"group" : "Cyanotic Mucous Membranes", "children": [
+          {"title" : "Pulmonary parenchymal disease"},
+          {"title" : "Airway obstruction"},
+          {"title" : "Pleural space disease"},
+          {"title" : "Pulmonary edema"},
+          {"title" : "Right-to-left shunting congenital cardiac defect"},
+          {"title" : "Hypoventilation"},
+          {"title" : "Shock"},
+          {"title" : "Cold exposure"},
+          {"title" : "Methemoglobinemia"}
+        ]
+      },
+      {"group" : "Differential Cyanosis", "children": [
+          {"title" : "Reversed patent ductus arteriosus (head and forelimbs receive normally oxygenated blood, but caudal part of body receives desaturated blood via the ductus, which arises from the descending aorta)"}
+        ]
+      },
+      {"group" : "Icteric Mucous Membranes", "children": [
+          {"title" : "Hemolysis"},
+          {"title" : "Hepatobiliary disease"},
+          {"title" : "Biliary obstruction"}
+        ]
+      }
+    ],
+    "links" : [
+      {"title" : "Classification", "link" : "pdfs/@algorithms/respiratory/dyspnoea-classification.png"},
+      {"title" : "Algorithm", "link" : "pdfs/@algorithms/respiratory/dyspnoea-algorithm.png"},
+      {"title" : "Algorithm - Clinicians brief", "link" : "pdfs/@algorithms/respiratory/respiratory-distress-algorithm.png"}
+    ]
+  },
+  {
+    "symptom" : "Rhinoscopic abnormalities",
+    "type"    :"respiratory",
+    "meaning" : "",
+    "causes"  : [
+      {
+          "group": "Inflammation (Mucosal Swelling, Hyperemia, Increased Mucus, Exudate)", "children": [
+            { "title" : "Nonspecific finding; consider all differential diagnoses for mucopurulent nasal discharge (infectious, inflammatory, neoplastic)" }
+          ]
+      },
+      {
+        "group": "Mass", "children": [
+          { "title" : "Neoplasia" },
+          { "title" : "Nasopharyngeal polyp" },
+          { "title" : "Cryptococcosis" },
+          { "title" : "Mat of fungal hyphae or fungal granuloma (aspergillosis, penicilliosis, rhinosporidiosis)" }
+        ]
+      },
+      {
+        "group": "Turbinate Erosion", "children": [
+          { "title" : "Mild", "children": [
+            { "title" : "Feline herpesvirus" },
+            { "title" : "Chronic inflammatory process" }
+          ]
+          },
+          { "title" : "Marked", "children": [
+            { "title" : "Aspergillosis" },
+            { "title" : "Neoplasia" },
+            { "title" : "Cryptococcosis" },
+            { "title" : "Penicilliosis" }
+           ]
+          }
+        ]
+      },
+      {
+        "group": "Fungal Plaques", "children": [
+          { "title" : "Aspergillosis" },
+          { "title" : "Penicilliosis" }
+        ]
+      },
+      {
+        "group": "Parasites", "children": [
+          { "title" : "Mites: Pneumonyssoides caninum" },
+          { "title" : "Worms: Capillaria (Eucoleus) boehmi" }
+        ]
+      },
+      { "group": "Foreign Bodies" }
+    ]
+  },
+  {
+    "symptom" : "Sneezing",
+    "type"    :"respiratory",
+    "meaning" : "",
+    "causes"  : [
+      { "group": "Nasal foreign body" },
+      { "group": "Feline upper respiratory infection" },
+      { "group": "Nasal mite" },
+      { "group": "Irritating aerosols" }
+    ]
+  },
+  {
+    "symptom" : "Reverse sneezing",
+    "type"    :"respiratory",
+    "meaning" : "",
+    "causes"  : [
+      { "group": "Nasal foreign body" },
+      { "group": "Nasopharyngeal inflammation" },
+      { "group": "Epiglottic entrapment" },
+      { "group": "Idiopathic" },
+      { "group": "excitement or drinking" }
+    ]
+  },
+  {
+    "symptom" : "Stertor -",
+    "type"    :"respiratory",
+    "meaning" : "coarse, audible snoring or snorting sounds associated with breathing",
+    "causes"  : [
+      {
+          "group": "", "children": [
+            { "title" : "" },
+            { "title" : "" }
+          ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Facial deformity -",
+    "type"    :"respiratory",
+    "meaning" : "",
+    "causes"  : [
+      { "group": "Carnassial tooth root abscess" },
+      { "group": "Neoplasia" },
+      { "group": "Cryptococcosis (in cats)" }
+    ]
+  },
+
+
+
+
+  {
+    "symptom" : "Hematuria",
+    "type"    :"urogenital",
+    "meaning" : "blood in the urine, micro- and macrohematuria",
+    "causes"  : [
+      {
+        "group": "Urinarytract origin", "children": [
+          { "title" : "Trauma", "children" : [
+              { "title": "Traumatic collection (e.g., catheterization, cystocentesis)" },
+              { "title": "Renal biopsy" },
+              { "title": "Blunt trauma (e.g., automobile accident)"}
+            ]
+          },
+          { "title" : "Urulithiasis"        },
+          { "title" : "Noplasia"            },
+          { "title" : "Inflamatory disease", "children": [
+            { "title" : "Urinary tract infection" },
+            { "title" : "Feline idiopathic cystitis, urethritis (idiopathic feline lower urinary tract disease)" },
+            { "title" : "Chemically induced inflammation (e.g.,cyclophosphamide-induced cystitis)" },
+            { "title" : "Polypoid cystitis" },
+            { "title" : "Proliferative urethritis (granulomatous urethritis)" }
+          ] }
+        ]
+      },
+      {
+        "group": "Genital tract contamination", "children": [
+          {"title": "Estrus"  },
+          {"title": "Subinvolution of placental sites"  },
+          {"title": "Inflammatory, neoplastic, and traumatic lesions of the genital tract"  }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Polyuria and polydipsia -",
+    "type"    :"urogenital",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Dogs", "children": [
+          { "title" : "Common causes", "children": [
+            {"title": "Chronic kidney disease"},
+            {"title": "pyometra"},
+            {"title": "diabetes mellitus"},
+            {"title": "hyperadrenocorticism"},
+            {"title": "hypercalcaemia"},
+            {"title": "pyelonephritis"},
+            {"title": "iatrogenic causes (drugs, diet or fluid therapy)"}
+          ]   },
+          { "title" : "Uncommon causes", "children": [
+            {"title": "liver disease"},
+            {"title": "hypoadrenocorticism"},
+            {"title": "primary polydipsia"}
+          ] },
+          { "title" : "Rare", "children": [
+            {"title": "central diabetes insipidus (CDI)"},
+            {"title": "primary nephrogenic diabetes insipidus (primary NDI)"},
+            {"title": "Hyperviscosity syndrome"},
+            {"title": "Primary glycosuria"},
+            {"title": "Fanconi syndrome"},
+            {"title": "Acromegaly"},
+            {"title": "Hypokalaemia"},
+            {"title": "Gastrointestinal disorders"},
+            {"title": "Polycythaemia"},
+            {"title": "Phaeochromocytoma"},
+            {"title": "Primary hyperaldosteronism"},
+            {"title": "Leiomyosarcoma"},
+            {"title": "Sudden acquired retinal degeneration syndrome (SARDS)"}
+          ] }
+        ]
+      },
+      {
+        "group": "Cats", "children": [
+          { "title" : "Common causes", "children": [
+            {"title": "Chronic kidney disease"},
+            {"title": "Hyperthyroidism"},
+            {"title": "Diabetes mellitus"},
+            {"title": "Postobstructive diuresis"},
+            {"title": "Iatrogenic causes (drugs, diet, or fluid therapy)"}
+          ] },
+          { "title" : "Uncommon causes", "children": [
+            {"title": "Liver disease"},
+            {"title": "Pyometra"},
+            {"title": "Pyelonephritis"},
+            {"title": "Hypokalaemia (with kidney disease)"}
+          ]  },
+          { "title" : "Rare", "children": [
+            {"title": "Central diabetes insipidus"},
+            {"title": "Hypercalcaemia"},
+            {"title": "Acromegaly"},
+            {"title": "Hyperadrenocorticism"},
+            {"title": "Hypoadrenocorticism"},
+            {"title": "Primary hyperaldosteronism"}
+          ]  }
+        ]
+      }
+    ], "links" : [
+      { "title": "Endocrine Disorders causing polyuria and polydipsia" , "link": "pdfs/@algorithms/gastrointestinal/endocrine-disorders-polyuria-polydipsia-saim.png" }
+    ]
+  },
+  {
+    "symptom" : "Pyuria",
+    "type"    :"urogenital",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Urinary tract origin", "children": [
+          { "title" : "Infectious", "children" : [
+              { "title": "Urinary tract infection (e.g., pyelonephritis, cystitis, urethritis)" }
+            ]
+          },
+          { "title" : "Noninfectious", "children": [
+            { "title" : "Urolithiasis" },
+            { "title" : "Neoplasia" },
+            { "title" : "Trauma" },
+            { "title" : "Chemically induced (e.g., cyclophosphamide)" }
+          ] }
+        ]
+      },
+      {
+        "group": "Genital tract contamination"
+      }
+    ]
+  },
+
+  {
+    "symptom" : "Crystalluria -",
+    "type"    :"urogenital",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Struvite", "children": [
+          { "title" : "Normal"  },
+          { "title" : "Urinary tract infection with urease-positive bacteria"  },
+          { "title" : "Struvite urolithiasis" },
+          { "title" : "Plant protein–based diet" }
+        ]
+      },
+      {
+        "group": "Calcium oxalate", "children": [
+          {"title": "Normal" },
+          {"title": "Ethylene glycol intoxication" },
+          {"title": "Oxalate urolithiasis" }
+        ]
+      },
+      {
+        "group": "Ammonium biurate", "children": [
+          {"title": "Breed-related (e.g., Dalmatian, English Bulldog)" },
+          {"title": "Urate urolithiasis" },
+          {"title": "Liver disease" },
+          {"title": "Portosystemic shunt" }
+        ]
+      },
+      {
+        "group": "Cystine", "children": [
+          {"title": "Cystinuria" }
+        ]
+      },
+      {
+        "group": "Bilirubin", "children": [
+          {"title": "Normal in concentrated urine from dogs (especially males); abnormal in feline urine" },
+          {"title": "Hemolytic disease" },
+          {"title": "Liver disease" },
+          {"title": "Posthepatic disease" }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Immune-Mediated Glomerulonephritis",
+    "type"    :"urogenital",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "Dogs", "children": [
+          { "title" : "Infectious diseases", "children": [
+            {"title": "Dirofilariasis"},
+            {"title": "Blastomycosis"},
+            {"title": "Coccidioidomycosis"},
+            {"title": "Pyometra"},
+            {"title": "Bacterial endocarditis"},
+            {"title": "Brucellosis"},
+            {"title": "Pyoderma"},
+            {"title": "Borreliosis", "children": [
+              {"title": "Membranoproliferative glomerulonephritis (GN) in Bernese Mountain dogs inherited as an autosomal recessive trait has a strong association with seropositivity for Borrelia burgdorferi."}
+            ]},
+            {"title": "Ehrlichiosis"},
+            {"title": "Rocky Mountain spotted fever (Rickettsia rickettsii)"},
+            {"title": "Bartonellosis"},
+            {"title": "Other chronic bacterial infections"},
+            {"title": "Leishmaniasis"},
+            {"title": "Babesiosis"},
+            {"title": "Hepatozoonosis"},
+            {"title": "Trypanosomiasis"},
+            {"title": "Canine adenovirus-1 (infectious canine hepatitis)"}
+          ]           },
+          { "title" : "Noninfectious inflammatory diseases", "children": [
+            {"title": "Systemic lupus erythematosus (SLE)"},
+            {"title": "Immune-mediated polyarthritis"},
+            {"title": "Chronic inflammatory skin disease"},
+            {"title": "Pancreatitis"}
+          ]          },
+          { "title" : "Neoplasia", "children": [
+            {"title": "Lymphoma"},
+            {"title": "Mast cell tumor"},
+            {"title": "Other tumors"}
+          ]            },
+          { "title" : "Other disease associations", "children": [
+            {"title": "Exogenous or endogenous (e.g., hyperadrenocorticism) glucocorticoids (dogs treated with glucocorticoids develop proteinuria and glomerular lesions but not deposition of immune complexes)"},
+            {"title": "Drug reaction (e.g., trimethoprim-sulfonamide, masitinib and toceranib, and minimal-change nephropathy in a dog)"}
+          ]    },
+          { "title" : "Familial glomerular disease", "children": [
+            {"title": "Familial membranous or membranoproliferative GN in soft-coated Wheaten Terriers", "children": [
+              {"title": "Associated with protein-losing enteropathy in many affected dogs"},
+              {"title": "Progressive leading to glomerular sclerosis and end-stage renal disease"}
+            ]},
+            {"title": "Membranoproliferative GN associated with hereditary deficiency of complement component III in Brittany Spaniels"},
+            {"title": "Autosomal recessive type IV collagen defect in English Cocker Spaniels"},
+            {"title": "X-linked dominant type IV collagen defect in Samoyeds"},
+            {"title": "Suspected basement membrane disorders in Doberman Pinschers and Bull Terriers"},
+            {"title": "Glomerulopathy with increased collagen deposition and glomerular sclerosis in young Newfoundland dogs"}
+          ]    }
+        ]
+      },
+      {
+        "group": "Cats", "children": [
+          {"title": "Infectious diseases", "children": [
+            {"title": "Feline leukemia virus infection"},
+            {"title": "Feline immunodeficiency virus"},
+            {"title": "Feline infectious peritonitis"},
+            {"title": "Chronic progressive polyarthritis (Mycoplasma gatae)"},
+            {"title": "Other chronic bacterial infections"}
+          ] },
+          {"title": "Noninfectious inflammatory diseases", "children": [
+            {"title": "Pancreatitis"},
+            {"title": "Systemic lupus erythematosus"}
+          ] },
+          {"title": "Neoplasia", "children": [
+            {"title": "Lymphoma"},
+            {"title": "Mastocytosis"},
+            {"title": "Other tumors"}
+          ]  },
+          {"title": "Familial (sibling cats with GN)" }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Proteinuria",
+    "type"    :"urogenital",
+    "meaning" : "",
+    "causes"  : [],
+    "links"   : [
+      { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/urogenital/proteinuria-algorithm-saim.png" }
+    ]
+  },
+  {
+    "symptom" : "Acute renal failure",
+    "type"    :"urogenital",
+    "meaning" : "",
+    "causes"  : [
+      {"group": "Nephrotoxins", "children": [
+        {"title": "Ethylene glycol"},
+        {"title": "Aminoglycosides"},
+        {"title": "Amphotericin B"},
+        {"title": "Easter lily (cats)"},
+        {"title": "Grape or raisin toxicity (dogs)"},
+        {"title": "Hypercalcemia", "children": [
+          {"title": "Cholecalciferol rodenticide"},
+          {"title": "Calcipotriene (Dovonex)"}
+        ]
+      },
+        {"title": "Anticancer drugs (Cisplatin)"},
+        {"title": "Radiocontrast agents administered intravenously"},
+        {"title": "Heavy metals (e.g., thiacetarsamide)"},
+        {"title": "Tainted food (melamine, cyanuric acid)"}
+        ]
+      },
+      {"group": "Renal Ischemia", "children": [
+        {"title": "Dehydration"},
+        {"title": "Trauma"},
+        {"title": "Anesthesia"},
+        {"title": "Sepsis"},
+        {"title": "Heat stroke"},
+        {"title": "Pigment nephropathy (Myoglobinuria)"},
+        {"title": "Shock"},
+        {"title": "Hemorrhage"},
+        {"title": "Surgery"},
+        {"title": "Nonsteroidal antiinflammatory drugs (NSAIDs)"}
+        ]
+      },
+      {"group": "Nephritis", "children": [
+        {"title": "Leptospirosis—acute tubulointerstitial nephritis"},
+        {"title": "Borrelia—rapidly progressive glomerulonephritis"}
+        ]
+      },
+      {"group": "Acute Hyperphosphatemia", "children": [
+        {"title": "Tumor lysis syndrome"}
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Chronic renal failure",
+    "type"    :"urogenital",
+    "meaning" : "",
+    "causes"  : [
+      {"group": "Dog", "children": [
+        {"title": "Chronic interstitial nephritis (CIN) of unknown cause (most common pathologic diagnosis)"},
+        {"title": "Chronic pyelonephritis (can be difficult to distinguish histologically from CIN)"},
+        {"title": "Chronic glomerulonephritis (can be difficult to distinguish histologically from CIN)"},
+        {"title": "Amyloidosis"},
+        {"title": "Familial renal disease (several dog breeds can be affected)"},
+        {"title": "Healing of acute kidney injury"}
+        ]
+      },
+      {"group": "Cat", "children": [
+        {"title": "CIN of unknown cause (most common pathologic diagnosis)"},
+        {"title": "Chronic pyelonephritis (can be difficult to distinguish histologically from CIN)"},
+        {"title": "Chronic glomerulonephritis (can be difficult to distinguish histologically from CIN)"},
+        {"title": "Amyloidosis (uncommon in mixed breed cats but familial in Abyssinians)"},
+        {"title": "Polycystic kidney disease (familial in Persians)"},
+        {"title": "Healing of acute kidney injury"},
+        {"title": "Neoplasia (renal lymphoma)"},
+        {"title": "Pyogranulomatous nephritis caused by feline infectious peritonitis"}
+        ]
+      }
+    ],
+    "links"   : [
+      { "title": "Характеристики на ХБН - SAIM", "link": "pdfs/@algorithms/urogenital/ckf-features-saim.png" },
+      { "title": "Етапи на ХБН - SAIM", "link": "pdfs/@algorithms/urogenital/ckf-iris-stages-saim.png" }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "symptom" : "Joint disorder",
+    "type"    :"antiinflammatory",
+    "meaning" : "",
+    "causes"  : [
+      {
+          "group": "Noninflammatory Joint Disease", "children": [
+            { "title" : "Developmental" },
+            { "title" : "Degenerative" },
+            { "title" : "Traumatic" },
+            { "title" : "Neoplastic" }
+          ]
+      },
+      {
+        "group": "Inflammatory Joint Disease", "children": [
+          { "title" : "Infectious" },
+          { "title" : "Noninfectious (immune-mediated)", "children" : [
+            {"title" : "Nonerosive"},
+            {"title" : "Erosive"}
+          ] }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Fever",
+    "type"    :"antiinflammatory",
+    "meaning" : "",
+    "causes"  : [
+      { "group": "V ascular: embolisms, haemorrhages." },
+      { "group": "I nfectious: bacterial, fungal, viral, or protozoan." },
+      { "group": "T oxic: endogenous (uraemia, hepatic encephalopathy) or exogenous." },
+      { "group": "T raumatic." },
+      { "group": "A bnormalities." },
+      { "group": "M etabolic: due to altered metabolism." },
+      { "group": "I mmune-mediated (noninfectious) inflammations." },
+      { "group": "N eoplasms: primary or metastatic." },
+      { "group": "D egenerative." }
+    ],
+    "links" : [
+      { "title": "Algorithm" , "link": "pdfs/@algorithms/others/fever-algorithm.png" }
+    ]
+  },
+  {
+    "symptom" : "Hypothermia",
+    "type"    :"antiinflammatory",
+    "meaning" : "",
+    "causes"  : [ ],
+    "links" : [
+      { "title": "Algorithm" , "link": "pdfs/@algorithms/others/hypothermia-algorithm.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Status epilepticus",
+    "type"    :"antiinflammatory",
+    "meaning" : "",
+    "causes"  : [ ],
+    "links" : [
+      { "title": "Algorithm" , "link": "pdfs/@algorithms/others/status-epilepticus-algorithm.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Collapse",
+    "type"    :"antiinflammatory",
+    "meaning" : "",
+    "causes"  : [ ],
+    "links" : [
+      { "title": "Algorithm" , "link": "pdfs/@algorithms/others/collapse-algorithm.pdf" }
+    ]
+  }
+
+
+]

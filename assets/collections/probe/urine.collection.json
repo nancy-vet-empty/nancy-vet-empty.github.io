@@ -1,0 +1,858 @@
+[
+  {
+    "title"     : "Специфично тегло на урината (USG)",
+    "frontImage": "/assets/pdfs/@probes/urine/usg.png",
+    "type"      : "cell",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/usg.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Норма",
+        "content"     : [
+          "1.015–1.045 - кучета",
+          "1.035–1.060 - котки"
+        ]
+      },
+      {
+        "sectionTitle": "1.008–1.012 (изостенурия)",
+        "content"     : [
+          "Това е концентрацията на плазмата, което означава, че ББ не концентрират урината. ОТУ е в тези граници при много състояния с полиурия/ полидипсия. ОТУ с азотемия подкрепя диагнозата ББ недостатъчност."
+        ]
+      },
+      {
+        "sectionTitle": "<1.008 (хипостенурия, разредена урина)",
+        "content"     : [
+          "Това означава, че ББ правят още по-разредена урина, което изключва ББ недостатъчност. Възможни причини: захарен диабет, първична полидипсия или състояние, които засягат АДХ хормона."
+        ]
+      },
+      {
+        "sectionTitle": ">1.030 куче | >1.035 котка (концентрирана урина)",
+        "content"     : [
+          "Показва, че няма бъбречно заболяване. Полезно е за потвърждаване на преренална азотемия. Около две трети от функцията на нефроните трябва да бъде загубена преди да се появят аномалии при бъбречната функция, поради което клинично неявно бъбречно заболяване може да се манифестира с концентрирана урина."
+        ]
+      },
+      {
+        "sectionTitle": "1.013–1.029 куче | 1.013–1.034 котка (частично концентрирана урина)",
+        "content"     : [
+          "Може да има частично нарушение на бъбречната функция или частична липса/недостатъчен отговор на АДХ хормон. Ако животното е клинично дехидратирано, това се счита за некоректно изследване на урина."
+        ]
+      },
+      {
+        "sectionTitle": "<1.030 куче | <1.035 котка с азотемия/ дехидратация",
+        "content"     : [
+          "Това може да се дължи на бъбречно заболяване или на частичнао липса или непълно действие на АДХ хормон. Също така е възможно да има преренална азотемия и състояние, което предизвиква липса/намалено действие на АДХ хормон."
+        ]
+      },
+      {
+        "sectionTitle": ">1.007 при хидратирано ЖВ",
+        "content"     : [
+          "Показва наличие на бъбречно заболяване, защото бъбреците произвеждат разредена урина."
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Ленти за урина",
+    "frontImage": "",
+    "type"      : "cell",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/urine-strips.png",
+      "/assets/pdfs/@probes/urine/urine-strips-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Клетки в седимента",
+    "frontImage": "/assets/pdfs/@probes/urine/cells-1.png",
+    "type"      : "cell",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/cells-1.png",
+      "/assets/pdfs/@probes/urine/cells-2.png",
+      "/assets/pdfs/@probes/urine/cells-3.png",
+      "/assets/pdfs/@probes/urine/cells-4.png",
+      "/assets/pdfs/@probes/urine/cells-5.png",
+      "/assets/pdfs/@probes/urine/cells-6.png",
+      "/assets/pdfs/@probes/urine/cells-7.png",
+      "/assets/pdfs/@probes/urine/cells-8.png",
+      "/assets/pdfs/@probes/urine/cells-9.png",
+      "/assets/pdfs/@probes/urine/cells-10.png",
+      "/assets/pdfs/@probes/urine/cells-11.png",
+      "/assets/pdfs/@probes/urine/cells-12.png",
+      "/assets/pdfs/@probes/urine/cells-13.png",
+      "/assets/pdfs/@probes/urine/cells-14.png",
+      "/assets/pdfs/@probes/urine/cells-15.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Еритроцити",
+        "content"     : [
+          "Причини: възпаление, травма, неоплазия, еструс, коагулопатия.",
+          "При съхранение на пробата Er може да се лизират."
+        ]
+      },
+      {
+        "sectionTitle": "Левкоцити",
+        "content"     : [
+          "Причини: възпаление на уринарния или гениталния тракт",
+          "При съхранение на пробата Leu намаляват.",
+          "Някои кученца имат по-висока концентрация на левкоцити в урината."
+        ]
+      },
+      {
+        "sectionTitle": "Епителни клетки",
+        "content"     : [
+          "Биват: ренални, преходни, сквамозни",
+          "Често при възпаление се откриват много епителни клетки заедно с много левкоцити и малко еритроцити.",
+          "Когато има много епителни клетки, но няма възпаление, много вероятно е да е карцином."
+
+        ]
+      },
+      {
+        "sectionTitle": "Неопластични клетки",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Сперма",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Струвитни кристали",
+    "frontImage": "/assets/pdfs/@probes/urine/struvite-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/struvite-1.png",
+      "/assets/pdfs/@probes/urine/struvite-2.png",
+      "/assets/pdfs/@probes/urine/struvite-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Биват: Магнезиеви, амониеви, форфорни",
+          "Разпространение: Често срещани"
+        ]
+      },
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "≥7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Може да бъде случайна находка при здрави кучета и котки.",
+          "• Често е свързан с инфекции на пикочните пътища, особено при кучета.",
+          "• Може да предразполага за уролитиаза."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали, калциев оксалат дихидрат",
+    "frontImage": "/assets/pdfs/@probes/urine/ca-ox-dihydrate.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/ca-ox-dihydrate.png",
+      "/assets/pdfs/@probes/urine/ca-ox-dihydrate-2.png",
+      "/assets/pdfs/@probes/urine/ca-ox-radiograph.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "≤7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Може да бъде случайна находка при здрави кучета и котки.",
+          "• Рядко има връзка с интоксикация заради етиленгликол.",
+          "• Може да предразполага за уролитиаза."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали, калциев оксалат монохидрат",
+    "frontImage": "/assets/pdfs/@probes/urine/ca-ox-monohydrate-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/ca-ox-monohydrate-1.png",
+      "/assets/pdfs/@probes/urine/ca-ox-monohydrate-2.png",
+      "/assets/pdfs/@probes/urine/ca-ox-monohydrate-3.png",
+      "/assets/pdfs/@probes/urine/ca-ox-radiograph.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "≤7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Може да бъде случайна находка при здрави кучета и котки.",
+          "• Рядко има връзка с интоксикация заради етиленгликол."
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Кристали, калциев фосфат",
+    "frontImage": "/assets/pdfs/@probes/urine/ca-phos-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/ca-phos-1.png",
+      "/assets/pdfs/@probes/urine/ca-phos-2.png",
+      "/assets/pdfs/@probes/urine/ca-phos-3.png",
+      "/assets/pdfs/@probes/urine/ca-ca-3.png",
+      "/assets/pdfs/@probes/urine/ca-phos-4.png",
+      "/assets/pdfs/@probes/urine/ca-phos-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "All except ‘brushites’: ≥7",
+          "Amorphous phosphates: ≥7",
+          "‘Brushites’: <7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Може да бъде случайна находка при здрави кучета и котки.",
+          "• Свързан с хиперкалцемия и др.",
+          "• Малки количества могат да бъдат намерени при инфекции на пикочните пътища със струвитни кристали.",
+          "• Може да предразполага за уролитиаза",
+          "Наличието им е индикация за проверка на серумния калций.",
+          "Те могат да бъдат аморфни (различими от аморфните урати чрез тяхното присъствие в алкална среда и липса на жълтеникаво оцветяване), сферични (само при кучета) или иглоподобни, събрани в розетки. В кисела урина може да се образува ‘brushite’ (дицетилфосфат на калций дихидрат); това са тесни, удължени правоъгълни кристали често присъстващи в агрегати."
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Кристали, калциев карбонат",
+    "frontImage": "/assets/pdfs/@probes/urine/ca-ca-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/ca-ca-1.png",
+      "/assets/pdfs/@probes/urine/ca-ca-2.png",
+      "/assets/pdfs/@probes/urine/ca-ca-3.png",
+      "/assets/pdfs/@probes/urine/ca-ca-4.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Кристали от амониеви урати и пикочна киселина",
+    "frontImage": "/assets/pdfs/@probes/urine/urate-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/urate-1.png",
+      "/assets/pdfs/@probes/urine/urate-2.png",
+      "/assets/pdfs/@probes/urine/urate-3.png",
+      "/assets/pdfs/@probes/urine/urate-4.png",
+      "/assets/pdfs/@probes/urine/urate-5.png",
+      "/assets/pdfs/@probes/urine/urate-6.png",
+      "/assets/pdfs/@probes/urine/urate-7.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "Ammonium urate: ≥7",
+          "Uric acid: <7",
+          "Amorphous urates: ≤7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "Кристали от амониев урат (или биурат) обикновено се появяват като кафяви или жълто-кафяви сферични тела с неравни издатини („thorn-apples“).",
+          "• Могат да се наблюдават при здрави далматинци, булдози и други породи.",
+          "• Свързани с хепатична недостатъчност и PSS (портосистемен шънт).",
+          "• Предразполагат за уролитиаза (не е известно защо някои далматинци не образуват уролити)."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали от билирубин",
+    "frontImage": "/assets/pdfs/@probes/urine/bilirubin-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/bilirubin-1.png",
+      "/assets/pdfs/@probes/urine/bilirubin-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "Variable, usually acidic"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Може да бъде случайна находка при кучета; патология при котки.",
+          "• Свързан с хепатобилиарно заболяване и интраваскуларна хемолиза.",
+          "• Не е свързан с образуване на уролити."
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Кристали от цистин",
+    "frontImage": "/assets/pdfs/@probes/urine/cystine-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/cystine-1.png",
+      "/assets/pdfs/@probes/urine/cystine-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "≤7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Always abnormal",
+          "• Associated with inherited tubular reabsorption defect",
+          "• Bull Mastiff, mastiffs, Bulldog, Dachshund, Chihuahua, Newfoundland, Australian Cattle Dog, Scottish Deerhound, Basset Hound",
+          "• May predispose to urolithiasis",
+
+          "• Винаги е патология.",
+          "• Свързано с наследен дефект в тубулната реабсорбция.",
+          "• Бул мастиф, мастиф, булдог, дакел, чихуахуа, нюфаундленд, австралийско пастирско куче, шотландска еленова хрътка, басетхаунд.",
+          "• Може да предразполага за уролитиаза."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали от тирозин",
+    "frontImage": "/assets/pdfs/@probes/urine/tyrosine-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/tyrosine-1.png",
+      "/assets/pdfs/@probes/urine/tyrosine-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "≤7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Винаги патология.",
+          "• Свързано е с ЧД заболяване или наследствен дефект в тубулната реабсорбция."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали от холестерол",
+    "frontImage": "/assets/pdfs/@probes/urine/cholesterol-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/cholesterol-1.png",
+      "/assets/pdfs/@probes/urine/cholesterol-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "варира"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Няма клинично значение.",
+          "• Не предразполага за уролитиаз."
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Кристали от медикаменти",
+    "frontImage": "/assets/pdfs/@probes/urine/drug-crystals-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/drug-crystals-1.png",
+      "/assets/pdfs/@probes/urine/drug-crystals-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "• Сулфонамиди",
+          "• Ампицилин",
+          "• Алопуринол",
+          "• Ципрофлоксацин",
+          "• Тетрациклини",
+          "• Примидон",
+          "• Контраст за образна диагностика"
+        ]
+      },
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "варира"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "Рядко се срещат."
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Кристали от левцин",
+    "frontImage": "/assets/pdfs/@probes/urine/leucine-1.png",
+    "type"      : "crystal",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/leucine-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "кисело"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "Тези кристали са жълто-кафяви дискове с концентрични пръстени, подобни на стъблото на дърво.",
+          "Те обикновено са симптом на тежко заболяване на черния дроб. Други симптоми може да включват увеличаване на червата, повръщане, гадене, дезориентация и общо недомогване.",
+          "Лечението включва незабавно подобряване на функцията на черния дроб. Това включва приложение на лекарства за намаляване на риска от кървене и намаляване на отока, предизвикан от излишната течност."
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title"     : "Хиалинни цилиндри (Hyaline casts)",
+    "frontImage": "/assets/pdfs/@probes/urine/hyaline-1.png",
+    "type"      : "cast",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/hyaline-1.png",
+      "/assets/pdfs/@probes/urine/hyaline-2.png",
+      "/assets/pdfs/@probes/urine/hyaline-3.png",
+      "/assets/pdfs/@probes/urine/hyaline-4.png",
+      "/assets/pdfs/@probes/urine/hyaline-5.png",
+      "/assets/pdfs/@probes/urine/hyaline-granular.png",
+      "/assets/pdfs/@probes/urine/hyaline-granular-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "При здрави животни може да се наблюдават от време на време хиалинни цилиндри, но увеличен брой се вижда при гломеруларна протеинурия или след интензивно упражнение. Те изглеждат като гладки, почти прозрачни обекти без вътрешна структура."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Гранулирани цилиндри (Granular casts)",
+    "frontImage": "/assets/pdfs/@probes/urine/granular-cast-1.png",
+    "type"      : "cast",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/granular-cast-1.png",
+      "/assets/pdfs/@probes/urine/granular-cast-2.png",
+      "/assets/pdfs/@probes/urine/granular-cast-3.png",
+      "/assets/pdfs/@probes/urine/granular-cellular-mixed.png",
+      "/assets/pdfs/@probes/urine/hyaline-granular.png",
+      "/assets/pdfs/@probes/urine/hyaline-granular-2.png",
+      "/assets/pdfs/@probes/urine/granular-cellular-waxy.png",
+      "/assets/pdfs/@probes/urine/granular-to-waxy.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Те се формират, когато клетъчни остатъци или плазмени протеини се инкорпорират в Tamm Horsfall протеини, или може би чрез дегенерация на клетъчни цилиндри. От време на време гранулирани цилиндри може да се намерят при здрави животни, но увеличен брой е симптом на дегенерация, некроза или възпаление на бъбречните тубуларни клетки. Те могат да съдържат фини или груби гранули, в зависимост от материала, от който са съставени, и времето, изминало от тяхното образуване."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Клетъчни цилиндри (Cellular casts)",
+    "frontImage": "/assets/pdfs/@probes/urine/cellular-cast-1.png",
+    "type"      : "cast",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/leucine-1.png",
+      "/assets/pdfs/@probes/urine/cellular-cast-2.png",
+      "/assets/pdfs/@probes/urine/cellular-waxy.png",
+      "/assets/pdfs/@probes/urine/granular-cellular-mixed.png",
+      "/assets/pdfs/@probes/urine/granular-cellular-waxy.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Състав: епителни клетки, еритроцити, левкоцити"
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Винаги патологични.",
+          "Тези тела се формират, когато епителни клетки, еритроцити или левкоцити (или тяхна смес) се инкорпорират в Tamm–Horsfall протеини. Епителните клетъчни цилиндри се появяват при активна дегенерация или некроза на бъбречните тубуларни клетки (например токсична нефроза; нефропатия, свързана с хемоглобинурия или миоглобинурия; или исхемично увреждане), докато левкоцитните цилиндри показват възпаление на бъбречните тубуларни клетки (т.е. тубулна нефроза и пиелонефрит). Еритроцитните цилиндри се формират при гломеруларно или тубуларно кървене."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Мастни цилиндри (Fatty casts)",
+    "frontImage": "/assets/pdfs/@probes/urine/fatty-cast-1.png",
+    "type"      : "cast",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/fatty-cast-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Тези се формират чрез инкорпориране на липидни капки или остатъци от клетки, натоварени с липиди, в Tamm–Horsfall протеини и са свързани със същата патология като епителните клетъчни цилиндри (наистина, те могат да бъдат стари епителни клетъчни цилиндри)."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Восъчни цилиндри (Waxy casts)",
+    "frontImage": "/assets/pdfs/@probes/urine/waxy-1.png",
+    "type"      : "cast",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/waxy-1.png",
+      "/assets/pdfs/@probes/urine/waxy-granular-1.png",
+      "/assets/pdfs/@probes/urine/waxy-granular-mixed.png",
+      "/assets/pdfs/@probes/urine/cellular-waxy.png",
+      "/assets/pdfs/@probes/urine/waxy-variant.png",
+      "/assets/pdfs/@probes/urine/granular-cellular-waxy.png",
+      "/assets/pdfs/@probes/urine/granular-to-waxy.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Рядко срещани.",
+          "Счита се, че се формират чрез вътрешното разрушаване и втвърдяване на грануларни или епителни клетъчни цилиндри; те показват хронично бъбречно заболяване."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title"     : "Bacilli",
+    "frontImage": "/assets/pdfs/@probes/urine/bacilli-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/bacilli-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "не се срещат в стерилна урина от здраво ЖВ."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Cocci",
+    "frontImage": "/assets/pdfs/@probes/urine/cocci-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/cocci-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Бактериалните коки се идентифицират лесно, когато образуват дълги вериги (напр. Streptococcus spp.). Въпреки това, диплококи (двойка коки) и гроздове трябва да бъдат разграничени от малки аморфни кристали, клетъчни остатъци и малки мастни капки, които показват 'brownian motion' в урината. Може да се извърши оцветяване по Грам на седимента на урината, за да се потвърди присъствието на коки и да се разграничат от не-бактериалните структури."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Fungi",
+    "frontImage": "/assets/pdfs/@probes/urine/yeasts-fungi-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/yeasts-fungi-1.png",
+      "/assets/pdfs/@probes/urine/yeasts-fungi-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Yeast",
+    "frontImage": "/assets/pdfs/@probes/urine/yeasts-fungi-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/yeasts-fungi-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Capillaria plica",
+    "frontImage": "/assets/pdfs/@probes/urine/capillaria-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/capillaria-1.png",
+      "/assets/pdfs/@probes/urine/capillaria-2.png",
+      "/assets/pdfs/@probes/urine/capillaria-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Dioctophyme renale",
+    "frontImage": "/assets/pdfs/@probes/urine/dioctophyme-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/dioctophyme-1.png",
+      "/assets/pdfs/@probes/urine/dioctophyme-2.png",
+      "/assets/pdfs/@probes/urine/dioctophyme-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Diatom",
+    "frontImage": "/assets/pdfs/@probes/urine/diatoms.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/diatoms.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Диатоми са планктон, намерен в прясна вода. Тяхното присъствие в тaзи проба урина от куче показва водопой с вода от езеро или друг природен воден източник."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  }
+
+]

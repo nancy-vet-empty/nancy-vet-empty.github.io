@@ -1,0 +1,1011 @@
+[
+  {
+    "title"       : "Алергичен дерматит при ухапване от бълхи",
+    "titleEn"     : "Flea Allergy Dermatitis (FAD)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Атопичен дерматит",
+    "titleEn"     : "Atopic Dermatitis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Хранителна алергия",
+    "titleEn"     : "Food Allergies",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Контактен дерматит",
+    "titleEn"     : "Contact Dermatitis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Маласезиен дерматит",
+    "titleEn"     : "Malassezia Dermatitis",
+    "type"        : "skin",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Malassezia pachydermatis е нормален обитател на кожата и на външните ушни канали на кучето.", "Маласезийният дерматит обикновено възниква вторично при алергична реакция, бактериална пиодермия, хипотиреоидизъм, повишена влажност, продължителна кортикостероидна терапия.", "Терапията трябва да продължи 7-10 дни след изчезване на симптомите."],
+    "signs"         : ["сърбеж", "неориятна миризма като чорапи", "алопеция", "зачервяване на кожата", "себорея", "крусти по кожата", "хиперпигментация", "интертриго"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Откриване на прекомерно количество Malassezia на засегнатата кожа и значително подобрение след премахването на Malassezia.", "Проба с тиксо", "Повърхностно остъргване на кожата"],
+    "treatment"     : ["Vetexpert Specialist Shampoo (кетоконазол, хлорхексидин)", "Кандизол (флуконазол)", "3-4 седмици след начало на терапията отново се прави микроскопско изследване.", "Кетоконазол 10 mg/kg q24h, флуконазол 10 mg/kg q24h, или итраконазол 5 mg/kg q24h за 2-4 седмици при разпространени или хронични случаи."],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Свръхчувствителност към ухапване от насекоми",
+    "titleEn"     : "Insect Bite Hypersensitivity",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Милиарен дерматит",
+    "titleEn"     : "Miliary Dermatitis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Алопеция Х",
+    "titleEn"     : "Alopecia X (dogs)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Психогенна алопеция",
+    "titleEn"     : "Stress-induced hair loss",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Сезонна алопеция на хълбока",
+    "titleEn"     : "Seasonal Flank Alopecia (dogs)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Дерматит, причинен от близане",
+    "titleEn"     : "Canine Lick Granuloma (Acral Lick Dermatitis)",
+    "type"        : "skin",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Представлява заболяване, което е вследствие от непрестанното близане на засегнатото място, причинено от алергия, травма (болката води до близане) или ненормално поведение.", "Получава се дълбока пиодермия, която допринася за сърбежа и съответно близането."],
+    "signs"         : ["алопеция", "хиперкератоза", "зачервяване", "непрестанно близане"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["Douxo S3 Pyo pads (хлорхексидин).", "Крем (Паназим + Гентамицин + Лидокаин 5% маз, 10:10:1", "Първите 5 дни по 2 пъти, следващите 5 дни веднъж дневно.", "При тежки дерматити - цефалоспорини, амоксицилин + клав. к-на, клиндамицин.", "При ненормално поведение - амитриптилин."],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/canine-lick-granuloma.png"]
+  },
+  {
+    "title"       : "Себорея",
+    "titleEn"     : "Seborrhea (Primary or Secondary)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Ихтиоза",
+    "titleEn"     : "Ichthyosis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Дерматоза, повлияваща се от цинк",
+    "titleEn"     : "Zinc-Responsive Dermatosis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Пемфигус фолиацеус",
+    "titleEn"     : "Pemphigus Foliaceus",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Хранителни дефицити",
+    "titleEn"     : "Nutritional Deficiencies (e.g., Fatty Acids)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Екфолиативен дерматит",
+    "titleEn"     : "Exfoliative Dermatitis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Влажен дерматит",
+    "titleEn"     : "Acute Moist Dermatitis (Hot Spots)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Еритема мултиформе",
+    "titleEn"     : "Erythema Multiforme",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Васкулит",
+    "titleEn"     : "Vasculitis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Дерматоза, причинена от лекарства",
+    "titleEn"     : "Drug-induced dermatosis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Бактериален дерматит (Пиодермия)",
+    "titleEn"     : "Bacterial Infections (Pyoderma)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Хистиоцитома",
+    "titleEn"     : "Histiocytoma",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Липома",
+    "titleEn"     : "Lipoma",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Тумор на мастните клетки",
+    "titleEn"     : "Mast Cell Tumor",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Кожна лимфома",
+    "titleEn"     : "Cutaneous Lymphoma",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Себорейна аденома",
+    "titleEn"     : "Sebaceous Adenoma",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Гранулом с чуждо тяло",
+    "titleEn"     : "Foreign Body Granulomas",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Фурункулоза",
+    "titleEn"     : "Furunculosis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Feline Leprosy",
+    "titleEn"     : "Feline Leprosy",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Виж в Инфекциозни болести: Микобактериални инфекции"],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Canine Leproid Granuloma",
+    "titleEn"     : "Canine Leproid Granuloma",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Виж в Инфекциозни болести: Микобактериални инфекции"],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Mycobacterial Panniculitis",
+    "titleEn"     : "Mycobacterial Panniculitis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Виж в Инфекциозни болести: Микобактериални инфекции"],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Дълбока пиодермия",
+    "titleEn"     : "Deep Pyoderma",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Васкулит",
+    "titleEn"     : "Vasculitis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Лупус еритематозус",
+    "titleEn"     : "Lupus Erythematosus",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Кожна лайшманиоза",
+    "titleEn"     : "Cutaneous Leishmaniasis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Виж в Инфекциозни болести"],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Изгаряне",
+    "titleEn"     : "Burns (Thermal or Chemical)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Витилиго",
+    "titleEn"     : "Vitiligo",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Следвъзпалителна хиперпигментация",
+    "titleEn"     : "Post-inflammatory Hyperpigmentation",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Лентиго",
+    "titleEn"     : "Lentigo (cats)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Меланома",
+    "titleEn"     : "Melanoma (benign and malignant)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Акантозис нигриканс",
+    "titleEn"     : "Acanthosis Nigricans",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Петна тип 'кафе с мляко'",
+    "titleEn"     : "Café-au-lait Spots",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Депигментация на носа (нос на Дъдли)",
+    "titleEn"     : "Nasal Depigmentation (Dudley Nose)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Пемфигус Вулгарис",
+    "titleEn"     : "Pemphigus Vulgaris",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Булозен пемфигоид",
+    "titleEn"     : "Bullous Pemphigoid",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Импетиго",
+    "titleEn"     : "Impetigo ('Puppy Pyoderma')",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Субкорнеален пустулозен дерматит",
+    "titleEn"     : "Subcorneal Pustular Dermatosis",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Херпесвирусен дерматит",
+    "titleEn"     : "Herpesvirus Dermatitis (cats)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Булозна епидермолиза",
+    "titleEn"     : "Epidermolysis Bullosa",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Калус",
+    "titleEn"     : "Callus Formation",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Хиперкератоза на носа и/ или лапите",
+    "titleEn"     : "Hyperkeratosis of the Nasal Planum and/ or Footpads",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Папиломатоза (брадавици)",
+    "titleEn"     : "Papillomatosis (Viral Warts)",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Хиперплазия на мастните жлези",
+    "titleEn"     : "Sebaceous Hyperplasia",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Акне",
+    "titleEn"     : "Acne",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Акнето представлява възпаление на фоликулите, пролиферация и кератинизация на кожата в областта на брадичката. Може да се засегнат горната и долната устни.", "При повече от половината котки с акне е изолирана бактерия."],
+    "signs"         : ["черни точки по брадичката", "дерматит", "фоликулит"],
+    "specificSigns" : ["Рядко има сърбеж."],
+    "diagnostics"   : [""],
+    "treatment"     : ["Брадичката се подстригва и почиства.", "Системни антибиотици за 3 седмици.", "Локални АБ и други медикаменти - салицилова киселина, бензоилов пероксид или маз с метронидазол или клиндамицин."],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/acne-1.png"]
+  },
+  {
+    "title"       : "Кожен рог",
+    "titleEn"     : "Cutaneous Horns",
+    "type"        : "skin",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+   }
+]
+

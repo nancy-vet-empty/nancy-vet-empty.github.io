@@ -1,0 +1,87 @@
+[
+  {
+    "title"       : "Паранеопластичен синдром",
+    "titleEn"     : "Paraneoplastic syndrome (PNS)",
+    "type"        : "neoplasms",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Паранеопластичните синдроми са системни прояви, които съпътстват част от злокачествените заболявания.", "Тези прояви са резултат от секреция на определени цитокини, хормони и други вещества от самия тумор"],
+    "signs"         : ["анорексия", "повръщане", "загуба на тегло", "треска", "алопеция", "отпадналост", "полиурия", "полидипсия", "хиперкалцемия", "сърбеж"],
+    "specificSigns" : ["Skin Fragility Syndrome - кожата се наранява твърде лесно при леки травми. Свързано е с хиперадренокортицизма (тумор на хипофизата)."],
+    "diagnostics"   : [""],
+    "treatment"     : ["Кортикостероидите го потискат до един момент."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор",
+    "titleEn"     : "Tumor",
+    "type"        : "neoplasms",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Когато туморът се разрасне, в центъра много често се образува некротично огнище, защото не може да бъде правилно кръвоснабден. Когато туморът не може да бъде отстранен - Теранекрон и Ококсин сироп. Теранекронът се инжектира веднъж седмично за не повече от 6 седмици?, след което 1 месец почивка.", "Когато ЖВ намали апетита и стане летаргично, се включва на кортикостероиди."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на млечната жлеза",
+    "titleEn"     : "Mammary gland tumor",
+    "type"        : "neoplasms",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на аналната жлеза",
+    "titleEn"     : "Anal gland tumor",
+    "type"        : "neoplasms",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "neoplasms",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  }
+]
