@@ -2,7 +2,7 @@
   {
     "title"       : "Диаскопия",
     "titleEn"     : "Diascopy",
-    "type"        : ["skin"],
+    "type"        : "skin",
     "section"     : [
       {
         "title"  : "Начин",
@@ -21,7 +21,7 @@
   {
     "title"       : "Проба с тиксо",
     "titleEn"     : "Skin scraping (superficial)",
-    "type"        : ["skin"],
+    "type"        : "skin",
     "section"     : [
       {
         "title"  : "Начин",
@@ -41,7 +41,7 @@
   {
     "title"       : "Остъргване на кожата (повърхностно)",
     "titleEn"     : "Diascopy",
-    "type"        : ["skin"],
+    "type"        : "skin",
     "section"     : [
       {
         "title"  : "Начин",
@@ -66,7 +66,7 @@
   {
     "title"       : "Остъргване на кожата (дълбоко)",
     "titleEn"     : "Skin scraping (deep)",
-    "type"        : ["skin"],
+    "type"        : "skin",
     "section"     : [
       {
         "title"  : "Начин",
@@ -94,7 +94,7 @@
   {
     "title"       : "Ушен секрет, взет чрез тампон",
     "titleEn"     : "",
-    "type"        : ["ears"],
+    "type"        : "ears",
     "section"     : [
       {
         "title"  : "Начин",
@@ -115,7 +115,7 @@
   {
     "title"       : "Трихография",
     "titleEn"     : "Trichography",
-    "type"        : ["skin"],
+    "type"        : "skin",
     "section"     : [
       {
         "title"  : "Начин",
@@ -148,7 +148,7 @@
   {
     "title"       : "Микроскопско изследване на урина",
     "titleEn"     : "",
-    "type"        : ["urine"],
+    "type"        : "urine",
     "section"     : [
       {
         "title"  : "Нужни материали",
@@ -179,7 +179,7 @@
   {
     "title"       : "Метод на Фюлеборн",
     "titleEn"     : "",
-    "type"        : ["feces"],
+    "type"        : "feces",
     "section"     : [
       {
         "title"  : "Какво се открива?",
@@ -210,7 +210,7 @@
   {
     "title"       : "Метод на Шидър",
     "titleEn"     : "",
-    "type"        : ["feces"],
+    "type"        : "feces",
     "section"     : [
       {
         "title"  : "Какво се открива?",
@@ -241,7 +241,7 @@
   {
     "title"       : "Метод на последователните утаявания",
     "titleEn"     : "",
-    "type"        : ["feces"],
+    "type"        : "feces",
     "section"     : [
       {
         "title"  : "Какво се открива?",
@@ -273,7 +273,7 @@
   {
     "title"       : "Метод на Берман",
     "titleEn"     : "",
-    "type"        : ["feces"],
+    "type"        : "feces",
     "section"     : [
       {
         "title"  : "Какво се открива?",
@@ -310,7 +310,7 @@
   {
     "title"       : "Кръвна натривка оцветена",
     "titleEn"     : "",
-    "type"        : ["blood"],
+    "type"        : "blood",
     "section"     : [
       {
         "title"  : "Начин",
@@ -343,7 +343,7 @@
   {
     "title"       : "Кръвна натривка за микрофиларии",
     "titleEn"     : "",
-    "type"        : ["blood"],
+    "type"        : "blood",
     "section"     : [
       {
         "title"  : "Какво се открива?",
@@ -368,7 +368,7 @@
   {
     "title"       : "Метод на Нот (Knott)",
     "titleEn"     : "",
-    "type"        : ["blood"],
+    "type"        : "blood",
     "section"     : [
       {
         "title"  : "Какво се открива?",
@@ -398,7 +398,7 @@
   {
     "title"       : "Преброяване на ретикулоцити",
     "titleEn"     : "",
-    "type"        : ["blood"],
+    "type"        : "blood",
     "section"     : [
       {
         "title"  : "Какво се открива?",
@@ -423,7 +423,7 @@
   {
     "title"       : "Тест на Ривалта (Rivalta)",
     "titleEn"     : "",
-    "type"        : ["blood"],
+    "type"        : "blood",
     "section"     : [
       {
         "title"  : "Какво се открива?",
@@ -459,7 +459,7 @@
   {
     "title"       : "Аускултация на сърце",
     "titleEn"     : "",
-    "type"        : ["auscultation"],
+    "type"        : "other",
     "section"     : [
       {
         "title"  : "Начин",
@@ -478,7 +478,7 @@
   {
     "title"       : "Аускултация на бели дробове",
     "titleEn"     : "",
-    "type"        : ["auscultation"],
+    "type"        : "other",
     "section"     : [
       {
         "title"  : "Начин",
@@ -504,7 +504,7 @@
   {
     "title"       : "Определяне индекс на телесната маса",
     "titleEn"     : "Body condition score",
-    "type"        : ["mass"],
+    "type"        : "other",
     "section"     : [
       {
         "title"  : "Начин",
@@ -525,7 +525,7 @@
   {
     "title"       : "Определяне индекс на мускулната маса",
     "titleEn"     : "Muscle condition score",
-    "type"        : ["mass"],
+    "type"        : "other",
     "section"     : [
       {
         "title"  : "Начин",
@@ -545,7 +545,7 @@
   {
     "title"       : "Упояване с коктейл",
     "titleEn"     : "Anesthesia",
-    "type"        : [""],
+    "type"        : "other",
     "section"     : [
       {
         "title"  : "Начин",
@@ -563,7 +563,7 @@
   {
     "title"       : "Упояване с ксилазин и кетамин: Котки",
     "titleEn"     : "Anesthesia",
-    "type"        : [""],
+    "type"        : "other",
     "section"     : [
       {
         "title"  : "Начин",
@@ -578,7 +578,7 @@
   {
     "title"       : "Упояване с ксилазин и кетамин: Кучета",
     "titleEn"     : "Anesthesia",
-    "type"        : [""],
+    "type"        : "other",
     "section"     : [
       {
         "title"  : "Начин",
@@ -593,7 +593,7 @@
   {
     "title"       : "Дезинфекция",
     "titleEn"     : "",
-    "type"        : [""],
+    "type"        : "other",
     "section"     : [
       {
         "title"  : "Видове",
@@ -606,7 +606,7 @@
   {
     "title"       : "Цитонамазка",
     "titleEn"     : "",
-    "type"        : ["vagina"],
+    "type"        : "other",
     "section"     : [
       {
         "title"  : "Начин",
@@ -627,7 +627,7 @@
   {
     "title"       : "Евтаназия",
     "titleEn"     : "Eutanasia",
-    "type"        : ["death"],
+    "type"        : "other",
     "section"     : [
       {
         "title"  : "Начин",
