@@ -1,0 +1,28 @@
+.category-circle {
+  display      : inline-block;
+  width        : 64px;
+  height       : 64px;
+  background   : #dedede;
+  border-radius: 38px;
+  text-align   : center;
+  margin       : 8px
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  border: 1px solid #59f59b57;
+  text-align: left;
+}
+
+th {
+  background-color: #59f59b57;
+}
+
+tr:hover {
+  background-color: #59f59b57;
+}

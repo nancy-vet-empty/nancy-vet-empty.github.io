@@ -1,0 +1,31 @@
+<nv-info-modal
+  [inputTitle]="'Информация'"
+  class="ion-page">
+
+  <div class="h1">
+    {{selectedObject.title}}
+  </div>
+  <div class="fs13">
+    ({{selectedObject.titleEn}})
+  </div>
+
+  <div class="mt5 flex bcn-lightblue italic fb600 gallery" (click)="onGalleryOpen()">
+    <ion-icon class="mr8" name="camera-outline"></ion-icon>
+    <div>Галерия</div>
+  </div>
+
+  <div class="h3 mt16">{{selectedObject.type}}</div>
+
+  <div class="bold">Характеристика:</div>
+  <div>{{selectedObject.definition}}</div>
+
+  @for(element of selectedObject.understanding; track element) {
+      <div class="mt5">{{element}}</div>
+  }
+
+  <div class="bold">Заболявания</div>
+  @for(element of selectedObject?.diseases; track element) {
+    <div class="mt5">{{element}}</div>
+}
+
+</nv-info-modal>

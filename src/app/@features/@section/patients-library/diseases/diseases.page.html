@@ -1,0 +1,25 @@
+<!-- App Header -->
+<ion-header>
+  <nv-search-toolbar
+    (onSearch)="onItemSearched($event)"
+    (onFilter)="onFilter($event)">
+  </nv-search-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  @for(element of $collection; track element) {
+
+
+    <dc-card-diseases
+      [inputTitle]    = "element?.title"
+      [inputSubTitle] = "element?.type"
+      [object]        = "element"
+      (onSelectCard)  = "onSelectCard($event)">
+    </dc-card-diseases>
+  }
+
+</ion-content>

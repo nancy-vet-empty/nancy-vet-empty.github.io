@@ -1,0 +1,247 @@
+<!-- Header component -->
+<ion-header
+  [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>
+      Инфузия за обезболяване
+    </ion-title>
+
+    <ion-buttons slot="end" style="margin-right: 10px;">
+      <ion-icon  (click)="clearAllValues()" name="trash-outline"></ion-icon>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<!-- Main content -->
+<ion-content id="main-content" [fullscreen]="true">
+
+  <!-- ИНФУЗИЯ С ЛИДОКАИН -->
+  <ion-grid>
+    <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px; margin-top: 20px;">
+      <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+        🟥 ИНФУЗИЯ С ЛИДОКАИН
+      </div>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8">
+          животно
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  class="flex">
+        <div class="mt5 mr16">куче</div>
+        <ion-toggle
+          [(ngModel)]="$formProperty.animalType"
+          [checked]="false"
+          (ionChange)="selectAnimalType($event)">
+        </ion-toggle>
+        <div class="mt5 ml16">котка</div>
+      </ion-col>
+    </ion-row>
+
+      @if($formProperty.patientType === 'cat') {
+        <div class="mt20 ml8 mr8 fb600" style="background-color: #f7810452; padding: 5px;">
+          ТОЗИ ТИП ИНФУЗИЯ С ЛИДОКАИН НЕ СЕ ИЗПОЛЗВА ПРИ КОТКИ!
+        </div>
+      }
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          тегло
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.patientWeight"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="кг">
+        </ion-input>
+        <div style="width: 63px; margin-left: 10px; margin-top: 26px;">кг</div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          доза
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.dose"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="мг/кг/ч">
+        </ion-input>
+        <div style="width: 63px; margin-left: 10px; margin-top: 26px;">мг/кг/ч</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          скорост
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.speed"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="мл/ч">
+        </ion-input>
+        <div style="width: 63px; margin-left: 10px; margin-top: 26px;">мл/ч</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          (click)="processCalculationFirstPainInfusion()"
+          size="default"
+          expand="block">Изчисли
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8 fb600">
+          Трябват:
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  class="flex">
+          {{$ui.formulaResult}}
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>
+        <div style="background-color: #f7810452; padding: 5px;">
+          мл от ампулата лидокаин, които да поставим в банката <strong>(500 мл) NaCl 0,9%</strong> при ампула лидокаин 10 мг/мл.
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      NB! С повишено внимание при сърдечни проблеми, силна дехидратация и хиповолемия!
+    </ion-row>
+
+  </ion-grid>
+
+  <div style="border-top: 4px dashed #000000a8; margin-top: 20px; margin-bottom: 20px;"></div>
+
+
+<!-- ИНФУЗИЯ С КЕТАМИН (И ЛИДОКАИН) -->
+  <ion-grid>
+    <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px; margin-top: 20px;">
+      <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+        🟦 ИНФУЗИЯ С КЕТАМИН (И ЛИДОКАИН)
+      </div>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8">
+          животно
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  class="flex">
+        <div class="mt5 mr16">куче</div>
+        <ion-toggle
+          [(ngModel)]="$formProperty.animalType"
+          [checked]="false"
+          (ionChange)="selectAnimalType($event)">
+        </ion-toggle>
+        <div class="mt5 ml16">котка</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          тегло
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.patientWeight"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="кг">
+        </ion-input>
+        <div style="width: 63px; margin-left: 10px; margin-top: 26px;">кг</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          (click)="processCalculationSecondPainInfusion()"
+          size="default"
+          expand="block">Изчисли
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  @if($formProperty.patientType === 'dog') {
+
+    <ion-grid>
+      <ion-row>
+          <div class="mt20 ml8 mr8" style="background-color: #f7810452; padding: 5px;">
+            В 500 мл банка физ. р-р се добавят 0,5 мл <strong>кетамин</strong> (100 мг/мл) и 5 мл <strong>лидокаин</strong> от 20 мг/мл и се пуска на постоянна венозна инфузия на: <strong>{{$ui.formulaResult}} мл на час</strong>, т. е. по (5 мл/кг/час)
+          </div>
+      </ion-row>
+    </ion-grid>
+  }
+
+  @if($formProperty.patientType === 'cat') {
+
+    <ion-grid>
+      <ion-row>
+          <div class="mt20 ml8 mr8" style="background-color: #f7810452; padding: 5px;">
+            В 250 мл банка физ. р-р се добавят 0,6 мл <strong>кетамин</strong> (100 мг/мл) за <strong>{{$ui.formulaResult}} мл на час</strong>, т. е. по (5 мл/кг/ч).
+          </div>
+      </ion-row>
+    </ion-grid>
+  }
+
+
+</ion-content>
+
+

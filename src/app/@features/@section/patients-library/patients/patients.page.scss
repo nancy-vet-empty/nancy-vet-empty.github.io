@@ -1,0 +1,28 @@
+.category-circle {
+  display      : inline-block;
+  width        : 64px;
+  height       : 64px;
+  background   : #dedede;
+  border-radius: 38px;
+  text-align   : center;
+  margin       : 8px
+}
+
+.is-active {
+  color: #6bbe6f;
+}
+
+.pet-button {
+  // font-size: 22px!important;
+  // margin-left: 5px!important;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: #dedede;
+  border-radius: 28px;
+  text-align: center;
+}
+
+.pet-button img {
+  max-width: 200%;
+}

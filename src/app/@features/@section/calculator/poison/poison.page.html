@@ -1,0 +1,144 @@
+<!-- Header component -->
+<ion-header
+  [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>
+      Антидоти
+    </ion-title>
+
+    <ion-buttons slot="end" style="margin-right: 10px;">
+      <ion-icon  (click)="clearAllValues()" name="trash-outline"></ion-icon>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<!-- Main content -->
+<ion-content id="main-content" [fullscreen]="true">
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8">
+          животно
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  class="flex">
+        <div class="mt5 mr16">куче</div>
+        <ion-toggle
+          [(ngModel)]="$formProperty.animalType"
+          [checked]="false"
+          (ionChange)="selectAnimalType($event)">
+        </ion-toggle>
+        <div class="mt5 ml16">котка</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          тегло
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.patientWeight"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="кг">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">кг</div>
+      </ion-col>
+    </ion-row>
+
+    @if($ui.isLiqidDoseProcessable)
+    {
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          наличен алкохол
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.c1"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">%</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-col>
+      <ion-row style="font-size: 10px; justify-content: center; margin-top: -17px; margin-bottom: -20px;">Чиста водка: 40% алкохол. | Етилов спирт: 70% алкохол.</ion-row>
+    </ion-col>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8">
+          желан разтвор
+        </div>
+      </ion-col>
+
+      <ion-col size="8" class="flex">
+
+        @if ($formProperty.patientType == 'dog') {
+          <dose-picker
+            [inputData]="volumeOption2"
+            (onSelect)="onSelectVolumeOption($event)">
+          </dose-picker>
+        }
+
+
+        @if ($formProperty.patientType == 'cat') {
+          <dose-picker
+            [inputData]="volumeOption"
+            (onSelect)="onSelectVolumeOption($event)">
+          </dose-picker>
+        }
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8">
+          банка
+        </div>
+      </ion-col>
+
+      <ion-col size="8" class="flex">
+        <dose-picker
+          [inputData]="bankOption"
+          (onSelect)="onSelectBankOption($event)">
+        </dose-picker>
+      </ion-col>
+    </ion-row>
+    }
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          (click)="processCalculation()"
+          size="default"
+          expand="block">Изчисли
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

@@ -1,0 +1,79 @@
+<nv-info-modal [inputTitle]="'Инфо'" class="ion-page">
+
+  <div class="h1">
+    {{selectedObject.title}}
+  </div>
+  <div class="fs13">
+   (англ.: {{selectedObject.titleEn}}, раздел: {{getTitle()}})
+  </div>
+
+  @for(element of selectedObject.links; track element) {
+      <nv-link-button
+      *ngIf="element.title !== 'няма-линк'"
+      [inputTitle]="element.title"
+      (onClick)="onOpenPdfDocument(element.link)">
+      </nv-link-button>
+  }
+
+  <div class="fb600 mt16 c-success">Етиология</div>
+  @for(element of selectedObject.etiology; track element) {
+    <div style="padding-left: 5px;">{{element}}</div>
+  }
+
+  <div class="fb600 mt16 c-fail">Симптоми</div>
+  @for(element of selectedObject.signs; track element) {
+    <div style="padding-left: 5px;">{{element}}</div>
+  }
+  @for(element of selectedObject.specificSigns; track element) {
+      @if(element.startsWith("$")) {
+        <div class="mt5">
+          <video width="320" height="240" controls>
+            <source src="{{renderVideo(element)}}" type="video/mp4">
+          </video>
+        </div>
+      }
+      @if(element.startsWith("@")) {
+        <img src="{{renderImage(element)}}"/>
+      }
+      @else {
+        <div style="padding-left: 5px;">{{element}}</div>
+      }
+  }
+
+  <div class="fb600 mt16 c-blue">Диагностика</div>
+  @for(element of selectedObject.diagnostics; track element) {
+    <div style="padding-left: 5px;">{{element}}</div>
+  }
+
+  <div class="fb600 mt16 c-success">Лечение</div>
+  @for(element of selectedObject.treatment; track element) {
+
+      @if(element.startsWith("$")) {
+        <div class="mt5">
+          <video width="320" height="240" controls>
+            <source src="{{renderVideo(element)}}" type="video/mp4">
+          </video>
+        </div>
+      }
+      @if(element.startsWith("@")) {
+        <img src="{{renderImage(element)}}"/>
+      }
+      @else {
+        <div style="padding-left: 5px;">{{element}}</div>
+      }
+  }
+
+  <div class="fb600 mt16 c-fail">Диференциална диагноза</div>
+  @for(element of selectedObject.differential; track element) {
+    <div style="padding-left: 5px;">{{element}}</div>
+  }
+
+  @if(selectedObject.gallery && selectedObject.gallery.length > 0 && selectedObject.gallery[0] !== '') {
+    <div class="mt5 flex bcn-lightblue italic fb600 gallery" (click)="onGalleryOpen()">
+      <ion-icon class="mr8" name="camera-outline"></ion-icon>
+      <div>Галерия</div>
+    </div>
+  }
+
+
+</nv-info-modal>

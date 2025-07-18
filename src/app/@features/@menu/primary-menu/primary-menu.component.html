@@ -1,0 +1,292 @@
+<ion-menu  menuId="first-menu" contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Меню</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content color="light" class="menu">
+
+    @if($ui.isMainMenuVisible)
+    {
+      <ion-list [inset]="true">
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processCalculator()">
+              Калкулатори
+            </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="list-outline"></ion-icon>
+          <ion-label (click)="processNavigation('library')">
+            Списъци
+          </ion-label>
+        </ion-item>
+        <!-- <ion-item>
+          <ion-icon class="menu-icon" name="list-outline"></ion-icon>
+          <ion-label (click)="processNavigation('patients-library')">
+            Пациенти
+          </ion-label>
+        </ion-item> -->
+        <ion-item>
+          <ion-icon class="menu-icon" name="information-outline"></ion-icon>
+          <ion-label (click)="processNavigation('info')">
+            Бързи тестове
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label (click)="processHematology()">
+            Хематология и биохимия
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="flask-outline"></ion-icon>
+          <ion-label (click)="processNavigation('examination')">
+            Проби
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="hand-left-outline"></ion-icon>
+          <ion-label (click)="processNavigation('methods')">
+            Методи
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="ear-outline"></ion-icon>
+          <ion-label (click)="processNavigation('auscultation')">
+            Аускултация
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="wifi-outline"></ion-icon>
+          <ion-label (click)="processNavigation('ultrasound')">
+            Ехограф
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="wifi-outline"></ion-icon>
+          <ion-label (click)="processNavigation('ecg')">
+            ЕКГ
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="eyedrop-outline"></ion-icon>
+          <ion-label (click)="processNavigation('vaccinations')">
+            Ваксинации
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="paw-outline"></ion-icon>
+          <ion-label (click)="processNavigation('deworming')">
+            Обезпаразитяване
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="folder-outline"></ion-icon>
+          <ion-label (click)="processNavigation('trivia')">
+            Тривия
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="paw-outline"></ion-icon>
+          <ion-label (click)="processNavigation('newborns')">
+            Новородени
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="paw-outline"></ion-icon>
+          <ion-label (click)="processNavigation('breeds')">
+            Породи
+          </ion-label>
+        </ion-item>
+
+      </ion-list>
+    }
+
+    @if($ui.isCalculatorVisible)
+    {
+      <ion-list [inset]="true">
+        <ion-item (click)="returnToMainMenu()">
+          <ion-icon class="menu-icon" name="arrow-back-outline"></ion-icon>
+          <ion-label style="font-size: 13px; font-style: italic;">Върни се в главното меню</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/fluid')">
+              Флуидна терапия
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/analysis')">
+              Кръвно-газов анализ
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/dose')">
+              Дозировка на лекарства
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/infusion-pain')">
+            Инфузия за обезболяване
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/ceftriaxone-dilution')">
+            Разреждане на цефтриаксон
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/solution-dilution')">
+            Разреждане на разтвори
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/mixing-solutions')">
+            Смесване на разтвори
+          </ion-label>
+        </ion-item>
+
+        <!-- <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/seizure-infusion')">
+            Инфузия при гърчове
+          </ion-label>
+        </ion-item> -->
+
+      </ion-list>
+
+
+      <div style="margin-left: 18px; font-weight: bold; margin-top: 36px;">Отравяния с</div>
+      <ion-list [inset]="true">
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/poison/etilenglikol')">
+              Етиленгликол
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/poison/rodentizidi')">
+              Родентициди
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/poison/parazetamol')">
+              Парацетамол
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/poison/pestizidi')">
+              Пестициди
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+          <ion-label (click)="processNavigation('calculator/poison/promivka')">
+              Промивка на стомаха
+          </ion-label>
+        </ion-item>
+
+      </ion-list>
+    }
+
+
+    @if($ui.isHematologyVisible) {
+
+      <ion-list [inset]="true">
+        <ion-item (click)="returnToMainMenu()">
+          <ion-icon class="menu-icon" name="arrow-back-outline"></ion-icon>
+          <ion-label style="font-size: 13px; font-style: italic;">Върни се в главното меню</ion-label>
+        </ion-item>
+        <ion-item (click)="processNavigation('hematology/blood-composition')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Състав на кръвта</ion-label>
+        </ion-item>
+        <ion-item (click)="processNavigation('hematology/blood-collection')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Видове епруветки</ion-label>
+        </ion-item>
+        <ion-item (click)="processNavigation('hematology/blood-transfusion-needles')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Видове игли и абокати</ion-label>
+        </ion-item>
+        <ion-item (click)="processNavigation('hematology/term')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>ПКК и биохимия</ion-label>
+        </ion-item>
+        <ion-item (click)="processNavigation('hematology/blood-smear-method')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Кръвна натривка - начин</ion-label>
+        </ion-item>
+        <ion-item (click)="processNavigation('hematology/blood-smear-desc')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Кръвна натривка - четене</ion-label>
+        </ion-item>
+        <ion-item (click)="processNavigation('hematology/anemia-types')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Анемия - видове</ion-label>
+        </ion-item>
+        <ion-item (click)="processNavigation('hematology/anemia-diagnosis')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Анемия - диагноза</ion-label>
+        </ion-item>
+        <ion-item (click)="processNavigation('hematology/reticulocyte-count')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Броене на ретикулоцити</ion-label>
+        </ion-item>
+
+        <ion-item (click)="processNavigation('hematology/blood-transfusion-groups')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Кръвни групи</ion-label>
+        </ion-item>
+
+        <ion-item (click)="processNavigation('hematology/blood-transfusion-method')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Кръвопреливане - начин</ion-label>
+        </ion-item>
+
+        <ion-item (click)="processNavigation('hematology/blood-transfusion-problems')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Кръвопреливане - усложнения</ion-label>
+        </ion-item>
+
+        <ion-item (click)="processNavigation('')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Хемостаза</ion-label>
+        </ion-item>
+      </ion-list>
+    }
+
+
+  </ion-content>
+
+  <ion-footer>
+    <ion-toolbar>
+      <!-- <div class="tac"><a href="https://forms.gle/etJRGCi5FPeJPbH98">Обратна връзка</a></div> -->
+      <div class="tac">v. {{$buildVersion}}</div>
+      <!-- <ion-title class="tac">v. {{$buildVersion}}</ion-title> -->
+      <!-- <ion-title class="tac">v. {{$buildVersion}}</ion-title> -->
+    </ion-toolbar>
+  </ion-footer>
+
+</ion-menu>

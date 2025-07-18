@@ -1,0 +1,74 @@
+[
+  {
+    "title"             : "Вакутейнер с ЕДТА",
+    "frontImage"        : "/assets/pdfs/@haematology/tubes/vacutainer-purple.png",
+    "capColor"          : "лилав",
+    "additive"          : "Етилендиаминтетраацетат, К2 ЕДТА (впръскана по стените на вакутейнера) или К3 ЕДТА (течна форма).",
+    "additiveFunction"  : "EDTA се свързва с калция, за да предотврати коагулацията.",
+    "yield"             : "цяла кръв",
+    "uses"              : "ПКК, кръвни натривки, хематокрит, левкоцитна формула, банка за кръвопреливане. Не са подходящи за определяне на електролити и калций."
+  },
+  {
+    "title"             : "Вакутейнер за серум без 'clot activator'",
+    "frontImage"        : "/assets/pdfs/@haematology/tubes/vacutainer-red.png",
+    "capColor"          : "червен",
+    "additive"          : "няма",
+    "additiveFunction"  : "",
+    "yield"             : "серум",
+    "uses"              : "клинична биохимия; серлогия; имунология;"
+  },
+  {
+    "title"             : "Вакутейнер за серум с 'clot activator'",
+    "frontImage"        : "/assets/pdfs/@haematology/tubes/vacutainer-red.png",
+    "capColor"          : "червен",
+    "additive"          : "clot activator",
+    "additiveFunction"  : "силиконови частици впръскани по стените на вакутейнера,които ускоряват процеса на кръвосъсирване",
+    "yield"             : "серум",
+    "uses"              : "клинична биохимия; серлогия; имунология;"
+  },
+  {
+    "title"             : "Вакутейнер за серум с гел и 'clot activator'",
+    "frontImage"        : "/assets/pdfs/@haematology/tubes/vacutainer-yellow.png",
+    "capColor"          : "жълт",
+    "additive"          : "clot activator, специален гел",
+    "additiveFunction"  : "Специален гел, устойчив на висока температура с изключително стабилни физични и химични свойства. Ефективният гел отделя серума от фибрина и клетките. Предотвратява обмена на вещества между кръвните клетки и серума",
+    "yield"             : "серум",
+    "uses"              : "клинична биохимия; серлогия; имунология; микробиология;"
+  },
+  {
+    "title"             : "Вакутейнер с натриев цитрат",
+    "frontImage"        : "/assets/pdfs/@haematology/tubes/vacutainer-blue.png",
+    "capColor"          : "син",
+    "additive"          : "натриев цитрат",
+    "additiveFunction"  : "Свързва се с калция. Не са подходящи за изследване на киселинно-алкален баланс, електролити и някои методи за измерване на калций. Цитратът има негативен ефект върху някои ензими.",
+    "yield"             : "",
+    "uses"              : "за определяне показателите на кръвосъсирването."
+  },
+  {
+    "title"             : "Вакутейнер с хепарин",
+    "frontImage"        : "/assets/pdfs/@haematology/tubes/vacutainer-green.png",
+    "capColor"          : "зелен",
+    "additive"          : "хепарин",
+    "additiveFunction"  : "антикоагулант",
+    "yield"             : "плазма",
+    "uses"              : "клинична биохимия"
+  },
+  {
+    "title"             : "Вакутейнер за глюкоза",
+    "frontImage"        : "/assets/pdfs/@haematology/tubes/vacutainer-grey.png",
+    "capColor"          : "сив",
+    "additive"          : "натриев флуорид, натриев или калиев оксалат",
+    "additiveFunction"  : "Флуоридът инхибира гликолизата, оксалатът предотвратява образуването на съсиреци чрез преципитация с калция. Антигликолитичните средства задържат глюкозата до 5 дни.",
+    "yield"             : "",
+    "uses"              : "глюкоза и етанол"
+  },
+  {
+    "title"             : "Вакутейнер за СУЕ",
+    "frontImage"        : "/assets/pdfs/@haematology/tubes/vacutainer-black.png",
+    "capColor"          : "черен",
+    "additive"          : "натриев цитрат",
+    "additiveFunction"  : "антикоагулант",
+    "yield"             : "",
+    "uses"              : "за определяне на скорост на утаяване на еритроцитите"
+  }
+]

@@ -1,0 +1,112 @@
+<!-- Header component -->
+<ion-header
+  [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>
+      Пресмятане на дози на лекарства
+    </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <!-- Main content -->
+<ion-content id="main-content" [fullscreen]="true">
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="9" style="
+          margin-left: auto;
+          margin-right: auto;
+          ">
+        <dc-patient-picker
+          (onSelected)="processSelectPatientType($event)" style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              max-width: 100%;
+              padding: 10px;
+              ">
+        </dc-patient-picker>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col style="place-content: center; padding: 10px;" class="bold" size="4">
+          <ion-label>Тегло
+          </ion-label>
+        </ion-col>
+
+        <ion-col size="3">
+            <ion-input
+            [counter]="true"
+            [(ngModel)]="$formProperty.patientWeight"
+            type="number"
+            min="0" placeholder="0" style="place-content: center; text-align: center; border-bottom: 1.3px solid #249ea0;">
+            </ion-input>
+        </ion-col>
+
+        <ion-col>
+          <ion-select value="kilogram" [(ngModel)]="$formProperty.patientWeightUnit" fill="solid" (ionChange)="takePatientWeightUnit();" style="border-bottom: 1.3px solid #249ea0;">мерна единица
+              <ion-select-option value="kilogram">килограмa</ion-select-option>
+              <ion-select-option value="gram">грамa</ion-select-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="4" style="place-content: center; padding: 10px;" class="bold">
+          <ion-label for="weight-input">Медикамент
+          </ion-label>
+        </ion-col>
+
+            <ion-col size="8">
+              <ion-input
+                placeholder="Въведи медикамент"
+                [(ngModel)]="$formProperty.activeMedicine"
+                (ionInput)="onInput($event)">
+            </ion-input>
+            </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12">
+
+            <div *ngFor="let element of inputSuggestionCollection">
+              <dc-card
+                [inputTitle]="element?.title"
+                [object]="element"
+                (onSelectCard)="processSelectedCard($event)">
+              </dc-card>
+            </div>
+
+            <div *ngIf="cardCollection.length > 0">
+              <div style="font-weight: bold; font-size: 18px; margin-top: 16px;"># Предписани</div>
+              <div></div>
+
+              <div *ngFor="let element of cardCollection">
+                <dc-card2
+                  [inputPatientModel]="$formProperty"
+                  [template]="'card'"
+                  [object]="element">
+                </dc-card2>
+              </div>
+            </div>
+
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+</ion-content>

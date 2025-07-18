@@ -1,0 +1,53 @@
+<nv-info-modal
+  [inputTitle]="'Информация'"
+  class="ion-page">
+
+  <div class="h1">
+    {{selectedObject.name}}
+  </div>
+  <div class="fs13">
+    ({{selectedObject.nameEn}})
+  </div>
+
+  <div>{{selectedObject.group}}</div>
+  <div>Големина: {{selectedObject.size.size}}</div>
+  <div>Височина: {{selectedObject.size.height.height_male_max}} см</div>
+  <div>Тегло: {{selectedObject.size.weight.weight_male_max}} кг</div>
+  <div>Продължителност на живота: {{selectedObject.general.life_length_min}}-{{selectedObject.general.life_length_max}} год.</div>
+
+
+  <div class="mt16 mb16 flex bcn-lightblue italic fb600 gallery" (click)="onGalleryOpen()">
+    <ion-icon class="mr8" name="camera-outline"></ion-icon>
+    <div>Галерия</div>
+  </div>
+
+  <div class="">Произход: <strong>{{ selectedObject.general.country }}</strong>.</div>
+
+  <div class="h3 mt16">Семейство:</div>
+
+  <div class="">Привързаност към семейството: <strong>{{ selectedObject.score.family.affectionate_with_family }}</strong> точки от 5 т.</div>
+  <div class="">Разбира се с други кучета: <strong>{{ selectedObject.score.family.good_with_other_dogs }}</strong> точки от 5 т.</div>
+  <div class="">Разбира се с деца: <strong>{{ selectedObject.score.family.good_with_children }}</strong> точки от 5 т.</div>
+
+  <div class="h3 mt16">Физически:</div>
+
+  <div class="">Падане на косми: <strong>{{ selectedObject.score.physical.shedding }}</strong> точки от 5 т.</div>
+  <div class="">Грууминг: <strong>{{ selectedObject.score.physical.grooming }}</strong> точки от 5 т.</div>
+  <div class="">Лиги: <strong>{{ selectedObject.score.physical.drooling }}</strong> точки от 5 т.</div>
+  <div class="">Дължина на козината: <strong>{{ selectedObject.score.physical.coat_length }}</strong> точки от 5 т.</div>
+
+  <div class="h3 mt16">Социални:</div>
+
+  <div class="">Дружелюбност към непознати: <strong>{{ selectedObject.score.social.openness_to_strangers }}</strong> точки от 5 т.</div>
+  <div class="">Игривост: <strong>{{ selectedObject.score.social.playfulness }}</strong> точки от 5 т.</div>
+  <div class="">Куче-пазач: <strong>{{ selectedObject.score.social.protectiveness }}</strong> точки от 5 т.</div>
+  <div class="">Приспособимост: <strong>{{ selectedObject.score.social.adaptability }}</strong> точки от 5 т.</div>
+
+  <div class="h3 mt16">Характер:</div>
+
+  <div class="">Податлив на дресура: <strong>{{ selectedObject.score.character.trainability }}</strong> точки от 5 т.</div>
+  <div class="">Енергичност: <strong>{{ selectedObject.score.character.energy }}</strong> точки от 5 т.</div>
+  <div class="">Лаене: <strong>{{ selectedObject.score.character.barking }}</strong> точки от 5 т.</div>
+  <div class="">Нужда от ментална стимулация: <strong>{{ selectedObject.score.character.mental_stimulation_needs }}</strong> точки от 5 т.</div>
+
+</nv-info-modal>

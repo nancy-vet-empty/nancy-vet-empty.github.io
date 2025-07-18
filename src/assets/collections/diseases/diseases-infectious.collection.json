@@ -1,0 +1,1226 @@
+[
+  {
+    "title"       : "Бабезиоза",
+    "titleEn"     : "Babesiosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Протозойно заболяване (Babesia spp.) при кучета и котки, при което мерозоити (пироплазми) заразяват еритроцитите.", "Инфекцията (чрез ухапване от кърлежи, трансплацентарно или чрез кръвопреливане) е последвана от 2-седмичен инкубационен период, през който пироплазмите заразяват и се размножават в еритроцитите, което води до увреждане на последните главно от имуномедиирани процеси, но също така и от техния директен лизис."],
+    "signs"         : ["летаргия", "анорексия", "треска", "спленомегалия", "анемия", "бледи лигавици", "иктерус", "хемоглобинемия", "хемоглобинурия"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["При отрицателен CaniV-4 тест и спленомегалия при ехографско изследване - бабезиоза."],
+    "treatment"     : ["Имидокарб"],
+    "differential"  : ["Други кърлежовопреносими заболявания", "Имунно-медиирана хемолитична анемия", "Заболявания на черния дроб", "Кавален синдром", "Торзио на далака"]
+  },
+  {
+    "title"       : "Балантидиаза",
+    "titleEn"     : "Balantidiasis",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Болест на Шагас",
+    "titleEn"     : "Chagas Disease (American Trypanosomiasis)",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Криптоспоридиоза",
+    "titleEn"     : "Cryptosporidiosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Протозои, причиняващи диария при кучета и котки, като човек също може да се зарази.", "Най-често протича асимптоматично."],
+    "signs"         : ["диария"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Намиране на ооцисти при флотация със загат или флотация с цинков сулфат.", "Ооцистите са много малки и затова често е трудно да се видят."],
+    "treatment"     : ["Тилозин мин. 7 дни."],
+    "differential"  : ["Всичко, което може да доведе до диария."]
+  },
+  {
+    "title"       : "Гиардиаза",
+    "titleEn"     : "Giardiasis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Гиардиите са протозои, които паразитират в тънките черва.", "Те се установяват в 2 форми: трофозоит (в тънките черва на гостоприемника) и циста (образуваща се във външната среда).", "Зооноза - G. lamblia може да зарази хората.", "Гиардиите са едни от най-често срещаните чревни паразити при хората, кучетата и котките. Гиардиозата е най-често диагностицираното пренасяно с ВОДА заболяване при човека."],
+    "signs"         : ["диария", "кръв във фекалиите", "слуз във фекалиите"],
+    "specificSigns" : ["При младите ЖВ може да се наблюдава ентерална симптоматика, а при възрастните най-често протича безсимптомно."],
+    "diagnostics"   : ["Тест или копро проба чрез флотационни методи (за златен стандарт в миналото се е считал флотационния метод с цинков сулфат).", "Капка изпражнения, смесена с капка йоден разтвор на Лугол убива трофозоитите и ги оцветява в кафяво, така че може да бъдат изследвани.", "Различаване на трофозоити на Giardia от Trichomonas fetus (единственият друг организъм, с който може да се обърка при котки) — T. fetus има по-фини и плавни движения, няма вдлъбнат вентрален диск, единично ядро и вълнообразна мембрана."],
+    "treatment"     : ["(Кара): КЧ – фенбендазол (Панакюр) – 50 мг/кг 3 последователни дни, после 14 дни почивка, след което отново 3 дни 50 мг/кг.", "(Кара): КТ – метронидазол (Ерадия/ Флажил) – 25 мг/кг ПО 7 дни през 12 часа (по-безопасно е 24 ч).", "(Стоя): КЧ и КТ - Метронидазол 30 мг/кг два пъти дневно за 6-7 дни. На края на лечението - отново тест Гиардия. Стриктна хигиена - при всяко изхождане, веднага да се чисти, за да не се заради ЖВ отново!"],
+    "differential"  : ["Всичко, което може да доведе до диария."]
+  },
+  {
+    "title"       : "Хепатозооноза",
+    "titleEn"     : "Hepatozoonosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Неоспороза",
+    "titleEn"     : "Neosporosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Саркоцистоза",
+    "titleEn"     : "Sarcocystis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Саркоцистозата е протозойно заболяване, което обикновено протича безсимптомно при крайните гостоприемници (кучета и котки, паразитира в червата), но при междинните (преживни и др.) паразитира в мускулите.", "Има данни за поява на бързопреходна, водниста диария при кучета и то след поемане на голям брой зрели цисти."],
+    "signs"         : ["диария", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Изследват се фекалии за наличие на спороцисти по флотационните методи."],
+    "treatment"     : ["При кучетата и котките са прилагани различни антикокцидийни препарати, но не е постигнато прекратяване на отделянето на ооцисти и спороцисти."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Микроспоридиоза",
+    "titleEn"     : "Microsporidiosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Трихомониаза",
+    "titleEn"     : "Trichomoniasis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Причинители: Tritrichomonas foetus, Pentatrichomonas hominis.", "Протозойно заболяване, което засяга червата на кучетата и котките.", "Тримонасите се установяват в 2 форми: трофозоит - в червата на гостоприемника, и циста, образуваща се във външната среда."],
+    "signs"         : ["диария"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Метод - разреждат се пресни изпражнения 50:50 във физиологичен разтвор, покрийте с покривно стъкло, изследват се при 40× обектив с понижен кондензатор за увеличаване на контраста.", "Трофозоити на T. foetus - не се виждат при флотационните методи. Трофозоити на T. foetus - не оцеляват при охлаждане."],
+    "treatment"     : ["КЧ – фенбендазол (Панакюр) – 50 мг/кг 3 последователни дни, после 14 дни почивка, след което отново 3 дни 50 мг/кг.", "КТ – метронидазол (Ерадия/ Флажил) – 25 мг/кг ПО 7 дни през 12? часа (по-безопасно е 24 ч)."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Лайшманиоза",
+    "titleEn"     : "Leishmaniasis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/leishmaniasis.pdf" }
+    ],
+    "etiology"      : ["Висцералната лайшманиоза е векторно-преносимо хронично заболяване, засягащо кучето, котката и човека и характеризиращо се с кожна симптоматика, лимфаденопатия и анемия.", "Лайшманиите са облигатни интрацелуларни протозои.", "Векторите (артроподи от род Phlebotomus, нар. още пясъчни мухи) поемат амастиготните форми на лайшманиите при смучене на кръв от гостоприемник.", "Кучетата и котките се инвазират след ухапване от заразени вектори, при което промастиготите попадат в неутрофилите и макрофагите."],
+    "signs"         : ["дерматит", "хиперкератоза", "лимфаденопатия", "конюнктивит", "треска"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Test CaniV-4 Leish, като за предпочитане е изследване в Лабоклин."],
+    "treatment"     : ["Антимонови препарати", "Алопуринол", "Pentamidine", "Miltefosine"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Аспергилоза",
+    "titleEn"     : "Aspergillosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Опортюнистична гъбична инфекция, която причинява локализирано (носна кухина и фронтални синуси) или генерализирано заболяване при кучета и котки.", "Aspergillus spp. образуват спори."],
+    "signs"         : ["носни изтечения", "епистаксис", "кихане", "летаргия", "безапетитие"],
+    "specificSigns" : ["Хронични едностранни или двустранни кърваво-гнойни (понякога в началото са серозни или гнойни) носни изтечения, неповлияващи се от антибиотици – най-честият признак."],
+    "diagnostics"   : ["ПКК - неутрилифия, моноцитоза.", "Посявка."],
+    "treatment"     : ["Клотримазол"],
+    "differential"  : ["Чуждо тяло", "Носни паразити", "Бактериален ринит/ синузит", "Назална криптококоза (котки)"]
+  },
+  {
+    "title"       : "Кандидиаза",
+    "titleEn"     : "Candidiasis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Опортюнистични дрожди (част от нормалната флора на устата, носа, ушите и стомашно-чревния тракт и гениталните пътища), които причиняват заболяване чрез колонизиране на увредени тъкани на кучета и котки."],
+    "signs"         : ["цистит", "кератит", "лезии в устната кухина", "слюноотделяне", "кожни лезии", "отит", "тръскане на главата"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["Нистатин", "Клотримазол", "Итраконазол", "Флуконазол"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Криптококоза",
+    "titleEn"     : "Cryptococcosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Системна или локализирана гъбична инфекция, причиняваща грануломи, обикновено в носа, синусите и очите на котките и мозъка, носните проходи и синусите на кучетата.", "Инфекцията възниква след вдишване на дрождите и тяхното локализиране в носните проходи."],
+    "signs"         : ["носни изтечения",  "кихане", "летаргия", "безапетитие", "неврологични признаци", "лимфаденопатия", "очни признаци"],
+    "specificSigns" : ["Твърда маса на гърба на носа (котки), която може да се разязви"],
+    "diagnostics"   : ["Цитологично изследване на аспирати от грануломи, материал от назален секрет, лимфни възли или цереброспинална течност, оцветени с Diff-Quick или по Right."],
+    "treatment"     : ["Итраконазол", "Итраконазол", "Тербинафин"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дерматофитоза",
+    "titleEn"     : "Dermatophytosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Кожна гъбична инфекция, засягаща вроговените области на космите, ноктите и понякога повърхностните слоеве на кожата.", "Най-често изолираните организми са Microsporum canis, Trichophyton mentagrophytes и Microsporum gypseum.", "Не виреят в живите тъкани или при наличие на тежко възпаление.", "Зооноза."],
+    "signs"         : ["алопеция ареата", "алопеция"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["лампа на Wood", "микроскопско изследване на косми", "KRUUSE Dermatophyte test"],
+    "treatment"     : ["Итраконазол", "Кетоконазол", "Гризеофулвин"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хистоплазмоза",
+    "titleEn"     : "Histoplasmosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Причинител: Histoplasma capsulatum. Засяга храносмилателния тракт при КЧ и дихателната система при КТ."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Питиоза",
+    "titleEn"     : "Pythiosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Споротрихоза",
+    "titleEn"     : "Sporotrichosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Трихоспороноза",
+    "titleEn"     : "Trichosporonosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Анаеробни инфекции",
+    "titleEn"     : "Anaerobic infections",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Причинява се от бактерии, които живеят при отсъствие на кислород, обикновено са нормална флора и отделят токсини и ензими, водещи до разрастване на инфекцията в съседна здрава тъкан.", "Най-честите причинители - Bacteroides, Fusobacterium, Actinomyces, Propionibacterium, Peptostreptococcus (enteric Streptococcus), Porphyromonas, Clostridium.", "Предразполагащи фактори - ухапни рани, отворени фрактури, коремна операция."],
+    "signs"         : ["неприятна миризма", "секрет от раната", "газ в тъканите", "перитонит", "черно оцветяване на тъканите"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Микробиологична култура – Взимат се проби от гной (1–2 ml в спринцовка със запушалка) и тъкан (минимум 1 g проба)."],
+    "treatment"     : ["Изрязване на мъртвите тъкани.", "Почистване на раната.", "Поставяне на дренаж.", "АБ: Амоксицилин с клавуланова киселина, Клиндамицин, Метронидазол."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Бруцелоза",
+    "titleEn"     : "Brucellosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/brucellosis.pdf" }
+    ],
+    "etiology"      : ["Бруцелозата е опасна зооантропоноза, която се проявява клинично с интермитираща треска, аборти и специфични локални процеси в различни органи, или протича латентно."],
+    "signs"         : ["аборт", "епидидимит", "орхит", "дерматит на скротума", "летаргия", "понижено либидо", "лимфаденопатия", "увеит"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Винаги трябва да се подозира бруцелоза, когато женско куче абортира или има репродуктивни неуспехи или мъжките имат заболяване на половите органи."],
+    "treatment"     : ["Доксициклин", "Гентамицин", "Енрофлоксацин"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кампилобактериоза",
+    "titleEn"     : "Campylobacteriosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Клостридийна ентеротоксикоза",
+    "titleEn"     : "Clostridial Enterotoxicosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Колибацилоза",
+    "titleEn"     : "Colibacillosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/colibacillosis.pdf" }
+    ],
+    "etiology"      : ["Колибацилозата е бактериална инфекция, причиненa от Ешерихия коли - бактерии, намиращи се в почвата и в дебелите черва на много животни, вкл. кучета, котки и хора.", "Ешерихия коли биват: диарогенни и недиарогенни щамове."],
+    "signs"         : ["токсемия", "диария", "дехидратация", "конюнктивит", "артрит"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Инфекция с Хеликобактер",
+    "titleEn"     : "Helicobacter Infection",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Микобактериални инфекции",
+    "titleEn"     : "Mycobacterial Infections",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/mycobacterial-infections.pdf" }
+    ],
+    "etiology"      : ["Туберкулозата е хронично инфекциозно заболяване по много животни, вкл. кучета, котки и хора, което се характеризира с образуване в различни органи на специфични възли – туберкули.", "Заболявания, които причиняват микобактериите при кучета и котки: Tuberculosis, Feline Leprosy, Canine Leproid Granuloma, Systemic Nontuberculous Mycobacteriosis, Mycobacterial Panniculitis"],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Микоплазмоза",
+    "titleEn"     : "Mycoplasmosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Нокардиоза",
+    "titleEn"     : "Nocardiosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Петниста треска на Скалистите планини",
+    "titleEn"     : "Rocky Mountain Spotted Fever",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Салмонелоза",
+    "titleEn"     : "Salmonellosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/salmonellosis.pdf" }
+    ],
+    "etiology"      : ["Протича най-често остро с признаци на треска и стомашно-чревни разстройства, подостро с респираторен синдром или хронично с артрити, менингоенцефалити и др.", "Салмонелите са нормални обитатели на стомашно-чревния тракт, препуциума и вагината на кучета и котки."],
+    "signs"         : ["повръщане", "диария", "дехидратация", "треска", "отпадналост", "хипотермия", "загуба на сукателен рефлекс"],
+    "specificSigns" : ["бързо начало на симптомите"],
+    "diagnostics"   : [""],
+    "treatment"     : ["Антибиотик - амоксицилин, триметоприм/сулфа, флуорхинолони, цефалоспорини."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Стафилококова/ Бактериална пиодермия",
+    "titleEn"     : "Staphylococcal/Bacterial Pyoderma",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Стрептококова инфекция",
+    "titleEn"     : "Streptococcal Infections",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тетанус",
+    "titleEn"     : "Tetanus",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Тетанусът е бактериална инфекция, която се причинява от Clostridium tetani, който е част от нормалната микрофлора на бозайниците и който се намира в почвата.", "Когато бактерията попадне в отворена рана, може да произведе токсин (тетаноспазмин).", "Тетанусът бива локализиран и генерализиран.", "Локализираният представлява 'втвърдяване' на мускулите около раната, неестествено разтягане/ свиване на някои стави. Той може спонтанно да изчезне."],
+    "signs"         : ["изпъната или навита опашка", "стойка 'стойка за рязане на дърва' (sawhorse appearance)", "дисфагия", "изпаднал трети клепач", "хиперсаливация", "тахикардия", "треска", "дизурия", "тетанични гърчове", "фокални клонични гърчове"],
+    "specificSigns" : ["'втвърдяване' на мускулите около раната", "неестествено разтягане/ свиване на някои стави"],
+    "diagnostics"   : [""],
+    "treatment"     : ["Тетанус антитоксин (тествай предварително заради възможна анафилаксия).", "Локално третиране на раната.", "Пеницилин G, тетрациклин, метронидазол, клиндамицин.", "Седация при прекомерни гърчове.", "ЖВ се настанява в тъмно и тихо помещение."],
+    "differential"  : ["Интоксикация"]
+  },
+  {
+    "title"       : "Туларемия",
+    "titleEn"     : "Tularemia",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/tularemia.pdf" }
+    ],
+    "etiology"      : ["Туларемията е зоонозно бактериално заболяване, което засяга най-често дивите зайци, котките и хората, и протичащо клинично със септицемия, а патологоанатомично – с некрози и абсцеси в ЧД и далака.", "Francisella tularensis прониква през кожата и лигавиците на дихателната или храносмилателната системи и попада в макрофагите, където се размножава."],
+    "signs"         : ["треска", "анорексия", "отпадналост", "лимфаденопатия", "спленомегалия"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["Амоксицилин с гентамицин"],
+    "differential"  : ["Лимфома", "FIP", "FeLV"]
+  },
+  {
+    "title"       : "Болест на Тайзер",
+    "titleEn"     : "Tyzzer‘s Disease",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дерматофилоза",
+    "titleEn"     : "Dermatophilosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "L-Form Bacterial Infections",
+    "titleEn"     : "L-Form Bacterial Infections",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Астровирусна инфекция",
+    "titleEn"     : "Astrovirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Гана",
+    "titleEn"     : "Canine Distemper",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/canine-distemper.pdf" }
+    ],
+    "etiology"      : ["Ганата е остро вирусно заболяване по кучетата и дивите месоядни, характеризиращо се с треска, конюнктивит, ринит, трахеобронхит, пневмония, гастроентерит, кожни екземи, неврологични признаци и нарушения в костната и пикочо-половата системи. ОСОБЕНО гноен конюнктивит!", "Вирусът навлиза в респираторния тракт чрез аерозоли и колонизира локалната лимфоидна тъкан като тонзилите.", "Инфектираните с вируса макрофаги навлизат в лимфата и в кръвта, а оттам – в ЦНС, по-точно в периваскуларното пространство на кр. съдове."],
+    "signs"         : ["треска", "конюнктивит", "ринит", "кашлица", "гастроентерит", "неврологични признаци", "кожна екзема", "остеопороза на метафизите", "ревматоиден артрит", "хипоплазия на емайла", "енцефалит"],
+    "specificSigns" : ["chewing gum fits", "парализа на n. facialis", "хиперкератоза на носа и лапите"],
+    "diagnostics"   : ["Доказването на увеличени антитела на ганата в ликвора е важен маркер, защото такива антитела при ваксинация не се образуват.", "CIRD-3 ag – тест, IFA (имунохроматографски тест), доказващ антигени."],
+    "treatment"     : ["Флуидна терапия", "Антибиотик", "Антиеметици", "Антиконвулсанти", "Противовъзпалителни", "Витамини"],
+    "differential"  : ["Инфекциозен трахеобронхит", "Парвовироза", "Бяс", "Епилепсия"]
+  },
+  {
+    "title"       : "Кучешка херпесвирусна инфекция",
+    "titleEn"     : "Canine Herpesvirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кучешка инфлуенцавирусна инфекция",
+    "titleEn"     : "Canine Influenzavirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Парвовироза",
+    "titleEn"     : "Canine Parvovirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/canine-parvovirus-infection.pdf" }
+    ],
+    "etiology"      : ["Парвовирозата е остро вирусно заболяване по кучетата, протичащо със симптоми на гастроентерит – повръщане, диария, дехидратация, а понякога и с ендокардит.", "Вирусът атакува интестиналните крипти и това води до тежка атрофия на власинките."],
+    "signs"         : ["повръщане", "диария", "анорексия", "дехидратация", "миокардит"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Съмнения за парвовироза трябва да има при внезапната поява на лошомиришеща кървава диария при млади кучета (<2 години).", "ELISA тестове: IDEXX и CPV/ CCV/ Giardia Ag (IFA).", "CPV е рядко откриваем между 10-и и 14-и ден от началото на болестта. Положителни резултати може да се появят и 5.-15. ден след ваксинация."],
+    "treatment"     : ["Флуидна терапия", "Антибиотици – метронидазол с цефтриаксон", "Противоповръщателни средства", "Антациди"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кучешка коронавирусна инфекция",
+    "titleEn"     : "Canine Coronavirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Болест на Ауески",
+    "titleEn"     : "Pseudorabies Virus Infection",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/pseudorabies-virus-infection.pdf" }
+    ],
+    "etiology"      : ["Болестта на Ауески е вирусно заболяване по свинете, кучетата и котките, което най-често протича само с внезапна смърт.", "Кучетата и котките се инфектират чрез директен или индиректен контакт с инфектирани свине.", "Заболяването не се предава от кучета и котки на други кучета и котки.", ""],
+    "signs"         : ["внезапна смърт", "хиперсаливация", "диспнея", "треска", "повръщане", "неврологични признаци"],
+    "specificSigns" : ["Интензивният сърбеж и дори самонараняването са характерни за заболяването."],
+    "diagnostics"   : [""],
+    "treatment"     : ["Няма лечение."],
+    "differential"  : ["Бяс", "Гана", "Интоксикация"]
+  },
+  {
+    "title"       : "Бяс",
+    "titleEn"     : "Rabies",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/rabies.pdf" }
+    ],
+    "etiology"      : ["Бесът е зоонозно вирусно заболяване, протичащо с тежки нервни смущения - възбуда, парези, парализи и летален изход.", "Предава се чрез слюнката (ухапване и одраскване).", "Входна врата на вируса е ухапната рана, придвижва се по сетивните нерви и достига главния мозък, а от там слюнчените жлези. Вирусът се локализира в малкия мозък, в продълговатия мозък и в кората на главния мозък."],
+    "signs"         : ["апатия", "необщителност", "агресия", "хидрофобия", "хиперактивност", "пареза", "парализа"],
+    "specificSigns" : ["Стадии:", "- начален - продължава до 3 дни – характеризира се с апатия, необщителност, често виене.", "- възбуден - продължава до 3 - 4 дни - кучето тича усилено, напуска стопанина, появява се склонност към хапане, проява на агресия, хидрофобия, саливация.", "- паралитичен стадии - до 3 дни - парализират се последователно долната челюст, глътката, хранопровода, езика. Има наличие на кривогледство. Кучето започва да се влачи след парализа на крайниците."],
+    "diagnostics"   : ["Диагнозата се потвърждава от лабораторни изследвания, като се праща цяла глава на животното."],
+    "treatment"     : ["Забранено."],
+    "differential"  : ["болест на Ауески", "Тетанус", "Гана"]
+  },
+  {
+    "title"       : "Реовирусна инфекция",
+    "titleEn"     : "Reovirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Анаплазмоза",
+    "titleEn"     : "Anaplasmosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/anaplasmosis.pdf" }
+    ],
+    "etiology"      : ["Анаплазмозата бива гранулоцитна (атакува неутрофили и понякога еозинофили) и тромбоцитна (атакува тромбоцитите).", "Причинява се от рикетсии (вътреклетъчни бактерии).", "Пренася се от кърлеж."],
+    "signs"         : ["треска", "летаргия", "повръщане", "диария", "лимфаденопатия", "артрит"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Snap 4Dx Plus на IDEXX", "CaniV-4", "Кръвна натривка - Anaplasma – откриване на морулите в неутрофилите, но не винаги се установяват (само при 1/3 от КЧ)."],
+    "treatment"     : ["Доксициклин", "Имидокарб", "Преднизолон"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Ерлихиоза",
+    "titleEn"     : "Ehrlichiosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/ehrlichiosis.pdf" }
+    ],
+    "etiology"      : ["Кърлежово-преносима зооноза при кучетата, която се причинява от вътреклетъчна бактерия, която формира морули в моноцитите.", "Пренася се от кърлеж.", "Ерлихиите проникват в моноцитите в кръвта, след това се локализират в моноцитите на далака, черния дроб и лимфните възли  имуносупресори  КЧ може да имат незарастващи рани.", "Смъртта стъпва най-често заради кръвозагуба."],
+    "signs"         : ["треска", "тромбоцитопения", "петехии", "епистаксис", "ринорагия", "ринит", "парализа на задните крайници", "увеит"],
+    "specificSigns" : ["бавнозарастващи рани", "Не всяка тромбоцитопения е ерлихиоза! Не всяка ерлихиоза е с тромбоцитопения!"],
+    "diagnostics"   : ["Snap 4Dx Plus на IDEXX", "CaniV-4", "Кръвна натривка - E. canis – откриване на морули на E. canis в цитоплазмата на моноцитите на кръвта.", "При куче с ерлихиоза, ако няма ефект от лечението с доксициклин, то е почти сигурно, че има неоплазия."],
+    "treatment"     : ["Доксициклин", "Имидокарб", "Преднизолон"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Лептоспироза",
+    "titleEn"     : "Leptospirosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/leptospirosis.pdf" }
+    ],
+    "etiology"      : ["Лептоспирозата е зоонозно бактериално заболяване, което се характеризира с признаци на анемия, иктерус, хемоглобинурия и нефрит.", "Отделянето на лептоспирите в околната среда става с урината."],
+    "signs"         : ["анорексия", "повръщане", "дехидратация", "треска", "аборт", "интерстициален нефрит", "хемолиза", "анемия", "хемоглобинурия", "иктерус"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["Доксициклин", "Лечение на развилата се бъбречна недостатъчност."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Лаймска болест",
+    "titleEn"     : "Lyme Borreliosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/lyme-borreliosis.pdf" }
+    ],
+    "etiology"      : ["Лаймската болест е кърлежово-преносимо заболяване (зооноза) по много животни – кучета, котки, коне, овце, човек и др., като при кучето тя протича най-често безсимптомно или с анорексия, отпадналост и артрит.", "Пренася се от кърлеж."],
+    "signs"         : ["артрит", "екстрасистоли", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : ["IDEXX Snap 4Dx Plus", "Lyme disease Ab rapid test VetExpert"],
+    "treatment"     : ["Доксициклин", "Кортикостероиди"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Листериоза",
+    "titleEn"     : "Listeriosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/listeriosis.pdf" }
+    ],
+    "etiology"      : ["Листериозата е зоонозно бактериално заболяване, характеризиращо се с неврологични признаци, аборти, септицемия."],
+    "signs"         : ["неврологични признаци", "аборт", "септицемия"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Ку-треска",
+    "titleEn"     : "Q Fever",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/q-fever.pdf" }
+    ],
+    "etiology"      : ["Ку-треската е зоонозно рикетсиално заболяване, протичащо при котките с аборти, а при кучетата – с неврологични признаци"],
+    "signs"         : ["треска", "отпадналост", " анорексия", "атаксия", "гърчове", "спленомегалия", "аборт"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["Доксициклин с енрофлоксацин."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Панлевкопения",
+    "titleEn"     : "Feline Panleukopenia (Feline Distemper)",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/panleukopenia.pdf" }
+    ],
+    "etiology"      : ["Панлевкопенията е остро вирусно заболяване по котките, което протича с левкопения, повръщане, ентерит, дехидратация и атаксия с висока заболеваемост и смъртност.", "Източник на инфекцията са болните и преболедувалите животни (до 12-ия месец).", "Вирусът атакува лимфоидните тъкани, костния мозък и предизвиква имуносупресия."],
+    "signs"         : ["повръщане", "анорексия", "диария", "дехидратация", "треска", "аборт"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["FPV/FCoV/Giardia Ag – тест IFA за откриване на антигени във фекалиите."],
+    "treatment"     : ["Флуидна терапия – физиологичен разтвор, рингер, хартман. Антибиотици – метронидазол, цефтриаксон и др. широкоспектърни. Противоповръщателни – маропитант. Антациди – пантопразол, омепразол. Серуми – Vitafel C ампули, интерферон гама. Пробиотици - Fortiflora"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Котешка коронавирусна инфекция",
+    "titleEn"     : "Feline Coronavirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Калицивироза",
+    "titleEn"     : "Feline Calicivirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/calicivirus.pdf" }
+    ],
+    "etiology"      : ["Калицивирозата е вирусно заболяване по котките, което протича с треска, стоматит, гингивит и засягане на горните дихателни пътища.", "Наскоро е описана и нова форма на калицивирозата – Virulent Systemic Feline Calicivirus (VS-FCV) infection, чиято клиника е разнообразна (улцерации, отоци, жълтеница и др.)"],
+    "signs"         : ["треска", "изтечения от очите", "изтечения от носа"],
+    "specificSigns" : ["Язви по езика, твърдото и мекото небце."],
+    "diagnostics"   : [""],
+    "treatment"     : ["Локална терапия на очите - йоден р-р и Тобракулин.", "Антибиотик - амоксицилин или доксициклин.", "Общоукрепващи лекарства", "Серум","НСПВС при болка в устата", "витамини А, Б12, Ц", "Флуидна терапия", "Всекидневни промивки на устата със смрадлика! (особено при некротичен гингивит!)"],
+    "differential"  : ["Хламидиоза", "Бордетелиоза", "Херпесвироза"]
+  },
+  {
+    "title"       : "Котешка херпесвироза",
+    "titleEn"     : "Feline Herpesvirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/feline-herpesvirus-infection.pdf" }
+    ],
+    "etiology"      : ["Херпесвирозата при котките е остро вирусно заболяване, което протича с поражения на очите и дихателната система.", "След проникването на FHV-1 той се реплицира в епителните клетки на „студените лигавици“ (уста, нос, очи) и се разпространява към фаринкса, конюнктивалния сак, трахеята, бронхите и бронхиолите. Предизвиква некрози в епителните клетки.", "В 80% от случаите на клинично оздравяване заболяването преминава в латентна форма."],
+    "signs"         : ["конюнктивит", "ринит", "изтечения от носа", "язви на очите", "кератит"],
+    "specificSigns" : ["стромален кератит, еозинофилен (пролиферативен) кератит, корнеална секвестрация, сух кератоконюнктивит"],
+    "diagnostics"   : [""],
+    "treatment"     : ["Почистване с йоден р-р на очите и прилагане на АБ колири (Тобракулин, в по-тежки случаи заедно с Ацикловир и Кавазан.", "ЛизинВирал Плюс", "АБ - Синулокс, в по-тежки случаи Верафлокс?", "Инхалации - Гента, АЦЦ, Дексаметазон."],
+    "differential"  : ["Калицивироза", "Бордетелиоза", "Хламидиоза"]
+  },
+  {
+    "title"       : "Котешки инфекциозен перитонит",
+    "titleEn"     : "Feline Infectious Peritonitis",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/feline-infectious-peritonitis.pdf" }
+    ],
+    "etiology"      : ["Инфекциозният перитонит (FIP) е вирусно заболяване по котките, протичащо с треска, фибринозно възпаление на серозите (перитонит), пиогрануломи и отоци в коремната област.", "Заразяването е алиментарно, аерогенно и трансплацентарно."],
+    "signs"         : ["треска", "асцит", "хидроторакс", "неврологични признаци", "диспнея", "увеит"],
+    "specificSigns" : ["Форми на FIP: суха (с грануломи в паренхимните органи), влажна (асцит, хидроторакс), нервна (неврологични признаци).", "При пункция на коремната кухина излиза гъста жълтеникава течност понякога с наличие на кървави повлекла"],
+    "diagnostics"   : ["Тест на Риволта или изследване на течността чрез рефрактометър (SUG > 1,020 и Бе > 35).", "ПКК - лимфоцитоза, неутрофилия."],
+    "treatment"     : ["Показани са имуносупресорите предизолон, преднизон и др., съчетани с широкоспектърен антибиотик. В чужбина използват remdesivir (CS-441524). Други - молнупиравир, JS."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Котешка левкемия",
+    "titleEn"     : "Feline Leukemia Virus Infection",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/feline-leukemia-virus-infection.pdf" }
+    ],
+    "etiology"      : ["Левкемията е неопластично имуносупресивно заболяване, протичащо латентно или явно с разнообразна симптоматика.", "Вирусът може да се предаде трансплацентарно и чрез кърмене!", "FeLV инфектира лимфоцитите, които го пренасят до костния мозък."],
+    "signs"         : ["имуносупресия", "анемия", "лимфома", "тумори", "левкемия", "ентерит"],
+    "specificSigns" : ["Fading syndrome: летаргия и слабост, дехидратация, хипотермия, дишане с отворена уста, плач от болка"],
+    "diagnostics"   : ["Тестове: FIV Ab/ FeLV Ag, FeliCheck-3 (FIV, FeLV, дирофилария), IDEXX Feline Triple test, IDEXX FIV/FeLV, IDEXX FeLV Antigen"],
+    "treatment"     : ["Химиотерапия – Vincristine, Prednisolone.", "AZT (3-azido-3-deoxythymidine) – 5 мг/кг PO q12h.", "Virbagen Omega"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Котешки имунодефицитен синдром",
+    "titleEn"     : "Feline Immunodeficiency Virus",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/feline-immunodeficiency-virus.pdf" }
+    ],
+    "etiology"      : ["Имунодефицитният синдром (ИДС) е заболяване с дълъг латентен период, при което имунната система е супресирана.", "Вирусът се предава най-често със слюнката – чрез ухапване и одраскване.", "FeLV инфектира лимфоцитите и макрофагите."],
+    "signs"         : ["лимфаденопатия", "неутропения", "треска", "анемия", "загуба на тегло", "диария"],
+    "specificSigns" : ["стоматит", "гингивит", "Често повтарящи се инфекции.", "Бавно зарастващи рани."],
+    "diagnostics"   : ["Бързи тестове: FIV Ab/ FeLV Ag, FeliCheck-3, IDEXX FIV Ab/FeLV Ag, Feline Triple"],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Feline Foamy Virus Infection",
+    "titleEn"     : "Feline Foamy Virus Infection",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Астровирусна инфекция",
+    "titleEn"     : "Astrovirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Поксвирусна инфекция",
+    "titleEn"     : "Poxvirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Котешка хламидиоза",
+    "titleEn"     : "Chlamydiosis",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/chlamydiosis.pdf" }
+    ],
+    "etiology"      : ["Хламидиозата по котките е инфекциозно заболяване, което се причинява от вътреклетъчния патоген Chlamydophila felis и протича с конюнктивит, ринит и пневмония."],
+    "signs"         : ["треска", "отпадналост", "конюнктивит", "ринит", "пневмония"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Доказване на хламидийни телца – използва се конюнктивален или назален секрет. Елементарните телца се откриват в епителните клетки и в макрофагите, но само в началото на инфекцията (1.-7. ден)."],
+    "treatment"     : ["Антибиотик - доксициклин.", "Очни препарати, съдържащи тетрациклини.", "Поставят се в топли и чисти помещения с достатъчно светлина"],
+    "differential"  : ["Херпесвироза", "Калицивироза", "Бордетелиоза"]
+  },
+  {
+    "title"       : "Хемобартонелоза",
+    "titleEn"     : "Hemobartonellosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Хемотрофната микоплазмоза се причинява от Mycoplasma haemocanis – грам(-) извънклетъчен паразит, инфектиращ еритроцитите. Обикновено протича безсимптомно. Може да има анемия.", "Предава се чрез кръвосмучещи насекоми – кърлежи, бълхи, комари, и при кръвопреливане."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Кръвни натривки – трябва да се диференцират с телцата на Howell-Jolly.", "Хематология – анемия.", "Тест на Coombs– положителен. Директен антиглобулинов тест – доказване на АТ върху еритроцитите."],
+    "treatment"     : ["Тетрациклини – тетрациклин", "окситетрациклин", "доксициклин", "Преднизолон"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Бартонелоза",
+    "titleEn"     : "Bartonellosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Бордетелоза",
+    "titleEn"     : "Bordetellosis",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/bordetellosis.pdf" }
+    ],
+    "etiology"      : ["Бактериално заболяване при Котки. Зооноза за имунокомпрометирани хора."],
+    "signs"         : ["треска", "кихане", "кашлица", "носни изтечения", "лимфаденопатия", "летаргия", "анорексия"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["Антибиотици – амоксицилин + клав. к-на (за котенца), доксициклин, тетрациклин."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Ботулизъм",
+    "titleEn"     : "Botulism",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Протокекоза",
+    "titleEn"     : "Protothecosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  }
+ ]

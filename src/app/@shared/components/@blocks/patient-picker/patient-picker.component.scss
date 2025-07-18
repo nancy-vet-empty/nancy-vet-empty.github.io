@@ -1,0 +1,27 @@
+.category-circle {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  background: #dedede;
+  border-radius: 38px;
+  text-align: center;
+  margin: 8px;
+  cursor: pointer;
+}
+
+
+.normal-element {
+  background: #dedede!important;
+  // border-radius: 3px;
+  // padding: 8px;
+  // text-align: center;
+  // cursor: pointer;
+}
+
+.selected-element {
+  background: #4b8ffa!important;
+  // border-radius: 3px;
+  // padding: 8px;
+  // text-align: center;
+  // cursor: pointer;
+}

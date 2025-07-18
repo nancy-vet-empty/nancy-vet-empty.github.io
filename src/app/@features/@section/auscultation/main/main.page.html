@@ -1,0 +1,36 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Аускултация</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  class="ion-padding"
+  [fullscreen]="true">
+
+  @for(element of $data; track element) {
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12">
+
+          <div>
+            <div>{{element.title}}</div>
+            <div>
+              <img src="{{element.frontImage}}" (click)="onSelectCard(element)"/>
+              <audio controls>
+                <source src="{{element.frontAudio}}" type="audio/wav">
+              </audio>
+            </div>
+          </div>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  }
+
+</ion-content>

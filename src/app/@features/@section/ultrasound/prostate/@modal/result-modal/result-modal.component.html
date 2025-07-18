@@ -1,0 +1,40 @@
+<nv-info-modal [inputTitle]="'Резултат'" class="ion-page">
+
+  <!-- ОТРАВЯНЕ С ЕТИЛЕНГЛИКОЛ -->
+  <ion-grid>
+    <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+      <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+        🟥 Простата
+      </div>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+
+    <ion-row class="mt8">
+      <ion-col>Дължина</ion-col>
+      <ion-col>{{selectedObject.L}} см</ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>Ширина</ion-col>
+      <ion-col>{{selectedObject.W}} см</ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>Височина (сагитално)</ion-col>
+      <ion-col>{{selectedObject.Hsag}} см</ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>Височина (трансверзално)</ion-col>
+      <ion-col>{{selectedObject.Htr}} см</ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>Обем</ion-col>
+      <ion-col>{{selectedObject.V}}</ion-col>
+    </ion-row>
+  </ion-grid>
+
+</nv-info-modal>

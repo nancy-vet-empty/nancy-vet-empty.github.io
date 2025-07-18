@@ -1,0 +1,20 @@
+ion-input.custom {
+  --color: #d60b52;
+  --placeholder-color: #000;
+  --placeholder-opacity: 0.8;
+
+  --padding-bottom: 8px;
+  --padding-end: 8px;
+  --padding-start: 8px;
+  --padding-top: 8px;
+  margin-top: 14px;
+  text-align: center;
+
+  border: solid #dedede 1px;
+  border-radius: 5px;
+}
+
+ion-input.custom .helper-text,
+ion-input.custom .counter {
+  color: var(--ion-color-step-700, #373737);
+}

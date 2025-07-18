@@ -1,0 +1,208 @@
+<!-- Header component -->
+<ion-header
+  [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>
+      Кръвно-газов анализ
+    </ion-title>
+
+    <ion-buttons slot="end" style="margin-right: 10px;">
+      <ion-icon (click)="clearAllValues()" name="trash-outline"></ion-icon>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<!-- Main content -->
+<ion-content id="main-content" [fullscreen]="true">
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="4">
+        Животно
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <div style="margin-top: 5px; margin-right: 25px;">куче</div>
+        <ion-toggle [(ngModel)]="$formProperty.animalType" [checked]="false"></ion-toggle>
+        <div style="margin-top: 5px; margin-left: 25px;">котка</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">Кръв от</ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <div style="margin-top: 5px; margin-right: 25px; color: #0000ff">вена</div>
+        <ion-toggle [(ngModel)]="$formProperty.bloodOrigin" [checked]="false"></ion-toggle>
+        <div style="margin-top: 5px; margin-left: 25px; color: #ff0000">артерия</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml16">
+          pH
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.PH"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="ml/h">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">ml/h</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml16">
+          PCO<sub>2</sub>
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.PCO2"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="ml/h">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">ml/h</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml16">
+          PO<sub>2</sub>
+        </div>
+      </ion-col>
+
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="ml/h"
+          [counter]="true"
+          [(ngModel)]="$formProperty.PO2">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">ml/h</div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml16">
+          HCO<sub>3</sub>
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="ml/h"
+          [counter]="true"
+          [(ngModel)]="$formProperty.HCO3">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">ml/h</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml16">
+          BE
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+        type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="ml/h"
+          [counter]="true"
+          [(ngModel)]="$formProperty.BE">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">ml/h</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4"> <div class="mt20 ml16">Na</div> </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+        type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="ml/h"
+          [counter]="true"
+          [(ngModel)]="$formProperty.Na">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">ml/h</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4"> <div class="mt20 ml16">K</div> </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="ml/h"
+          [counter]="true"
+          [(ngModel)]="$formProperty.K">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">ml/h</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4"> <div class="mt20 ml16">Cl</div> </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="ml/h"
+          [counter]="true"
+          [(ngModel)]="$formProperty.Cl">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">ml/h</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          (click)="openInfoModal()"
+          size="default"
+          expand="block">Изчисли
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

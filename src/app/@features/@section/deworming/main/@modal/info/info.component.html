@@ -1,0 +1,71 @@
+<nv-info-modal [inputTitle]="selectedObject.symptom" class="ion-page">
+
+  <div class="h1">
+    {{selectedObject?.title}}
+  </div>
+
+  @for(element of selectedObject.activeSubstance; track element) {
+
+    <div class="pill-green mr6">
+      {{ element }}
+    </div>
+  }
+
+  <div class="mt16">
+    <!-- <span>{{selectedObject?.species}}</span> -->
+    <span class="pill-blue mr6">{{selectedObject?.form}}</span>
+    <span class="pill-orange mr6">{{selectedObject?.typeDeworming}}</span>
+    <span class="pill-red mr6">{{selectedObject?.killingActivity}}</span>
+  </div>
+
+  <img src="{{selectedObject?.image }}" style="max-width: 70%; margin-left: 15%; max-height: 200px;">
+
+  <div class="fb600 mt16 c-fail">Дозировка</div>
+  <!-- <img src="{{selectedObject?.dosage }}" >
+  <div>{{selectedObject?.dosage }}</div> -->
+
+  @if(selectedObject?.dosage.startsWith("@")) {
+    <img src="{{renderImage(selectedObject?.dosage)}}"/>
+  }
+  @else {
+    <div style="padding-left: 5px; max-height: 350px;">{{selectedObject?.dosage}}</div>
+  }
+
+  <div class="fb600 mt16 c-fail">Употреба</div>
+  <div>{{selectedObject?.howToGive }}</div>
+
+  <div class="fb600 mt16 c-fail">Показания</div>
+  @for(element of selectedObject.indications; track element) {
+
+    <div class="pill-orange mr6">
+      {{ element }}
+    </div>
+  }
+
+  @if(selectedObject?.contraindications) {
+    <div class="fb600 mt16 c-fail">Противопоказания</div>
+    <div class="" style="padding: 5px;">{{selectedObject?.contraindications }}</div>
+  }
+
+  @if(selectedObject?.precautions) {
+    <div class="fb600 mt16 c-fail">Имайте предвид</div>
+    <div class="" style="padding: 5px;">{{selectedObject?.precautions }}</div>
+  }
+
+  @if(selectedObject?.pregnancy) {
+    <div class="fb600 mt16 c-fail">При бременност</div>
+    <div>{{selectedObject?.pregnancy }}</div>
+  }
+
+  @if(selectedObject?.pregnancy) {
+    <div class="fb600 mt16 c-fail">Начин на действие</div>
+    <div>{{selectedObject?.effect }}</div>
+  }
+
+  <nv-link-button
+  *ngIf="selectedObject?.link"
+    [inputTitle]="'Листовка'"
+    (onClick)="onOpenPdfDocument(selectedObject.link)">
+  </nv-link-button>
+
+</nv-info-modal>

@@ -1,0 +1,20 @@
+
+<nv-info-modal
+[inputTitle]="'Галерия'"
+class="ion-page">
+  <swiper-container
+  style="height: 100%;"
+  *ngIf="selectedObject && selectedObject.length > 0">
+    <!-- Loop through the array of image paths -->
+
+    <swiper-slide *ngFor="let imagePath of selectedObject">
+      <img [src]="imagePath" alt="Breed Image">
+    </swiper-slide>
+
+  </swiper-container>
+
+  <!-- Show a message if no images are available -->
+  <div *ngIf="!selectedObject || selectedObject.length === 0">
+    No images available for this breed.
+  </div>
+</nv-info-modal>

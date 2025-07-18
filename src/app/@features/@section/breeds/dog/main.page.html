@@ -1,0 +1,43 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <nv-search-toolbar
+    (onSearch)="onItemSearched($event)"
+    (onFilter)="onFilter($event)">
+  </nv-search-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  <ion-grid class="h2 tac">Породи кучета</ion-grid>
+
+ @for(element of $data; track element) {
+
+    <ion-grid>
+      <div (click)="onSelectCard(element)">
+        <ion-row>
+          <ion-col size="7">
+            <div>
+              <img [src]="findImageBreed(element?.code)" alt="Breed Image"/>
+            </div>
+          </ion-col>
+          <ion-col size="5">
+
+              <div>
+                <div class="bold">{{element?.name}}</div>
+                <div class="fs13">({{element?.nameEn}})</div>
+                <div class="fs13">Група: {{element?.group}}</div>
+                <div class="fs13">Височина: {{element?.size?.height?.height_male_max}} см</div>
+                <div class="fs13">Тегло: {{element?.size?.weight?.weight_male_max}} кг</div>
+              </div>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-grid>
+  }
+
+</ion-content>

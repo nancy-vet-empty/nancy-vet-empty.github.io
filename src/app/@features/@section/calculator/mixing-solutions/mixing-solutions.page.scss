@@ -1,0 +1,39 @@
+.card-logo {
+  background: #dedede;
+  border-radius: 45px;
+  padding: 3px;
+  width: 47px;
+  height: 47px;
+  text-align: center;
+}
+
+.category-circle {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  background: #dedede;
+  border-radius: 38px;
+  text-align: center;
+  margin: 8px
+}
+
+ion-input.custom {
+  --color: #d60b52;
+  --placeholder-color: #000;
+  --placeholder-opacity: 0.8;
+
+  --padding-bottom: 10px;
+  --padding-end: 10px;
+  --padding-start: 10px;
+  --padding-top: 10px;
+
+  margin-top    : 14px;
+  text-align    : center;
+  border        : solid #dedede 1px;
+  border-radius : 5px;
+}
+
+ion-input.custom .helper-text,
+ion-input.custom .counter {
+  color: var(--ion-color-step-700, #373737);
+}

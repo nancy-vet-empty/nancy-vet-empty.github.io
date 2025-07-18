@@ -1,0 +1,39 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Видове игли и абокати</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  @for(element of $data; track element) {
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <div>
+            <img src="{{element.image}}" style="transform: scaleX(-1);"/>
+          </div>
+        </ion-col>
+        <ion-col size="6">
+
+          <!-- <div (click)="onSelectCard(element)"> -->
+          <div>
+            <div class="">Тип: {{element.type}}</div>
+            <div class="">Вид: <strong>{{element.gauge}} G</strong></div>
+            <div class="">Диаметър: {{element.diameterMm}} мм</div>
+            <div class="">Цвят: <strong>{{element.color}}</strong></div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  }
+
+</ion-content>

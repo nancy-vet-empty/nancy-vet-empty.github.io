@@ -1,0 +1,20 @@
+<!-- App Header -->
+<ion-header>
+<ion-toolbar>
+  <ion-title>Принципи</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  <div style="margin: 5px 15px;">
+    <nv-link-button
+    [inputTitle]="'Принципи на обезпаразитяване'"
+    (onClick)="onOpenPdfDocument('assets/pdfs/@deworming/deworming-method.pdf')">
+    </nv-link-button>
+  </div>
+
+</ion-content>

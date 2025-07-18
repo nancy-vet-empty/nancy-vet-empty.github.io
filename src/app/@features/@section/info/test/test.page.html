@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Бързи тестове</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  @for(element of imageCollection | keyvalue; track element) {
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="auto">
+          <div class="h3">
+            {{translate(element.key)}}
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        @for(termElement of element.value; track termElement; let i = $index) {
+
+          <div (click)="selectCategory(termElement)">
+            @if(i%4===0) { <div class="pill bc-lightblue"  > {{termElement.title}} </div> }
+            @if(i%4===1) { <div class="pill bc-orange"> {{termElement.title}} </div> }
+            @if(i%4===2) { <div class="pill bc-purple"  > {{termElement.title}} </div> }
+            @if(i%4===3) { <div class="pill bc-pink" > {{termElement.title}} </div> }
+          </div>
+        }
+      </ion-row>
+    </ion-grid>
+  }
+
+</ion-content>

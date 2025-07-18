@@ -1,0 +1,191 @@
+<nv-info-modal [inputTitle]="'Резултат'" class="ion-page">
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="5">
+        pH
+      </ion-col>
+
+      <ion-col size="3" class="flex">
+        <div>
+          <ion-icon
+            name="{{$uiProperty.PH.level.icon}}"
+            color="{{$uiProperty.PH.level.color}}">
+          </ion-icon>
+        </div>
+        <div>{{$uiProperty.PH.value}}</div>
+      </ion-col>
+
+      <ion-col size="4">
+        <div>
+          {{$uiProperty.PH.reference.lowerBownd}}
+          -
+          {{$uiProperty.PH.reference.upperBownd}}
+        </div>
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        @if(this.$uiProperty.PH.levelIndex === 1) {
+          <div style="background: #ffc5b5; padding: 6px;">
+            -	над норма – алкалоза (метаболитна/ респираторна)
+          </div>
+        }
+
+        @if(this.$uiProperty.PH.levelIndex === -1) {
+          <div style="background: #ffc5b5; padding: 6px;">
+            под норма - ацидоза (метаболитна/ респираторна)
+          </div>
+        }
+
+        @if(this.$uiProperty.PH.levelIndex === 0) {
+          <div style="background: #ffc5b5; padding: 6px;">
+            -	норма – или няма нищо, или има коменсирана ацидоза/ алкалоза, или две напълно противоположни метаболитни нарушения
+          </div>
+        }
+
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">
+        PCO<sub>2</sub>
+      </ion-col>
+
+      <ion-col size="3" style="display: flex;">
+        <div>
+          <ion-icon
+            name="{{$uiProperty.PCO2.level.icon}}"
+            color="{{$uiProperty.PCO2.level.color}}">
+          </ion-icon>
+        </div>
+        <div>{{$uiProperty.PCO2.value}}</div>
+      </ion-col>
+
+      <ion-col size="4">
+        <div>{{$uiProperty.PCO2.reference.lowerBownd}} - {{$uiProperty.PCO2.reference.upperBownd}}</div>
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        @if(this.$uiProperty.PCO2.levelIndex === 1) {
+          <div style="background: #ffc5b5; padding: 6px;">
+            -	над норма – хиперкапния (Хиповентилация) - респираторна ацидоза или компенсаторен механ. към метаб. алкалоза
+          </div>
+        }
+
+        @if(this.$uiProperty.PCO2.levelIndex === -1) {
+          <div style="background: #ffc5b5; padding: 6px;">
+            -	под норма – хипокапния (Хипервентилация) - респираторна алкалоза или компенсаторен механ. към метаб. ацидоза
+          </div>
+        }
+
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="5">
+        PO<sub>2</sub>
+      </ion-col>
+
+      <ion-col size="3" style="display: flex;">
+        <div>
+          <ion-icon
+            name="{{$uiProperty.PO2.level.icon}}"
+            color="{{$uiProperty.PO2.level.color}}">
+          </ion-icon>
+        </div>
+        <div>{{$uiProperty.PO2.value}}</div>
+      </ion-col>
+
+      <ion-col size="4">
+        <div>
+          {{$uiProperty.PO2.reference.lowerBownd}}
+          -
+          {{$uiProperty.PO2.reference.upperBownd}}
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">
+        HCO<sub>3</sub>
+      </ion-col>
+
+      <ion-col size="3" style="display: flex;">
+        <div>
+          <ion-icon
+            name="{{$uiProperty.HCO3.level.icon}}"
+            color="{{$uiProperty.HCO3.level.color}}">
+          </ion-icon>
+        </div>
+        <div>{{$uiProperty.HCO3.value}}</div>
+      </ion-col>
+
+      <ion-col size="4">
+        <div>
+          {{$uiProperty.HCO3.reference.lowerBownd}}
+          -
+          {{$uiProperty.HCO3.reference.upperBownd}}
+        </div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="5">
+        BE
+      </ion-col>
+
+      <ion-col size="3" style="display: flex;">
+        <div>
+          <ion-icon
+            name="{{$uiProperty.BE.level.icon}}"
+            color="{{$uiProperty.BE.level.color}}">
+          </ion-icon>
+        </div>
+        <div>{{$uiProperty.BE.value}}</div>
+      </ion-col>
+
+      <ion-col size="4">
+        <div>
+          {{$uiProperty.BE.reference.lowerBownd}}
+          -
+          {{$uiProperty.BE.reference.upperBownd}}
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">
+        Anion gap
+      </ion-col>
+
+      <ion-col size="3" style="display: flex;">
+        <div>
+          <ion-icon
+            name="{{$uiProperty.AG.level.icon}}"
+            color="{{$uiProperty.AG.level.color}}">
+          </ion-icon>
+        </div>
+        <div>{{$uiProperty.AG.value}}</div>
+      </ion-col>
+
+      <ion-col size="4">
+        <div>
+          {{$uiProperty.AG.reference.lowerBownd}}
+          -
+          {{$uiProperty.AG.reference.upperBownd}}
+        </div>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+</nv-info-modal>

@@ -1,0 +1,954 @@
+[
+  {
+    "title"       : "Бактериален менингит",
+    "titleEn"     : "Bacterial Meningitis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Вирусен менингит/ енцефалит",
+    "titleEn"     : "Viral Meningitis/Encephalitis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Протозойни и паразитни инфекции",
+    "titleEn"     : "Protozoal and Parasitic Infections",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Гъбичен менингит/енцефалит",
+    "titleEn"     : "Fungal Meningitis/Encephalitis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Имунно-медииран енцефалит",
+    "titleEn"     : "Immune-Mediated Encephalitis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Миелит",
+    "titleEn"     : "Myelitis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Церебеларна абиотрофия",
+    "titleEn"     : "Cerebellar Abiotrophy",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хипоплазия на малкия мозък",
+    "titleEn"     : "Cerebellar Hypoplasia",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кучешки паркинсонизъм",
+    "titleEn"     : "Canine Parkinsonism",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хиперкинеза",
+    "titleEn"     : "Hyperkinesis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Миоклонус",
+    "titleEn"     : "Myoclonus",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дискинезия",
+    "titleEn"     : "Dyskinesia",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синдром на кучешка когнитивна дисфункция (CDS)",
+    "titleEn"     : "Canine Cognitive Dysfunction Syndrome (CDS)",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дегенеративна миелопатия",
+    "titleEn"     : "Degenerative Myelopathy",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Болести на лизозомно съхранение",
+    "titleEn"     : "Lysosomal Storage Diseases",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Състояния, подобни на множествена склероза",
+    "titleEn"     : "Multiple Sclerosis-Like Conditions",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Остър дисеминиран енцефаломиелит",
+    "titleEn"     : "Acute Disseminated Encephalomyelitis (ADEM)",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Левкоенцефалопатии",
+    "titleEn"     : "Leukoencephalopathies",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Епилепсия",
+    "titleEn"     : "Epilepsy",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/epilepsy.pdf" }
+    ],
+    "etiology"      : ["Интракраниални причини - тумори, инфекции, дегенеративни причини.", "Екстракраниални причини - метаболитни (ЧД енцефалопатия, хипертироидизъм, хипокалцемия, хипогликемия, тежка уремия), токсини (етиленгликол, олово, органофосфати), недостиг на тиамин, др."],
+    "signs"         : ["гърчове"],
+    "specificSigns" : ["Фокални гърчове – засяга само част от тялото.", "Генерализирани – засяга целия организъм.", "Фокални с последваща генерализация."],
+    "diagnostics"   : ["Подробна анамнеза: брой на гърчовете, описание, продължителност, какво е правело ЖВ преди и след гърчовете, през какъв интервал от време се появяват. На каква възраст са започнали? Заболявания или стари травми", "Неврологичен преглед", "ПКК, биохимия"],
+    "treatment"     : ["Лечение се започва, когато:", "- пристъпите са с честота повече от един пристъп на 6 седмици", "- когато пристъпите се появяват на групи", "- когато един гърч е по-продължителен от 5 минути.", "- когато настъпи status epilepticus"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Нарколепсия и катаплексия",
+    "titleEn"     : "Narcolepsy-Cataplexy",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синкоп",
+    "titleEn"     : "Syncope",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "REM поведенческо разстройство на съня",
+    "titleEn"     : "REM Sleep Behavior Disorder",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синдром на котешка хиперестезия",
+    "titleEn"     : "Feline Hyperesthesia Syndrome",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Мигреноподобни синдроми",
+    "titleEn"     : "Migraine-Like Syndromes",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тригеминална невропатия",
+    "titleEn"     : "Trigeminal Neuropathy",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Парализа на лицевия нерв",
+    "titleEn"     : "Facial Nerve Paralysis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Авулзия на брахиалния плексус",
+    "titleEn"     : "Brachial Plexus Avulsion",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Нарушения на седалищния нерв",
+    "titleEn"     : "Sciatic Nerve Disorders",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синдром на Cauda Equina",
+    "titleEn"     : "Cauda Equina Syndrome",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Лумбосакрална стеноза",
+    "titleEn"     : "Lumbosacral Stenosis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Диабетна невропатия",
+    "titleEn"     : "Diabetic Neuropathy",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синдром, подобен на Гилен-Баре",
+    "titleEn"     : "Guillain-Barré-like Syndrome",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Идиопатичен остър полирадикулоневрит (ИОПН)",
+    "titleEn"     : "Idiopathic Polyradiculoneuritis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Имуномедиирани хронични полиневропатии",
+    "titleEn"     : "Immune-mediated chronic polyneuropathies",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Наследствени полиневропатии",
+    "titleEn"     : "Inherited Polyneuropathies",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Други периферни невропатии",
+    "titleEn"     : "Other Peripheral Neuropathies",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Миастения гравис",
+    "titleEn"     : "Myasthenia Gravis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Болест на централното ядро",
+    "titleEn"     : "Centronuclear myopathy (CNM)",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Мускулна дистрофия при голдън ретривър",
+    "titleEn"     : "Golden retriever muscular dystrophy (GRMD)",
+    "type"        : "nervous",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Възпалителни миопатии",
+    "titleEn"     : "Inflammatory Myopathies",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Вторични миопатии на ендокринни заболявания",
+    "titleEn"     : "Myopathies secondary to Endocrine Disorders",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синдроми, подобни на кучешка церебрална парализа",
+    "titleEn"     : "Canine Cerebral Palsy-Like Syndromes",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хемиплегия",
+    "titleEn"     : "Hemiplegia",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Параплегия",
+    "titleEn"     : "Paraplegia",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тетраплегия",
+    "titleEn"     : "Tetraplegia",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дизавтономия",
+    "titleEn"     : "Dysautonomia (Key-Gaskell Syndrome)",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синдром на Horner",
+    "titleEn"     : "Horner’s Syndrome",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Вегетативна дисфункция, свързана с кучешки феохромоцитом",
+    "titleEn"     : "Canine Pheochromocytoma-associated Autonomic Dysfunction",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хидроцефалия",
+    "titleEn"     : "Hydrocephalus",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Токсична енцефалопатия",
+    "titleEn"     : "Toxic Encephalopathy",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Травма на главата",
+    "titleEn"     : "Head Trauma",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Метастатични неоплазми в главния или гръбначния мозък",
+    "titleEn"     : "Metastatic Neoplasms to the Brain or Spinal Cord",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Паранеопластични синдроми, засягащи ЦНС",
+    "titleEn"     : "Paraneoplastic Syndromes Affecting the CNS",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Идиопатичен церебелит",
+    "titleEn"     : "Idiopathic Cerebellitis",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Централно вестибуларно заболяване",
+    "titleEn"     : "Central Vestibular Disease",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синдром на Wobbler",
+    "titleEn"     : "Wobbler Syndrome",
+    "type"        : "nervous",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  }
+]

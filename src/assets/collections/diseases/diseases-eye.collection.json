@@ -1,0 +1,1281 @@
+[
+  {
+    "title"       : "Анофталмия и микрофталмия",
+    "titleEn"     : "Anophtalmos and microphthalmos",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Анофталмия - липса на едното или на двете очи.", "Микрофталмия - необичайно малък размер на очната ябълка", "Дължи се на генетичен дефект или прекарана инфекция през ембрионалния период на котето."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Хидрофталмия",
+    "titleEn"     : "Hydrophthalmos",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Вродена глаукома, при коята очните ябълки се уголемяват. Окото придобива син цвят."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/hydrophtalmos.png"]
+  },
+  {
+    "title"       : "Екзофталмия, свързана с породата",
+    "titleEn"     : "Breed-related exophthalmos",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Брахиоцефалните породи имат плитки орбити, при което очните ябълки са по-изпъкнали."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Буфталм",
+    "titleEn"     : "Buphthalmos",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Уголемяване на очните ябълки вследствие на глаукома."],
+    "signs"         : ["екзофталм", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/buphthalmos.png"]
+  },
+  {
+    "title"       : "Фтиза на булбата",
+    "titleEn"     : "Phthisis bulbi",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Фтизата на булбата е състояние, при което очната ябълка е с намалени размери и нефункциониращо око. Състоянието се дължи на тежки очни заболявания, възпаления или наранявания."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : ["/assets/pdfs/@diseases/additional-files/phtisis-bulbi-2.png", "/assets/pdfs/@diseases/additional-files/phtisis-bulbi.png"]
+  },
+  {
+    "title"       : "Травма на орбитата",
+    "titleEn"     : "Trauma",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Възниква вследствие на удар от превозно средство, бой с друго животно, атака от човек и др.", "При кучетата появата на хифема най-често е следствие на ерлихиоза."],
+    "signs"         : ["хеморагия на окото", "хифема", "хемоза", "проптоза на орбитата"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Абсцес и целулит на орбитата",
+    "titleEn"     : "Orbital abscessation and cellulitis",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Симптомите започват рязко - екзофталм, девиация на окото, изпадане на третия клепач, анорексия, подуване на fossa pterygopalatina.", "При отваряне на устната кухина животното може да изпитва болка.", "Обикновено се дължи на бактериална инфекция или инфекция, причинена от Aspergillus spp."],
+    "signs"         : ["екзофталм", "девиация на окото", "изпадане на третия клепач", "анорексия"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : ["ЯМР"],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Старчески енофталм",
+    "titleEn"     : "Senile enophthalmos",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Дължи се на загубата на мастна тъкан на орбитата, която е вследствие от напредването на възрастта."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["При наличие на очно заболяване - операция."],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Орбитална киста",
+    "titleEn"     : "Orbital cyctic disease",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Орбиталната киста представлява патологично образувана кухина, намираща се в очната орбита, която е покрита отвътре с епителни клетки и е изпълнена с течност. Ако тази кухина е разположена зад очната ябълка, тя може да предизвика изпъкване на очите (екзофталм)."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["Оперативно премахване на кистата."],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Тумор на орбитата",
+    "titleEn"     : "Orbital neoplasia",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Туморите на орбитата обикновено са злокачествени."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Feline restrictive orbital myofibroblastic sarcoma",
+    "titleEn"     : "Feline restrictive orbital myofibroblastic sarcoma",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Ophthalmia neonatorum",
+    "titleEn"     : "Ophthalmia neonatorum",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Колобома на клепача",
+    "titleEn"     : "Eyelid coloboma",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Дермоид",
+    "titleEn"     : "Dermoid",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Дихтиаза и ектопични мигли",
+    "titleEn"     : "Distichiasis and ectopic cilia",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Ентропион",
+    "titleEn"     : "Entropion",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Блефарит",
+    "titleEn"     : "Blepharitis",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Хидроцистом",
+    "titleEn"     : "Apocrine hidrocystomas",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Тумор на клепача",
+    "titleEn"     : "Eyelid neoplasia",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Изпадане на третия клепач",
+    "titleEn"     : "Nictitans protrusion",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Изпадане на жлезата на третия клепач",
+    "titleEn"     : "Prolapse of the nictitans gland (Cherry eye)",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Обръщане на хрущяла на третия клепач",
+    "titleEn"     : "Nictitans cartilage eversion",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Тумор на третия клепач",
+    "titleEn"     : "Neoplasia of the nictitans",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Обръщане на третия клепач",
+    "titleEn"     : "The nictitans flap",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Епифора",
+    "titleEn"     : "Epiphora",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Сух кератоконюнктивит",
+    "titleEn"     : "Keratoconjuncivitis sicca",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Дермоид",
+    "titleEn"     : "Dermoid",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Конюнктивит",
+    "titleEn"     : "Conjunctivitis",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Тумор на конюнктивата",
+    "titleEn"     : "Neoplasia",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Микрокорнея и мегалокорнея",
+    "titleEn"     : "Microcornea and megalocornea",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Левкома, свързана с перзистиращата зенична мембрана",
+    "titleEn"     : "Leukoma associated with persistent pupillary membranes",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Lysosomal storage disease",
+    "titleEn"     : "Lysosomal storage disease",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Дистрофия на роговицата",
+    "titleEn"     : "Corneal dystrophy",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Херпесвирусен кератит",
+    "titleEn"     : "Herpetic keratitis",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Виж в Инфекциозни болести"],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Еозинофилен кератит",
+    "titleEn"     : "Eosinophillic (proliferative) keratitis",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Секвестър на роговицата",
+    "titleEn"     : "Corneal sequestrum",
+    "type"        : "eye",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Хронично дразнене на роговицата, водещо до некроза на стромата. Силно асоцииран с Котешки херпесвирус-1 (FHV-1), конформационни проблеми (брахицефални породи - лагофталм, ентропион), хронична улцерация, травма, Сух кератоконюнктивит (СКК). Роговицата на практика 'умира' и се секвестира."],
+    "signs"         : ["Блефароспазъм", "епифора", "конюнктивална хиперемия", "фотофобия", "болка", "дискомфорт."],
+    "specificSigns" : ["кехлибарено, кафяво или черно петно на роговицата"],
+    "diagnostics"   : [""],
+    "treatment"     : ["Кератектомия", "Зашива се третият клепач, като след три седмици се отшива."],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Остра булозна кератопатия",
+    "titleEn"     : "Acute bullous keratopathy",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Дегенерация на роговицата",
+    "titleEn"     : "Corneal degeneration",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Язва на роговицата",
+    "titleEn"     : "Corneal ulceration",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Exposure keratitis",
+    "titleEn"     : "Exposure keratitis",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Разкъсване на роговицата",
+    "titleEn"     : "Corneal laceration",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Чуждо тяло в роговицата",
+    "titleEn"     : "Corneal foreign body",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Corneal epithelial inclusion cyst",
+    "titleEn"     : "Corneal epithelial inclusion cyst",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Вродени аномалии, свързани с пигментацията (албинизъм, хетерохромия)",
+    "titleEn"     : "Congenital disorders of pigmentation (albinism, iris heterochromia)",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Колобома на ириса",
+    "titleEn"     : "Iris coloboma",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Хипоплазия на ириса",
+    "titleEn"     : "Iris hypoplasia",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Перзистираща зенична мембрана",
+    "titleEn"     : "Persistent pupillary membrane",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Ектропион на увеята",
+    "titleEn"     : "Ectropion ulvae",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Киста на увеята",
+    "titleEn"     : "Uveal cysts",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Меланоза на ириса",
+    "titleEn"     : "Iridal melanosis",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Ирис, оцветен от мед",
+    "titleEn"     : "Copper-coloured iris",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Атрофия на ириса",
+    "titleEn"     : "Iris atrophy",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Синехии",
+    "titleEn"     : "Synechiae",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Lipid Aqueous",
+    "titleEn"     : "Lipid Aqueous",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Увеит",
+    "titleEn"     : "Uveitis",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Неоплазия на ириса",
+    "titleEn"     : "Iveal neoplasia",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Вродени аномалии на лещата",
+    "titleEn"     : "Congenital anomalies of the lens",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Склероза на ядрото на лещата",
+    "titleEn"     : "Nuclear sclerosis of the lens",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Катаракта",
+    "titleEn"     : "Cataracts",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Луксация на лещата",
+    "titleEn"     : "Lens luxation",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Първична глаукома",
+    "titleEn"     : "Primary glaucoma",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Вторична глаукома",
+    "titleEn"     : "Secondary glaucoma",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Заболявания на стъкловидното тяло",
+    "titleEn"     : "Diseases of the vitreous",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Заболявания на очното дъно",
+    "titleEn"     : "Diseases of the fundus",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Нарушения на автономната нервна система",
+    "titleEn"     : "Disorders of autonomic nervous system",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Синдром на Horner",
+    "titleEn"     : "Horner’s Syndrome",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Pourfour du Petit синдром",
+    "titleEn"     : "Pourfour du Petit Syndrome",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Key-Gaskell синдром",
+    "titleEn"     : "Key-Gaskell Syndrome",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Страбизъм и нистагъм, свързани с очен албинизъм",
+    "titleEn"     : "Strabismus and nystagmus associated with ocular albinism",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Следоперативна слепота",
+    "titleEn"     : "Postanesthetic blindness",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  },
+  {
+    "title"       : "Контралатерална очна невропатия",
+    "titleEn"     : "Contralateral optic neuropathy",
+    "type"        : "eye",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""],
+    "gallery"       : [""]
+  }
+]
+

@@ -1,0 +1,84 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Ваксина за бяс</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  <ion-grid class="mt16">
+    <ion-row>
+      <ion-col size="12">
+        <div class="rabies-box">
+          <div class="rabies-text">
+            Днешна дата:
+          </div>
+          <div id="current-date" class="flex">
+            <div class="mr8" style="font-size: 20px; padding: 3px;">
+              <ion-icon name="calendar-clear-outline"></ion-icon>
+            </div>
+            <div>
+              {{currentDate}}
+            </div>
+          </div>
+
+
+          <div class="rabies-text mt16">
+            Валидна от:
+          </div>
+          <div id="current-date" class="flex">
+            <div class="mr8" style="font-size: 20px; padding: 3px;">
+              <ion-icon name="calendar-clear-outline"></ion-icon>
+            </div>
+            <div>
+              {{validationDate}}
+            </div>
+          </div>
+      </div>
+      </ion-col>
+    </ion-row>
+
+
+      <ion-col>
+        <div class="rabies-box">
+          <div class="rabies-text mt16">
+            Животното ще пътува на:
+          </div>
+          <ion-datetime
+            prefer-wheel="true"
+            presentation="date"
+            (ionChange)="processTravelingDate($event)">
+          </ion-datetime>
+        </div>
+
+        <div class="rabies-box">
+          <div class="rabies-text">
+            Ваксината за бяс трябва да е на:
+          </div>
+          <div id="current-date" class="flex">
+            <div class="mr8" style="font-size: 20px; padding: 3px;">
+              <ion-icon name="calendar-clear-outline"></ion-icon>
+            </div>
+            <div>
+              {{travellingDate}}
+            </div>
+          </div>
+
+          <!-- <div class="rabies-text mt16">
+            Ваксината за бяс трябва да е на:
+          </div>
+          <div>
+            {{travellingDate}}
+          </div> -->
+        </div>
+      </ion-col>
+
+  </ion-grid>
+</ion-content>

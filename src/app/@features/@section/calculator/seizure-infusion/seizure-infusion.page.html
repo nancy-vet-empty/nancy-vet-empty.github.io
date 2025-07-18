@@ -1,0 +1,167 @@
+<!-- Header component -->
+<ion-header
+  [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>
+      Инфузия при гърчове
+    </ion-title>
+
+    <ion-buttons slot="end" style="margin-right: 10px;">
+      <ion-icon  (click)="clearAllValues()" name="trash-outline"></ion-icon>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<!-- Main content -->
+<ion-content id="main-content" [fullscreen]="true">
+
+  <!-- ИНФУЗИЯ С ЛИДОКАИН -->
+  <ion-grid>
+    <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px; margin-top: 20px;">
+      <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+        🟥 Разреждане на цефтриаксон
+      </div>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          тегло
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.patientWeight"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="кг">
+        </ion-input>
+        <div style="width: 63px; margin-left: 10px; margin-top: 26px;">кг</div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          доза
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.dosage"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="15-50 мг/кг">
+        </ion-input>
+        <div style="width: 63px; margin-left: 10px; margin-top: 26px;">мг/кг</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8">
+          Начин на приложение:
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  class="flex">
+        <div class="mr16">IV</div>
+        <ion-toggle
+          [(ngModel)]="$formProperty.InjectionRoute"
+          [checked]="false"
+          (ionChange)="selectInjectionRoute($event)">
+        </ion-toggle>
+        <div class="ml16">IM</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8">
+          Аз имам:
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  class="flex">
+        <div class="mr16">1 г</div>
+        <ion-toggle
+          [(ngModel)]="$formProperty.CeftriaxoneConcentration"
+          [checked]="false"
+          (ionChange)="selectCeftriaxoneConcentration($event)">
+        </ion-toggle>
+        <div class="ml16">2 г</div>
+        <div class="ml8 italic">Цефтриаксон прах за инж. р-р</div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          (click)="processCalculationCeftriaxoneConcentration()"
+          size="default"
+          expand="block">Изчисли
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  @if($formProperty.injectionRoute === 'IV') {
+    <div class="mt20 ml8 mr8" style="padding: 5px;">
+      Добавям <strong>5 мл</strong> физиологичен р-р в Цефтриаксон прах.
+    </div>
+    <div class="ml8">
+      Концентрацията на този разтвор става: <strong>{{$ui.concentrationResultIv}}</strong> мг/мл.
+    </div>
+    <div class="ml8">
+      Доза на ЖВ: <strong>{{$ui.animalDose}}</strong> мг
+    </div>
+    <div class="ml8">
+      Взимам от р-ра с цефтриаксона: <strong>{{$ui.mlNeeded}}</strong> мл.
+    </div>
+    <div class="ml8">
+      И ги слагам в 100 мл банка физ. р-р, като трябва да се изтече цялата банка за малко над 30 мин.
+    </div>
+    <div class="ml8">
+      Или го слагам ИВ бавно през абоката, като внимавам ЖВ да не повърне!
+    </div>
+  }
+
+
+@if($formProperty.injectionRoute === 'IM') {
+  <div class="mt20 ml8 mr8" style="padding: 5px;">
+    Добавям <strong>4 мл</strong> лидокаин инж. 1%-ов р-р в Цефтриаксон прах.
+  </div>
+  <div class="ml8">
+    Концентрацията на този разтвор става: <strong>{{$ui.concentrationResultIm}}</strong> мг/мл.
+  </div>
+  <div class="ml8">
+    Доза на ЖВ: <strong>{{$ui.animalDoseIm}}</strong> мг
+  </div>
+  <div class="ml8">
+    Взимам от р-ра с цефтриаксона: <strong>{{$ui.mlNeededIm}}</strong> мл.
+  </div>
+  <div class="ml8">
+    И го слагам ИМ. ВНИМАНИЕ! Болезнено!
+  </div>
+}
+
+</ion-content>

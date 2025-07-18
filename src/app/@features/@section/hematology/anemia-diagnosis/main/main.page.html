@@ -1,0 +1,72 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Анемия - диагноза</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  class="ion-padding"
+  [fullscreen]="true">
+
+  <ion-grid>
+    <ion-row>
+      Анемия - когато RBC, Hct и Hg на ПКК са понижени.
+    </ion-row>
+    Изследва се дали анемията е регенеративна, или нерегенеративна чрез кръвна натривка и натривка за броене на ретикулоцити.
+    <div><strong>Регенеративна анемия</strong> - вследствие на кръвозагуба или хемолиза. Кръвозагуба - наличие на хипопротеинемия. Хипербилирубинемия се среща най-често и най-силно при хемолизата, отколкото при кръвозагубата.</div>
+      <ol>
+        <li><strong>Хемолиза</strong> - има хемоглобинемия, хемоглобинурия, хипербилирубинемия, а на кръвната натривка - сфероцити, телца на Хайнц, анизоцитоза. Макар и рядко, може да бъде причинена от хипофосфатемия (диабет).</li>
+          <ol>
+            <li>Метхемоглобинемия - кръвта при допир с въздуха става кафеникава, а лигавиците - цианотични. Хемоглобинът се превръща в метхемоглобин, който не може да пренася кислород и настъпва хипоксия. Това най-често е резултат от приема на ацетаминофен, бензокаин или предозиране с нитрити от храната.</li>
+            <li>Телца на Хайнц - при голямо кол-во телца на Хайнц на кръвната натривка се счита, че анемията е причинена от оксиданти от лук, метиленово синьо, метионин и витамин К.</li>
+            <li>Кръвни паразити - те скъсяват живота на еритроцитите. Babesia, Hemobartonella felis и др.</li>
+            <li>Имунно-медиирана хемолитична анемия - Много сфероцити и аглутинация на еритроцити. За потвърждение на диагнозата се извършва 'Coombs' тест.</li>
+            <li>Цинк - може да се причини от поглъщане на цинк-съдържащи предмети.</li>
+            <li>Микроангиопатично заболяване - много фрагментирани еритроцити или шистоцити на кръвната натривка. Причинява се от хемангиосаркома, хиперспленизъм и ДИК синдром.</li>
+          </ol>
+        <li><strong>Кръвозагуба</strong> - външна (мелена, хематохезия, петехии, бълхи, травма и др.)</li>
+        <li>Кръвозагуба - вътрешна (чревни паразити, хематурия).</li>
+      </ol>
+      <div><strong>Нерегенеративна анемия</strong></div>
+        <ol>
+          <li>Макроцитна нерегенеративна анемия - обикновено нерегенеративната анемия е нормоцитна и нормохромна. При КТ макроцитна анемия има при FeLV и FIV. Макроцитна анемия има и при дефицит на вит. Б9 и Б12, също и миелодисплазия.</li>
+          <li>Микроцитна анемия - най-често вследствие на желязодефицитна анемия. В по-редки случаи - ЧД заболяване.</li>
+          <li>Желязодефицитна анемия - хипохромна, микроцитна анемия.</li>
+          <li>Тежко ЧД заболяване - води до намалени запаси на желязо.</li>
+          <li>Отравяне с олово - характеризира се с 'nucleated RBCs' и 'basophilic stippling of RBCs'.</li>
+        </ol>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <div class="bold">Диференциална диагноза - Алгоритъм</div>
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-dd-1.png">
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-dd-2.png">
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-dd-3.png">
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-dd-4.png">
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-dd-hemolytic.png">
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-dd-azotemia.png">
+    </ion-row>
+    <ion-row>
+      <div class="bold">Регенеративна анемия - Алгоритъм</div>
+      <!-- <nv-link-button
+      (onClick)="openDocument(pdfs/@haematology/anemia/anemia-chart-regenerative-1.png)">Регенеративна анемия - Алгоритъм
+    </nv-link-button> -->
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-regenerative-1.png">
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-regenerative-2.png">
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-info-regenerative-mobile.png">
+    </ion-row>
+    <ion-row>
+      <div class="bold">Нерегенеративна анемия - Алгоритъм</div>
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-non-regenerative-1.png">
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-non-regenerative-2.png">
+      <img class="mb8" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-info-non-regenerative-mobile.png">
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

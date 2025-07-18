@@ -1,0 +1,46 @@
+<!-- App Header -->
+<!-- App Header -->
+<ion-header>
+  <nv-search-toolbar
+    (onSearch)      = "onItemSearched($event)"
+    (onFilter)      = "onFilter($event)">
+  </nv-search-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  <ion-grid style="padding: 16px; margin: 16px; border-bottom: solid 4px #3880ff;">
+    <ion-row>Какво искаш да намериш?</ion-row>
+    <ion-row>
+      <ion-col size="10">
+        <ion-button (click)="onSearchCategorySelected('ownerName')">собственик - име</ion-button>
+        <ion-button (click)="onSearchCategorySelected('ownerAdress')">собственик - адрес</ion-button>
+        <ion-button (click)="onSearchCategorySelected('telephone')">телефонен номер</ion-button>
+        <ion-button (click)="onSearchCategorySelected('petName')">животно - име</ion-button>
+        <ion-button (click)="onSearchCategorySelected('diagnosis')">заболяване</ion-button>
+      </ion-col>
+
+      <ion-col >
+        <ion-button class="pet-button"><img src="/assets/icon/picker/dog.png"></ion-button>
+        <ion-button class="pet-button"><img src="/assets/icon/picker/cat.png"></ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  @for(element of $collection; track element) {
+
+    <dc-card
+      [inputPetName]="element?.pet_name"
+      [inputOwnerName]="element?.owner_name"
+      [inputPetsDiseases]="element?.pets_diseases"
+      [object]="element"
+      (onSelectCard)="onSelectCard($event)">
+    </dc-card>
+  }
+
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "Drug calculator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

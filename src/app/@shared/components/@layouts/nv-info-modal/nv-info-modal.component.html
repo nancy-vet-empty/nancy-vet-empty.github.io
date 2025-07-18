@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{inputTitle}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ng-content></ng-content>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar (click)="onConfirm()">
+    <ion-title>
+      <ion-icon name="chevron-down-outline"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

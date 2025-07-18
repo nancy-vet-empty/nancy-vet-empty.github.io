@@ -1,0 +1,430 @@
+[
+  {
+    "title"     : "Анаген фаза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/anagen-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/anagen-1.png",
+      "/assets/pdfs/@probes/trichogram/anagen-3.png",
+      "/assets/pdfs/@probes/trichogram/anagen-catagen-telogen.png",
+      "/assets/pdfs/@probes/trichogram/trichogram-cat-hair-chart.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Фази на растеж:",
+        "content"     : [
+          "Анаген, фаза на растеж – клетките се делят с бърза скорост.",
+          "Катаген, фаза на регресия – клетките спират да се делят, започва миграция на косъма към повърхността на кожата.",
+          "Телоген, фаза на почивка – косъма остава във фоликула за 2-3 месеца и бива избутан, когато започне да расте нов косъм.",
+          "Косми в катаген рядко се виждат, те са с корени, изглеждащи нещо средно между анаген и телоген.",
+          "лятото съотношението анаген:телоген е около 50:50.",
+          "При телоген 100% от космите - заболяване."
+        ]
+      },
+      {
+        "sectionTitle": "Как да ги различаваме",
+        "content"     : [
+          "Косми в анаген – пигментирани, със заоблен край.",
+          "Косми в телоген – обикновено непигментирани, със заострен край.",
+          "Косми в катаген рядко се виждат, те са с корени, изглеждащи нещо средно между анаген и телоген."
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Катаген фаза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/catagen-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/catagen-1.png",
+      "/assets/pdfs/@probes/trichogram/anagen-3.png",
+      "/assets/pdfs/@probes/trichogram/anagen-catagen-telogen.png",
+      "/assets/pdfs/@probes/trichogram/trichogram-cat-hair-chart.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Фази на растеж:",
+        "content"     : [
+          "Анаген, фаза на растеж – клетките се делят с бърза скорост.",
+          "Катаген, фаза на регресия – клетките спират да се делят, започва миграция на косъма към повърхността на кожата.",
+          "Телоген, фаза на почивка – косъма остава във фоликула за 2-3 месеца и бива избутан, когато започне да расте нов косъм.",
+          "Косми в катаген рядко се виждат, те са с корени, изглеждащи нещо средно между анаген и телоген.",
+          "лятото съотношението анаген:телоген е около 50:50.",
+          "При телоген 100% от космите - заболяване."
+        ]
+      },
+      {
+        "sectionTitle": "Как да ги различаваме",
+        "content"     : [
+          "Косми в анаген – пигментирани, със заоблен край.",
+          "Косми в катаген – обикновено непигментирани, със заострен край.",
+          "Косми в катаген рядко се виждат, те са с корени, изглеждащи нещо средно между анаген и телоген."
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Увреждания на косъма",
+    "frontImage": "/assets/pdfs/@probes/trichogram/hair-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/hair-1.png",
+      "/assets/pdfs/@probes/trichogram/trichogram-cat-hair-chart.png",
+      "/assets/pdfs/@probes/trichogram/hair-2.png",
+      "/assets/pdfs/@probes/trichogram/hair-3.png",
+      "/assets/pdfs/@probes/trichogram/hair-4.png",
+      "/assets/pdfs/@probes/trichogram/hair-5.png",
+      "/assets/pdfs/@probes/trichogram/hair-6.png",
+      "/assets/pdfs/@probes/trichogram/hair-7.png",
+      "/assets/pdfs/@probes/trichogram/hair-8.png",
+      "/assets/pdfs/@probes/trichogram/hair-9.png",
+      "/assets/pdfs/@probes/trichogram/hair-10.png",
+      "/assets/pdfs/@probes/trichogram/hair-11.png",
+      "/assets/pdfs/@probes/trichogram/hair-12.png",
+      "/assets/pdfs/@probes/trichogram/hair-13.png",
+      "/assets/pdfs/@probes/trichogram/hair-14.png",
+      "/assets/pdfs/@probes/trichogram/hair-15.png",
+      "/assets/pdfs/@probes/trichogram/hair-16.png",
+      "/assets/pdfs/@probes/trichogram/hair-17.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Струпване на меланин",
+    "frontImage": "/assets/pdfs/@probes/trichogram/melanin-clumping-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/melanin-clumping-1.png",
+      "/assets/pdfs/@probes/trichogram/melanin-clumping-2.png",
+      "/assets/pdfs/@probes/trichogram/melanin-clumping-3.png",
+      "/assets/pdfs/@probes/trichogram/melanin-clumping-4.png",
+      "/assets/pdfs/@probes/trichogram/melanin-clumping-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          "Color dilution alopecia"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Хейлетиелоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-2.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-3.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-4.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Причинител: Cheyletiella spp., микроскопични кърлежи",
+          "нар. се „пълзящ пърхот“",
+          "не проявяват строга гостоприемникова специфичност, могат да инвазират и човека",
+          "най-често се заразяват млади ЖВ, взети наскоро от развъдници"
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "сърбеж",
+          "люспи по кожата",
+          "движещи се кожни люспи (пълзящ пърхот)",
+          "може да е асимптоматично"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма",
+          "Остъргване на кожата",
+          "Проба с тиксо"
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Неостомозан ампула - пръска се по гърба и по тила на 5 дена, разрежда се 1 мл в 400 мл вода.",
+          "Ектолуцил - от него е възможно да се получи алергична реакция."
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Демодекоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/demodex-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/demodex-1.png",
+      "/assets/pdfs/@probes/trichogram/demodex-2.png",
+      "/assets/pdfs/@probes/trichogram/demodex-3.png",
+      "/assets/pdfs/@probes/trichogram/demodex-4.png",
+      "/assets/pdfs/@probes/trichogram/demodex-5.png",
+      "/assets/pdfs/@probes/trichogram/demodex-6.png",
+      "/assets/pdfs/@probes/trichogram/demodex-7.png",
+      "/assets/pdfs/@probes/trichogram/demodex-8.png",
+      "/assets/pdfs/@probes/trichogram/demodex-9.png",
+      "/assets/pdfs/@probes/trichogram/demodex-10.png",
+      "/assets/pdfs/@probes/trichogram/demodex-11.png",
+      "/assets/pdfs/@probes/trichogram/demodex-12.png",
+      "/assets/pdfs/@probes/trichogram/demodex-13.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Причинител: Demodex canis, D. injai, D. cornei, D. cati, D. gotoi",
+          "- част от нормалната фауна на кожата, обикновено в малки количества;",
+          "- живее в космените фоликули и мастните жлези на кожата;",
+          "- предава се от майка на новородено през първите 2-3 дни от кърменето;",
+          "- демодекоза се развива при прекалено количество демодекси или при имуносупресия."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "бива локализирана и генерализирана;",
+          "еритема;",
+          "алопеция;",
+          "люспене на кожата.",
+          "т. нар. 'демодекозни очила'"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма заедно с дълбоко остъргване на кожата със скалпел.",
+          "Проба с тиксо - не винаги се откриват демодекси, но при наличие в тази проба се счита, че те са в голямо количество."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Симпарика (сароланер)",
+          "Бравекто (флураланер)",
+          "Адвокейт (моксидектин)",
+          "Моксиклиър (моксидектин)",
+          "НексГард Спектра",
+          "Неостомозан"
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Тромбикулоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/trombicula-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/trombicula-1.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-2.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-3.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-4.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-5.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-6.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "само техните шестоноги ларви са паразити",
+          "осмоногите нимфи и възрастните паразити живеят в околната среда и не са паразити",
+          "ларвите секретират слюнчени протеолитични ензими, които смилат тъканите на гостоприемника.",
+          "В същото време кожата се втвърдява.",
+          "ларвите паразитират за 3-4 дни, след което напускат гостоприемника"
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "оранжеви гнезда, прикрепени към космите"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Ектолуцил - външно, локално, чрез напръскване. Напръскват се заболелите участъци от разстояние 10-15 cm един път дневно в продължение на 2–3 дни. След 15 дни процедурата се повтаря."
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Дерматофитоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-2.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-3.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-4.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-5.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-6.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-7.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-8.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-9.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-10.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-11.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-12.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-13.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-14-nt.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-15.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Причинители: Microsporum canis, Trichophyton mentagrophytes, Microsporum gypseum.",
+          "Дерматофитите растат в кератинизиралия слой на космите, ноктите и кожата;",
+          "те не могат да оживеят върху живи тъкани или при тежко възпаление;",
+          "инкубационен период: 1-4 седмици;",
+          "кортикостероидите потискат възпалението и удължават инфекцията;",
+          "Зооноза"
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "алопеция с цилиндрична форма",
+          "люспене на кожата (невинаги)",
+          "еритема (невинаги)",
+          "сърбеж (невинаги)",
+          "Възможно е да се появят: паронихия, грануломи, кериони."
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма и дълбоко остъргване на кожата със скалпел.",
+          "Лампа на Ууд - фалшиво положителния резултат е често срещан (някои лекарства, кератинът и себумът може да дадат фалшиво-позитивен резултат). Лампата трябва да се затопли за минимум 5 мин., след което да свети върху поразената тъкан около 5 мин. Истински положителния резултат вследствие на M. canis е когато има флуоресценция на космите."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Кетоконазол",
+          "Итраконазол",
+          "Гризеофулвин",
+          "Тербинафин",
+          "Клотримазол - не е много ефективен за котки",
+          "Енилконазол",
+          "Миконазол",
+          "Флуконазол"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Въшки, смучещи",
+    "frontImage": "/assets/pdfs/@probes/trichogram/lice-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/lice-1.png",
+      "/assets/pdfs/@probes/trichogram/lice-2.png",
+      "/assets/pdfs/@probes/trichogram/lice-3.png",
+      "/assets/pdfs/@probes/trichogram/lice-4.png",
+      "/assets/pdfs/@probes/trichogram/lice-5.png",
+      "/assets/pdfs/@probes/trichogram/polyplax-and-myocoptes-musculinus.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Polyplax spp.",
+          "Haematopinus spp.",
+          "Linognathus spp.",
+          "Solenoptes spp.",
+          "Phthirus spp.",
+          "Pediculus spp."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Въшки, хапещи",
+    "frontImage": "/assets/pdfs/@probes/trichogram/mallophagan-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/mallophagan-1.png",
+      "/assets/pdfs/@probes/trichogram/mallophagan-2.png",
+      "/assets/pdfs/@probes/trichogram/mallophagan-3.png",
+      "/assets/pdfs/@probes/trichogram/mallophagan-4.png",
+      "/assets/pdfs/@probes/trichogram/mallophagan-5.png",
+      "/assets/pdfs/@probes/trichogram/mallophagan-6.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Polyplax spp.",
+          "Haematopinus spp.",
+          "Linognathus spp.",
+          "Solenoptes spp.",
+          "Phthirus spp.",
+          "Pediculus spp.",
+          "Главата е по-широка от първи гръден сегмент."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  }
+]

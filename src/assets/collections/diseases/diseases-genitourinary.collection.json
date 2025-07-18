@@ -1,0 +1,1231 @@
+[
+  {
+    "title"       : "Хронична бъбречна недостатъчност",
+    "titleEn"     : "Chronic Kidney Disease (CKD)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/chronic-kidney-disease.pdf" },
+      { "title": "IRIS стадий на ХБН", "link": "pdfs/@diseases/additional-files/IRIS-staging.pdf" },
+      { "title": "IRIS стадий накратко", "link": "pdfs/@diseases/additional-files/IRIS-pocket-guide.pdf" },
+      { "title": "IRIS лечение КЧ", "link": "pdfs/@diseases/additional-files/IRIS-dog-treatment.pdf" },
+      { "title": "IRIS лечение КТ", "link": "pdfs/@diseases/additional-files/IRIS-cat-treatment.pdf" },
+      { "title": "IDEXX FGF-23 тест", "link": "pdfs/@diseases/additional-files/ckd-phosphorous-overload-algorithm.pdf" }
+    ],
+    "etiology"      : ["ХБН представлява продължително във времето увреждане на бъбреците при кучетата и котките, при което намалява тяхната способност да изпълняват функцията си и заради това се задържат токсини в организма.", "Заболяват най-често ЖВ над 5-6-годишна възраст."],
+    "signs"         : ["повръщане", "анорексия", "дехидратация", "олигурия", "анурия", "полидипсия", "гумена челюст", "отпадналост"],
+    "specificSigns" : ["Болка при натиск в областта на бъбреците.", "cervical ventroflexion", "висене над купичката с вода"],
+    "diagnostics"   : ["Анамнеза: начало на симптомите (изключи отравяния), има ли олигурия/анурия?", "Клиничен преглед: устна кухина, хидратация на кожна гънка, палпация на ББ, кахексия?", "Биохимични показатели: повишени - Crea, BUN, P.", "IDEXX SDMA - изследва "],
+    "treatment"     : ["Renal храна", "Ипакитин/ Пронефра/ Ирквет - намаляват фосфора в кръвта.", "Рингер лактат, до 1,5-2 пъти над дневните флуидни нужди (може да се добави калий).", "Рокартрол (калцитриол).", "Епоетин (Бинокрит/ Неорекормон) - стимулира костния мозък да произвежда повече еритроцити; при анемия заради бъбречно заболяване.", "Азодил (добавка)", "За стимулиране на апетит – антацид, противоповръщателно.", "След 2 седмици лечение - контрола (кръвни изследвания и анализ на урина с рефрактометър."],
+    "differential"  : ["Отравяния"]
+  },
+  {
+    "title"       : "Остра бъбречна недостатъчност",
+    "titleEn"     : "Acute Kidney Disease (AKD)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Гломерулонефрит",
+    "titleEn"     : "Glomerulonephritis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Бъбречна поликистоза",
+    "titleEn"     : "Polycystic Kidney Disease (PKD)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Пиелонефрит",
+    "titleEn"     : "Pyelonephritis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Бъбречна дисплазия",
+    "titleEn"     : "Renal Dysplasia",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Амилоидоза",
+    "titleEn"     : "Amyloidosis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хидронефроза",
+    "titleEn"     : "Hydronephrosis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Нефролитиаза",
+    "titleEn"     : "Nephrolithiasis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Бъбречна тубулна ацидоза",
+    "titleEn"     : "Renal Tubular Acidosis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на бъбрека",
+    "titleEn"     : "Renal Neoplasia (e.g., Renal Carcinoma, Lymphoma)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Ектопичен уретер",
+    "titleEn"     : "Ectopic Ureters",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Обструкция на уретера",
+    "titleEn"     : "Ureteral Obstruction (e.g., Stones, Tumors)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Уретрит",
+    "titleEn"     : "Ureteritis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Уретероцеле",
+    "titleEn"     : "Ureterocele",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Травма на уретера",
+    "titleEn"     : "Ureteral Trauma",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Цистит",
+    "titleEn"     : "Cystitis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Уролитиаза",
+    "titleEn"     : "Urolithiasis (Bladder Stones)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на пикочния мехур",
+    "titleEn"     : "Bladder Neoplasia (e.g., Transitional Cell Carcinoma)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Атония на пикочния мехур",
+    "titleEn"     : "Bladder Atony",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Уринарната инконтиненция",
+    "titleEn"     : "Urinary Incontinence",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Полипоиден цистит",
+    "titleEn"     : "Polypoid Cystitis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Руптура на пикочния мехур",
+    "titleEn"     : "Bladder Rupture",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Болест на долните пикочни пътища при котки",
+    "titleEn"     : "Feline Lower Urinary Tract Disease (FLUTD)",
+    "type"        : "genitourinary",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/feline-lower-urinary-tract-disease.pdf" }
+    ],
+    "etiology"      : ["стрес - променя пермеабилитета на стената на пик. мехур", "храна - богата на протеини; променяща pH на урината.", "вода - твърда и варовита.", "FLUTD - група заболявания, най-често от които е FIC (Котешки идиопатичен цистит)."],
+    "signs"         : ["дизурия", "полакиурия", "странгурия", "хематурия", "повръщане", "безпокойство", "мяукане при уриниране", "периурия (inappropriate urination)"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["пълен пикочен мехур при палпация и евентуално невъзможност за изпикаване.", "при заседнал уролит в уретер пикочният мехур се препълва и настъпва интоксикация, при което температурата пада."],
+    "treatment"     : ["АБ (енрофлоксацин + синулокс)", "Бусколизин", "Ревмокам (под въпрос е ефикасността)", "Флуидна терапия (без Рингер!)", "Катетеризация", "Цистостомия, уретростомия", "При наличие на кристали - задължително установяване вида на кристалите (струвитни или оксалатни)"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кристалурия",
+    "titleEn"     : "Crystalluria",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Уретрит",
+    "titleEn"     : "Urethritis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Обструкция на уретрата",
+    "titleEn"     : "Urethral Obstruction",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Камък в уретрата",
+    "titleEn"     : "Urethral Stones",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Стеснение на уретрата",
+    "titleEn"     : "Urethral Stricture",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Пролапс на уретрата",
+    "titleEn"     : "Urethral Prolapse",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на уретрата",
+    "titleEn"     : "Urethral Tumors",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Нараняване на уретрата",
+    "titleEn"     : "Trauma-Induced Urethral Injury",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Крипторхизъм",
+    "titleEn"     : "Cryptorchidism",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Орхит",
+    "titleEn"     : "Orchitis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на тестисите",
+    "titleEn"     : "Testicular Tumors",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Доброкачествена хиперплазия на простатата",
+    "titleEn"     : "Benign Prostatic Hyperplasia (BPH)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["ДХП е често срещано състояние при по-възрастни мъжки кучета, при което простатата се уголемява поради хормонални промени (тестостерон).", "Простатата може да окаже натиск върху други органи като уретра и ректум."],
+    "signs"         : ["дизурия", "хематурия", "полакиурия", "тенезъм", "запек", "анорексия", "подут корем"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Ехограф", "Рентген", "Анализ на урина"],
+    "treatment"     : ["Медикаменти", "Кастрация", "Дренаж на кистата"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Простатит",
+    "titleEn"     : "Prostatitis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Абсцес на простатата",
+    "titleEn"     : "Prostatic Abscess",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на простатата",
+    "titleEn"     : "Prostatic Neoplasia (e.g., Adenocarcinoma)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Киста на простатата",
+    "titleEn"     : "Prostatic Cysts",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Простатната киста е изпълнена с течност кухина, която се образува в (истински кисти) или около (парапростатни кисти) простатната жлеза.", "Фактори: Некастрирани възрастни мъжки кучета.", "Кистата може да окаже натиск върху други органи като пик. мехур и ректум."],
+    "signs"         : ["дизурия", "тенезъм", "анорексия", "хематурия", "полакиурия", "подут корем"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Ехограф", "Рентген", "Анализ на урина"],
+    "treatment"     : ["Медикаменти", "Кастрация", "Дренаж на кистата"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Баланопостит",
+    "titleEn"     : "Balanoposthitis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Фимоза",
+    "titleEn"     : "Phimosis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Парафимоза",
+    "titleEn"     : "Paraphimosis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на пениса",
+    "titleEn"     : "Penile Neoplasia (e.g., Transmissible Venereal Tumor - TVT)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Приапизъм",
+    "titleEn"     : "Priapism",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Травма на пениса",
+    "titleEn"     : "Penile Trauma",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Киста на яйчника",
+    "titleEn"     : "Ovarian Cysts",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на яйчника",
+    "titleEn"     : "Ovarian Tumors",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Оофорит",
+    "titleEn"     : "Oophoritis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Пиометра",
+    "titleEn"     : "Pyometra",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Събиране на гной в матката.", "Възниква не главно заради бактериална инфекция, но заради постоянните хормонални промени, които се случват при некастрираните животни.", "Маточната стена може да започне да пропуска тази гной извън матката (перитонит) или направо да се разкъса.", "Според маточната шийка бива отворена или затворена пиометра."],
+    "signs"         : ["треска", "анорексия", "секрет от вулвата", "повръщане", "подут корем", "полиурия", "полидипсия"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["ПКК", "Биохимични показатели: повишени ББ показатели.", "Ехограф."],
+    "treatment"     : ["Стабилизиране на пациента.", "Операция", "Ализин (аглепристон) - по схема: 0,33 мл/кг 2 пъти през 24 часа, след което се поставя през 7 дни, докато не изчезне проблемът. Обикновено са нужни 3-4 седмици."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Ендометрит",
+    "titleEn"     : "Endometritis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кистозна хиперплазия на ендометриума",
+    "titleEn"     : "Cystic Endometrial Hyperplasia",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на матката",
+    "titleEn"     : "Uterine Tumors (e.g., Leiomyoma, Leiomyosarcoma)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Торзио на матката",
+    "titleEn"     : "Uterine Torsion",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Пролапс на матката",
+    "titleEn"     : "Uterine Prolapse",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Руптура на матката",
+    "titleEn"     : "Uterine Rupture",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Вагинит",
+    "titleEn"     : "Vaginitis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Вулвит",
+    "titleEn"     : "Vulvitis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хиперплазия на вулвата",
+    "titleEn"     : "Vaginal Hyperplasia",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на вулвата",
+    "titleEn"     : "Vaginal Neoplasia (e.g., TVT, Leiomyoma)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Пролапс на вагината",
+    "titleEn"     : "Vaginal Prolapse",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Вагинално течение",
+    "titleEn"     : "Vaginal Discharge",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Вестибулит",
+    "titleEn"     : "Vestibulitis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дерматит на вулварната гънка",
+    "titleEn"     : "Vulvar Fold Dermatitis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Мастит",
+    "titleEn"     : "Mastitis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хиперплазия на млечните жлези",
+    "titleEn"     : "Mammary hyperplasia",
+    "type"        : "neoplasms",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["уголемяване на една или повече млечни жлези при котките.", "Засяга главно млади, некастрирани и/или бременни.", "Причинява се от гол. кол-во прогестерон."],
+    "signs"         : ["уголемени млечни жлези", "отпадналост", "болка", "анорексия"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Преглед", "Ехограф"],
+    "treatment"     : ["Ализин (аглепристон) - по схема: 0,33 мл/кг 2 пъти през 24 часа, след което се поставя през 7 дни, докато не изчезне проблемът. Обикновено са нужни 3-4 седмици."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на млечната жлеза",
+    "titleEn"     : "Mammary Tumors (Benign and Malignant)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Виж в раздел: Тумори."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Галактостаза",
+    "titleEn"     : "Galactostasis",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Галакторея",
+    "titleEn"     : "Galactorrhea",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Агалаксия",
+    "titleEn"     : "Agalactia",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Инфекция на пикочните пътища",
+    "titleEn"     : "Urinary Tract Infections (UTIs)",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Инфекция на половия тракт",
+    "titleEn"     : "Reproductive Tract Infections",
+    "type"        : "genitourinary",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  }
+]

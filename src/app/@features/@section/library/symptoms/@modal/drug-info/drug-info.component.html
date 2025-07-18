@@ -1,0 +1,49 @@
+<nv-info-modal [inputTitle]="selectedObject.symptom" class="ion-page">
+
+  <div class="fs13">
+    <strong>Значение:</strong> {{selectedObject.meaning}}.
+  </div>
+
+  @for( groupElement of selectedObject.causes; track groupElement) {
+
+    <div>
+      <div class="h2 m-gap1">
+        {{groupElement.group}}
+      </div>
+
+      @if(groupElement.children) {
+
+        <div>
+
+          @for(childElement of groupElement.children; track childElement) {
+
+            <div>
+              <div class="mt5">
+                {{childElement.title}}
+              </div>
+
+              @if(childElement.children) {
+
+                <ul style="margin-left: -21px;">
+                  @for(childElement2 of childElement.children; track childElement2) {
+                    <li>{{childElement2.title}}</li>
+                  }
+                </ul>
+              }
+            </div>
+          }
+
+        </div>
+      }
+    </div>
+  }
+
+  @for(element of selectedObject.links; track element) {
+    <nv-link-button
+    *ngIf="element.title !== 'няма-линк'"
+    [inputTitle]="element.title"
+    (onClick)="onOpenPdfDocument(element.link)">
+    </nv-link-button>
+}
+
+</nv-info-modal>

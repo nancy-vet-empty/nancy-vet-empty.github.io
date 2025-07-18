@@ -1,0 +1,801 @@
+[
+  {
+    "title"       : "Отворен дуктус артериозус",
+    "titleEn"     : "Patent Ductus Arteriosus (PDA)",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/patent-ductus-arteriosus.pdf" }
+    ],
+    "etiology"      : ["Ductus atreriosus свързва a. pulmonalis с aorta descendens.", "Кръвта от aorta descendens отива в a. pulmonalis.", "Повишено налягане в БД, после в пулмоналните вени и разширяване на лявото предсърдие."],
+    "signs"         : ["белодроден оток", "стържене до сърдечната основа", "постоянен сърдечен шум", "Висок и широк зъбец R", "Широк и разцепен зъбец P", "синдром на Айзенменгер"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Рентгенография", "ЕКГ", "Доплерова ехокардиография"],
+    "treatment"     : ["Хирургична намеса"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Персистиращи извивки на аортната дъга",
+    "titleEn"     : "Persistent right aortic arch",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Междупредсърден септален дефект",
+    "titleEn"     : "Atrial Septal Defect (ASD)",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Междукамерен септален дефект",
+    "titleEn"     : "Ventricular Septal Defect (VSD)",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Пулмонална стеноза",
+    "titleEn"     : "Pulmonic Stenosis",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Аортна стеноза",
+    "titleEn"     : "Aortic stenosis",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Митрална дисплазия",
+    "titleEn"     : "Mitral dysplasia",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Трикуспидална дисплазия",
+    "titleEn"     : "Tricuspid dysplasia",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тетралогия на Fallot",
+    "titleEn"     : "Tetralogy of Fallot",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/tetralogy-of-fallot.pdf" }
+    ],
+    "etiology"      : ["Вроден сърдечен дефект, включващ пулмонална стеноза, хипертрофия на дясна камера, междукамерен септален дефект и аорта тип седло.", "Свиване на отвора на a. pulmonalis -> хипертрофия на дясната камера -> септален дефект.", "повишено налягане в дясната камера -> септален дефект -> кръвта навлиза в лявата камера -> смесена кръв към тъканите -> хипоксия -> полицитемия."],
+    "signs"         : ["физическа слабост", "цианоза", "диспнея", "систоличен шум във формата на диамант", "без дълбок зъбец S", "Много нисък зъбец R"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["ЕКГ", "Ехокардиография", "Рентгенография"],
+    "treatment"     : ["Хирургично (рядко се предприема).", "Консервативно - намаляване физическата активност, флеботомия, антиаритмични средства (атенолол, пропранолол)."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Трипредсърдно сърце",
+    "titleEn"     : "Cor Triatriatum",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Ендокардна фиброеластоза",
+    "titleEn"     : "Endocardial Fibroelastosis",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Заболяване на митралната клапа",
+    "titleEn"     : "Mitral valve disease",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/mitral-valve-disease.pdf" }
+    ],
+    "etiology"      : ["Хронично дегенеративно заболяване на клапата, протичащо с клапна фиброза, ендокардиоза, митрална регургитация, вторична дилатация на лявото предсърдие и тежка лявостранна сърдечна недостатъчност.", "колагенът на клапите дегенерира -> натрупват се кисели мукополизахариди между слоевете -> удебеляване и деформация на клапите -> разтягане на chordae tendinei -> митрална регургитация.", "Увреждане на миокарда + митрална регургитация -> дилатация на лявото предсърдие -> дилатация на БД вени -> лявостранна сърд. недостатъчност."],
+    "signs"         : ["непоносимост към натоварване", "белодробен оток", "кашлица", "холосистоличен сърдечен шум", "систоличен шум", "тахипнея", "диспнея", "хрипове", "цианоза", "сърдечна кахексия", "синкоп"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["ЕКГ", "Ехокардиография", "Рентгенография"],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Бактериален ендокардит",
+    "titleEn"     : "Bacterial Endocarditis",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кардиомиопатия, свързана с дефицит на таурин",
+    "titleEn"     : "Taurine Deficiency Associated Dilated Cardiomyopathy",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кардиомиопатия, предизвикана от доксорубицин",
+    "titleEn"     : "Doxorubicin-induced Cardiomyopathy",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кардиомиопатия, предизвикана от хипертиреоидизъм",
+    "titleEn"     : "Hyperthyroidism-induced Cardiomyopathy",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кардиомиопатия, предизвикана от захарен диабет",
+    "titleEn"     : "Diabetic cardiomyopathy",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дилатативна кардиомиопатия",
+    "titleEn"     : "Dilated Cardiomyopathy (DCM)",
+    "type"        : "circulatory",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/dilated-cardiomyopathy.pdf" }
+    ],
+    "etiology"      : ["Представлява първично заболяване на миокарда, характеризиращо се с понижена миокардна контрактилност с или без сърдечни аритмии.", "Започва с увреждане наклетките на миокарда -> понижаване на контрактилитета -> понижен сърдечен дебит (още понижен минутен обем) -> активиране на RAAS -> ."],
+    "signs"         : ["физическа слабост", "анорексия", "сърдечна кахексия", "бледи лигавици", "систоличен шум с лентовидна форма", "допълнителен сърдечен тон", "синкоп", "диспнея", "ортопнея", "носни изтечения", "асцит", "белодробен оток", "хидроторакс", "периферни отоци"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Радиография (вертебрално-сърдечен индекс) - кардиомегалия", "ЕКТ - екстрасистоли, тахикардия и др.", "Ехокардиография - златен стандарт.", "Коремна ехография"],
+    "treatment"     : ["Диуретици", "Инодилататори", "АЦЕ инхибитори", "Антиаритмични средства"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хипертрофична кардиомиопатия",
+    "titleEn"     : "Hypertrophic Cardiomyopathy (HCM)",
+    "type"        : "circulatory",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/hypertrophic-cardiomyopathy.pdf" }
+    ],
+    "etiology"      : ["Хипертрофична кардиомиопатия представлява първично заболяване на миокарда, характеризиращо се с хипертрофия на лявата камера особено в областта на септума със или без обструкция на нейната изходна част (субаортна стеноза), която се получава при повечето пациенти.", "ПРИ ХКМ миокардните клетки се увреждат -> хипертрофия на миокарда -> затруднено разпускане -> понижен сърдечен дебит -> дилатация на лявото предсърдие.", "Усложнения: белодробен оток, аортна тромбоемболия, митрална регургитация, субаортна стеноза."],
+    "signs"         : ["белодробен оток", "диспнея", "тахипнея", "кашлица", "систоличен шум", "синкоп", "цианоза", "хрипове"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Рентгенография", "ЕКГ", "Ехокардиография"],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Сърдечно заболяване, породено от мускулна дистрофия тип Дюшен",
+    "titleEn"     : "Duchenne Cardiomyopathy",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дясно-ляв сърдечен шънт",
+    "titleEn"     : "Right-to-left-shunting",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Рестриктивна кардиомиопатия",
+    "titleEn"     : "Restrictive Cardiomyopathy",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Tрикуспидална (клапна) инсуфициенция",
+    "titleEn"     : "Tricuspid Valve Disease",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Ендокардит",
+    "titleEn"     : "Endocarditis",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хипертензия",
+    "titleEn"     : "Hypertension (Systemic Hypertension)",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хипотензия",
+    "titleEn"     : "Hypotension",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тромбоза и тромбоемболизъм",
+    "titleEn"     : "Thrombosis and Thromboembolism",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Аортен тромбоемболизъм",
+    "titleEn"     : "Aortic Thromboembolism",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Артериосклероза",
+    "titleEn"     : "Arteriosclerosis",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Атеросклероза",
+    "titleEn"     : "Atherosclerosis",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Васкулит",
+    "titleEn"     : "Vasculitis",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Лимфангиектазия",
+    "titleEn"     : "Lymphangiectasia",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хемангиосаркома",
+    "titleEn"     : "Hemangiosarcoma",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Предсърдно мъждене и трептене",
+    "titleEn"     : "Atrial fibrillation and flutter",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Спиране на сърцето",
+    "titleEn"     : "Cardiac arrest",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Камерна тахикардия",
+    "titleEn"     : "Ventricular Tachycardia",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Надкамерна тахикардия",
+    "titleEn"     : "Supraventricular Tachycardia",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синусова брадикардия",
+    "titleEn"     : "Sinus Bradycardia",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Атриовентрикуларен блок",
+    "titleEn"     : "Atrioventricular Block (1st, 2nd, and 3rd degree)",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синдром на болния синусов възел",
+    "titleEn"     : "Sick Sinus Syndrome",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Застойна сърдечна недостатъчност",
+    "titleEn"     : "Congestive Heart Failure (CHF)",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Лявостранна сърдечна недостатъчност",
+    "titleEn"     : "Left-sided Heart Failure",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дясностранна сърдечна недостатъчност",
+    "titleEn"     : "Right-sided Heart Failure",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Кардиогенен шок",
+    "titleEn"     : "Cardiogenic Shock",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Перикарден излив",
+    "titleEn"     : "Pericardial Effusion",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Перикардит",
+    "titleEn"     : "Pericarditis",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на перикарда",
+    "titleEn"     : "Pericardial Tumors (e.g., mesothelioma)",
+    "type"        : "circulatory",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  }
+]

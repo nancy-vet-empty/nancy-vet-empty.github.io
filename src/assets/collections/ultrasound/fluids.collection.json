@@ -1,0 +1,242 @@
+[
+  {
+    "title"       : "Натриве хлорид 0,9% инфузионен разтвор",
+    "titleEn"     : "Sodium chloride 0,9% solution for infusion",
+    "type"        : "crystalloid",
+    "osmolarity"  : "isotonic",
+    "indications" : [
+      "Заместване", "хиповолемичен шок", "анорексия", "повръщане", "диария", "метаболитна алкалоза", "хиперкалемия", "хиперкалцемия", "хипонатремия", "хипонатремия", "ББ недостатъчност."
+    ],
+    "contraindications": [
+      "Сърдечно заболяване", "ЧД заболяване", "метаболитна ацидоза"
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/natriev-hlorid-banka.pdf" }
+    ]
+  },
+  {
+    "title"       : "Натриве хлорид 0,9% с глюкоза 5% инфузионен разтвор",
+    "titleEn"     : "Sodium chloride 0,9% and glucose 5% solution for infusion",
+    "type"        : "crystalloid",
+    "osmolarity"  : "",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/natriev-hlorid-glukoza-banka.pdf" }
+    ]
+  },
+  {
+    "title"       : "Глюкоза 5% инфузионен разтвор",
+    "titleEn"     : "Glucose 5% solution for infusion",
+    "type"        : "crystalloid",
+    "osmolarity"  : "hypotonic",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/glukoza-banka.pdf" }
+    ]
+  },
+  {
+    "title"       : "Глюкоза 10% инфузионен разтвор",
+    "titleEn"     : "Glucose 10% solution for infusion",
+    "type"        : "crystalloid",
+    "osmolarity"  : "hypotonic",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/glukoza-10-banka.pdf" }
+    ]
+  },
+  {
+    "title"       : "Декстроза 5% инфузионен разтвор",
+    "titleEn"     : "Dextrose 5% solution for infusion",
+    "type"        : "crystalloid",
+    "osmolarity"  : "hypotonic",
+    "indications" : [
+      "Подходяща за комбиниране с ИВ лекарства", "корекция на хипернатремия", "застойна сърдечна недостатъчност"
+    ],
+    "contraindications": [
+      "Не осигурява нужните калории, за да се използва като парентерално хранене."
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/dekstroza.pdf" }
+    ]
+  },
+  {
+    "title"       : "Хартман (Рингер лактат) инфузионен разтвор",
+    "titleEn"     : "Hartmann (Ri-Lac) solution for infusion",
+    "type"        : "crystalloid",
+    "osmolarity"  : "",
+    "indications" : [
+      "Заместване", "хиповолемичен шок", "повръщане", "диария", "хипокалцемия", "метаболитна ацидоза", "ББ недостатъчност."
+    ],
+    "contraindications": [
+      "Хиперкалцемия", "хиперкалемия", "ЧД недостатъчност", "кръвни продукти."
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/hartman-ringer-laktat-banka.pdf" }
+    ]
+  },
+  {
+    "title"       : "Рингер инфузионен разтвор",
+    "titleEn"     : "Ringer solution for infusion",
+    "type"        : "crystalloid",
+    "osmolarity"  : "",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/ringer-banka.pdf" }
+    ]
+  },
+  {
+    "title"       : "Дуфалайт инжективен разтвор",
+    "titleEn"     : "Duphalyte solution for injection",
+    "type"        : "",
+    "osmolarity"  : "",
+    "indications" : [
+      "бавно ИВ или ПК. За КЧ и КТ - 10 мл/кг", "хипопротеинемия"
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/dufalait-banka.pdf" }
+    ]
+  },
+  {
+    "title"       : "Манитол 15% инфузионен разтвор",
+    "titleEn"     : "Mannitol 15% solution for infusion",
+    "type"        : "",
+    "osmolarity"  : "",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/manitol-banka.pdf" }
+    ]
+  },
+  {
+    "title"       : "ХЕС 6% (Волувен) инфузионен разтвор",
+    "titleEn"     : "HES 6% (Voluven) solution for infusion",
+    "type"        : "colloid",
+    "osmolarity"  : "",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/hes-6.pdf" }
+    ]
+  },
+  {
+    "title"       : "Натриев бикарбонат 8,4% концентрат за инфузионен разтвор",
+    "titleEn"     : "Sodium bicarbonate 8,4% concentrate for solution for infusion",
+    "type"        : "",
+    "osmolarity"  : "",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/natriev-bikarbonat.pdf" }
+    ]
+  },
+  {
+    "title"       : "Аминоплазмал 5% Е инфузионен разтвор",
+    "titleEn"     : "Aminoplasmal 5% E solution for infusion",
+    "type"        : "",
+    "osmolarity"  : "",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/aminoplazmal-banka.pdf" }
+    ]
+  },
+  {
+    "title"       : "Албунорм инфузионен разтвор",
+    "titleEn"     : "Albunorm solution for infusion",
+    "type"        : "",
+    "osmolarity"  : "",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/albunorm.pdf" }
+    ]
+  },
+  {
+    "title"       : "Доцетакс 40 мг/мл концентрат за инфузионен разтвор",
+    "titleEn"     : "Docetax 40 mg/ml concentrate for solution for infusion",
+    "type"        : "",
+    "osmolarity"  : "",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/dotsetaks.pdf" }
+    ]
+  },
+  {
+    "title"       : "Кабивен емулсия за инфуция",
+    "titleEn"     : "Kabiven emulsion for infusion",
+    "type"        : "",
+    "osmolarity"  : "",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/kabiven-periferal.pdf" }
+    ]
+  },
+  {
+    "title"       : "Оликлиномел инфузионен разтвор",
+    "titleEn"     : "Oliklinomel solution for infusion",
+    "type"        : "",
+    "osmolarity"  : "",
+    "indications" : [
+      ""
+    ],
+    "contraindications": [
+      ""
+    ],
+    "links" : [
+      { "title": "листовка" , "link": "pdfs/@fluids/oliklinomel.pdf" }
+    ]
+  }
+]

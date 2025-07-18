@@ -1,0 +1,70 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Принципи на ваксиниране</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+    <!-- <div id="old-calculator">
+        <h3>Стара ваксинационна схема</h3>
+
+        <label for="old-birthdate">Въведете дата на раждане:</label>
+        <input type="date" id="old-birthdate">
+
+
+        <button id="old-calculate-btn" class="no-print">Изчисли</button>
+
+        <br>
+
+        <table id="old-vaccination-table">
+            <tr>
+                <td class="first-td">Първа ваксина:</td>
+                <td>6-а седмица</td>
+                <td><span id="oldvaccine1"></span></td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="first-td">Втора ваксина:</td>
+                <td>8-а седмица</td>
+                <td><span id="oldvaccine2"></span></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="center-text italic">или</td>
+            </tr>
+            <tr>
+                <td>9-а седмица</td>
+                <td><span id="oldvaccine3"></span></td>
+            </tr>
+            <tr>
+                <td class="first-td">Трета ваксина:</td>
+                <td>12-а седмица</td>
+                <td><span id="oldvaccine4"></span></td>
+            </tr>
+            <tr>
+                <td class="first-td">Реваксинация:</td>
+                <td>52-а седмица</td>
+                <td><span id="oldrevaccine"></span></td>
+            </tr>
+        </table>
+
+    </div> -->
+
+    <div style="margin: 5px 15px;">
+      <nv-link-button
+      [inputTitle]="'Принципи на ваксиниране'"
+      (onClick)="onOpenPdfDocument('assets/pdfs/@vaccination/vaccination.pdf')">
+      </nv-link-button>
+    </div>
+
+
+
+
+
+</ion-content>

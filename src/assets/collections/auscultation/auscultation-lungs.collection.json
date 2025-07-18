@@ -1,0 +1,91 @@
+[
+  {
+    "title"     : "Нормален белодробен звук",
+    "frontAudio": "/assets/pdfs/@auscultation/lungs/fine-crackles.wav",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Фини хрипове (Fine crackles)",
+    "frontAudio": "/assets/pdfs/@auscultation/lungs/fine-crackles.wav",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "причинява се от експлозивното отваряне на малките въздухоносни пътища, които образуват кратък и висок звук.",
+          "може да се получи вследствие на течноств БД.",
+          "на записа - КЧ с кардиогенен БД оток"
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Едри хрипове (Coarse crackles)",
+    "frontAudio": "/assets/pdfs/@auscultation/lungs/coarse-crackles.wav",
+    "type"      : "систоличен шум",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "те лесно се различават от фините хрипове по това, че те могат лесно да се чуят и без стетоскоп."
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          "трахеобронхит или друго възпалително заболяване на големите въздухоносни пътища."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Свистене (wheezes)",
+    "frontAudio": "/assets/pdfs/@auscultation/lungs/wheezes.wav",
+    "type"      : "систоличен шум",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          "заболявания на бронхите, вкл. и астма"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Хъркане (rhonchi)",
+    "frontAudio": "/assets/pdfs/@auscultation/lungs/rhonchi-cat.wav",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  }
+]

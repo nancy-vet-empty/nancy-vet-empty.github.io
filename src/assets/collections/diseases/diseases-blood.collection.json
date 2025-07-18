@@ -1,0 +1,461 @@
+[
+  {
+    "title"       : "Желязодефицитна анемия",
+    "titleEn"     : "Iron-Deficiency Anemia",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Витамин B12-недоимъчна анемия",
+    "titleEn"     : "Vitamin B12 Deficiency Anemia",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Фолиевонедоимъчна анемия",
+    "titleEn"     : "Folate Deficiency Anemia",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Вродена хемолитична анемия",
+    "titleEn"     : "Congenital Hemolytic Anemias",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Имунно-медиирана хемолитична анемия",
+    "titleEn"     : "Immune-Mediated Hemolytic Anemia (IMHA)",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Инфекциозна хемолитична анемия",
+    "titleEn"     : "Infectious Hemolytic Anemias",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Неимунно-медиирана хемолитична анемия",
+    "titleEn"     : "Non-Immune Hemolytic Anemias",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Апластична анемия",
+    "titleEn"     : "Aplastic Anemia",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Миелофиброза",
+    "titleEn"     : "Myelofibrosis",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Анемия при хронично заболяване",
+    "titleEn"     : "Anemia of Chronic Disease",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Регенеративна анемия",
+    "titleEn"     : "Regenerative Anemia",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дисеминирано вътресъдово съсирване (ДИК синдром)",
+    "titleEn"     : "Disseminated Intravascular Coagulation (DIC)",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хемофилия",
+    "titleEn"     : "Hemophilia",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Болест на von Willebrand",
+    "titleEn"     : "von Willebrand Disease",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Коагулационни дефекти",
+    "titleEn"     : "Other Coagulation Defects",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Имунно-медиирана тромбоцитопения",
+    "titleEn"     : "Immune-Mediated Thrombocytopenia (IMTP)",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Други тромбоцитопении",
+    "titleEn"     : "Other Thrombocytopenias",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тежък комбиниран имунодефицит при кучета",
+    "titleEn"     : "Canine Severe Combined Immunodeficiency (SCID)",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Инфекция с котешки имунодефицитен вирус",
+    "titleEn"     : "Feline Immunodeficiency Virus (FIV)",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Системен лупус еритематозус",
+    "titleEn"     : "Systemic Lupus Erythematosus (SLE)",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Автоимунна полиендокринопатия",
+    "titleEn"     : "Autoimmune Polyendocrinopathy",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Анафилаксия",
+    "titleEn"     : "Anaphylaxis",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Алергичен дерматит",
+    "titleEn"     : "Allergic Dermatitis",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Комплекс на еозинофилния гранулом",
+    "titleEn"     : "Eosinophilic Granuloma Complex",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Имунно-медииран полиартрит",
+    "titleEn"     : "Immune-Mediated Polyarthritis",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Миастения гравис",
+    "titleEn"     : "Myasthenia Gravis",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Имунно-медииран менингоенцефалит",
+    "titleEn"     : "Immune-Mediated Meningoencephalitis",
+    "type"        : "blood",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  }
+]

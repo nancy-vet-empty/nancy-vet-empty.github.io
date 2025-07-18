@@ -1,0 +1,38 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Породи котки</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+ @for(element of $data; track element) {
+
+    <ion-grid>
+      <div (click)="onSelectCard(element)">
+        <ion-row>
+          <ion-col size="7">
+            <div>
+              <img [src]="findImageBreed(element.code)" alt="Breed Image"/>
+            </div>
+          </ion-col>
+          <ion-col size="5">
+
+              <div>
+                <div class="bold">{{element?.name}}</div>
+                <div class="fs13">({{element?.nameEn}})</div>
+              </div>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-grid>
+  }
+
+</ion-content>

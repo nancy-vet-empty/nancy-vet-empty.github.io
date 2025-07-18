@@ -1,0 +1,188 @@
+[
+  {
+    "title"     : "Нормален сърдечен звук",
+    "frontImage": "/assets/pdfs/@auscultation/heart/normal-heart.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/normal-heart.wav",
+    "type"      : "систоличен шум",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "между 5-6-то междуребрие",
+          "лъб-дъб - двата звука са резултат от затварянето на клапите.",
+          "лъб - затварят се митралната и трикуспидалната клапи;",
+          "дъб - затварят се аортната и пулмоналната клапи;",
+          "лъб - по-продължителен, по-нисък и по-силен от дъб;",
+          "КЧ - физиологична сърдечна аритмия."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Аортна стеноза / Пулмонална стеноза",
+    "frontImage": "/assets/pdfs/@auscultation/heart/aortic-pulmonic-stenosis-1.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/aortic-pulmonic-stenosis-1.wav",
+    "type"      : "систоличен шум",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "шумът при аортната стеноза и при пулмоналната стеноза са едни и същи;",
+          "аортна стеноза - отляво;",
+          "пулмонална стеноза - отдясно;",
+          "ejection click (клик на изхвърляне) - чува се щракване, когато камерите започнат да се съкращават, след което продължава в шум във формата на диамант (т. е. първоначално се усилва до един пик, след което намалява и спира при затварянето на полулунната клапа).",
+          "при аортната стеноза шумът може да резонира към каротидните артерии."
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Митрална регургитация / Трикуспидална регургитация",
+    "frontImage": "/assets/pdfs/@auscultation/heart/mitral-tricuspidal-regurgitation-1.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/mitral-tricuspidal-regurgitation-1.wav",
+    "type"      : "систоличен шум",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "шумът при митрална регургитация и при трикуспидална регургитация са едни и същи;",
+          "този вид шум се нар. холо- или пансистоличен шум, или още равен шум",
+          "митрална регургитация - отляво;",
+          "трикуспидална регургитация - отдясно;",
+          "След като кръвта навлезе в предсърдието, предсърдието се свива и кръвта бива изтласквана в камерата, като при напълването на камерата с кръв се чува „дуп“.",
+          "Тъй като клапата „пропуска“ кръв, то през цялото време, през което кръвта бива изтласквана от камерите в артериите, се чува звук, шумтене, заради преминаването на кръв през митралната клапа към предсърдието.",
+          "шумът радиира до аксилата."
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Пролапс на митралната клапа",
+    "frontImage": "/assets/pdfs/@auscultation/heart/mitral-valve-prolapse.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/mitral-valve-prolapse.wav",
+    "type"      : "систоличен шум",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "след като предсърдието се свие и изтласка кръвта в камерата, митралната клапа се затваря, като се чува „луп“. Когато камерите започнат да се свиват, се чува щракване на митралната клапа, след което звукът продължава като шум до S2 (затваряне на полулунните клапи).",
+          "non-ejection click (клик на неизтласкване) - към средата на систолата; появява се, когато митралната клапа се отвори и започне да изпуска",
+          "винаги има клик, като формата на шума след клика може да е плоска или кресчендо"
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+  {
+    "title"     : "Аортна регургитация / Недостатъчност на полулунните клапи",
+    "frontImage": "/assets/pdfs/@auscultation/heart/aortic-regurgitation.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/aortic-regurgitation.wav",
+    "type"      : "диастоличен шум",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "в началото на диастолата",
+          "декресчендо"
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Митрална стеноза",
+    "frontImage": "/assets/pdfs/@auscultation/heart/mitral-stenosis.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/mitral-stenosis.wav",
+    "type"      : "диастоличен шум",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "title"     : "S3",
+    "frontImage": "/assets/pdfs/@auscultation/heart/s3.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/s3.wav",
+    "type"      : "допълнителен шум",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "S4",
+    "frontImage": "/assets/pdfs/@auscultation/heart/s4.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/s4.wav",
+    "type"      : "допълнителен шум",
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+<nv-info-modal
+  [inputTitle]="'Информация'"
+  class="ion-page">
+
+  <div class="h1">
+    {{selectedObject.name}}
+  </div>
+  <div class="fs13">
+    ({{selectedObject.nameEn}})
+  </div>
+
+    <div class="fb600 mt16 c-blue">Наследствени заболявания:
+    </div>
+    @for(element of selectedObject.inheritedDiseases; track element) {
+      <div style="padding-left: 5px;">{{element}}</div>
+    }
+
+        <div class="fb600 mt16 c-blue">Предразположена към:
+    </div>
+    @for(element of selectedObject.predispositions; track element) {
+      <div style="padding-left: 5px;">{{element}}</div>
+    }
+
+    <div class="mt16 mb16 flex bcn-lightblue italic fb600 gallery" (click)="onGalleryOpen()">
+      <ion-icon class="mr8" name="camera-outline"></ion-icon>
+      <div>Галерия</div>
+    </div>
+
+</nv-info-modal>

@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Ехография на простата</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content
+  class="ion-padding"
+  [fullscreen]="true">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <div>
+          Изчисляване на максималните размери на простатата при кучета
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">Възраст</div>
+
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="age"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">год.</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">Тегло</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="weight"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">кг</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          size="default"
+          expand="block"
+          (click)="processCalculation()">Калкулирай
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,259 @@
+<nv-info-modal [inputTitle]="'Резултат'" class="ion-page">
+
+  @if(selectedObject.modalType === 'etilenglikol')
+  {
+    <!-- ОТРАВЯНЕ С ЕТИЛЕНГЛИКОЛ -->
+    <ion-grid>
+      <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+        <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+          🟥 Отравяне с етиленгликол
+        </div>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+
+      <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+        <div style="font-size: 15px; font-weight: bold">
+          <ion-icon name="flask-outline"></ion-icon>
+          Подготовка
+        </div>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>от банка</ion-col>
+        <ion-col>{{selectedObject.v2}} ml</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col class="c-fail">извадете</ion-col>
+        <ion-col>{{selectedObject.v1}} ml</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>
+          <strong>след това</strong>
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col class="c-success">добавете</ion-col>
+        <ion-col>{{selectedObject.v1}} ml</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>от р-р</ion-col>
+        <ion-col>{{selectedObject.c1}} %</ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid class="mt32">
+      <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+        <div style="font-size: 15px; font-weight: bold">
+          <ion-icon name="eyedrop-outline"></ion-icon>
+          Употреба
+        </div>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col size="4">
+          <div style="margin-top: 2px;">Поставя се</div>
+        </ion-col>
+        <ion-col size="8">
+          <strong style="font-size: 20px;">{{$uiPropery.administrationValue}}</strong> ml
+        </ion-col>
+
+      </ion-row>
+      <ion-row class="mt8">
+        <div style="background-color: #f7810452; padding: 5px;">
+          {{$uiPropery.description}}
+        </div>
+      </ion-row>
+    </ion-grid>
+  }
+
+
+  @if(selectedObject.modalType === 'rodentizidi')
+  {
+    <!-- ОТРАВЯНЕ С РОДЕНТИЦИДИ -->
+    <ion-grid class="mt32">
+
+      <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+        <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+          🟦 Отравяне с родентициди
+        </div>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>Изониазидни родентициди</ion-col>
+        <ion-col>витамин Б6 (пиридоксин)</ion-col>
+        <ion-col> {{calculateMassValue(20)}} мг ИВ</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>Антикоагулантни родентициди</ion-col>
+        <ion-col>витамин К1 (фитонадион)</ion-col>
+        <ion-col> {{calculateMassValue(1)}} мг - {{calculateMassValue(5)}} мг ПО или ПК q24h</ion-col>
+      </ion-row>
+
+    </ion-grid>
+  }
+
+
+  @if(selectedObject.modalType === 'parazetamol')
+  {
+  <!-- ОТРАВЯНЕ С ПАРАЦЕТАМОЛ -->
+  <ion-grid class="mt32">
+
+    <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+      <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+        🟦 Отравяне с парацетамол
+      </div>
+      <div style="font-size: 15px; font-weight: bold">
+        Антидот - Ацетилцистеин
+      </div>
+    </ion-row>
+
+    <ion-row>
+      <ion-col> {{calculateMassValue(140)}} мг (разредена на 5% в декстроза или стерилна вода), последвана от {{calculateMassValue(70)}} мг ПО 4 пъти дневно (q6h) за 7 третирания</ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>
+        <div style="background-color: #f7810452; padding: 5px;">
+        Трябва да има разлика от <strong>2-3 часа</strong> между активния въглен и АЦЦ.
+        </div>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+  }
+
+
+  @if(selectedObject.modalType === 'pestizidi')
+  {
+    <!-- ОТРАВЯНЕ С ФОС и карбамати (пестицидни препарати) -->
+    <ion-grid class="mt32">
+
+      <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+        <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+          🟦 Отравяне с пестициди
+        </div>
+        <div style="font-size: 15px; font-weight: bold">
+          Промивка на стомаха с активен въглен.
+        </div>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>Атропин</ion-col>
+        <ion-col> {{calculateMassValue(0.2)}} мг, като ¼ от дозата ИВ, ¾ от дозата ПК, колкото е необходимо.</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>Диазепам</ion-col>
+        <ion-col> {{calculateMassValue(0.5)}} мг - {{calculateMassValue(1)}} мг ИВ до постигане на ефект.</ion-col>
+      </ion-row>
+
+      <div style="font-size: 15px; font-weight: bold">
+        Други варианти вместо диазепам:
+      </div>
+
+      <ion-row class="mt8">
+        <ion-col>Фенопарбитал</ion-col>
+        <ion-col> {{calculateMassValue(3)}}-{{calculateMassValue(30)}} мг ИВ до постигане на ефект (ниски дози при КТ).</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>Пропофол</ion-col>
+        <ion-col> {{calculateMassValue(3)}}-{{calculateMassValue(6)}} мг ИВ или 0,1 мг/кг/мин CRI.</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>Леветирацетам</ion-col>
+        <ion-col> {{calculateMassValue(30)}}-{{calculateMassValue(60)}} мг/кг/мин бавно ИВ при КЧ; 20 мг/кг ИВ КТ;.</ion-col>
+      </ion-row>
+
+    </ion-grid>
+  }
+
+  @if(selectedObject.modalType === 'promivka')
+  {
+    <!-- ПРЕЧИСТВАНЕ НА ХРАНОСМИЛАТЕЛНИЯ ТРАКТ -->
+    <ion-grid>
+      <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+        <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+          🟪 Прочистване на Храносмилателния тракт
+        </div>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+
+      <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+        <div style="font-size: 15px; font-weight: bold">
+          Еметици
+        </div>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>3% водороден пероксид </ion-col>
+        <ion-col> {{calculateMassValue(1)}} мл - {{calculateMassValue(5)}} мл</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>
+          <div style="background-color: #f7810452; padding: 5px;">
+            @if (selectedObject.patientType == 'dog') { Да не се превишава <strong>50 мл</strong> }
+            @if (selectedObject.patientType == 'cat') { Да не се превишава <strong>10 мл</strong> }
+          </div>
+        </ion-col>
+      </ion-row>
+
+      @if(selectedObject.patientType == 'dog') {
+        <ion-row class="mt8">
+          <ion-col>Апоморфин </ion-col>
+          <ion-col> {{calculateMassValue(0.05)}} мг - {{calculateMassValue(0.1)}} мг ПК</ion-col>
+        </ion-row>
+      }
+
+      @if(selectedObject.patientType == 'cat') {
+        <ion-row class="mt8">
+          <ion-col>Ксилазин </ion-col>
+          <ion-col> {{calculateMassValue(0.44)}} мг ИМ </ion-col>
+        </ion-row>
+      }
+
+    </ion-grid>
+
+
+    <!-- Промивка на стомаха -->
+    <ion-grid class="mt32">
+
+      <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+        <div style="font-size: 15px; font-weight: bold">
+          Активен въглен
+        </div>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>За абсорбент</ion-col>
+        <ion-col> {{calculateMassValue(1)}} ml 20%-ова каша (1 г активен въглен в 5 мл вода)</ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>За остро отравяне </ion-col>
+        <ion-col> {{calculateMassValue(1)}} гр - {{calculateMassValue(4)}} гр в 50 - 200 мл вода </ion-col>
+      </ion-row>
+
+      <ion-row class="mt8">
+        <ion-col>
+          <div style="background-color: #f7810452; padding: 5px;">
+            Заедно с активния въглен или до <strong>30 мин</strong> след даването му да се даде осмотичен катартик (“osmotic cathartic”), напр. натриев сулфат.
+          </div>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+  }
+
+</nv-info-modal>

@@ -1,0 +1,24 @@
+<nv-info-modal
+  [inputTitle]="'Инфо'"
+  class="ion-page">
+
+  <div class="h1">
+    {{selectedObject.title}}
+  </div>
+
+
+  <img src="{{selectedObject.frontImage}}"/>
+  <audio controls>
+    <source src="{{selectedObject.frontAudio}}" type="audio/wav">
+  </audio>
+
+
+  @for(element of selectedObject.section; track element) {
+    <div class="h3 mt16">{{element.sectionTitle}}</div>
+
+    @for(sectionElement of element.content; track sectionElement) {
+      <div class="mt5">{{sectionElement}}</div>
+    }
+  }
+
+</nv-info-modal>

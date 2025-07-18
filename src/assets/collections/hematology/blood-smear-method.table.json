@@ -1,0 +1,41 @@
+[
+  {
+    "section"   : [
+      {
+        "sectionTitle": "Нужни материали",
+        "content"     : [
+          "две предметни стъкла",
+          "пипета, измерваща 10 микролитра кръв",
+          "кръвна проба"
+        ]
+      },
+      {
+        "sectionTitle": "Стъпка №1",
+        "content"     : [
+          "@/assets/pdfs/@haematology/blood-smear/method/method-a.png",
+          "Поставя се капка кръв и се поставя в края на едното предметно стъкло.",
+          "Другото предметно стъкло се поставя в другия край на първото предметно стъкло под ъгъл 45 градуса."
+        ]
+      },
+      {
+        "sectionTitle": "Стъпка №2",
+        "content"     : [
+          "@/assets/pdfs/@haematology/blood-smear/method/method-b.png",
+          "С него се 'докосва' капката кръв и след като тя се разстлее по ръба на стъклото, последното се 'дърпа напред до другия край на първото предметно стъкло.'"
+        ]
+      },
+      {
+        "sectionTitle": "Стъпка №3",
+        "content"     : [
+          "@/assets/pdfs/@haematology/blood-smear/method/method-c.png"
+        ]
+      },
+      {
+        "sectionTitle": "Стъпка №4",
+        "content"     : [
+          "@/assets/pdfs/@haematology/blood-smear/method/method-d.png"
+        ]
+      }
+    ]
+  }
+]

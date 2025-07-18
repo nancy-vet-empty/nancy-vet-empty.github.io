@@ -1,0 +1,492 @@
+<nv-info-modal [inputTitle]="'Картон'" class="ion-page">
+
+  <div class="medical_record">
+
+    <div class="h1">
+      Животно:
+    </div>
+
+    <div class="component">
+      Име: {{ selectedObject.pet_name }}
+    </div>
+
+    <div class="component">
+      Вид: {{ selectedObject.animalType }}
+    </div>
+
+    <div class="component">
+      Пол: {{ selectedObject.sex }}
+    </div>
+
+    <div class="component">
+      Порода: {{ selectedObject.breed }}
+    </div>
+
+    <div class="component">
+      Възраст: {{ selectedObject.age }}
+    </div>
+
+    <!-- <div class="component">
+      Кастрирано: {{ selectedObject.neutered }}
+    </div>
+
+    <div class="component">
+      Микрочип: {{ selectedObject.microchip }}
+    </div>
+
+    <div class="component">
+      Паспорт: {{ selectedObject.passport }}
+    </div>
+
+    <div class="component">
+      Последна ваксина: {{ selectedObject.last_vaccination }}
+    </div> -->
+
+
+
+    <div class="h1">
+      Собственик:
+    </div>
+
+    <div class="component">
+      Име: {{ selectedObject.owner_name }}
+    </div>
+
+    <!-- <div class="component">
+      Телефон: {{ selectedObject.telephone }}
+    </div>
+
+    <div class="component">
+      Адрес: {{ selectedObject.address }}
+    </div> -->
+
+  </div>
+
+  <div class="protocols">
+    <div class="h1">Протоколи:</div>
+    <div *ngFor="let protocol of patientProtocols">
+      <button class="protocol-btn" (click)="openProtocol(protocol)">
+        Протокол №: {{ protocol.protocol_number }},
+        с дата:     {{ protocol.protocol_creation_date }},
+        диагноза:   {{ protocol.diagnosis }}
+      </button>
+
+      <!-- Show details only if this protocol is selected -->
+      <div *ngIf="selectedProtocol === protocol" class="protocol-details">
+        <!-- <ion-grid>
+          <ion-row><strong>Дата на създаване:</strong>   {{ protocol.protocol_creation_date }}</ion-row>
+          <ion-row><strong>Дата на приключване:</strong> {{ protocol.protocol_completion_date }}</ion-row>
+          <ion-row>
+            <ion-col>
+                <p><strong>Анамнеза:</strong><br>
+                  <textarea class="input" [value]="protocol.anamnesis"></textarea>
+                </p>
+            </ion-col>
+            <ion-col>
+                <p><strong>Клинични признаци:</strong><br>
+                  <textarea class="input" [value]="protocol.clinical_signs"></textarea>
+                </p>
+            </ion-col>
+            <ion-col>
+                <p><strong>Изследвания:</strong><br>
+                  <textarea class="input" [value]="protocol.examination"></textarea>
+                </p>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+                <p><strong>Диагноза:</strong><br>
+                  <textarea class="input" [value]="protocol.diagnosis"></textarea>
+                </p>
+            </ion-col>
+            <ion-col>
+                <p><strong>Лечение:</strong><br>
+                  <textarea class="input" [value]="protocol.treatment"></textarea>
+                </p>
+            </ion-col>
+            <ion-col>
+                <p><strong>Манипулации:</strong><br>
+                  <textarea class="input" [value]="protocol.manipulations"></textarea>
+                </p>
+            </ion-col>
+          </ion-row>
+        </ion-grid> -->
+
+        <ion-grid>
+          <ion-row><strong>Дата на създаване:</strong>   {{ protocol.protocol_creation_date }}</ion-row>
+          <ion-row><strong>Дата на приключване:</strong> {{ protocol.protocol_completion_date }}</ion-row>
+
+          <ion-row>
+            <ion-col size="2">Анамнеза:</ion-col>
+            <ion-col class="protocol-info">{{ protocol.anamnesis }}</ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col size="2">Клинични признаци:</ion-col>
+            <ion-col class="protocol-info">{{ protocol.clinical_signs }}</ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col size="2">Изследвания:</ion-col>
+            <ion-col class="protocol-info">{{ protocol.examination }}</ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col size="2">Диагноза:</ion-col>
+            <ion-col class="protocol-info">{{ protocol.diagnosis }}</ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col size="2">Лечение:</ion-col>
+            <ion-col class="protocol-info">{{ protocol.treatment }}</ion-col>
+          </ion-row>
+
+        </ion-grid>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="results">
+    <div class="h1">Кръвни изследвания:</div>
+    <div *ngFor="let result of patientResults">
+      <button class="protocol-btn" (click)="openResult(result)">
+        Изследване №: {{ result.result_number }},
+        с дата:     {{ result.result_creation_date }}
+      </button>
+
+      <!-- Show details only if this result is selected -->
+      <div *ngIf="selectedResult === result" class="result-details">
+
+
+        @if(result.animal_type === "cat") {
+          <ion-grid>
+            <!-- === BIOCHEMISTRY TABLE === -->
+            <table>
+              <tr>
+                <th>Показател</th> <!-- Parameter -->
+                <th>Стойност</th> <!-- Value -->
+                <th>Реф. стойности</th> <!-- Ref. values -->
+                <th>Мерна единица</th> <!-- Unit -->
+              </tr>
+              <!-- Provided Examples -->
+              @if(result.TP) {
+                <tr>
+                  <th>TP</th>
+                  <th>{{ result.TP }}</th>
+                  <th>54-89</th>
+                  <th>g/l</th>
+                </tr>
+              }
+              @if(result.ALB) {
+                <tr>
+                  <th>ALB</th>
+                  <th>{{ result.ALB }}</th>
+                  <th>22-45</th>
+                  <th>g/l</th>
+                </tr>
+              }
+              @if(result.GLO) {
+                <tr>
+                  <th>GLO</th>
+                  <th>{{ result.GLO }}</th>
+                  <th>15-57</th> <!-- Example Range (Dog), often calculated TP-ALB -->
+                  <th>g/l</th>
+                </tr>
+              }
+              @if(result.A_G) { <!-- Note: Use A_G or similar if '/' causes issues in object keys -->
+                <tr>
+                  <th>A/G</th>
+                  <th>{{ result.A_G }}</th>
+                  <th>0.6-1.5</th> <!-- Example Range (Dog), Ratio -->
+                  <th>Ratio</th>
+                </tr>
+              }
+              @if(result.TBIL) {
+                <tr>
+                  <th>TBIL</th>
+                  <th>{{ result.TBIL }}</th>
+                  <th>2-15</th>
+                  <th>µmol/l</th>
+                </tr>
+              }
+              @if(result.ALT) {
+                <tr>
+                  <th>ALT</th>
+                  <th>{{ result.ALT }}</th>
+                  <th>8.2-123</th>
+                  <th>U/l</th>
+                </tr>
+              }
+              @if(result.ALP) {
+                <tr>
+                  <th>ALP</th>
+                  <th>{{ result.ALP }}</th>
+                  <th>10-90</th> <!-- Example Range (Adult Dog), Varies greatly with age -->
+                  <th>U/l</th>
+                </tr>
+              }
+              @if(result.AMY) {
+                <tr>
+                  <th>AMY</th>
+                  <th>{{ result.AMY }}</th>
+                  <th>400-3000</th>
+                  <th>U/l</th>
+                </tr>
+              }
+              @if(result.CHOL) {
+                <tr>
+                  <th>CHOL</th>
+                  <th>{{ result.CHOL }}</th>
+                  <th>1.68-5.81</th>
+                  <th>mmol/l</th>
+                </tr>
+              }
+              @if(result.GLU) {
+                <tr>
+                  <th>GLU</th>
+                  <th>{{ result.GLU }}</th>
+                  <th>4.11-8.84</th> <!-- Example Range (Dog, Fasted) -->
+                  <th>mmol/l</th>
+                </tr>
+              }
+              @if(result.CRE) {
+                <tr>
+                  <th>CRE</th>
+                  <th>{{ result.CRE }}</th>
+                  <th>27-223</th>
+                  <th>µmol/l</th>
+                </tr>
+              }
+              @if(result.BUN) {
+                <tr>
+                  <th>BUN</th>
+                  <th>{{ result.BUN }}</th>
+                  <th>3.6-15.5</th>
+                  <th>mmol/l</th>
+                </tr>
+              }
+              @if(result.BUN_CRE) { <!-- Note: Use BUN_CRE or similar if '/' causes issues -->
+                <tr>
+                  <th>BUN/CRE</th>
+                  <th>{{ result.BUN_CRE }}</th>
+                  <th>-</th> <!-- Often calculated, depends on units used -->
+                  <th>Ratio</th>
+                </tr>
+              }
+              @if(result.Ca) {
+                <tr>
+                  <th>Ca</th>
+                  <th>{{ result.Ca }}</th>
+                  <th>1.95-2.95</th>
+                  <th>mmol/l</th>
+                </tr>
+              }
+              @if(result.P) {
+                <tr>
+                  <th>P</th>
+                  <th>{{ result.P }}</th>
+                  <th>1-2.74</th>
+                  <th>mmol/l</th>
+                </tr>
+              }
+              @if(result.K) {
+                <tr>
+                  <th>K</th>
+                  <th>{{ result.K }}</th>
+                  <th>3.7-5.8</th>
+                  <th>mmol/l</th>
+                </tr>
+              }
+              @if(result.Na) {
+                <tr>
+                  <th>Na</th>
+                  <th>{{ result.Na }}</th>
+                  <th>142-164</th>
+                  <th>mmol/l</th>
+                </tr>
+              }
+              @if(result.Na_K) { <!-- Note: Use Na_K or similar if '/' causes issues -->
+                <tr>
+                  <th>Na/K</th>
+                  <th>{{ result.Na_K }}</th>
+                  <th>-</th>
+                  <th>Ratio</th>
+                </tr>
+              }
+              @if(result.TBA) {
+                <tr>
+                  <th>TBA</th>
+                  <th>{{ result.TBA }}</th>
+                  <th><15</th>
+                  <th>µmol/l</th>
+                </tr>
+              }
+            </table>
+          </ion-grid>
+
+          <ion-grid> <!-- CBC -->
+            <!-- === CBC TABLE === -->
+            <table>
+              <tr>
+                <th>Показател</th>
+                <th>Стойност</th>
+                <th>Реф. стойности</th>
+                <th>Мерна единица</th>
+              </tr>
+              @if(result.WBC) {
+                <tr>
+                  <th>WBC</th>
+                  <th>{{ result.WBC }}</th>
+                  <th>5.5-19.5</th>
+                  <th>x10⁹/l</th>
+                </tr>
+              }
+              @if(result.Lymph) { <!-- Could be % or absolute count -->
+                <tr>
+                  <th>Lymph</th>
+                  <th>{{ result.Lymph }}</th>
+                  <th>12-45</th> <!-- Example Range (Dog, Absolute) -->
+                  <th>x10⁹/l</th>
+                  <!-- Or use % if it's relative: <th>12-30</th> <th>%</th> -->
+                </tr>
+              }
+              @if(result.Mon) { <!-- Could be % or absolute count -->
+                <tr>
+                  <th>Mon</th>
+                  <th>{{ result.Mon }}</th>
+                  <th>0.15-1.35</th> <!-- Example Range (Dog, Absolute) -->
+                  <th>x10⁹/l</th>
+                  <!-- Or use % if it's relative: <th>3-10</th> <th>%</th> -->
+              </tr>
+              }
+              @if(result.Gran) { <!-- Could be % or absolute count. Often Neut+Eos+Baso -->
+                <tr>
+                  <th>Gran</th>
+                  <th>{{ result.Gran }}</th>
+                  <th>2.1-15</th> <!-- Example Range (Dog, Approx. Absolute Neutrophils) -->
+                  <th>x10⁹/l</th>
+                  <!-- Or use % if it's relative: <th>60-77</th> <th>%</th> -->
+              </tr>
+              }
+              @if(result.RBC) {
+                <tr>
+                  <th>RBC</th>
+                  <th>{{ result.RBC }}</th>
+                  <th>4.6-10</th>
+                  <th>x10¹²/l</th>
+                </tr>
+              }
+              @if(result.HGB) {
+                <tr>
+                  <th>HGB</th>
+                  <th>{{ result.HGB }}</th>
+                  <th>93-153</th>
+                  <th>g/l</th>
+                </tr>
+              }
+              @if(result.HCT) {
+                <tr>
+                  <th>HCT</th>
+                  <th>{{ result.HCT }}</th>
+                  <th>28-49</th>
+                  <th>%</th>
+                </tr>
+              }
+              @if(result.MCV) {
+                <tr>
+                  <th>MCV</th>
+                  <th>{{ result.MCV }}</th>
+                  <th>39-52</th>
+                  <th>fl</th>
+                </tr>
+              }
+              @if(result.MCH) {
+                <tr>
+                  <th>MCH</th>
+                  <th>{{ result.MCH }}</th>
+                  <th>13-21</th>
+                  <th>pg</th>
+                </tr>
+              }
+              @if(result.MCHC) {
+                <tr>
+                  <th>MCHC</th>
+                  <th>{{ result.MCHC }}</th>
+                  <th>300-380</th>
+                  <th>g/l</th>
+                </tr>
+              }
+              @if(result.RDW) {
+                <tr>
+                  <th>RDW</th>
+                  <th>{{ result.RDW }}</th>
+                  <th>14-18</th>
+                  <th>%</th>
+                </tr>
+              }
+              @if(result.PLT) {
+                <tr>
+                  <th>PLT</th>
+                  <th>{{ result.PLT }}</th>
+                  <th>100-514</th>
+                  <th>x10⁹/l</th>
+                </tr>
+              }
+              @if(result.MPV) {
+                <tr>
+                  <th>MPV</th>
+                  <th>{{ result.MPV }}</th>
+                  <th>5-11.8</th>
+                  <th>fl</th>
+                </tr>
+              }
+              @if(result.PDW) {
+                <tr>
+                  <th>PDW</th>
+                  <th>{{ result.PDW }}</th>
+                  <th>-</th> <!-- Example Range (Dog) - Varies -->
+                  <th></th> <!-- Or fl -->
+                </tr>
+              }
+              @if(result.PCT) {
+                <tr>
+                  <th>PCT</th>
+                  <th>{{ result.PCT }}</th>
+                  <th>-</th>
+                  <th>%</th>
+                </tr>
+              }
+            </table>
+          </ion-grid>
+        }
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="vaccination_and_deworming">
+    <div id="vaccinations">Ваксинации:
+      <div id="previous_vaccinations"></div>
+      <div id="type_vaccine"></div>
+      <div id="next_vaccination"></div>
+    </div>
+
+    <div id="deworming">Вътрешно обезпаразитяване:
+      <div id="internal">
+        <div id="previous_internal"></div>
+        <div id="type_internal"></div>
+        <div id="next_internal"></div>
+      </div>
+
+      <div id="external">Външно обезпаразитяване:
+        <div id="previous_external"></div>
+        <div id="type_external"></div>
+        <div id="next_external"></div>
+      </div>
+    </div>
+  </div>
+
+</nv-info-modal>

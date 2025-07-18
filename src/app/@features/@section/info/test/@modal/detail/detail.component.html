@@ -1,0 +1,17 @@
+<nv-info-modal
+  [inputTitle]="'Инфо'"
+  class="ion-page">
+
+  <div class="h1">
+    {{selectedObject.title}}
+  </div>
+
+  <nv-section-content-view
+    [inputSectionContent]="selectedObject.section">
+  </nv-section-content-view>
+
+  <nv-link-button
+  [inputTitle]="selectedObject.title"
+  (onClick)="onOpenPdfDocument(selectedObject.leafletLink)">
+  </nv-link-button>
+</nv-info-modal>

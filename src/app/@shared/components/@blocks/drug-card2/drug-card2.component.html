@@ -1,0 +1,90 @@
+<div
+  class="mt16 card"
+  (click)="processCard()">
+
+  <!-- ROW -->
+  <div
+    class="ml8">
+    <div class="card-title">
+      {{ $uiProperty.title }}
+    </div>
+
+    <div style="font-size: 12px;">
+      {{ $uiProperty.activeSubstance }}, доза: {{ $uiProperty.activeSubstanceDose }} {{ $uiProperty.convertedActiveSubstanceDecorator }}
+    </div>
+  </div>
+
+  <!-- ROW -->
+  <div
+    class="ml8" style="display: flex; margin-left: auto; justify-content: flex-end; flex-direction: column;">
+
+    <div
+      class="ml8 mt16" style="display: flex; margin-right: 16px;">
+      <div>
+        <div style="padding: 5px; width: 160px;">
+          Доза на ЖВ:
+        </div>
+      </div>
+
+
+      <div style="padding: 5px; margin-right: 16px;">
+        <img src="./assets/imgs/arrow.png">
+      </div>
+
+      <div style="width: 20%; margin-left: auto; padding: 5px 5px; background: #4b8ffa; color: #fff; text-align: center; align-content: center;">
+        {{ $uiProperty.patientDose }} {{ this.$uiProperty.patientDoseDecorator }}
+      </div>
+    </div>
+
+
+
+    <div
+      class="ml8 mt16" style="display: flex; margin-right: 16px;">
+      <div>
+        <div style="padding: 5px; width: 160px;">
+          Нужно кол-во:
+        </div>
+      </div>
+
+
+      <div style="padding: 5px; margin-right: 16px;">
+        <img src="./assets/imgs/arrow.png">
+      </div>
+
+      <div style="width: 20%; margin-left: auto; padding: 5px 5px; background: #d60b52; color: #fff; text-align: center; align-content: center;">
+        {{ $uiProperty.drugDose }} {{ this.$uiProperty.drugDoseDecorator }}
+      </div>
+    </div>
+
+    <!-- ROW -->
+    <div
+      class="ml8 mt16" style="display: flex;  margin-right: 16px; border-top: solid #dedede 2px;">
+
+      <div style="padding: 5px; margin-top: 6px; font-size: 14px;">
+        Как се поставя: {{ $uiProperty.applicationMethod }}
+      </div>
+    </div>
+
+  <div class="ml8 mt16" style="border-top: solid #dedede 2px;">
+
+    <div style="padding: 5px; margin-top: 6px; font-size: 12px;">
+      Пресмята се по формула:
+    </div>
+
+    <div style="padding: 5px; font-size: 12px; font-weight: 600;">
+      (тегло на животното) * (доза на активната субстанция) / (конц-я на медикамента),
+    </div>
+    <div style="padding: 5px; font-size: 12px;">
+      т. е. (тегло на животното) * (доза на активната субстанция) = {{this.inputPatientModel!.patientWeightNumber}} * {{ this.$uiProperty.activeSubstanceDose }} = {{ $uiProperty.patientDose }} {{ this.$uiProperty.patientDoseDecorator }} = доза на животното
+    </div>
+    <div style="padding: 5px; font-size: 12px;">
+      концентрацията на медикамента е {{ this.object!.drugConcentration }}.
+    </div>
+    <div style="padding: 5px; font-size: 12px;">
+      (доза на животното) / (конц-я на медикамента) = {{ $uiProperty.patientDose }} / {{ this.object!.drugConcentration }} = {{ $uiProperty.drugDose }} {{ this.$uiProperty.drugDoseDecorator }}
+    </div>
+  </div>
+
+  </div>
+
+</div>

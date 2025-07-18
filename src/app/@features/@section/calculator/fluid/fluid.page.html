@@ -1,0 +1,164 @@
+<!-- Header component -->
+<ion-header
+  [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>
+      Флуидна терапия
+    </ion-title>
+
+    <ion-buttons slot="end" style="margin-right: 10px;">
+      <ion-icon (click)="clearAllValues()" name="trash-outline"></ion-icon>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<!-- Main content -->
+<ion-content id="main-content" [fullscreen]="true">
+
+  <ion-grid>
+
+
+    <ion-row class="p20">
+      Калкулаторът "Флуидна терапия" изчислява колко течности се нуждае дадено куче или котка. В него се посочва теглото на пациента, дали е приемал течности през последните 6 часа и какво количество течности е изгубил. Проверява се тургорът на кожата за дехидратация.
+    </ion-row>
+
+    <ion-row>
+
+      <ion-col size="5">
+        <div style="margin-top: 18px;">Тегло</div>
+      </ion-col>
+
+      <ion-col size="7"  style="display: flex;">
+
+        <ion-input
+          type="number"
+          class="custom"
+          placeholder="Кг"
+          [counter]="true"
+          [(ngModel)]="$formProperty.patientWeight">
+        </ion-input>
+
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">кг</div>
+
+      </ion-col>
+    </ion-row>
+
+    <!-- <ion-row>
+      <ion-col>Храни ли се</ion-col>
+      <ion-col style="display: flex;">
+        <div style="margin-top: 5px; margin-right: 25px;">не</div>
+        <ion-toggle [(ngModel)]="$formProperty.consumeFood" [checked]="false"></ion-toggle>
+        <div style="margin-top: 5px; margin-left: 25px;">да</div>
+      </ion-col>
+    </ion-row> -->
+
+    <ion-row>
+
+      <ion-col size="5">
+        <div style="margin-top: 18px;">
+          Приети течности
+        </div>
+        <div style="font-size: 12px; color: #ff0000;">за последните 6 часа</div>
+
+      </ion-col>
+
+      <ion-col size="7"  style="display: flex;">
+        <ion-input
+          type="number"
+          class="custom"
+          placeholder="ml/h"
+          [counter]="true"
+          [(ngModel)]="$formProperty.liquidIntakePerHour">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">ml/h</div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="5">Урина</ion-col>
+      <ion-col size="7">
+        <dose-picker
+          [inputData]="liquidValueCollection"
+          (onSelect)="onSelectUrineValue($event)">
+        </dose-picker>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">Повръщане</ion-col>
+      <ion-col size="7">
+        <dose-picker
+          [inputData]="liquidValueCollection"
+          (onSelect)="onSelectVomitValue($event)">
+        </dose-picker>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">Диария</ion-col>
+      <ion-col size="7">
+        <dose-picker
+          [inputData]="liquidValueCollection"
+          (onSelect)="onSelectDiariaValue($event)">
+        </dose-picker>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5" (click)="openInfoModal()"><u>Дехидратация (%)</u></ion-col>
+      <ion-col size="7">
+        <dose-picker
+          [inputData]="dehydrationValueCollection"
+          (onSelect)="onSelectDehydrationValue($event)">
+        </dose-picker>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button
+          [disabled]="($formProperty.patientWeight === 0)"
+          (click)="processFluidCalculation()"
+          size="default"
+          expand="block">Изчисли
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="p20">
+    <ion-row>
+      За прецизната рехидратация на пациента се използва инфузионна помпа. Често срещани абревиатури са:
+    </ion-row>
+    <ion-row>
+      <ul>
+        <li><strong>VTBI</strong>(Volume To Be Infused) - цялото количество течност, което искаш да влееш в пациента.</li>
+        <li><strong>Rate</strong> - скоростта, с която искаш да влееш количеството течност в пациента.</li>
+        <li><strong>mL/hr</strong> (Milliliters per hour) - милилитра/час. Колко милилитра се вливат в пациента за един час.</li>
+        <li><strong>mL/min</strong> (Milliliters per minute) - милилитра/минута. Колко милилитра се вливат в пациента за една минута.</li>
+        <li><strong>KVO</strong> (Keep Vein Open) - Изключително бавно вливане на течности ( напр. за 10-20 mL/hr), което се прави, за да държи вената "отворена".</li>
+        <li><strong>Bolus</strong> - Болус. Служи за вливане на голямо количество течности обикновено за кратър период от време.</li>
+        <li><strong>Air Bubble</strong> - аларма, която сигнализира наличието на мехурче въздух в системата.</li>
+        <li><strong>Occlusion</strong> - аларма, която сигнализира наличието на блокаж, който пречи течностите да се вливат в пациента. Може да бъде смачкана система за инфузия или неработещ абокат.</li>
+        <li><strong>AC Power</strong> - аларма, която сигнализира, че инфузионната помпа не е включена към външно захранване (електрически контакт).</li>
+        <li><strong>Battery Low/Batt Low</strong> - аларма, която сигнализира, че вътрешната батерия на помпата е на изчерпване.</li>
+      </ul>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      Ако животното досега не е било на венозна инфузия, калкулаторът може да се нагласи на:
+      <ul>Приети течности = 15 мл/ч.</ul>
+      <ul>Урина - 50 мл.</ul>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

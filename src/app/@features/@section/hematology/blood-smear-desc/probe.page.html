@@ -1,0 +1,65 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Разчитане на кръвна натривка</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  @for(element of $data; track element) {
+
+    <ion-grid style="border-bottom: dotted 2px rgb(143 81 153);">
+      <ion-row>
+        <ion-col size="12">
+
+
+          <div (click)="onSelectCard(element)">
+
+            <div class="mb8 bold">#{{element.title}}</div>
+
+            <ion-row>
+              <ion-col size="4"><strong>Тип клетка:</strong></ion-col>
+              <ion-col size="8">{{element.type}}</ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col size="4"><strong>Субтип:</strong></ion-col>
+              <ion-col size="8">{{element.subtype}}</ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col size="4"><strong>Механизъм:</strong></ion-col>
+              <ion-col size="8">{{element.mechanism}}</ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col size="4"><strong>Болести:</strong></ion-col>
+              <ion-col size="8">{{element.diseases}}</ion-col>
+            </ion-row>
+
+            <!-- <div class="mb8 bold">#{{element.title}}</div>
+            <div><strong>Тип клетка:</strong> {{element.type}}</div>
+            <div><strong>Субтип:</strong> {{element.subtype}}</div>
+            <div><strong>Механизъм:</strong> {{element.mechanism}}</div>
+            <div><strong>Заболявания:</strong> {{element.diseases}}</div> -->
+            <div>
+              <img src="{{element.frontImage}}" style="
+                width: 100%;
+                height: 200px;
+                object-fit: cover;"/>
+            </div>
+          </div>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  }
+
+</ion-content>
