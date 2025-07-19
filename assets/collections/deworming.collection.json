@@ -2,7 +2,7 @@
   {
     "title"             : "Simparica",
     "titleBG"           : "Симпарика",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["sarolaner"],
     "effect"            : "Parasites need to start feeding on the host to become exposed to the active substance.",
@@ -20,7 +20,7 @@
   {
     "title"             : "Bravecto",
     "titleBG"           : "Бравекто",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["fluralaner"],
     "effect"            : "Parasites need to start feeding on the host to become exposed to the active substance.",
@@ -38,7 +38,7 @@
   {
     "title"             : "Credelio",
     "titleBG"           : "Кределио",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["lotilaner"],
     "effect"            : "Parasites need to start feeding on the host to become exposed to the active substance.",
@@ -56,7 +56,7 @@
   {
     "title"             : "Advantix",
     "titleBG"           : "Адвантикс",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "spot-on",
     "activeSubstance"   : ["imidacloprid", "permethrin"],
     "effect"            : "Отблъсква паразитите, knock-down effect.",
@@ -74,7 +74,7 @@
   {
     "title"             : "Vectra 3D",
     "titleBG"           : "Вектра 3Д",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "spot-on",
     "activeSubstance"   : ["dinotefuran", "pyriproxyfen", "permethrin"],
     "effect"            : "Отблъсква паразитите, knock-down effect.",
@@ -92,7 +92,7 @@
   {
     "title"             : "Fiprex",
     "titleBG"           : "Фипрекс",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "spot-on",
     "activeSubstance"   : ["fipronil"],
     "effect"            : "",
@@ -110,7 +110,7 @@
   {
     "title"             : "Pestigon",
     "titleBG"           : "Пестигон",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "spot-on",
     "activeSubstance"   : ["fipronil"],
     "effect"            : "",
@@ -128,7 +128,7 @@
   {
     "title"             : "Fypryst spray",
     "titleBG"           : "Фиприст спрей",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "spray",
     "activeSubstance"   : ["fipronil"],
     "effect"            : "",
@@ -146,7 +146,7 @@
   {
     "title"             : "Frontline Combo",
     "titleBG"           : "Фронтлайн Комбо",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "spot-on",
     "activeSubstance"   : ["fipronil", "S-Methoprene"],
     "effect"            : "",
@@ -164,7 +164,7 @@
   {
     "title"             : "Pestigon Combo",
     "titleBG"           : "Пестигон Комбо",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "spot-on",
     "activeSubstance"   : ["fipronil", "S-Methoprene"],
     "effect"            : "",
@@ -182,7 +182,7 @@
   {
     "title"             : "Effipro Duo",
     "titleBG"           : "Ефипро Дуо",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "spot-on",
     "activeSubstance"   : ["fipronil", "pyriproxyfen"],
     "effect"            : "",
@@ -200,7 +200,7 @@
   {
     "title"             : "Kiltix",
     "titleBG"           : "Килтикс",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "leash",
     "activeSubstance"   : ["propoxur", "flumethrin"],
     "effect"            : "",
@@ -218,7 +218,7 @@
   {
     "title"             : "Bolfo",
     "titleBG"           : "Болфо",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "leash",
     "activeSubstance"   : ["propoxur"],
     "effect"            : "",
@@ -236,7 +236,7 @@
   {
     "title"             : "Foresto",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "leash",
     "activeSubstance"   : ["imidacloprid", "flumethrin"],
     "effect"            : "",
@@ -254,7 +254,7 @@
   {
     "title"             : "Beaphar Veto Pure Bio",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "leash",
     "activeSubstance"   : ["маргоза", "лавандула"],
     "effect"            : "",
@@ -272,7 +272,7 @@
   {
     "title"             : "Ectolucil",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "spray",
     "activeSubstance"   : ["oxytetracycline", "cypermethrin", "salicylic acid"],
     "effect"            : "",
@@ -290,7 +290,7 @@
   {
     "title"             : "Neostomozan",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "spray",
     "activeSubstance"   : ["transmix", "tetramethrin"],
     "effect"            : "",
@@ -308,11 +308,11 @@
   {
     "title"             : "Simparica Trio",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["sarolaner", "moxidectin", "pyrantel"],
     "effect"            : "",
-    "typeDeworming"     : ["dogs", "cats"],
+    "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
     "indications"       : ["fleas", "ticks", "nematodes", "Dirofilaria", "does not kill cestodes (Tenia spp.)"],
     "contraindications" : "Do not give to puppies less than 8 weeks of age and/ or less than 1.25 kg.",
@@ -326,11 +326,11 @@
   {
     "title"             : "NexGard Spectra",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["afoxolaner", "milbemycin oxime"],
     "effect"            : "",
-    "typeDeworming"     : ["dogs", "cats"],
+    "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
     "indications"       : ["fleas", "ticks", "nematodes", "Dirofilaria", "does not kill cestodes (Tenia spp.)"],
     "contraindications" : "Do not give to puppies less than 8 weeks of age and/ or less than 2 kg.",
@@ -344,11 +344,11 @@
   {
     "title"             : "Credelio Plus",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["lotilaner", "milbemycin oxime"],
     "effect"            : "",
-    "typeDeworming"     : ["dogs", "cats"],
+    "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
     "indications"       : ["fleas", "ticks", "nematodes", "Dirofilaria", "does not kill cestodes (Tenia spp.)"],
     "contraindications" : "Do not give to puppies less than 8 weeks of age and/ or less than 1.4 kg.",
@@ -362,11 +362,11 @@
   {
     "title"             : "Advocate",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "spot-on",
     "activeSubstance"   : ["imidacloprid", "moxidectin"],
     "effect"            : "",
-    "typeDeworming"     : ["dogs", "cats"],
+    "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
     "indications"       : ["fleas", "nematodes", "Dirofilaria", "does not kill cestodes (Tenia spp.)"],
     "contraindications" : "Do not give to puppies less than 7 weeks of age and kittens less than 9 weeks of age.",
@@ -380,11 +380,11 @@
   {
     "title"             : "Moxiclear",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "spot-on",
     "activeSubstance"   : ["imidacloprid", "moxidectin"],
     "effect"            : "",
-    "typeDeworming"     : ["dogs", "cats"],
+    "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
     "indications"       : ["fleas", "nematodes", "Dirofilaria", "does not kill cestodes (Tenia spp.)"],
     "contraindications" : "Do not give to puppies less than 7 weeks of age and kittens less than 9 weeks of age.",
@@ -398,11 +398,11 @@
   {
     "title"             : "Stronghold",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "spot-on",
     "activeSubstance"   : ["selamectin"],
     "effect"            : "Paralise the parasites. Kills eggs, larvae and adult fleas.",
-    "typeDeworming"     : ["dogs", "cats"],
+    "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
     "indications"       : ["fleas", "ticks", "lice", "Otodectes", "Dirofilaria", "nematodes", "does not kill cestodes (Tenia spp.)"],
     "contraindications" : "Do not give to animals less than 6 weeks of age.",
@@ -416,11 +416,11 @@
   {
     "title"             : "Endectovet",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "tabl",
     "activeSubstance"   : ["doramectin"],
     "effect"            : "",
-    "typeDeworming"     : ["dogs", "cats"],
+    "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
     "indications"       : ["Dirofilaria", "Demodex?"],
     "contraindications" : "Do not give to puppies less than 1,5 months of age.",
@@ -434,7 +434,7 @@
   {
     "title"             : "Milpro",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["milbemycin oxime", "praziquantel"],
     "effect"            : "",
@@ -452,7 +452,7 @@
   {
     "title"             : "Milprazon",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["milbemycin oxime", "praziquantel"],
     "effect"            : "",
@@ -470,7 +470,7 @@
   {
     "title"             : "Dihelvet",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel", "ivermectin"],
     "effect"            : "",
@@ -488,7 +488,7 @@
   {
     "title"             : "Cestal Plus",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel", "fenbendazole"],
     "effect"            : "",
@@ -506,7 +506,7 @@
   {
     "title"             : "Caniverm",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel", "fenbendazole"],
     "effect"            : "",
@@ -524,7 +524,7 @@
   {
     "title"             : "Drontal Puppy",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "suspension",
     "activeSubstance"   : ["pyrantel", "febantel"],
     "effect"            : "",
@@ -542,7 +542,7 @@
   {
     "title"             : "Drontal Plus",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel", "febantel"],
     "effect"            : "",
@@ -560,7 +560,7 @@
   {
     "title"             : "Drontal Dog XL",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel", "febantel"],
     "effect"            : "",
@@ -578,7 +578,7 @@
   {
     "title"             : "Prazitel Plus",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel", "febantel"],
     "effect"            : "",
@@ -596,7 +596,7 @@
   {
     "title"             : "Canidon",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel", "febantel"],
     "effect"            : "",
@@ -614,7 +614,7 @@
   {
     "title"             : "Zipyran",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel", "febantel"],
     "effect"            : "",
@@ -632,7 +632,7 @@
   {
     "title"             : "Biheldon",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel"],
     "effect"            : "",
@@ -650,7 +650,7 @@
   {
     "title"             : "Prazimec D",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "abamectin"],
     "effect"            : "",
@@ -668,7 +668,7 @@
   {
     "title"             : "Procox",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "suspension",
     "activeSubstance"   : ["emodepside", "toltrazuril"],
     "effect"            : "",
@@ -686,7 +686,7 @@
   {
     "title"             : "Panacur PetPaste",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "suspension",
     "activeSubstance"   : ["fenbendazole"],
     "effect"            : "",
@@ -704,7 +704,7 @@
   {
     "title"             : "Panacur 10%",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "suspension",
     "activeSubstance"   : ["fenbendazole"],
     "effect"            : "",
@@ -722,7 +722,7 @@
   {
     "title"             : "Vitaminthe",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "suspension",
     "activeSubstance"   : ["niclosamide", "oxibendazole"],
     "effect"            : "",
@@ -749,7 +749,7 @@
   {
     "title"             : "Fiprex Cat",
     "titleBG"           : "българско",
-    "animals"           : ["cats"],
+    "species"           : ["cat"],
     "form"              : "spot-on",
     "activeSubstance"   : ["fipronil"],
     "effect"            : "",
@@ -767,7 +767,7 @@
   {
     "title"             : "Pestigon for Cats",
     "titleBG"           : "българско",
-    "animals"           : ["cats"],
+    "species"           : ["cat"],
     "form"              : "spot-on",
     "activeSubstance"   : ["fipronil"],
     "effect"            : "",
@@ -785,7 +785,7 @@
   {
     "title"             : "ПИК",
     "titleBG"           : "българско",
-    "animals"           : ["dogs", "cats"],
+    "species"           : ["dog", "cat"],
     "form"              : "powder",
     "activeSubstance"   : ["Methyl Carbamate"],
     "effect"            : "",
@@ -803,7 +803,7 @@
   {
     "title"             : "Frontline Combo Cat",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "spot-on",
     "activeSubstance"   : ["fipronil", "S-Methoprene"],
     "effect"            : "",
@@ -821,7 +821,7 @@
   {
     "title"             : "Advantage",
     "titleBG"           : "българско",
-    "animals"           : ["cats"],
+    "species"           : ["cat"],
     "form"              : "spot-on",
     "activeSubstance"   : ["imidacloprid"],
     "effect"            : "",
@@ -839,11 +839,11 @@
   {
     "title"             : "Nexgard Combo",
     "titleBG"           : "българско",
-    "animals"           : ["cats"],
+    "species"           : ["cat"],
     "form"              : "spot-on",
     "activeSubstance"   : ["esafoxolaner", "eprinomectin", "praziquantel"],
     "effect"            : "",
-    "typeDeworming"     : ["dogs", "cats"],
+    "typeDeworming"     : "both",
     "killingActivity"   : "",
     "indications"       : ["fleas", "ticks", "Otodectes", "Notoedres", "nematodes", "cestodes"],
     "contraindications" : "Do not give to kittens less than 8 weeks of age and less than 0.8 kg.",
@@ -857,11 +857,11 @@
   {
     "title"             : "Stronghold Plus",
     "titleBG"           : "българско",
-    "animals"           : ["cats"],
+    "species"           : ["cat"],
     "form"              : "spot-on",
     "activeSubstance"   : ["selamectin", "sarolaner"],
     "effect"            : "",
-    "typeDeworming"     : ["dogs", "cats"],
+    "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
     "indications"       : ["fleas", "ticks", "lice", "Otodectes", "nematodes", "Dirofilaria", "does not kill cestodes (Tenia spp.)"],
     "contraindications" : "Do not give to animals less than 8 weeks of age and at least 1,25 kg of weight.",
@@ -875,7 +875,7 @@
   {
     "title"             : "Prazimec C",
     "titleBG"           : "българско",
-    "animals"           : ["cats"],
+    "species"           : ["cat"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "abamectin"],
     "effect"            : "",
@@ -893,7 +893,7 @@
   {
     "title"             : "Cestal Cat",
     "titleBG"           : "българско",
-    "animals"           : ["cats"],
+    "species"           : ["cat"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel"],
     "effect"            : "",
@@ -911,7 +911,7 @@
   {
     "title"             : "Drontal Cat",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel"],
     "effect"            : "",
@@ -929,7 +929,7 @@
   {
     "title"             : "Prazitel Cat",
     "titleBG"           : "българско",
-    "animals"           : ["dogs"],
+    "species"           : ["dog"],
     "form"              : "tabl",
     "activeSubstance"   : ["praziquantel", "pyrantel"],
     "effect"            : "",
@@ -947,7 +947,7 @@
   {
     "title"             : "Milpro for cats",
     "titleBG"           : "българско",
-    "animals"           : ["cats"],
+    "species"           : ["cat"],
     "form"              : "tabl",
     "activeSubstance"   : ["milbemycin oxime", "praziquantel"],
     "effect"            : "",
@@ -965,7 +965,7 @@
   {
     "title"             : "Milprazon for cats",
     "titleBG"           : "българско",
-    "animals"           : ["cats"],
+    "species"           : ["cat"],
     "form"              : "tabl",
     "activeSubstance"   : ["milbemycin oxime", "praziquantel"],
     "effect"            : "",
