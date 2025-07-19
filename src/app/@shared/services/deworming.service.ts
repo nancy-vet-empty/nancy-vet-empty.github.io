@@ -43,11 +43,11 @@ export class DewormingService {
     });
 
   this.$intermediateCollection = DewormingCollectionJson.filter((element: any) => {
-      if (!Array.isArray(element.animals)) {
+      if (!Array.isArray(element.species)) {
         return false;
       }
       return categoryCollection.some((category: string) =>
-        element.animals.some((animal: string) => category.toLowerCase().includes(animal.toLowerCase()))
+        element.species.some((animal: string) => category.toLowerCase().includes(animal.toLowerCase()))
       );
     });
 

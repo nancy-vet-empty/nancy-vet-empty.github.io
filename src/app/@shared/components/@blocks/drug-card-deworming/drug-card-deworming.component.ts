@@ -45,16 +45,34 @@ export class DrugCardDeworming implements OnInit {
     return data;
   }
 
+  // private buildAssetPath(): string {
+  //   if(this.object?.species == 'dog'  ) return `/assets/icon/picker/dog.png`;
+  //   if(this.object?.species == 'cat'  ) return `/assets/icon/picker/cat.png`;
+  //   if(this.object?.species == 'both' ) return `/assets/icon/picker/animals.png`;
+
+  //   return ``;
+  // }
+
   private buildAssetPath(): string {
+    const species = this.object?.species;
 
+    if (Array.isArray(species)) {
+      const hasDog = species.includes('dog');
+      const hasCat = species.includes('cat');
 
+      if (hasDog && hasCat) return '/assets/icon/picker/animals.png';
+      if (hasDog) return '/assets/icon/picker/dog.png';
+      if (hasCat) return '/assets/icon/picker/cat.png';
+    }
 
-    if(this.object?.species == 'dog'  ) return `/assets/icon/picker/dog.png`;
-    if(this.object?.species == 'cat'  ) return `/assets/icon/picker/cat.png`;
-    if(this.object?.species == 'both' ) return `/assets/icon/picker/animals.png`;
+    // If species is a string (legacy case)
+    if (species === 'dog') return '/assets/icon/picker/dog.png';
+    if (species === 'cat') return '/assets/icon/picker/cat.png';
+    if (species === 'both') return '/assets/icon/picker/animals.png';
 
-    return ``;
+    return '';
   }
+
 
 
   public getClassName() {
