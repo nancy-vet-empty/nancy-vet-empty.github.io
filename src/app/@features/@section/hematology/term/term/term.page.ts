@@ -15,6 +15,7 @@ export class TermPage {
   private $termsDataService = inject(TermService);
   private dialogService     = inject(DialogService);
 
+  public $collection: any           = [];
   public imageCollection: any[]     = this.$termsDataService.getByCategoryType();
   public $selectedCategories: any[] = [];
 
@@ -33,43 +34,27 @@ export class TermPage {
    * @author Mihail Petrov
    * @param $event
    */
-  public onSerachCategoryClicked($event: any) {
-
+  public onSearchCategoryClicked($event: any) {
     const categoryValue = $event.detail.value;
     this.imageCollection = (categoryValue == 'all')
       ? this.$termsDataService.getByCategoryType()
       : this.$termsDataService.getByCategoryType(categoryValue);
   }
 
-  /**
-   * @author Mihail Petrov
-   * @param $event
-   */
-  public onItemSearched($event: any) {
-
+  public onItemSearched(searchValue: string) {
+    this.processfilterItemCollection(searchValue);
+    console.log("Filtered:", this.imageCollection);
   }
 
-  /**
-   * @author Mihail Petrov
-   * @param $event
-   */
-  public async onFilter($event: any) {
+private processfilterItemCollection(filterValue: string) {
+  this.imageCollection = this.$termsDataService.$terms()
+                                              .filterByTitle(filterValue)
+                                              .getByCategoryType();
+}
 
-    (await this.dialogService.open(SelectCategoryModal)).whenConfirmed((collection: any) => {
 
-      // this.$selectedCategories = collection.selectedCategory;
-      // this.activeFilter        = collection.searchCriteria
-      // this.processGetItemCollection();
-    });
-  }
 
-  /**
-   * @author Mihail Petrov
-   * @param label
-   * @returns
-   */
   public translate(label: string) {
-
     if(label == 'CBC'         ) return "ПКК";
     if(label == 'liver'       ) return "Черен дроб";
     if(label == 'kidneys'     ) return "Бъбреци";

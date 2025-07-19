@@ -6,34 +6,59 @@ import CollectionJson from "nv@json/terms.collection.json";
 })
 export class TermService {
 
+  private $intermediateCollection: any = [];
+
+    public $terms() {
+    this.$intermediateCollection = structuredClone(CollectionJson);
+    return this;
+  }
+
+   public get() {
+    return this.$intermediateCollection;
+  }
+
   public getAll() {
     return CollectionJson;
   }
 
-  public getByCategoryType(filterCategory?: string) {
+public getByCategoryType(filterCategory?: string) {
+  // Use the intermediate (filtered) collection instead of raw JSON
+  const collectionToUse = this.$intermediateCollection.length
+                        ? this.$intermediateCollection
+                        : structuredClone(CollectionJson);
 
-    const immutableCollection = structuredClone(CollectionJson);
-    const reultObject: any         = {};
-    for(let i = 0; i < immutableCollection.length; i++) {
-      let category = immutableCollection[i].type;
+  const resultObject: any = {};
+  for (let i = 0; i < collectionToUse.length; i++) {
+    let category = collectionToUse[i].type;
 
-      if(!reultObject[category]) {
-        reultObject[category] = [];
-        reultObject[category].push(immutableCollection[i]);
-      }
-      else {
-        reultObject[category].push(immutableCollection[i]);
-      }
+    if (!resultObject[category]) {
+      resultObject[category] = [];
     }
 
-    // get specific category
-    if(filterCategory) {
-      const resultArrayy = reultObject[filterCategory];
-      const rrr: any = {};
-      rrr[filterCategory]  = resultArrayy;
-      return rrr;
-    }
+    resultObject[category].push(collectionToUse[i]);
+  }
 
-    return reultObject;
+  // get specific category
+  if (filterCategory) {
+    const resultArray = resultObject[filterCategory];
+    const rrr: any = {};
+    rrr[filterCategory] = resultArray;
+    return rrr;
+  }
+
+  return resultObject;
+}
+
+
+    public filterByTitle(title: any) {
+
+    if(!title) return this;
+
+    this.$intermediateCollection = this.$intermediateCollection.filter((element: any) => {
+      return (element.title).toLowerCase().includes(title.toLowerCase()) ||
+             (element.id).toLowerCase().includes(title.toLowerCase());
+    });
+
+    return this;
   }
 }
