@@ -7,13 +7,13 @@
    (англ.: {{selectedObject.titleEn}}, раздел: {{getTitle()}})
   </div>
 
-  @for(element of selectedObject.links; track element) {
+  <!-- @for(element of selectedObject.links; track element) {
       <nv-link-button
       *ngIf="element.title !== 'няма-линк'"
       [inputTitle]="element.title"
       (onClick)="onOpenPdfDocument(element.link)">
       </nv-link-button>
-  }
+  } -->
 
   <div class="fb600 mt16 c-success">Етиология</div>
   @for(element of selectedObject.etiology; track element) {

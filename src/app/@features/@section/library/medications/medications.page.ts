@@ -6,6 +6,9 @@ import { DialogService        } from 'nv@services/dialog.service';
 import { SelectCategoryModal  } from './@modal/select-category/select-category.component';
 import { DrugInfoModal        } from './@modal/drug-info/drug-info.component';
 
+import { ModalController } from '@ionic/angular';
+import { AddMedicationModalComponent } from './@modal/add-medication/add-medication.component'; // Adjust path as needed
+
 @Component({
   selector    : 'page-collection',
   templateUrl : './medications.page.html',
@@ -79,4 +82,38 @@ this.$collection = this.$dataService.$medicine()
                       // .filterByPrimary(this.activeFilter, filterValue)
                       .get();
   }
+
+
+  constructor(private modalCtrl: ModalController) {}
+
+  async onAddMedication() {
+    const modal = await this.modalCtrl.create({
+      component: AddMedicationModalComponent
+    });
+
+    await modal.present();
+
+    const { data } = await modal.onDidDismiss();
+    if (data) {
+      // Save the new medication (add to your collection or send to backend)
+      this.$collection.push(data); // if it's an array, or update the source
+    }
+  }
+
+  medicationTypes = [
+    { label: 'Дихателна система',        value: 'respiratory' },
+    { label: 'Стомашно-чревна система',  value: 'gastrointestinal' },
+    { label: 'Сърдечно-съдова система',  value: 'cardiovascular' },
+    { label: 'Отделителна система',      value: 'urogenital' },
+    { label: 'Нервна система',           value: 'nervous' },
+    { label: 'Очни',                     value: 'eyes' },
+    { label: 'Ушни',                     value: 'ears' },
+    { label: 'Кожа',                     value: 'skin' },
+    { label: 'Антибиотици',              value: 'antibiotics' },
+    { label: 'Антипаразитни',            value: 'antiparasitic' },
+    { label: 'Ендокринна система',       value: 'endocrine' },
+    { label: 'Противовъзпалителни',      value: 'antiinflammatory' },
+    { label: 'Други',                    value: 'others' }
+  ];
+
 }

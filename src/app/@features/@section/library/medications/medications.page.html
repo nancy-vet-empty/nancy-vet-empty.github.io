@@ -11,6 +11,13 @@
   id            = "main-content"
   [fullscreen]  = "true">
 
+    <!-- Add Medication Button -->
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="onAddMedication()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
   @for(element of $collection; track element) {
 
     <dc-card

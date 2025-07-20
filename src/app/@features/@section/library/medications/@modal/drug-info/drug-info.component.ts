@@ -24,12 +24,12 @@ export class DrugInfoModal implements OnInit {
     this.modalController.dismiss();
   }
 
-  /**
-   * @author Mihail Petrov
-   * @param url
-   */
   public onOpenPdfDocument(url: string) {
     window.open(`assets/${url}`, '_blank')?.focus();
+  }
+
+   public onOpenLink(url: string) {
+    window.open(url, '_blank')?.focus();
   }
 
   /**

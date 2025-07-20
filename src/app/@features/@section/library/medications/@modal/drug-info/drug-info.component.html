@@ -43,14 +43,22 @@
     </div>
   }
 
-  @for(element of selectedObject.links; track element) {
+  <!-- @for(element of selectedObject.links; track element) {
 
     <nv-link-button
       *ngIf="element.title !== 'няма-линк'"
       [inputTitle]="element.title"
       (onClick)="onOpenPdfDocument(element.link)">
     </nv-link-button>
-  }
+  } -->
+
+<div *ngIf="selectedObject.link && selectedObject.link !== 'няма-линк'">
+  <nv-link-button
+    [inputTitle]="'Отвори линк'"
+    (onClick)="onOpenLink(selectedObject.link)">
+  </nv-link-button>
+</div>
+
 
   @if(selectedObject.indications && selectedObject.indications.length > 0) {
 
