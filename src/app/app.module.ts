@@ -83,6 +83,10 @@ const routes: Routes = [
   {
     path          : AppNavigationRouteEnum.BREEDS,
     loadChildren  : () => import( './@features/@section/breeds/@navigation/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
+    path          : AppNavigationRouteEnum.PROFILE,
+    loadChildren  : () => import( './@features/@section/profile/@navigation/tabs.module').then(m => m.TabsPageModule)
   }
 ];
 

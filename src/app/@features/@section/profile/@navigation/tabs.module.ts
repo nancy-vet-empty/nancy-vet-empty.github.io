@@ -22,8 +22,13 @@ const routes: Routes = [
     children  : [
       {
         path          : 'tab1',
-        loadChildren  : () => import('../test/test.module').then(m => m.TestPageModule)
+        loadChildren  : () => import('../profile/profile.module').then(m => m.ProfilePageModule)
       },
+      {
+        path: 'tab2',
+        loadChildren: () => import('../register/register.module').then(m => m.RegisterPageModule)
+      },
+
 
       {
         path          : '',

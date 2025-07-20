@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Регистрирай се</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="register-form">
+  <!-- <div>
+    <label for="contact">Имейл:</label>
+    <input id="contact" formControlName="contact" />
+    <div *ngIf="registerForm.get('contact')?.errors?.['invalidContact'] && registerForm.get('contact')?.touched">
+      Моля, въведи валиден имейл адрес.
+    </div>
+  </div>
+
+  <div>
+    <label for="password">Парола:</label>
+    <input id="password" type="password" formControlName="password" />
+    <div *ngIf="registerForm.get('password')?.errors?.['minlength'] && registerForm.get('password')?.touched">
+      Паролата трябва да съдържа най-малко 6 символа.
+    </div>
+  </div> -->
+
+    <ion-row style="place-self: center; padding: 44px 0px;"><img src="../../../../../assets/icons/cat-book-medium.png"></ion-row>
+
+  <!-- <ion-row>
+    <ion-col>Име и Фамилия:
+    </ion-col>
+    <ion-col>
+      <input id="name" formControlName="name" placeholder="въведи име" class="input-register"/>
+    </ion-col>
+  </ion-row> -->
+
+  <ion-row>
+    <ion-col>Имейл:
+    </ion-col>
+    <ion-col>
+      <input id="contact" formControlName="contact" placeholder="въведи имейл адрес" class="input-register"/>
+      <div *ngIf="registerForm.get('contact')?.errors?.['invalidContact'] && registerForm.get('contact')?.touched">
+        Моля, въведи валиден имейл адрес.
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>Парола:
+    </ion-col>
+    <ion-col>
+      <input id="password" type="password" formControlName="password" placeholder="въведи парола" class="input-register"/>
+      <div *ngIf="registerForm.get('password')?.errors?.['minlength'] && registerForm.get('password')?.touched">
+        Паролата трябва да съдържа най-малко 6 символа.
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>Повтори парола:
+    </ion-col>
+    <ion-col>
+      <input id="repeat_password" type="repeat_password" formControlName="repeat_password" placeholder="въведи отново парола" class="input-register"/>
+      <div *ngIf="registerForm.get('password')?.errors?.['minlength'] && registerForm.get('password')?.touched">
+        Паролата трябва да съдържа най-малко 6 символа.
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <p>Чрез регистрацията Вие се съгласявате на нашите <a href="#">Условия и поверителност</a>.</p>
+
+  <ion-button type="submit">Регистрирай се</ion-button>
+</form>

@@ -13,6 +13,7 @@ export enum AppNavigationRouteEnum {
   VACCINATION     = "vaccinations",
   DEWORMING       = "deworming",
   TRIVIA          = "trivia",
+  PROFILE         = "profile",
   NEWBORNS        = "newborns",
   BREEDS          = "breeds"
 }
