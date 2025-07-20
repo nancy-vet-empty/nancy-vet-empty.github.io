@@ -206,35 +206,46 @@ export class DrugCard2 implements OnInit {
   private decoratorConvertor(decorator: any) {
 
   // Convert decorators:
-  if (decorator     == "mg_ml"        ) return "mg/ml";
-  if (decorator     == "mg_tabl"      ) return "mg/tabl";
-  if (decorator     == "µg_tabl"      ) return "µg/tabl";
+  if (decorator == "µg_ml"            ) return "µg/ml";
+  if (decorator == "mg_ml"            ) return "mg/ml";
+  if (decorator == "mg_tabl"          ) return "mg/tabl";
+  if (decorator == "µg_tabl"          ) return "µg/tabl";
 
-  if (decorator     == "mg_caps"      ) return "mg/caps";
-  if (decorator     == "µg_ml"        ) return "µg/ml";
+  if (decorator == "mg_caps"          ) return "mg/caps";
 
+  if (decorator == "mg"               ) return "mg";
   if (decorator == "g"                ) return "g";
+  if (decorator == "g_kg"             ) return "g/kg";
   if (decorator == "mg_kg"            ) return "mg/kg";
   if (decorator == "µg_kg"            ) return "µg/kg";
   if (decorator == "MU_kg"            ) return "MU/kg";
   if (decorator == "ml"               ) return "ml";
   if (decorator == "ml_kg"            ) return "ml/kg";
+  if (decorator == "ml_4_kg"          ) return "ml/4 kg";
+  if (decorator == "ml_4.5_kg"        ) return "ml/4.5 kg";
   if (decorator == "ml_5_kg"          ) return "ml/5 kg";
   if (decorator == "ml_10_kg"         ) return "ml/10 kg";
   if (decorator == "tabl"             ) return "tabl";
-  if (decorator == "tabl_5_kg"        ) return "tabl/5 kg";
   if (decorator == "tabl_2.5_kg"      ) return "tabl/2.5 kg";
+  if (decorator == "tabl_5_kg"        ) return "tabl/5 kg";
   if (decorator == "tabl_10_kg"       ) return "tabl/10 kg";
+  if (decorator == "tabl_15_kg"       ) return "tabl/15 kg";
+  if (decorator == "tabl_25_kg"       ) return "tabl/25 kg";
+  if (decorator == "tabl_40_kg"       ) return "tabl/40 kg";
   if (decorator == "caps"             ) return "caps";
   if (decorator == "caps_5_kg"        ) return "caps/5 kg";
-  if (decorator == "implant"          ) return "implant";
+  if (decorator == "caps_10_kg"       ) return "caps/10 kg";
   if (decorator == "gtt"              ) return "gtt";
   if (decorator == "gtt_2_kg"         ) return "gtt/2 kg";
+  if (decorator == "tbsp"             ) return "с. л.";
+  if (decorator == "tsp"              ) return "ч. л.";
+  if (decorator == "tsp_5_kg"         ) return "ч. л. на 5 кг";
   if (decorator == "cm"               ) return "cm";
+  if (decorator == "implant"          ) return "implant";
+  if (decorator == "ampula"           ) return "ампула";
   if (decorator == "sprays"           ) return "sprays";
   if (decorator == "малко количество" ) return "малко количество";
   if (decorator == "няколко капки"    ) return "няколко капки";
-  if (decorator == "ampula"           ) return "ампула";
   if (decorator == "paketche"         ) return "пакетче";
 
     return '';

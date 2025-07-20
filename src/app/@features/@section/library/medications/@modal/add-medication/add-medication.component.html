@@ -24,28 +24,24 @@
       <ion-input [(ngModel)]="form.activeSubstance"></ion-input>
     </ion-item>
 
-    <!-- <ion-item>
-      <ion-label position="stacked">Концентрация*:</ion-label>
-      <ion-input [(ngModel)]="form.drugConcentration"></ion-input>
-    </ion-item>
+    <ion-grid
+      class="component-content m-gap1drug">
+      <ion-row>
+        <ion-col>
+          Концентрация*:
+        </ion-col>
+        <ion-col>
+            <ion-input [(ngModel)]="form.drugConcentration" class="fs08rem italic">Число:</ion-input>
+            <ion-label class="fs08rem italic">Мерна единица:</ion-label>
+            <ion-select [(ngModel)]="form.drugConcentrationDecorator" interface="popover">
+              <ion-select-option *ngFor="let unit of unitOptions" [value]="unit.value">
+                {{ unit.label }}
+              </ion-select-option>
+            </ion-select>
 
-    <ion-item>
-      <ion-label position="stacked">Мерна единица на концентрацията*:</ion-label>
-      <ion-input [(ngModel)]="form.drugConcentrationDecorator"></ion-input>
-    </ion-item> -->
-
-          <ion-grid
-        class="component-content m-gap1drug">
-        <ion-row>
-          <ion-col>
-            Концентрация*:
-          </ion-col>
-          <ion-col>
-              <ion-input [(ngModel)]="form.activeSubstanceDose" class="fs08rem italic">Число:</ion-input>
-              <ion-input [(ngModel)]="form.activeSubstanceDoseDecorator" class="fs08rem italic">Мерна единица:</ion-input>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
 
     <!-- Medication Type Dropdown -->
     <ion-item>
@@ -67,41 +63,31 @@
       </ion-select>
     </ion-item>
 
-    <!-- <ion-item>
-      <ion-label position="stacked">Дозировка*:</ion-label>
-      <ion-input [(ngModel)]="form.activeSubstanceDose"></ion-input>
-    </ion-item>
-
-        <ion-item>
-      <ion-label position="stacked">Мерна единица на дозировката*:</ion-label>
-      <ion-input [(ngModel)]="form.activeSubstanceDoseDecorator"></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-label position="stacked">Начин на приложение*:</ion-label>
-      <ion-input [(ngModel)]="form.applicationMethod"></ion-input>
-    </ion-item> -->
-
-      <ion-grid
-        class="component-content m-gap1drug">
-        <ion-row>
-          <ion-col>
-            Доза
-          </ion-col>
-          <ion-col>
-              <ion-input [(ngModel)]="form.activeSubstanceDose" class="fs08rem italic">Число:</ion-input>
-              <ion-input [(ngModel)]="form.activeSubstanceDoseDecorator" class="fs08rem italic">Мерна единица:</ion-input>
-          </ion-col>
-        </ion-row>
-        <ion-row>
-          <ion-col>
-            Начин на приложение
-          </ion-col>
-          <ion-col>
-              <ion-input [(ngModel)]="form.applicationMethod"></ion-input>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
+    <ion-grid
+      class="component-content m-gap1drug">
+      <ion-row>
+        <ion-col>
+          Доза
+        </ion-col>
+        <ion-col>
+            <ion-input [(ngModel)]="form.activeSubstanceDose" class="fs08rem italic">Число:</ion-input>
+            <ion-label class="fs08rem italic">Мерна единица:</ion-label>
+            <ion-select [(ngModel)]="form.activeSubstanceDoseDecorator" interface="popover">
+              <ion-select-option *ngFor="let unit of unitOptions" [value]="unit.value">
+                {{ unit.label }}
+              </ion-select-option>
+            </ion-select>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          Начин на приложение
+        </ion-col>
+        <ion-col>
+            <ion-input [(ngModel)]="form.applicationMethod"></ion-input>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
 
     <ion-item>
       <ion-label position="stacked">Линк към листовката:</ion-label>
