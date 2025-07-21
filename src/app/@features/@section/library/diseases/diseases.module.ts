@@ -20,6 +20,7 @@ import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv
 import { DiseasesPage             } from './diseases.page';
 import { DrugCardDiseases         } from 'nv@components/@blocks/drug-card-diseases/drug-card-diseases.component';
 import { GalleryModal             } from './@modal/gallery/gallery.component';
+import { AddDiseaseModalComponent } from './@modal/add-disease/add-disease.component';
 
 const routes: Routes = [{
     path      : '',
@@ -37,7 +38,8 @@ const routes: Routes = [{
       DiseasesPage                  ,
       DrugInfoModal                 ,
       SelectCategoryModal           ,
-      GalleryModal
+      GalleryModal                  ,
+      AddDiseaseModalComponent
     ],
     imports                         : [
       RouterModule.forChild(routes) ,

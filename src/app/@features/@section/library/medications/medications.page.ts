@@ -99,21 +99,4 @@ this.$collection = this.$dataService.$medicine()
       this.$collection.push(data); // if it's an array, or update the source
     }
   }
-
-  medicationTypes = [
-    { label: 'Дихателна система',        value: 'respiratory' },
-    { label: 'Стомашно-чревна система',  value: 'gastrointestinal' },
-    { label: 'Сърдечно-съдова система',  value: 'cardiovascular' },
-    { label: 'Отделителна система',      value: 'urogenital' },
-    { label: 'Нервна система',           value: 'nervous' },
-    { label: 'Очни',                     value: 'eyes' },
-    { label: 'Ушни',                     value: 'ears' },
-    { label: 'Кожа',                     value: 'skin' },
-    { label: 'Антибиотици',              value: 'antibiotics' },
-    { label: 'Антипаразитни',            value: 'antiparasitic' },
-    { label: 'Ендокринна система',       value: 'endocrine' },
-    { label: 'Противовъзпалителни',      value: 'antiinflammatory' },
-    { label: 'Други',                    value: 'others' }
-  ];
-
 }

@@ -1,10 +1,12 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit, inject  } from '@angular/core';
 
-import { DialogService        } from 'nv@services/dialog.service';
+import { DialogService              } from 'nv@services/dialog.service';
 
-import { SelectCategoryModal  } from './@modal/select-category/select-category.component';
-import { DrugInfoModal        } from './@modal/drug-info/drug-info.component';
-import { DiseasesService      } from 'nv@services/disease.service';
+import { SelectCategoryModal        } from './@modal/select-category/select-category.component';
+import { DrugInfoModal              } from './@modal/drug-info/drug-info.component';
+import { DiseasesService            } from 'nv@services/disease.service';
+import { ModalController            } from '@ionic/angular';
+import { AddDiseaseModalComponent   } from './@modal/add-disease/add-disease.component';
 
 @Component({
   selector    : 'page-collection',
@@ -88,4 +90,20 @@ export class DiseasesPage implements OnInit {
                         .filterByPrimary(this.activeFilter, filterValue)
                         .get();
   }
+
+    constructor(private modalCtrl: ModalController) {}
+
+    async onAddDisease() {
+      const modal = await this.modalCtrl.create({
+        component: AddDiseaseModalComponent
+      });
+
+      await modal.present();
+
+      const { data } = await modal.onDidDismiss();
+      if (data) {
+        // Save the new medication (add to your collection or send to backend)
+        this.$collection.push(data); // if it's an array, or update the source
+      }
+    }
 }

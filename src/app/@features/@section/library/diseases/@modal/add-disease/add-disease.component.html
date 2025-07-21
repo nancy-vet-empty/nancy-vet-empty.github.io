@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Добавяне на медикамент</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">Затвори</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="stacked" class="h1">Име на заболяването (бълг.)*:</ion-label>
+      <ion-input [(ngModel)]="form.title"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Име на заболяването (англ.):</ion-label>
+      <ion-input [(ngModel)]="form.titleEn"></ion-input>
+    </ion-item>
+
+    <!-- Medication Type Dropdown -->
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Раздел на заболяването*:</ion-label>
+      <ion-select [(ngModel)]="form.diseaseType" interface="popover">
+        <ion-select-option *ngFor="let type of diseaseTypeOptions" [value]="type.value">
+          {{ type.label }}
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <!-- Animal Type Dropdown -->
+    <ion-item>
+      <ion-label position="stacked">Вид животно*:</ion-label>
+      <ion-select [(ngModel)]="form.animals" interface="popover">
+        <ion-select-option *ngFor="let animal of animalsOptions" [value]="animal.value">
+          {{ animal.label }}
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="c-success fb600 fs16">Етиология:</ion-label>
+      <ion-input [(ngModel)]="form.etiology"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="c-fail fb600 fs16">Симптоми:</ion-label>
+      <ion-input [(ngModel)]="form.signs"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="c-fail fb600 fs16">Специфични симптоми:</ion-label>
+      <ion-input [(ngModel)]="form.specificSigns"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="c-blue fb600 fs16">Диагностика:</ion-label>
+      <ion-input [(ngModel)]="form.diagnostics"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="c-success fb600 fs16">Лечение:</ion-label>
+      <ion-input [(ngModel)]="form.treatment"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="c-fail fb600 fs16">Диференциална диагноза:</ion-label>
+      <ion-input [(ngModel)]="form.differential"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      Полетата със * са задължителни!
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="primary" (click)="save()">Запази</ion-button>
+</ion-content>
