@@ -6,6 +6,9 @@ import { DialogService              } from 'nv@services/dialog.service';
 import { InfoModal                  } from './@modal/info/info.component';
 import { SelectCategoryModal        } from './@modal/select-category/select-category.component';
 
+import { AddDewormingModalComponent } from './@modal/add-deworming/add-deworming.component';
+import { ModalController            } from '@ionic/angular';
+
 @Component({
   selector    : 'page-deworming',
   templateUrl : './main.page.html',
@@ -80,5 +83,21 @@ export class MainComponent implements OnInit {
   public onOpenPdfDocument(url: string) {
     window.open(`${url}`, '_blank')?.focus();
     console.log(`link: ${url}`)
+  }
+
+  constructor(private modalCtrl: ModalController) {}
+
+  async onAddDeworming() {
+    const modal = await this.modalCtrl.create({
+      component: AddDewormingModalComponent
+    });
+
+    await modal.present();
+
+    const { data } = await modal.onDidDismiss();
+    if (data) {
+      // Save the new medication (add to your collection or send to backend)
+      this.$collection.push(data); // if it's an array, or update the source
+    }
   }
 }

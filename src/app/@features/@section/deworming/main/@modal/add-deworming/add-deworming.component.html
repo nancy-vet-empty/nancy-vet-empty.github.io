@@ -1,0 +1,98 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Добавяне на обезпаразитяващо</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">Затвори</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="stacked" class="h1">Име на обезпаразитяващото (бълг.)*:</ion-label>
+      <ion-input [(ngModel)]="form.titleBG"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Име на обезпаразитяващото (англ.):</ion-label>
+      <ion-input [(ngModel)]="form.title"></ion-input>
+    </ion-item>
+
+    <!-- Deworming Type Dropdown -->
+    <ion-item>
+      <ion-label position="stacked">Тип на обезпаразитяващото*</ion-label>
+      <ion-select [(ngModel)]="form.typeDeworming" interface="popover">
+        <ion-select-option *ngFor="let type of typeDewormingOptions" [value]="type.value">
+          {{ type.label }}
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <!-- Deworming Type Dropdown -->
+    <ion-item>
+      <ion-label position="stacked">Вид на обезпаразитяващото*</ion-label>
+      <ion-select [(ngModel)]="form.formTypes" interface="popover">
+        <ion-select-option *ngFor="let type of formTypeOptions" [value]="type.value">
+          {{ type.label }}
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <!-- Animal Type Dropdown -->
+    <ion-item>
+      <ion-label position="stacked">Вид животно*</ion-label>
+      <ion-select [(ngModel)]="form.animalType" interface="popover">
+        <ion-select-option *ngFor="let animal of animalTypeOptions" [value]="animal.value">
+          {{ animal.label }}
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Активна субстанция (бълг.):</ion-label>
+      <ion-input [(ngModel)]="form.activeSubstance"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Начин на действие:</ion-label>
+      <ion-input [(ngModel)]="form.effect"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Продължителност на действие:</ion-label>
+      <ion-input [(ngModel)]="form.killingActivity"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Показания:</ion-label>
+      <ion-input [(ngModel)]="form.indications"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Противопоказания:</ion-label>
+      <ion-input [(ngModel)]="form.contraindications"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Имайте предвид:</ion-label>
+      <ion-input [(ngModel)]="form.precautions"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">При бременност:</ion-label>
+      <ion-input [(ngModel)]="form.pregnancy"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Линк към листовка:</ion-label>
+      <ion-input [(ngModel)]="form.link"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      Полетата със * са задължителни!
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="primary" (click)="save()">Запази</ion-button>
+</ion-content>

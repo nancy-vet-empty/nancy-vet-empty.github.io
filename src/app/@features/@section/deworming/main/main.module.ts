@@ -20,6 +20,8 @@ import { DrugCardDeworming        } from 'nv@components/@blocks/drug-card-deworm
 import { SplitPipe                } from 'nv@pipes/split.pipe';
 import { PrimaryMenu              } from 'nv@features/@menu/primary-menu/primary-menu.component';
 
+import { AddDewormingModalComponent } from './@modal/add-deworming/add-deworming.component';
+
 const routes: Routes              = [{
     path                          : '',
     component                     : MainComponent,
@@ -35,7 +37,8 @@ const routes: Routes              = [{
     declarations                    : [
       MainComponent                 ,
       InfoModal                     ,
-      SelectCategoryModal
+      SelectCategoryModal           ,
+      AddDewormingModalComponent
     ],
     imports                         : [
       RouterModule.forChild(routes) ,
