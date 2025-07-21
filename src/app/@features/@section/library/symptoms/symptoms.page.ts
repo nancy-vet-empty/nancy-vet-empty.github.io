@@ -5,6 +5,8 @@ import { DialogService              } from 'nv@services/dialog.service';
 
 import { DrugInfoModal              } from './@modal/drug-info/drug-info.component';
 import { SelectCategoryModal        } from './@modal/select-category/select-category.component';
+import { ModalController            } from '@ionic/angular';
+import { AddSymptomModalComponent   } from './@modal/add-symptom/add-symptom.component';
 
 @Component({
   selector    : 'page-symptoms',
@@ -79,4 +81,20 @@ export class SymptomTab implements OnInit {
                                         .filterByTitle(filterValue)
                                         .get();
   }
+
+    constructor(private modalCtrl: ModalController) {}
+
+    async onAddSymptom() {
+      const modal = await this.modalCtrl.create({
+        component: AddSymptomModalComponent
+      });
+
+      await modal.present();
+
+      const { data } = await modal.onDidDismiss();
+      if (data) {
+        // Save the new medication (add to your collection or send to backend)
+        this.$collection.push(data); // if it's an array, or update the source
+      }
+    }
 }

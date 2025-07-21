@@ -15,6 +15,7 @@ import { NvSearchToolbarComponent } from 'nv@components/@layouts/nv-search-toolb
 import { CategoryPickerComponent  } from 'nv@components/@blocks/category-picker/category-picker.component';
 import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/nv-info-modal.component';
 import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
+import { AddSymptomModalComponent } from './@modal/add-symptom/add-symptom.component';
 
 const routes: Routes              = [{
     path                          : '',
@@ -26,7 +27,8 @@ const routes: Routes              = [{
     declarations                    : [
       SymptomTab                    ,
       DrugInfoModal                 ,
-      SelectCategoryModal
+      SelectCategoryModal           ,
+      AddSymptomModalComponent
     ],
     imports                         : [
       RouterModule.forChild(routes) ,

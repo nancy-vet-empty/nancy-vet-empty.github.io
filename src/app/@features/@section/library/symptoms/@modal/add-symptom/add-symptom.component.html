@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Добавяне на медикамент</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">Затвори</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="stacked" class="h1">Име на симптома (бълг.)*:</ion-label>
+      <ion-input [(ngModel)]="form.title"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Име на симптома (англ.):</ion-label>
+      <ion-input [(ngModel)]="form.titleEn"></ion-input>
+    </ion-item>
+
+    <!-- Medication Type Dropdown -->
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Раздел на симптома*:</ion-label>
+      <ion-select [(ngModel)]="form.symptomType" interface="popover">
+        <ion-select-option *ngFor="let type of symptomTypeOptions" [value]="type.value">
+          {{ type.label }}
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item-divider class="mt-2">
+      <ion-label class="fs16 fb600 c-success">Причини към симптома:</ion-label>
+    </ion-item-divider>
+
+    <ng-container *ngFor="let cause of form.causes; let i = index">
+      <ion-item>
+        <ion-label position="stacked">Главна причина #{{ i + 1 }}</ion-label>
+        <ion-input [(ngModel)]="cause.group" name="group-{{i}}"></ion-input>
+      </ion-item>
+
+      <ion-label class="fs13 mt-2">Малки причини:</ion-label>
+      <ng-container *ngFor="let child of cause.children; let j = index">
+        <ion-item>
+          <ion-input [(ngModel)]="cause.children[j].title" placeholder="Малка причина #{{ j + 1 }}" name="child-{{i}}-{{j}}"></ion-input>
+          <ion-button fill="clear" color="danger" size="small" (click)="removeChildReason(i, j)">
+            <ion-icon slot="icon-only" name="remove-circle"></ion-icon>
+          </ion-button>
+        </ion-item>
+      </ng-container>
+
+      <ion-button expand="block" size="small" fill="outline" (click)="addChildReason(i)">
+        Добави малка причина
+      </ion-button>
+
+      <ion-button expand="block" size="small" color="danger" fill="outline" (click)="removeMainReason(i)">
+        Премахни главна причина
+      </ion-button>
+
+      <ion-item-divider></ion-item-divider>
+    </ng-container>
+
+    <ion-button expand="block" color="secondary" (click)="addMainReason()">Добави нова главна причина</ion-button>
+
+
+    <ion-item>
+      Полетата със * са задължителни!
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="primary" (click)="save()">Запази</ion-button>
+</ion-content>
