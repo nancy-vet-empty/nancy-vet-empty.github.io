@@ -14,6 +14,7 @@ export class AddDewormingModalComponent {
     formTypes: '',
     animalType: '',
     activeSubstance: '',
+    dosage: '',
     effect: '',
     killingActivity: '',
     indications: '',
@@ -29,7 +30,7 @@ export class AddDewormingModalComponent {
     { label: 'каишка'      ,  value: 'leash'},
     { label: 'суспензия'   ,  value: 'suspension'},
     { label: 'пудра'       ,  value: 'powder'},
-    { label: 'spot-он'     ,  value: 'spot-on'},
+    { label: 'спот-он'     ,  value: 'spot-on'},
     { label: 'табл'        ,  value: 'tabl'},
   ];
 

@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Добавяне на обезпаразитяващо</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">Затвори</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="stacked" class="h1">Име на метода (бълг.)*:</ion-label>
+      <ion-input [(ngModel)]="form.title"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Име на метода (англ.):</ion-label>
+      <ion-input [(ngModel)]="form.titleEn"></ion-input>
+    </ion-item>
+
+    <!-- Deworming Type Dropdown -->
+    <ion-item>
+      <ion-label position="stacked">Тип на метода*</ion-label>
+      <ion-select [(ngModel)]="form.type" interface="popover">
+        <ion-select-option *ngFor="let type of typeOptions" [value]="type.value">
+          {{ type.label }}
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Описание:</ion-label>
+      <ion-input [(ngModel)]="form.description"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Нужни материали:</ion-label>
+      <ion-input [(ngModel)]="form.materials"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">Начин:</ion-label>
+      <ion-input [(ngModel)]="form.method"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked" class="fs13">За какво се използва?</ion-label>
+      <ion-input [(ngModel)]="form.usage"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      Полетата със * са задължителни!
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="primary" (click)="save()">Запази</ion-button>
+</ion-content>

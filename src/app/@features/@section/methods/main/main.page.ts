@@ -4,6 +4,8 @@ import { DrugInfoModal } from '../@modal/drug-info/drug-info.component';
 import { DialogService } from 'nv@services/dialog.service';
 import { SelectCategoryModal } from '../@modal/select-category/select-category.component';
 
+import { AddMethodModalComponent } from '../@modal/add-method/add-method.component';
+import { ModalController            } from '@ionic/angular';
 
 @Component({
   selector    : 'page-trivia',
@@ -68,4 +70,22 @@ export class MainPage implements OnInit {
                                         .filterByTitle(filterValue)
                                         .get();
   }
+
+
+    constructor(private modalCtrl: ModalController) {}
+
+    async onAddMethod() {
+      const modal = await this.modalCtrl.create({
+        component: AddMethodModalComponent
+      });
+
+      await modal.present();
+
+      const { data } = await modal.onDidDismiss();
+      if (data) {
+        // Save the new medication (add to your collection or send to backend)
+        this.$data.push(data); // if it's an array, or update the source
+      }
+    }
+
 }

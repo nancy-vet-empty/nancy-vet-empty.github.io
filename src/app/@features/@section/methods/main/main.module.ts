@@ -17,6 +17,7 @@ import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv
 import { MainPage                 } from './main.page';
 import { NvSectionContentView     } from 'nv@components/@layouts/nv-section-content-view/nv-section-content-view.component';
 import { SelectCategoryModal      } from '../@modal/select-category/select-category.component';
+import { AddMethodModalComponent  } from '../@modal/add-method/add-method.component';
 
 const routes: Routes = [{
     path      : '',
@@ -30,7 +31,8 @@ const routes: Routes = [{
   ],
     declarations                    : [
       MainPage                      ,
-      SelectCategoryModal
+      SelectCategoryModal           ,
+      AddMethodModalComponent
     ],
     imports                         : [
       RouterModule.forChild(routes) ,
