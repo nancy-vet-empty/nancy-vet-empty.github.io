@@ -32,8 +32,8 @@
           </ion-col>
         </ion-row>
         <ion-row>
-          <ion-col>
-            Приложение
+          <ion-col (click)="openInfoModal()" class="underline">
+            Приложение*
           </ion-col>
           <ion-col>
             {{ element.applicationMethod }}

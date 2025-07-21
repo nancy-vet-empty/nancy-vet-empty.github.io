@@ -1,5 +1,8 @@
 import { Component, OnInit, inject  } from "@angular/core";
 import { ModalController            } from "@ionic/angular";
+import { DialogService        } from 'nv@services/dialog.service';
+
+import { AbbreviationsChartModal      } from './abbreviations-chart/abbreviations-chart.component';
 
 @Component({
   selector    : 'modal--drug-info',
@@ -12,6 +15,7 @@ export class DrugInfoModal implements OnInit {
 
   public selectedObject: any;
   public selectedDrugApplicationCollection: any[] = [];
+  private dialogService: DialogService  = inject(DialogService);
 
   public ngOnInit() {
     this.selectedDrugApplicationCollection = this.processApplicationCollection();
@@ -59,4 +63,9 @@ export class DrugInfoModal implements OnInit {
 
     return resultCollection;
   }
+
+  public openInfoModal() {
+    this.dialogService.open(AbbreviationsChartModal);
+  }
+
 }

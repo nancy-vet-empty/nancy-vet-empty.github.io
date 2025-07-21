@@ -1,13 +1,14 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit, inject    } from '@angular/core';
 
-import { DataService          } from 'nv@services/data.service';
-import { DialogService        } from 'nv@services/dialog.service';
+import { DataService                  } from 'nv@services/data.service';
+import { DialogService                } from 'nv@services/dialog.service';
 
-import { SelectCategoryModal  } from './@modal/select-category/select-category.component';
-import { DrugInfoModal        } from './@modal/drug-info/drug-info.component';
+import { SelectCategoryModal          } from './@modal/select-category/select-category.component';
+import { DrugInfoModal                } from './@modal/drug-info/drug-info.component';
 
-import { ModalController } from '@ionic/angular';
-import { AddMedicationModalComponent } from './@modal/add-medication/add-medication.component'; // Adjust path as needed
+import { ModalController              } from '@ionic/angular';
+import { AddMedicationModalComponent  } from './@modal/add-medication/add-medication.component';
+import { AbbreviationsChartModal      } from './@modal/drug-info/abbreviations-chart/abbreviations-chart.component';
 
 @Component({
   selector    : 'page-collection',

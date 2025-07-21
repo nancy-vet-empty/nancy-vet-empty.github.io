@@ -1,4 +1,15 @@
-<nv-info-modal [inputTitle]="selectedObject.symptom" class="ion-page">
+<nv-info-modal
+  [inputTitle]="'Инфо'"
+  class="ion-page">
+
+  <div class="h1">
+    {{selectedObject.symptom}}
+  </div>
+  <!-- <nv-info-modal [inputTitle]="selectedObject.symptom" class="ion-page"> -->
+
+  <div class="fs13">
+    ( англ.: {{selectedObject.symptomEn}} )
+  </div>
 
   <div class="fs13">
     <strong>Значение:</strong> {{selectedObject.meaning}}.
