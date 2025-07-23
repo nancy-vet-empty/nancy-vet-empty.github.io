@@ -3,35 +3,32 @@
     {{ selectedObject.title }} <span class="italic">({{ selectedObject.titleEn }})</span>
   </div>
 
-  <!-- Описание -->
-  <div *ngIf="selectedObject.description?.length > 0">
-    <div class="h2 c-blue m-gap1drug">Описание:</div>
-    <div *ngFor="let element of selectedObject.description">
-      {{ element }}
-    </div>
-  </div>
+<!-- Описание -->
+<div *ngIf="selectedObject.description?.length > 0">
+  <div class="h2 c-blue m-gap1drug">Описание:</div>
+  <div>{{ selectedObject.description }}</div>
+</div>
 
-  <!-- За какво се използва -->
-  <div *ngIf="selectedObject.usage?.length > 0">
-    <div class="h2 c-fail m-gap1drug">За какво се използва?:</div>
-    <div *ngFor="let element of selectedObject.usage">
-      {{ element }}
-    </div>
-  </div>
+<!-- За какво се използва -->
+<div *ngIf="selectedObject.usage?.length > 0">
+  <div class="h2 c-fail m-gap1drug">За какво се използва?:</div>
+  <div>{{ selectedObject.usage }}</div>
+</div>
 
-  <!-- Нужни материали -->
-  <div *ngIf="selectedObject.materials?.length > 0">
-    <div class="h2 c-blue m-gap1drug">Нужни материали:</div>
-    <div *ngFor="let element of selectedObject.materials">
-      {{ element }}
-    </div>
+<!-- Нужни материали -->
+<div *ngIf="selectedObject.materials?.length > 0">
+  <div class="h2 c-blue m-gap1drug">Нужни материали:</div>
+  <div *ngFor="let element of selectedObject.materials">
+    {{ element }}
   </div>
+</div>
 
-  <!-- Начин -->
-  <div *ngIf="selectedObject.steps?.length > 0">
-    <div class="h2 c-fail m-gap1drug">Начин:</div>
-    <div *ngFor="let element of selectedObject.steps">
-      {{ element }}
-    </div>
+<!-- Начин -->
+<div *ngIf="selectedObject.method?.length > 0">
+  <div class="h2 c-fail m-gap1drug">Начин:</div>
+  <div *ngFor="let element of selectedObject.method">
+    {{ element }}
   </div>
+</div>
+
 </nv-info-modal>

@@ -3,20 +3,20 @@
     "symptom"   : "Изтечения от носа",
     "symptomEn" : "Nasal discharge",
     "type"      : "respiratory",
-    "meaning"   : "",
+    "meaning"   : "Носните изтечения (разговорно сопол), представлява телесен продукт, който се образува в носа. Той се отделя под формата на слуз от жлезите на носовата лигавица",
     "isVisible" : true,
     "causes"    : [
       {
         "group": "Серозни изтечения", "children": [
           { "title" : "Нормално" },
           { "title" : "Вирусна инфекция" },
-          { "title" : "Ранен признак на етиология на мукопуролентни изтечения" }
+          { "title" : "Понякога предхождат мукопуролентни изтечения" }
         ]
       },
       {
         "group": "Мукопуролентни изтечения с или без кръвоизлив", "children": [
           { "title" : "Вирусна инфекция", "children" : [
-            { "title" : "Котешки херпесвирус (вирус на ринотрахеита)" },
+            { "title" : "Котешки херпесвирус" },
             { "title" : "Котешки калицивирус" },
             { "title" : "Кучешки инфлуенца вирус" }
             ]
@@ -37,9 +37,9 @@
           { "title" : "Чуждо тяло" },
           { "title" : "Неоплазия" },
           { "title" : "Назофарингеален полип" },
-          { "title" : "Разширение на устното заболяване" },
+          { "title" : "Вторично от орално заболяване" },
           { "title" : "Алергичен ринит" },
-          { "title" : "Котешки хроничен риносинусит" },
+          { "title" : "Котешки хроничен риносинузит" },
           { "title" : "Кучешки хроничен/лимфоплазмоцитен ринит" }
         ]
       },
@@ -72,7 +72,7 @@
     "symptom"   : "Кашлица",
     "symptomEn" : "Cough",
     "type"      : "respiratory",
-    "meaning"   : "",
+    "meaning"   : "Представлява защитен рефлекс, възникващ в резултат на дразненето на дихателните пътища от секрети, дразнещи вещества и др",
     "isVisible" : true,
     "causes"    : [
       {
@@ -103,7 +103,7 @@
     "symptom"   : "Кихане",
     "symptomEn" : "Sneezing",
     "type"      : "respiratory",
-    "meaning"   : "",
+    "meaning"   : "Представлява защитен рефлекс, възникващ в резултат на дразненето на дихателните пътища от секрети, дразнещи вещества и др",
     "isVisible" : true,
     "causes"    : [
       { "group": "Чуждо тяло в носната кухина" },
@@ -119,7 +119,7 @@
     "symptom"   : "Обратно кихане",
     "symptomEn" : "Reverse sneezing",
     "type"      : "respiratory",
-    "meaning"   : "",
+    "meaning"   : "Животното прави бързи, шумни вдишвания през носа, наподобяващи кихане, но навътре. Пристъпите са кратки, обикновено траят от няколко секунди до минута, и обикновено не са опасни",
     "isVisible" : true,
     "causes"    : [
       { "group": "Чуждо тяло в носа" },
@@ -136,7 +136,7 @@
     "symptom"   : "Хъркане",
     "symptomEn" : "Snoring",
     "type"      : "respiratory",
-    "meaning"   : "",
+    "meaning"   : "Хъркането се дължи на ограничение на въздушния поток, преминаващ през носния канал и дихателните пътища. Когато въздухът е ограничен, тъканите в областта вибрират и предизвикват звука на хъркане. ",
     "isVisible" : false,
     "causes"    : [
       {
@@ -174,7 +174,7 @@
     "isVisible" : true,
     "causes"    : [
       {"group" : "Бледи лигавици", "children": [
-          {"title" : "Анемия - Анемичните животни може да не изглеждат цианотични дори при значителна хипоксемия, защото са необходими 5 g/dL дезатуриран хемоглобин за видима цианоза."},
+          {"title" : "Анемия - Анемичните животни може да не изглеждат цианотични дори при значителна хипоксемия."},
           {"title" : "Намален сърдечен дебит/повишен симпатиков тонус"}
         ]
       },
@@ -198,7 +198,7 @@
         ]
       },
       {"group" : "Диференциална цианоза", "children": [
-          {"title" : "Обратен отворен дуктус Артериозус (главата и предните крайници получават нормално оксигенирана кръв, но каудалната част на тялото получава дезатурирана кръв през дукта, който възниква от aorta descendens)"}
+          {"title" : "Перзистиращ дуктус артериозус (главата и предните крайници получават нормално оксигенирана кръв, но каудалната част на тялото получава кръв през дукта, който възниква от aorta descendens)"}
         ]
       },
       {"group" : "Иктерични лигавици", "children": [
@@ -353,7 +353,7 @@
     "symptom"   : "Слюноотделяне",
     "symptomEn" : "Drooling",
     "type"      : "gastrointestinal",
-    "meaning"   : "",
+    "meaning"   : "Отделяне на воднист секрет от устата",
     "isVisible" : true,
     "causes"    : [
       {
@@ -379,7 +379,7 @@
     "symptom"   : "Дисфагия",
     "symptomEn" : "Dysphagia",
     "type"      : "gastrointestinal",
-    "meaning"   : "затруднено преглъщане",
+    "meaning"   : "Затруднено хранене и преглъщане",
     "isVisible" : true,
     "causes"    : [
       {
@@ -502,7 +502,7 @@
     "symptom"   : "Регургитация",
     "symptomEn" : "Regurgitation",
     "type"      : "gastrointestinal",
-    "meaning"   : "връщане на стомашно съдържимо обратно в хранопровода, още се нар. гастро-езофагеален рефлукс (ГЕР)",
+    "meaning"   : "връщане на стомашно съдържимо обратно през хранопровода и извън устната кухина, още се нар. гастро-езофагеален рефлукс (ГЕР)",
     "isVisible" : true,
     "causes"    : [
       {
@@ -595,7 +595,7 @@
     "symptom"   : "Хематемеза",
     "symptomEn" : "Hematemesis",
     "type"      : "gastrointestinal",
-    "meaning"   : "",
+    "meaning"   : "повръщане на кръв",
     "isVisible" : true,
     "causes"    : [
       {
@@ -682,7 +682,7 @@
     "symptom"   : "Мелена",
     "symptomEn" : "Melena",
     "type"      : "gastrointestinal",
-    "meaning"   : "Отделяне на неоформени, катраненочерни изпражнения, които най-често се дължат на кръвоизлив от храносмилателния канал.",
+    "meaning"   : "Отделяне на неоформени, катраненочерни изпражнения, които най-често се дължат на кръвоизлив от храносмилателния канал",
     "isVisible" : true,
     "causes"    : [
       {
@@ -727,7 +727,7 @@
     "symptom"   : "Тенезъм и/или дисхезия",
     "symptomEn" : "Tenesmus and/or dyschesia",
     "type"      : "gastrointestinal",
-    "meaning"   : "тенезъм - Мъчителен, болезнен, неефективен позив за уриниране или дефекация. Дисхезия - затруднено или болезнено изхождане.",
+    "meaning"   : "тенезъм - Мъчителен, болезнен, неефективен позив за уриниране или дефекация. Дисхезия - затруднено или болезнено изхождане",
     "isVisible" : true,
     "causes"    : [
       {
@@ -850,7 +850,7 @@
     "symptom"   : "Запек",
     "symptomEn" : "Constipation",
     "type"      : "gastrointestinal",
-    "meaning"   : "",
+    "meaning"   : "Запекът (констипацията) е състояние, при което изпражненията се втвърдяват и стават трудни за изхождане",
     "isVisible" : true,
     "causes"    : [
       {
@@ -905,7 +905,7 @@
     "meaning"   : "незадържане на фекалии",
     "isVisible" : true,
     "causes"    : [
-      { "group": "Невромускулно заболяване"       },
+      { "group": "Невромускулно заболяване"      },
       { "group": "Частична ректална обструкция"  },
       { "group": "Тежък проктит" }
     ],
@@ -922,7 +922,7 @@
     "causes"    : [
       {
         "group": "Храна", "children": [
-          { "title" : "НедостатъчнО количество"    },
+          { "title" : "Недостатъчно количество"    },
           { "title" : "Ниско качество"  }
         ]
       },
@@ -982,7 +982,7 @@
     "symptom"   : "Асцит",
     "symptomEn" : "Ascites",
     "type"      : "gastrointestinal",
-    "meaning"   : "",
+    "meaning"   : "Събиране на течност в коремната кухина",
     "isVisible" : true,
     "causes"    : [
       { "title" : "Хипоалбуминемия"         },
@@ -1115,7 +1115,7 @@
     "symptom"   : "Жълтеница",
     "symptomEn" : "Icterus",
     "type"      : "gastrointestinal",
-    "meaning"   : "",
+    "meaning"   : "Пожълтяване на лигавиците и кожата",
     "isVisible" : true,
     "causes"    : [
       {
@@ -1179,6 +1179,7 @@
     "symptomEn" : "Abdominal pain",
     "type"      : "gastrointestinal",
     "meaning"   : "синдром, който се манифестира със силни болки в корема, гадене, повръщане, нарушенчревен пасаж, влошаващо се общо състояние и перитонеално дразнене, обективизиращо се с дефанс",
+    "isVisible" : false,
     "causes"    : [
       {
         "group": "Септично възпаление", "children": [
@@ -1281,7 +1282,7 @@
     "symptomEn" : "Syncope",
     "type"      : "cardiovascular",
     "meaning"   : "",
-    "isVisible" : true,
+    "isVisible" : false,
     "causes"    : [
       {
         "group": "Кардиоваскуларни причини", "children": [
@@ -1333,6 +1334,7 @@
     "symptomEn" : "",
     "type"      : "antiinflammatory",
     "meaning"   : "",
+    "isVisible" : false,
     "causes"    : [ ],
     "links" : [
       { "title": "Алгоритъм" , "link": "pdfs/@algorithms/others/collapse-algorithm.pdf" }
@@ -1343,7 +1345,7 @@
     "symptomEn" : "Anormal arterial pulse",
     "type"      : "cardiovascular",
     "meaning"   : "",
-    "isVisible" : true,
+    "isVisible" : false,
     "causes"    : [
       {
           "group": "Слаби пулсове", "children": [
@@ -1379,7 +1381,7 @@
     "symptomEn" : "Heart murmur",
     "type"      : "cardiovascular",
     "meaning"   : "",
-    "isVisible" : true,
+    "isVisible" : false,
     "causes"    : [
       {
         "group": "Вродени сърдечни дефекти", "children": [
@@ -1573,7 +1575,7 @@
     "symptomEn" : "Urine retention",
     "type"      : "urogenital",
     "meaning"   : "",
-    "isVisible" : true,
+    "isVisible" : false,
     "causes"    : [
       {
         "group": "", "children": [
@@ -1606,7 +1608,7 @@
     "symptom"   : "Дизурия, Странгурия, Полакиурия",
     "symptomEn" : "Dysuria, stranguria, pollakiuria",
     "type"      : "urogenital",
-    "meaning"   : "Дизурия—затруднено или болезнено уриниране. Полакиурия—често уриниране на малки количества. Странгурия—напрежение при уриниране.",
+    "meaning"   : "Дизурия—затруднено или болезнено уриниране. Полакиурия—често уриниране на малки количества. Странгурия—напрежение при уриниране",
     "isVisible" : true,
     "causes"    : [
       {
@@ -1825,7 +1827,7 @@
     "symptom"   : "Пиурия",
     "symptomEn" : "Pyuria",
     "type"      : "urogenital",
-    "meaning"   : "",
+    "meaning"   : "Гной в урината",
     "isVisible" : true,
     "causes"    : [
       {
@@ -1907,7 +1909,7 @@
     "symptomEn" : "Immune-mediated glomerulonephritis",
     "type"      : "urogenital",
     "meaning"   : "",
-    "isVisible" : true,
+    "isVisible" : false,
     "causes"    : [
       {
         "group": "Кучета",
@@ -2001,7 +2003,7 @@
     "symptomEn" : "Proteinuria",
     "type"      : "urogenital",
     "meaning"   : "",
-    "isVisible" : true,
+    "isVisible" : false,
     "causes"    : [
       {
         "group": "", "children": [
@@ -3030,7 +3032,7 @@
     "symptomEn" : "Alopecia",
     "type"      : "skin",
     "meaning"   : "",
-    "isVisible" : true,
+    "isVisible" : false,
     "causes"    : [
       {
         "group": "", "children": [
@@ -3494,7 +3496,7 @@
     "symptom"   : "Треска",
     "symptomEn" : "Fever",
     "type"      : "others",
-    "meaning"   : "",
+    "meaning"   : "Повишаване на вътрешната телесна температура над нормалната за вида животно",
     "isVisible" : true,
     "causes"    : [
       { "group": "V ascular: емболии, кръвоизливи." },
@@ -3518,6 +3520,7 @@
     "symptomEn" : "",
     "type"      : "antiinflammatory",
     "meaning"   : "",
+    "isVisible" : false,
     "causes"    : [ ],
     "links" : [
       { "title": "Алгоритъм" , "link": "pdfs/@algorithms/others/hypothermia-algorithm.pdf" }
