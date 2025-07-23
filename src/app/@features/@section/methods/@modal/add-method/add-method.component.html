@@ -29,30 +29,57 @@
       </ion-select>
     </ion-item>
 
-    <ion-item>
-      <ion-label position="stacked" class="fs13">Описание:</ion-label>
+    <ion-item class="mt-2">
+      <ion-label position="stacked" class="fs16 fb600 c-blue">Описание:</ion-label>
       <ion-input [(ngModel)]="form.description"></ion-input>
     </ion-item>
 
-    <ion-item>
-      <ion-label position="stacked" class="fs13">Нужни материали:</ion-label>
-      <ion-input [(ngModel)]="form.materials"></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-label position="stacked" class="fs13">Начин:</ion-label>
-      <ion-input [(ngModel)]="form.method"></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-label position="stacked" class="fs13">За какво се използва?</ion-label>
+    <ion-item class="mt-2">
+      <ion-label position="stacked" class="fs16 fb600 c-blue">За какво се използва?</ion-label>
       <ion-input [(ngModel)]="form.usage"></ion-input>
     </ion-item>
+
+    <ion-item class="mt-2">
+      <ion-label position="stacked" class="fs16 fb600 c-fail">Нужни материали:</ion-label>
+    </ion-item>
+
+    <ion-label class="fs13 mt-2">Нужен материал:</ion-label>
+    <ng-container *ngFor="let step of form.materials; let j = index">
+      <ion-item>
+        <ion-input [(ngModel)]="form.materials[j]" placeholder="Нужен материал #{{ j + 1 }}"></ion-input>
+        <ion-button fill="clear" color="danger" size="small" (click)="removeMaterial(j)">
+          <ion-icon slot="icon-only" name="remove-circle"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ng-container>
+
+    <ion-button expand="block" size="small" fill="outline" (click)="addMaterial()">
+      Добави нужен материал
+    </ion-button>
+
+    <ion-item class="mt-2">
+      <ion-label class="fs16 fb600 c-fail">Начин:</ion-label>
+    </ion-item>
+
+    <ion-label class="fs13 mt-2">Стъпки:</ion-label>
+    <ng-container *ngFor="let step of form.steps; let j = index">
+      <ion-item>
+        <ion-input [(ngModel)]="form.steps[j]" placeholder="Стъпка #{{ j + 1 }}"></ion-input>
+        <ion-button fill="clear" color="danger" size="small" (click)="removeStep(j)">
+          <ion-icon slot="icon-only" name="remove-circle"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ng-container>
+
+    <ion-button expand="block" size="small" fill="outline" (click)="addStep()">
+      Добави стъпка
+    </ion-button>
 
     <ion-item>
       Полетата със * са задължителни!
     </ion-item>
   </ion-list>
+
 
   <ion-button expand="block" color="primary" (click)="save()">Запази</ion-button>
 </ion-content>

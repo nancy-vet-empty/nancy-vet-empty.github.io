@@ -1,7 +1,7 @@
 <nv-info-modal [inputTitle]="selectedObject.symptom" class="ion-page">
 
   <div class="h1">
-    {{selectedObject?.title}}
+    {{selectedObject?.title}} <span class="italic">( {{selectedObject?.titleEn}} )</span>
   </div>
 
   @for(element of selectedObject.activeSubstance; track element) {

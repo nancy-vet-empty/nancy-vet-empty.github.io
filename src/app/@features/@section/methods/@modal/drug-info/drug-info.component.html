@@ -1,44 +1,37 @@
 <nv-info-modal [inputTitle]="'Инфо'" class="ion-page">
-
   <div class="h1">
-    {{selectedObject.title}}
+    {{ selectedObject.title }} <span class="italic">({{ selectedObject.titleEn }})</span>
   </div>
 
+  <!-- Описание -->
+  <div *ngIf="selectedObject.description?.length > 0">
+    <div class="h2 c-blue m-gap1drug">Описание:</div>
+    <div *ngFor="let element of selectedObject.description">
+      {{ element }}
+    </div>
+  </div>
 
+  <!-- За какво се използва -->
+  <div *ngIf="selectedObject.usage?.length > 0">
+    <div class="h2 c-fail m-gap1drug">За какво се използва?:</div>
+    <div *ngFor="let element of selectedObject.usage">
+      {{ element }}
+    </div>
+  </div>
 
+  <!-- Нужни материали -->
+  <div *ngIf="selectedObject.materials?.length > 0">
+    <div class="h2 c-blue m-gap1drug">Нужни материали:</div>
+    <div *ngFor="let element of selectedObject.materials">
+      {{ element }}
+    </div>
+  </div>
 
-  @for(element of selectedObject.links; track element) {
-
-    <nv-link-button
-      [inputTitle]="element.title"
-      (onClick)="onOpenPdfDocument(element.link)">
-    </nv-link-button>
-  }
-
-  @for(element of selectedObject.section; track element) {
-      <div class="h3 mt16">{{element.title}}</div>
-
-
-    @for(sectionElement of element.content; track sectionElement) {
-
-      @if(sectionElement.startsWith("$")) {
-        <div class="mt5">
-          <video width="320" height="240" controls>
-            <source src="{{renderVideo(sectionElement)}}" type="video/mp4">
-          </video>
-        </div>
-      }
-      @if(sectionElement.startsWith("@")) {
-        <img src="{{renderImage(sectionElement)}}"/>
-      }
-      @else {
-        <div class="mt5">{{sectionElement}}</div>
-      }
-    }
-
-
-  }
-
-
-
+  <!-- Начин -->
+  <div *ngIf="selectedObject.steps?.length > 0">
+    <div class="h2 c-fail m-gap1drug">Начин:</div>
+    <div *ngFor="let element of selectedObject.steps">
+      {{ element }}
+    </div>
+  </div>
 </nv-info-modal>

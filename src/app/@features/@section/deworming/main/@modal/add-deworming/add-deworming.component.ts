@@ -9,7 +9,7 @@ import { ModalController } from '@ionic/angular';
 export class AddDewormingModalComponent {
   form = {
     title: '',
-    titleBG: '',
+    titleEn: '',
     typeDeworming: '',
     formTypes: '',
     animalType: '',
@@ -53,7 +53,7 @@ export class AddDewormingModalComponent {
   }
 
   save() {
-    if (!this.form.titleBG || !this.form.typeDeworming || !this.form.formTypes || !this.form.animalType) {
+    if (!this.form.title || !this.form.typeDeworming || !this.form.formTypes || !this.form.animalType) {
       alert('Моля, попълнете всички задължителни полета.');
       return;
     }

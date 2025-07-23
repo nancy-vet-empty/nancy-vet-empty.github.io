@@ -66,7 +66,7 @@ export class DewormingService {
 
     this.$intermediateCollection = this.$intermediateCollection.filter((element: any) => {
       return (element.title).toLowerCase().includes(title.toLowerCase()) ||
-             (element.titleBG).toLowerCase().includes(title.toLowerCase());
+             (element.titleEn).toLowerCase().includes(title.toLowerCase());
     });
 
     return this;
