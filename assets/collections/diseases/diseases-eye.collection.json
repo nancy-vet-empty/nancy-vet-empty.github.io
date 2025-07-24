@@ -14,8 +14,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Хидрофталмия",
@@ -32,8 +31,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/hydrophtalmos.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Екзофталмия, свързана с породата",
@@ -50,8 +48,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Буфталм",
@@ -68,8 +65,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/buphthalmos.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Фтиза на булбата",
@@ -86,8 +82,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/phtisis-bulbi-2.png", "/assets/pdfs/@diseases/additional-files/phtisis-bulbi.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Травма на орбитата",
@@ -104,8 +99,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Абсцес и целулит на орбитата",
@@ -122,8 +116,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : ["ЯМР"],
-    "gallery"       : [""]
+    "differential"  : ["ЯМР"]
   },
   {
     "title"       : "Старчески енофталм",
@@ -140,8 +133,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Орбитална киста",
@@ -158,8 +150,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Тумор на орбитата",
@@ -176,8 +167,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Feline restrictive orbital myofibroblastic sarcoma",
@@ -194,8 +184,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Ophthalmia neonatorum",
@@ -212,8 +201,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Колобома на клепача",
@@ -230,8 +218,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Дермоид",
@@ -248,8 +235,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Дихтиаза и ектопични мигли",
@@ -266,8 +252,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Ентропион",
@@ -284,8 +269,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Блефарит",
@@ -302,8 +286,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Хидроцистом",
@@ -320,8 +303,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Тумор на клепача",
@@ -338,8 +320,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Изпадане на третия клепач",
@@ -356,8 +337,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Изпадане на жлезата на третия клепач",
@@ -374,8 +354,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Обръщане на хрущяла на третия клепач",
@@ -392,8 +371,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Тумор на третия клепач",
@@ -410,8 +388,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Обръщане на третия клепач",
@@ -428,8 +405,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Епифора",
@@ -446,8 +422,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Сух кератоконюнктивит",
@@ -464,8 +439,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Дермоид",
@@ -482,8 +456,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Конюнктивит",
@@ -500,8 +473,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Тумор на конюнктивата",
@@ -518,8 +490,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Микрокорнея и мегалокорнея",
@@ -536,8 +507,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Левкома, свързана с перзистиращата зенична мембрана",
@@ -554,8 +524,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Lysosomal storage disease",
@@ -572,8 +541,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Дистрофия на роговицата",
@@ -590,8 +558,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Херпесвирусен кератит",
@@ -608,8 +575,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Еозинофилен кератит",
@@ -626,8 +592,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Секвестър на роговицата",
@@ -644,8 +609,7 @@
     "specificSigns" : ["кехлибарено, кафяво или черно петно на роговицата"],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Остра булозна кератопатия",
@@ -662,8 +626,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Дегенерация на роговицата",
@@ -680,8 +643,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Язва на роговицата",
@@ -698,8 +660,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Exposure keratitis",
@@ -716,8 +677,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Разкъсване на роговицата",
@@ -734,8 +694,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Чуждо тяло в роговицата",
@@ -752,8 +711,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Corneal epithelial inclusion cyst",
@@ -770,8 +728,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Вродени аномалии, свързани с пигментацията (албинизъм, хетерохромия)",
@@ -788,8 +745,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Колобома на ириса",
@@ -806,8 +762,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Хипоплазия на ириса",
@@ -824,8 +779,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Перзистираща зенична мембрана",
@@ -842,8 +796,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Ектропион на увеята",
@@ -860,8 +813,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Киста на увеята",
@@ -878,8 +830,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Меланоза на ириса",
@@ -896,8 +847,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Ирис, оцветен от мед",
@@ -914,8 +864,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Атрофия на ириса",
@@ -932,8 +881,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Синехии",
@@ -950,8 +898,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Lipid Aqueous",
@@ -968,8 +915,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Увеит",
@@ -986,8 +932,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Неоплазия на ириса",
@@ -1004,8 +949,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Вродени аномалии на лещата",
@@ -1022,8 +966,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Склероза на ядрото на лещата",
@@ -1040,8 +983,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Катаракта",
@@ -1058,8 +1000,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Луксация на лещата",
@@ -1076,8 +1017,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Първична глаукома",
@@ -1094,8 +1034,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Вторична глаукома",
@@ -1112,8 +1051,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Заболявания на стъкловидното тяло",
@@ -1130,8 +1068,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Заболявания на очното дъно",
@@ -1148,8 +1085,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Нарушения на автономната нервна система",
@@ -1166,8 +1102,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Синдром на Horner",
@@ -1184,8 +1119,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Pourfour du Petit синдром",
@@ -1202,8 +1136,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Key-Gaskell синдром",
@@ -1220,8 +1153,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Страбизъм и нистагъм, свързани с очен албинизъм",
@@ -1238,8 +1170,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Следоперативна слепота",
@@ -1256,8 +1187,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Контралатерална очна невропатия",
@@ -1274,8 +1204,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   }
 ]
 

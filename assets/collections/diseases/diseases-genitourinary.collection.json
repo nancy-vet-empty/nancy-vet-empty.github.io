@@ -1112,7 +1112,7 @@
   {
     "title"       : "Хиперплазия на млечните жлези",
     "titleEn"     : "Mammary hyperplasia",
-    "type"        : "neoplasms",
+    "type"        : "genitourinary",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
