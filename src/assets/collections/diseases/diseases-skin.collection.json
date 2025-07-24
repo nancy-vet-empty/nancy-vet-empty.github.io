@@ -5,17 +5,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Свръхчувствителност към антигени в слюнката на бълхите, най-вече от Ctenocephalides felis."],
+    "signs"         : ["Интензивен сърбеж, еритема, папули, крусти, алопеция (косопад) от самотравмиране.", "При котките може да се наблюдава милиарен дерматит, еозинофилни плаки или симетрична алопеция."],
+    "specificSigns" : ["Силно сърбящи лезии, особено в лумбосакралната област, опашката, медиалните бедра и корема."],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Атопичен дерматит",
@@ -23,17 +22,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
+    "etiology"      : ["Виж в раздел: Болести на кръвта и имунната система"],
     "signs"         : ["", "", ""],
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Хранителна алергия",
@@ -50,8 +48,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Контактен дерматит",
@@ -68,8 +65,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Маласезиен дерматит",
@@ -86,8 +82,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Свръхчувствителност към ухапване от насекоми",
@@ -95,17 +90,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
+    "etiology"      : ["Алергична реакция към слюнката на различни ухапващи насекоми (напр. комари, мухи, паяци, оси)."],
+    "signs"         : ["папули", "уртикария", "еритема", "сърбеж", "самотравмиране"],
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Милиарен дерматит",
@@ -113,17 +107,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Често е проява на основна алергия (напр. алергия към бълхи, хранителна алергия, атопия) или паразитна инвазия."],
+    "signs"         : ["Наличие на множество малки, твърди, крустозни папули, които се усещат като песъчинки по кожата."],
+    "specificSigns" : ["Характерни малки, грапави лезии, които се разпространяват по гърба, врата и корема, особено при котки."],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Алопеция Х",
@@ -131,17 +124,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Неизвестна етиология, счита се за ендокринна алопеция, която не е свързана с други известни хормонални дисбаланси."],
+    "signs"         : ["Прогресивна загуба на козина, започваща обикновено от тялото, без сърбеж или възпаление на кожата."],
+    "specificSigns" : ["Симетрична, не-сърбяща алопеция на трункуса, шията и опашката, често оставяйки главата и крайниците окосмени."],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Психогенна алопеция",
@@ -149,17 +141,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
+    "etiology"      : ["Виж в раздел: Поведенчески разстройства."],
+    "signs"         : [""],
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Сезонна алопеция на хълбока",
@@ -176,8 +167,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Дерматит, причинен от близане",
@@ -194,8 +184,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/canine-lick-granuloma.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Себорея",
@@ -212,8 +201,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Ихтиоза",
@@ -230,8 +218,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Дерматоза, повлияваща се от цинк",
@@ -248,8 +235,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Пемфигус фолиацеус",
@@ -266,8 +252,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Хранителни дефицити",
@@ -284,8 +269,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Екфолиативен дерматит",
@@ -302,8 +286,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Влажен дерматит",
@@ -320,8 +303,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Еритема мултиформе",
@@ -338,8 +320,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Васкулит",
@@ -356,8 +337,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Дерматоза, причинена от лекарства",
@@ -374,8 +354,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Бактериален дерматит (Пиодермия)",
@@ -392,8 +371,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Хистиоцитома",
@@ -410,8 +388,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Липома",
@@ -428,8 +405,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Тумор на мастните клетки",
@@ -446,8 +422,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Кожна лимфома",
@@ -464,8 +439,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Себорейна аденома",
@@ -482,8 +456,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Гранулом с чуждо тяло",
@@ -500,8 +473,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Фурункулоза",
@@ -518,8 +490,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Feline Leprosy",
@@ -536,8 +507,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Canine Leproid Granuloma",
@@ -554,8 +524,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Mycobacterial Panniculitis",
@@ -572,8 +541,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Дълбока пиодермия",
@@ -590,8 +558,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Васкулит",
@@ -608,8 +575,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Лупус еритематозус",
@@ -617,17 +583,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Автоимунно заболяване, при което имунната система атакува собствените тъкани на тялото, включително кожата."],
+    "signs"         : ["Може да се прояви като дискоиден лупус еритематозус (DLE) с кожни лезии, или системен лупус еритематозус (SLE) със засягане на множество органи.", "Кожните признаци включват еритема, лющене, крусти, ерозии, язви и депигментация, често по носа и лицето."],
+    "specificSigns" : ["Депигментация и крусти по носната гъба (планум на носа), ерозии по устните и околоочните области."],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Кожна лайшманиоза",
@@ -644,8 +609,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Изгаряне",
@@ -662,8 +626,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Витилиго",
@@ -671,17 +634,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Автоимунно заболяване, при което имунната система унищожава меланоцитите (клетките, произвеждащи пигмент) в кожата."],
+    "signs"         : ["Характеризира се с появата на бели петна (депигментация) по кожата и козината.", "Тези петна са не-сърбящи и не-възпалени."],
+    "specificSigns" : ["Депигментация, която често засяга носа, устните, клепачите и пръстите."],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Следвъзпалителна хиперпигментация",
@@ -698,8 +660,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Лентиго",
@@ -707,17 +668,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Доброкачествено състояние, характеризиращо се с малки, тъмни петна по кожата и лигавиците.", "Свързва се с повишена активност на меланоцитите и е често срещано при оранжеви и трицветни котки."],
+    "signs"         : ["Малки, плоски, черни или кафяви петна, които не се повдигат над повърхността на кожата.", "Тези петна се увеличават на брой и размер с възрастта."],
+    "specificSigns" : ["Пигментни петна, които се появяват по устните, клепачите, носа и венците при котките."],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Меланома",
@@ -725,17 +685,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
+    "etiology"      : ["Виж в раздел: Тумори"],
     "signs"         : ["", "", ""],
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Акантозис нигриканс",
@@ -752,8 +711,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Петна тип 'кафе с мляко'",
@@ -770,8 +728,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Депигментация на носа (нос на Дъдли)",
@@ -788,8 +745,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Пемфигус Вулгарис",
@@ -797,17 +753,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Тежко автоимунно заболяване, при което антитела атакуват протеини в десмозомите, причинявайки разпадане на клетъчните връзки в епидермиса."],
+    "signs"         : ["Характеризира се с образуване на мехури и язви по кожата и лигавиците.", "Лезиите са болезнени и могат да бъдат широко разпространени."],
+    "specificSigns" : ["Често засяга лигавиците на устната кухина, клепачите, ануса и препуциума/вулвата, както и кожно-лигавичните съединения." ],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Булозен пемфигоид",
@@ -815,17 +770,17 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Автоимунно заболяване, при което антитела атакуват протеини в базалната мембрана на епидермиса, което води до образуване на суб-епидермални мехури."],
+    "signs"         : ["Проявява се с големи, напрегнати мехури (були) по кожата и лигавиците, които могат да се спукат и да образуват язви.",
+    "Често е свързано със сърбеж."],
+    "specificSigns" : ["Лезиите се наблюдават по-често в ингвиналната и аксиларната област, корема, както и по лигавиците на устната кухина и кожно-лигавичните съединения."],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Импетиго",
@@ -842,8 +797,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Субкорнеален пустулозен дерматит",
@@ -860,8 +814,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Херпесвирусен дерматит",
@@ -878,8 +831,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Булозна епидермолиза",
@@ -896,8 +848,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Калус",
@@ -914,8 +865,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Хиперкератоза на носа и/ или лапите",
@@ -932,8 +882,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Папиломатоза (брадавици)",
@@ -941,17 +890,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Причинява се от вирус на папилома (Canine Papillomavirus, Feline Papillomavirus), който инфектира кожните клетки."],
+    "signs"         : ["Появяват се като доброкачествени, често карфиолоподобни израстъци по кожата и лигавиците.", "Могат да бъдат единични или множествени."],
+    "specificSigns" : ["Най-често се наблюдават в устната кухина (особено при млади кучета), около очите, по лапите или гениталиите."],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Хиперплазия на мастните жлези",
@@ -968,8 +916,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
   },
   {
     "title"       : "Акне",
@@ -986,8 +933,7 @@
     "specificSigns" : ["Рядко има сърбеж."],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/acne-1.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Кожен рог",
@@ -995,17 +941,16 @@
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Състои се от плътна маса от кератин, която се образува от повърхността на кожата.", "Често е проява на основна кожна лезия, която може да бъде доброкачествена (напр. вирусни папиломи, фоликуларни кисти) или злокачествена (напр. плоскоклетъчен карцином)."],
+    "signs"         : ["Твърди, конусовидни или цилиндрични израстъци, които стърчат от кожата.", "Размерът и формата варират."],
+    "specificSigns" : ["Могат да се появят навсякъде по тялото, но често се наблюдават по пръстите, плантарните възглавнички, лицето или ушите."],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : [""]
+    "differential"  : [""]
    }
 ]
 

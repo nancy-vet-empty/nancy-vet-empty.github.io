@@ -14,8 +14,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Заболявания на ушната мида",
@@ -32,8 +31,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Отохематом",
@@ -50,8 +48,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Възпаление на средното ухо",
@@ -68,8 +65,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Перфорация на тъпанчето",
@@ -86,8 +82,7 @@
     "specificSigns" : [""],
     "diagnostics"   : ["Отоскопия"],
     "treatment"     : ["(Стоя): Лекува се с чист офлоксацин! Хлоксидерм и Отодин, в който имаше 1 мл Байтрил."],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/tympanic-anatomy.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Маласезиен отит",
@@ -104,8 +99,7 @@
     "specificSigns" : [""],
     "diagnostics"   : ["Проба с тиксо", "Повърхностно остъргване на кожата"],
     "treatment"     : ["Почистване на ушните канали преди всяко третиране с капки.", "Митекс", "3-4 седмици след начало на терапията отново се прави микроскопско изследване."],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Отодектоза (Ушна краста)",
@@ -122,8 +116,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Заболяване на вестибуларния апарат",
@@ -140,8 +133,7 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""],
-    "gallery"       : ["/assets/pdfs/@diseases/additional-files/.png"]
+    "differential"  : [""]
   },
   {
     "title"       : "Заболяване на мембранозния лабиринт",

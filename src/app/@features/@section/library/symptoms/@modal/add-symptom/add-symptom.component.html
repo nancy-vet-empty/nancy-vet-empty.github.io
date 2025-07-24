@@ -19,7 +19,6 @@
       <ion-input [(ngModel)]="form.titleEn"></ion-input>
     </ion-item>
 
-    <!-- Medication Type Dropdown -->
     <ion-item>
       <ion-label position="stacked" class="fs13">Раздел на симптома*:</ion-label>
       <ion-select [(ngModel)]="form.symptomType" interface="popover">
@@ -43,24 +42,24 @@
       <ng-container *ngFor="let child of cause.children; let j = index">
         <ion-item>
           <ion-input [(ngModel)]="cause.children[j].title" placeholder="Малка причина #{{ j + 1 }}" name="child-{{i}}-{{j}}"></ion-input>
-          <ion-button fill="clear" color="danger" size="small" (click)="removeChildReason(i, j)">
+          <ion-button fill="clear" color="danger" size="small" (click)="removeCauseChild(i, j)">
             <ion-icon slot="icon-only" name="remove-circle"></ion-icon>
           </ion-button>
         </ion-item>
       </ng-container>
 
-      <ion-button expand="block" size="small" fill="outline" (click)="addChildReason(i)">
+      <ion-button expand="block" size="small" fill="outline" (click)="addCauseChild(i)">
         Добави малка причина
       </ion-button>
 
-      <ion-button expand="block" size="small" color="danger" fill="outline" (click)="removeMainReason(i)">
+      <ion-button expand="block" size="small" color="danger" fill="outline" (click)="removeCauseGroup(i)">
         Премахни главна причина
       </ion-button>
 
       <ion-item-divider></ion-item-divider>
     </ng-container>
 
-    <ion-button expand="block" color="secondary" (click)="addMainReason()">Добави нова главна причина</ion-button>
+    <ion-button expand="block" color="secondary" (click)="addCauseGroup()">Добави нова главна причина</ion-button>
 
 
     <ion-item>

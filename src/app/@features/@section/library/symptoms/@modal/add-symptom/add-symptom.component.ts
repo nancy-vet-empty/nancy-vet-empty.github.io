@@ -11,7 +11,7 @@ export class AddSymptomModalComponent {
     title: '',
     titleEn: '',
     diseaseType: '',
-    symptomType: '', // ✅ This was missing, causing template error
+    symptomType: '',
     animals: '',
     causes: [
       {
@@ -26,6 +26,7 @@ export class AddSymptomModalComponent {
       children: { title: string }[];
     }[]
   };
+
 
   symptomTypeOptions = [
     { label: 'infectious', value: 'Инфекциозни заболявания' },
@@ -48,9 +49,7 @@ export class AddSymptomModalComponent {
     { label: 'injuries', value: 'Травми и отравяния' }
   ];
 
-  reasons: { mainReason: string; childReasons: string[] }[] = [];
-
-  constructor(private modalCtrl: ModalController) {}
+ constructor(private modalCtrl: ModalController) {}
 
   dismiss() {
     this.modalCtrl.dismiss();
@@ -64,38 +63,28 @@ export class AddSymptomModalComponent {
     this.modalCtrl.dismiss(this.form);
   }
 
-  addMainReason() {
-    this.reasons.push({ mainReason: '', childReasons: [] });
+  // Renamed and updated to work with 'form.causes'
+  addCauseGroup() {
+    this.form.causes.push({ group: '', children: [{ title: '' }] }); // Start with one child reason
   }
 
-  removeMainReason(index: number) {
-    this.reasons.splice(index, 1);
-  }
-
-  addChildReason(mainIndex: number) {
-    this.reasons[mainIndex].childReasons.push('');
-  }
-
-  removeChildReason(mainIndex: number, childIndex: number) {
-    this.reasons[mainIndex].childReasons.splice(childIndex, 1);
-  }
-
-  addCause() {
-    this.form.causes.push({
-      group: '',
-      children: []
-    });
-  }
-
-  removeCause(index: number) {
+  // Renamed and updated to work with 'form.causes'
+  removeCauseGroup(index: number) {
     this.form.causes.splice(index, 1);
   }
 
-  addChild(mainIndex: number) {
+  // Renamed and updated to work with 'form.causes'
+  addCauseChild(mainIndex: number) {
     this.form.causes[mainIndex].children.push({ title: '' });
   }
 
-  removeChild(mainIndex: number, childIndex: number) {
+  // Renamed and updated to work with 'form.causes'
+  removeCauseChild(mainIndex: number, childIndex: number) {
     this.form.causes[mainIndex].children.splice(childIndex, 1);
   }
+
+  // 'addCause' and 'removeCause' from your original code are now effectively 'addCauseGroup' and 'removeCauseGroup'
+  // You can remove the old 'addCause' and 'removeCause' if you renamed them.
+  // If you keep them, ensure they are correctly used in the template.
+  // For clarity, I've used 'addCauseGroup' and 'removeCauseGroup' consistently.
 }
