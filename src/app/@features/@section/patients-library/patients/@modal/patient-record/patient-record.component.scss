@@ -87,4 +87,32 @@
   .protocols, .results, .vaccination_and_deworming {
   margin-left: 6px;
   }
+
+
+  // ADD PROTOCOL
+
+.form-popup {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form-one-style {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-success, .btn-primary{
+ --background: #28b02f;
+}
+
+.btn-fail{
+ --background: #d60b52;
+}
+
 }

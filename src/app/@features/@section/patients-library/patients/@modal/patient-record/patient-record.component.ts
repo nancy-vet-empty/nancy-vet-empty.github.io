@@ -12,6 +12,7 @@ export class PatientRecordModal implements OnInit {
   private modalController: ModalController = inject(ModalController);
   private $patientDataService: PatientDataService = inject(PatientDataService);
 
+  public patient: any;
   public protocols: any[] = [];
   public selectedObject: any; // The chosen patient
   public patientProtocols: any[] = [];
@@ -19,6 +20,21 @@ export class PatientRecordModal implements OnInit {
   public results: any[] = [];
   public allResults: any[] = this.$patientDataService.$results().getAllresults();
   public patientResults: any[] = [];
+
+  showForm: boolean = false;
+
+  newProtocol: any = {
+    temperature: '',
+    weight: '',
+    anamnesis: '',
+    clinical_signs: '',
+    examination: '',
+    diagnosis: '',
+    treatment: '',
+    medications: '',
+    manipulations: '',
+    differential_diagnosis: ''
+  };
 
   ngOnInit() {
   this.loadProtocols();
@@ -111,6 +127,57 @@ export class PatientRecordModal implements OnInit {
   openResult(result: any) {
     // Toggle result details (click again to close)
     this.selectedResult = this.selectedResult === result ? null : result;
+  }
+
+public addProtocol() {
+  // Example: emit event, open modal, or navigate
+  console.log('Add protocol clicked');
+  // You might open a modal or call a service to create a new protocol
+}
+
+// ADD PROTOCOL
+
+  openProtocolForm() {
+    this.showForm = true;
+  }
+
+  cancelForm() {
+    this.showForm = false;
+  }
+
+  saveProtocol() {
+    const newProtocolNumber = this.protocols.length;
+    const today = new Date().toISOString().split('T')[0];
+
+    const newProtocol = {
+      ...this.newProtocol,
+      protocol_number: newProtocolNumber,
+      protocol_creation_date: today,
+      protocol_modification_date: '',
+      protocol_completion_date: '',
+      pet_id: this.patient.pet_id,
+      medications: this.newProtocol.medications.split(',').map((m: string) => m.trim()),
+      manipulations: this.newProtocol.manipulations.split(',').map((m: string) => m.trim()),
+    };
+
+    this.protocols.push(newProtocol);
+    this.patient.protocols.push(newProtocolNumber);
+
+    // Reset form
+    this.newProtocol = {
+      temperature: '',
+      weight: '',
+      anamnesis: '',
+      clinical_signs: '',
+      examination: '',
+      diagnosis: '',
+      treatment: '',
+      medications: '',
+      manipulations: '',
+      differential_diagnosis: ''
+    };
+
+    this.showForm = false;
   }
 
 }

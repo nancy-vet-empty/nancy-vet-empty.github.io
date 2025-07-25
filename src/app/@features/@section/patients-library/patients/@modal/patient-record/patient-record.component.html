@@ -64,6 +64,73 @@
 
   <div class="protocols">
     <div class="h1">Протоколи:</div>
+
+    <!-- ADD PROTOCOL BUTTON -->
+    <ion-button (click)="openProtocolForm()" class="btn btn-primary">
+      Добави протокол
+    </ion-button>
+
+      <!-- New Protocol Form -->
+    <div *ngIf="showForm" class="form-popup">
+      <h3>Нов протокол</h3>
+
+      <ion-row class="form-one-style">
+        <label>Температура</label>
+        <input [(ngModel)]="newProtocol.temperature" class="form-control" type="number" min="1" max="45"/>
+      </ion-row>
+
+      <ion-row class="form-one-style">
+        <label>Тегло</label>
+        <input [(ngModel)]="newProtocol.weight" class="form-control" type="number" min="0" max="100"/>
+      </ion-row>
+
+      <ion-row class="form-two-style">
+        <label>Анамнеза</label>
+        <textarea [(ngModel)]="newProtocol.anamnesis" class="form-control"></textarea>
+      </ion-row>
+
+      <ion-row class="form-two-style">
+        <label>Клинични признаци</label>
+        <textarea [(ngModel)]="newProtocol.clinical_signs" class="form-control"></textarea>
+      </ion-row>
+
+      <ion-row class="form-two-style">
+        <label>Преглед</label>
+        <textarea [(ngModel)]="newProtocol.examination" class="form-control"></textarea>
+      </ion-row>
+
+      <ion-row class="form-one-style">
+        <label>Диагноза</label>
+        <input [(ngModel)]="newProtocol.diagnosis" class="form-control" />
+      </ion-row>
+
+      <ion-row class="form-two-style">
+        <label>Лечение</label>
+        <textarea [(ngModel)]="newProtocol.treatment" class="form-control"></textarea>
+      </ion-row>
+
+      <ion-row class="form-one-style">
+        <label>Медикаменти (разделени със запетая)</label>
+        <input [(ngModel)]="newProtocol.medications" class="form-control" />
+      </ion-row>
+
+      <ion-row class="form-one-style">
+        <label>Манипулации (разделени със запетая)</label>
+        <input [(ngModel)]="newProtocol.manipulations" class="form-control" />
+      </ion-row>
+
+      <ion-row class="form-two-style">
+        <label>Диференциална диагноза</label>
+        <textarea [(ngModel)]="newProtocol.differential_diagnosis" class="form-control"></textarea>
+      </ion-row>
+
+      <ion-row class="form-one-style">
+        <ion-button (click)="saveProtocol()" class="btn btn-success">Запази</ion-button>
+        <ion-button (click)="cancelForm()" class="btn btn-fail">Отказ</ion-button>
+      </ion-row>
+
+    </div>
+
     <div *ngFor="let protocol of patientProtocols">
       <button class="protocol-btn" (click)="openProtocol(protocol)">
         Протокол №: {{ protocol.protocol_number }},
@@ -73,74 +140,24 @@
 
       <!-- Show details only if this protocol is selected -->
       <div *ngIf="selectedProtocol === protocol" class="protocol-details">
-        <!-- <ion-grid>
-          <ion-row><strong>Дата на създаване:</strong>   {{ protocol.protocol_creation_date }}</ion-row>
-          <ion-row><strong>Дата на приключване:</strong> {{ protocol.protocol_completion_date }}</ion-row>
-          <ion-row>
-            <ion-col>
-                <p><strong>Анамнеза:</strong><br>
-                  <textarea class="input" [value]="protocol.anamnesis"></textarea>
-                </p>
-            </ion-col>
-            <ion-col>
-                <p><strong>Клинични признаци:</strong><br>
-                  <textarea class="input" [value]="protocol.clinical_signs"></textarea>
-                </p>
-            </ion-col>
-            <ion-col>
-                <p><strong>Изследвания:</strong><br>
-                  <textarea class="input" [value]="protocol.examination"></textarea>
-                </p>
-            </ion-col>
-          </ion-row>
-          <ion-row>
-            <ion-col>
-                <p><strong>Диагноза:</strong><br>
-                  <textarea class="input" [value]="protocol.diagnosis"></textarea>
-                </p>
-            </ion-col>
-            <ion-col>
-                <p><strong>Лечение:</strong><br>
-                  <textarea class="input" [value]="protocol.treatment"></textarea>
-                </p>
-            </ion-col>
-            <ion-col>
-                <p><strong>Манипулации:</strong><br>
-                  <textarea class="input" [value]="protocol.manipulations"></textarea>
-                </p>
-            </ion-col>
-          </ion-row>
-        </ion-grid> -->
-
         <ion-grid>
           <ion-row><strong>Дата на създаване:</strong>   {{ protocol.protocol_creation_date }}</ion-row>
           <ion-row><strong>Дата на приключване:</strong> {{ protocol.protocol_completion_date }}</ion-row>
 
-          <ion-row>
-            <ion-col size="2">Анамнеза:</ion-col>
-            <ion-col class="protocol-info">{{ protocol.anamnesis }}</ion-col>
-          </ion-row>
+            <ion-row size="2">Анамнеза:</ion-row>
+            <ion-row class="protocol-info">{{ protocol.anamnesis }}</ion-row>
 
-          <ion-row>
-            <ion-col size="2">Клинични признаци:</ion-col>
-            <ion-col class="protocol-info">{{ protocol.clinical_signs }}</ion-col>
-          </ion-row>
+            <ion-row size="2">Клинични признаци:</ion-row>
+            <ion-row class="protocol-info">{{ protocol.clinical_signs }}</ion-row>
 
-          <ion-row>
-            <ion-col size="2">Изследвания:</ion-col>
-            <ion-col class="protocol-info">{{ protocol.examination }}</ion-col>
-          </ion-row>
+            <ion-row size="2">Изследвания:</ion-row>
+            <ion-row class="protocol-info">{{ protocol.examination }}</ion-row>
 
-          <ion-row>
-            <ion-col size="2">Диагноза:</ion-col>
-            <ion-col class="protocol-info">{{ protocol.diagnosis }}</ion-col>
-          </ion-row>
+            <ion-row size="2">Диагноза:</ion-row>
+            <ion-row class="protocol-info">{{ protocol.diagnosis }}</ion-row>
 
-          <ion-row>
-            <ion-col size="2">Лечение:</ion-col>
-            <ion-col class="protocol-info">{{ protocol.treatment }}</ion-col>
-          </ion-row>
-
+            <ion-row size="2">Лечение:</ion-row>
+            <ion-row class="protocol-info">{{ protocol.treatment }}</ion-row>
         </ion-grid>
 
       </div>
@@ -149,7 +166,7 @@
   </div>
 
   <div class="results">
-    <div class="h1">Кръвни изследвания:</div>
+    <!-- <div class="h1">Кръвни изследвания:</div> -->
     <div *ngFor="let result of patientResults">
       <button class="protocol-btn" (click)="openResult(result)">
         Изследване №: {{ result.result_number }},
@@ -467,7 +484,7 @@
     </div>
   </div>
 
-  <div class="vaccination_and_deworming">
+  <!-- <div class="vaccination_and_deworming">
     <div id="vaccinations">Ваксинации:
       <div id="previous_vaccinations"></div>
       <div id="type_vaccine"></div>
@@ -487,6 +504,6 @@
         <div id="next_external"></div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 </nv-info-modal>
