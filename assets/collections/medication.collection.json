@@ -1217,8 +1217,6 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
-
-
   {
     "type": "respiratory",
     "title": "Бутомидор 10 мг/ мл",
@@ -1923,6 +1921,30 @@
   },
   {
     "type": "urogenital",
+    "title": "Натриев бикарбонат 8,4% концентрат за инфузионен разтвор",
+    "titleEn": "Sodium bicarbonate Braun 8,4% concentrate for solution for infusion",
+    "activeSubstance": "натриев хидрогенкарбонат",
+    "drugConcentration": 8.4,
+    "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "",
+        "applicationMethod": "по схема"
+      }
+    },
+    "link"              : "",
+    "indications"       : ["за повишаване рН на кръвта (алкализиране)"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
     "title": "ДиРеНе",
     "titleEn": "DiReNe",
     "activeSubstance": "хитозан, кверцетин, червена боровинка, куркума",
@@ -2175,6 +2197,30 @@
     },
     "link"              : "",
     "indications"       : ["КотЭрвин премахва солта и разтваря камъните в урината, има диуретичен и противовъзпалителен ефекти.", "Използва се при: уролитиаза, цистит, FUS."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "Амониев хлорид (нишадър)",
+    "titleEn": "Amonnium chloride",
+    "activeSubstance": "амониев хлорид",
+    "drugConcentration": 20,
+    "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "link"              : "",
+    "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2644,6 +2690,79 @@
     "link"              : "",
     "indications"       : [],
     "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+    {
+    "type": "urogenital",
+    "title": "ПролактиНо табл",
+    "titleEn": "ProlactiNo",
+    "activeSubstance": "витекс, глухарче, магданоз, кестен",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_5_kg",
+        "applicationMethod": "q24h, за не повече от 30 дни"
+      }
+    },
+    "link"              : "",
+    "indications"       : ["за фалшива бременност", "противоедемно, диуретично и антипролактинно действие."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["витекс - инхибира пролактина", "магданоз и глухарче - има диуретични свойства, което намалява подуването на млечните жлези и инхибира отделянето на кърма", "кестен - противоедемни свойства, което намалява на подуването на млечните жлези и лактацията."]
+  },
+  {
+    "type": "urogenital",
+    "title": "ПролактиНо за големи породи",
+    "titleEn": "ProlactiNo Large Breed",
+    "activeSubstance": "витекс, глухарче, магданоз, кестен",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_15_kg",
+        "applicationMethod": "q24h"
+      }
+    },
+    "link"              : "",
+    "indications"       : ["за фалшива бременност", "противоедемно, диуретично и антипролактинно действие."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["витекс - инхибира пролактина", "магданоз и глухарче - има диуретични свойства, което намалява подуването на млечните жлези и инхибира отделянето на кърма", "кестен - противоедемни свойства, което намалява на подуването на млечните жлези и лактацията."]
+  },
+  {
+    "type": "urogenital",
+    "title": "Но-шпа 40 мг табл.",
+    "titleEn": "No-spa 40 mg tabl",
+    "activeSubstance": "дротаверин",
+    "drugConcentration": 40,
+    "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1,
+          1.5
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO, SC q12-24h за 5-7 дни"
+      }
+    },
+    "link"              : "",
+    "indications"       : ["Дротаверина применяют собакам и кошкам для купирования спазмов гладкой мускулатуры, связанные с заболеваниями: ", "билиарного тракта (холецистолитиаз, холангиолитиаз, холецистит, перихолецистит, холангит, папиллит); ", "мочевыводящих путей (нефролитиаз, уретролитиаз, пиелит, цистит, тенезмы мочевого пузыря);", "гинекологических заболеваниях; желудочно-кишечного тракта (язвенная болезнь желудка и двенадцатиперстной кишки, гастрит, спазмы кардии и привратника, энтерит, колит)."],
+    "contraindications" : ["Не применять при индивидуальной повышенной чувствительности к нестероидным противовоспалительным средствам, нарушениях функций печени, почек, органов кроветворения, при кровопотерях и кровотечениях, язвах желудочно-кишечного тракта, а также беременным и лактирующим самкам. Не использовать совместно с нестероидными противовоспалительными средствами, глюкокортикоидами и антикоагулянтами, а также животным моложе 2-месячного возраста."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -3639,8 +3758,30 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
-
-
+  {
+    "type": "nervous",
+    "title": "Атропин 1 мг/мл",
+    "titleEn": "Atropine 1 mg/ml",
+    "activeSubstance": "атропин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "¼ от дозата ИВ, ¾ от дозата ПК, колкото е необходимо"
+      }
+    },
+    "link"              : "",
+    "indications"       : ["при отравяне с ФОС и карбамати"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
   {
     "type": "eyes",
     "title": "Тобрин капки за очи",
@@ -6547,7 +6688,6 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
-
   {
     "type": "antiparasitic",
     "title": "Еспакокс 50 мг/мл",
@@ -7202,8 +7342,6 @@
     "adverseEffects"    : ["Повръщане", "Хематом на мястото на инжектиране."],
     "pharmacology"      : []
   },
-
-
   {
     "type": "antiinflammatory",
     "title": "Депедин Вейкс",
@@ -7846,6 +7984,30 @@
   },
   {
     "type": "antiinflammatory",
+    "title": "Кортинеф 0,1 мг табл.",
+    "titleEn": "Cortinef 0.1 mg tabl",
+    "activeSubstance": "флуорокортизон",
+    "drugConcentration": 0.1,
+    "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "link"              : "",
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
     "title": "Аналгин 30%",
     "titleEn": "Analgin 30%",
     "activeSubstance": "метамизол натрий",
@@ -8036,59 +8198,6 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
-
-
-
-
-
-  {
-    "type": "others",
-    "title": "ПролактиНо табл",
-    "titleEn": "ProlactiNo",
-    "activeSubstance": "витекс, глухарче, магданоз, кестен",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "favouriteMedicaton": true,
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "tabl_5_kg",
-        "applicationMethod": "q24h, за не повече от 30 дни"
-      }
-    },
-    "link"              : "",
-    "indications"       : ["за фалшива бременност", "противоедемно, диуретично и антипролактинно действие."],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : ["витекс - инхибира пролактина", "магданоз и глухарче - има диуретични свойства, което намалява подуването на млечните жлези и инхибира отделянето на кърма", "кестен - противоедемни свойства, което намалява на подуването на млечните жлези и лактацията."]
-  },
-  {
-    "type": "others",
-    "title": "ПролактиНо за големи породи",
-    "titleEn": "ProlactiNo Large Breed",
-    "activeSubstance": "витекс, глухарче, магданоз, кестен",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "favouriteMedicaton": true,
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "tabl_15_kg",
-        "applicationMethod": "q24h"
-      }
-    },
-    "link"              : "",
-    "indications"       : ["за фалшива бременност", "противоедемно, диуретично и антипролактинно действие."],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : ["витекс - инхибира пролактина", "магданоз и глухарче - има диуретични свойства, което намалява подуването на млечните жлези и инхибира отделянето на кърма", "кестен - противоедемни свойства, което намалява на подуването на млечните жлези и лактацията."]
-  },
   {
     "type": "others",
     "title": "ВетАминекс за кучета и котки",
@@ -8246,30 +8355,6 @@
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : ["DL-Метионин и коприва имат положителен ефект върху уринарния тракт."]
-  },
-  {
-    "type": "others",
-    "title": "Атропин 1 мг/мл",
-    "titleEn": "Atropine 1 mg/ml",
-    "activeSubstance": "атропин",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "mg_ml",
-    "favouriteMedicaton": false,
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "¼ от дозата ИВ, ¾ от дозата ПК, колкото е необходимо"
-      }
-    },
-    "link"              : "",
-    "indications"       : ["при отравяне с ФОС и карбамати"],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
   },
   {
     "type": "others",
@@ -8811,31 +8896,6 @@
     "pharmacology"      : []
   },
   {
-    "type": "nervous",
-    "title": "Но-шпа 40 мг табл.",
-    "titleEn": "No-spa 40 mg tabl",
-    "activeSubstance": "дротаверин",
-    "drugConcentration": 40,
-    "drugConcentrationDecorator": "mg_tabl",
-    "favouriteMedicaton": false,
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1,
-          1.5
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, SC q12-24h за 5-7 дни"
-      }
-    },
-    "link"              : "",
-    "indications"       : ["Дротаверина применяют собакам и кошкам для купирования спазмов гладкой мускулатуры, связанные с заболеваниями: ", "билиарного тракта (холецистолитиаз, холангиолитиаз, холецистит, перихолецистит, холангит, папиллит); ", "мочевыводящих путей (нефролитиаз, уретролитиаз, пиелит, цистит, тенезмы мочевого пузыря);", "гинекологических заболеваниях; желудочно-кишечного тракта (язвенная болезнь желудка и двенадцатиперстной кишки, гастрит, спазмы кардии и привратника, энтерит, колит)."],
-    "contraindications" : ["Не применять при индивидуальной повышенной чувствительности к нестероидным противовоспалительным средствам, нарушениях функций печени, почек, органов кроветворения, при кровопотерях и кровотечениях, язвах желудочно-кишечного тракта, а также беременным и лактирующим самкам. Не использовать совместно с нестероидными противовоспалительными средствами, глюкокортикоидами и антикоагулянтами, а также животным моложе 2-месячного возраста."],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
     "type": "others",
     "title": "Алергозан 10 мг/мл",
     "titleEn": "Alergozan",
@@ -8935,30 +8995,6 @@
   },
   {
     "type": "others",
-    "title": "Амониев хлорид (нишадър)",
-    "titleEn": "Amonnium chloride",
-    "activeSubstance": "амониев хлорид",
-    "drugConcentration": 20,
-    "drugConcentrationDecorator": "same",
-    "favouriteMedicaton": true,
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "link"              : "",
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
     "title": "Глюкоза 400 мг/мл амп.",
     "titleEn": "Glucose 400 mg/ml amp",
     "activeSubstance": "глюкоза",
@@ -8971,30 +9007,6 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "-"
-      }
-    },
-    "link"              : "",
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Кортинеф 0,1 мг табл.",
-    "titleEn": "Cortinef 0.1 mg tabl",
-    "activeSubstance": "флуорокортизон",
-    "drugConcentration": 0.1,
-    "drugConcentrationDecorator": "mg_tabl",
-    "favouriteMedicaton": false,
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
         "applicationMethod": "-"
       }
     },
@@ -9630,30 +9642,6 @@
     },
     "link"              : "",
     "indications"       : ["При хипокалцемия, която се среща при парвовироза, захарен диабет и др.", "Дозира се според схема."],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Натриев бикарбонат 8,4% концентрат за инфузионен разтвор",
-    "titleEn": "Sodium bicarbonate Braun 8,4% concentrate for solution for infusion",
-    "activeSubstance": "натриев хидрогенкарбонат",
-    "drugConcentration": 8.4,
-    "drugConcentrationDecorator": "same",
-    "favouriteMedicaton": false,
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "",
-        "applicationMethod": "по схема"
-      }
-    },
-    "link"              : "",
-    "indications"       : ["за повишаване рН на кръвта (алкализиране)"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
