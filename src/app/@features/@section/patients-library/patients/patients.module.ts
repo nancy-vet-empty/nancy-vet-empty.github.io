@@ -1,3 +1,4 @@
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { IonicModule              } from '@ionic/angular';
 import { NgModule                 } from '@angular/core';
 import { CommonModule             } from '@angular/common';
@@ -19,7 +20,7 @@ import { CategoryPickerComponent  } from 'nv@components/@blocks/category-picker/
 import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/nv-info-modal.component';
 import { SplitPipe                } from 'nv@pipes/split.pipe';
 import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
-
+import { CreatePatientComponent   } from './@modal/create-patient/create-patient.component';
 
 const routes: Routes = [{
     path      : '',
@@ -28,10 +29,14 @@ const routes: Routes = [{
 ];
 
 @NgModule({
+    schemas                           : [
+      CUSTOM_ELEMENTS_SCHEMA
+    ],
     declarations                    : [
       PatientsPage                  ,
-      PatientRecordModal              ,
-      SelectCategoryModal
+      PatientRecordModal            ,
+      SelectCategoryModal           ,
+      CreatePatientComponent
     ],
     imports                         : [
       RouterModule.forChild(routes) ,

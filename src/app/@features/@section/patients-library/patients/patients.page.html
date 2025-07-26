@@ -30,6 +30,12 @@
     </ion-row>
   </ion-grid>
 
+<!-- <ion-button (click)="openCreatePatientModal()">Create a patient</ion-button> -->
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="openCreatePatientModal()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 
   @for(element of $collection; track element) {
 

@@ -12,6 +12,20 @@ function containsAny(arr1: any, arr2: any) {
 })
 export class PatientDataService {
 
+
+  private patients: any[] = (PatientsCollectionJson as any).default || PatientsCollectionJson;
+
+
+  $patients() {
+    return {
+      getAllPatients: () => this.patients,
+      addPatient: (patient: any) => this.patients.push(patient)
+    };
+  }
+
+
+
+
   private $patientCollection: any = [];
   private $protocolCollection: any = [];
   private $resultCollection: any = [];

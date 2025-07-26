@@ -5,6 +5,8 @@ import { DialogService             } from 'nv@services/dialog.service';
 
 import { SelectCategoryModal       } from './@modal/select-category/select-category.component';
 import { PatientRecordModal        } from './@modal/patient-record/patient-record.component';
+import { ModalController } from '@ionic/angular';
+import { CreatePatientComponent } from './@modal/create-patient/create-patient.component'; // ✅ Adjust if needed
 
 
 @Component({
@@ -63,4 +65,18 @@ export class PatientsPage implements OnInit {
   public onSearchCategorySelected(searchCategory: string) {
     this.searchCategory = searchCategory;
   }
+
+
+
+
+
+  constructor(private modalController: ModalController) {}
+
+  async openCreatePatientModal() {
+    const modal = await this.modalController.create({
+      component: CreatePatientComponent
+    });
+    await modal.present();
+  }
+
 }

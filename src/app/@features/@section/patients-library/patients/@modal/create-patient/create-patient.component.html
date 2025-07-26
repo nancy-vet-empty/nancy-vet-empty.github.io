@@ -1,0 +1,49 @@
+<nv-info-modal [inputTitle]="'Нов пациент'" class="ion-page">
+  <div class="form-container">
+    <h2>Създай нов пациент</h2>
+
+    <ion-row class="form-one-style">
+      <label>Име на животното</label>
+      <input [(ngModel)]="newPatient.pet_name" class="form-control" />
+    </ion-row>
+
+    <ion-row class="form-one-style">
+      <label>Вид</label>
+      <input [(ngModel)]="newPatient.animalType" class="form-control" />
+    </ion-row>
+
+    <ion-row class="form-one-style">
+      <label>Порода</label>
+      <input [(ngModel)]="newPatient.breed" class="form-control" />
+    </ion-row>
+
+    <ion-row class="form-one-style">
+      <label>Пол</label>
+      <input [(ngModel)]="newPatient.sex" class="form-control" />
+    </ion-row>
+
+    <ion-row class="form-one-style">
+      <label>Възраст</label>
+      <input [(ngModel)]="newPatient.age" class="form-control" />
+    </ion-row>
+
+    <ion-row class="form-one-style">
+      <label>Кастрирано</label>
+      <ion-toggle [(ngModel)]="newPatient.neutered"></ion-toggle>
+    </ion-row>
+
+    <ion-row class="form-one-style">
+      <label>Име на собственик</label>
+      <input [(ngModel)]="newPatient.owner_name" class="form-control" />
+    </ion-row>
+
+    <ion-row class="form-one-style">
+      <label>Адрес</label>
+      <input [(ngModel)]="newPatient.address" class="form-control" />
+    </ion-row>
+
+    <ion-row class="form-one-style">
+      <ion-button (click)="savePatient()" class="btn btn-success">Запази</ion-button>
+    </ion-row>
+  </div>
+</nv-info-modal>
