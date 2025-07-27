@@ -2,6 +2,7 @@
   {
     "type"          : "dog",
     "title"         : "CHW Ag",
+    "manufacturer"  : "Anigen",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/chw-ag.pdf",
     "section"       : [
       {
@@ -31,6 +32,7 @@
   {
     "type"          : "dog",
     "title"         : "CaniV-4",
+    "manufacturer"  : "Anigen",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/caniv-4.pdf",
     "section"       : [
       {
@@ -69,6 +71,7 @@
   {
     "type"          : "dog",
     "title"         : "CaniV-4 (Leish)",
+    "manufacturer"  : "Anigen",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/caniv-4-leish.pdf",
     "section"       : [
       {
@@ -106,7 +109,43 @@
   },
   {
     "type"          : "dog",
+    "title"         : "Ehr-Ana-BC-BG-CHW",
+    "manufacturer"  : "PetX",
+    "leafletLink"   : "",
+    "section"       : [
+      {
+        "title"   : "Какво изследва:",
+        "content" : [
+          "Dirofilaria immitis antigen,",
+          "Ehrlichia canis antibody,",
+          "Babesia gibsoni antibody",
+          "Babesia canis antibody",
+          "Anaplasma phagocytophilum/Anaplasma platys antibody"
+        ]
+      },
+      {
+        "title"   : "Проба:",
+        "content" : [
+          "кучешки серум, плазма или цяла кръв.",
+          "серум (с епруветка БЕЗ антикоагулант за 30 мин, след което се центрофугира).",
+          "плазма (с епруветка с антикоагулант, след което се центрофугира).",
+          "цяла кръв (с антикоагулант или за директна употреба)."
+        ]
+      },
+      {
+        "title": "Процедура:",
+        "content" : [
+          "С помощта на капилярната туба за еднократна употреба добавете една капка (около 10 μl) проба във всеки отвор за проба.",
+          "Поставете 3 капки от дилуента във всеки отвор за проба.",
+          "Интерпретирайте резултатите от теста след 5-10 минути."
+        ]
+      }
+    ]
+  },
+  {
+    "type"          : "dog",
     "title"         : "CPV/ CCV/ Giardia",
+    "manufacturer"  : "Anigen",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/cpv-ccv-giardia-ag.pdf",
     "section"       : [
       {
@@ -144,10 +183,47 @@
       }
     ]
   },
-
+  {
+    "type"          : "dog",
+    "title"         : "CDV/ CPV/ CCV/ Giardia Ag",
+    "manufacturer"  : "PetX",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/cpv-ccv-giardia-ag.pdf",
+    "section"       : [
+      {
+        "title"   : "Какво изследва:",
+        "content" : [
+          "Canine Distemper virus antigen",
+          "canine Parvovirus antigen",
+          "canine Corona virus antigen",
+          "Giardia antigen"
+        ]
+      },
+      {
+        "title"   : "Проба:",
+        "content" : [
+          "CDV - Секрети от очите на кучето, носната кухина и ануса, серума или плазма.",
+          "CPV/CCV/Gia - Изпражнения или повръщано."
+        ]
+      },
+      {
+        "title": "Процедура:",
+        "content" : [
+          "Използвайте 2 тампона.",
+          "Чрез тампон съберете проба от фекалии за CPV/CCVGiardia. Разбъркайте с тампона в епруветката, докато пробата не се смеси (около 10 сек.).",
+          "Изчакайте 1 минута, за да се утаят големите частици.",
+          "С помощта на капкомера за еднократна употреба (40 μl) вземете супернантата от епруветката.",
+          "Вземете пробата за CDV, като използвате тампона, който е предварително напоен с физиологичен разтвор. Ако използвате серум или плазма, използвайте капкомера.",
+          "Поставете тампона с пробата в епруветката с дилуента и го разбъркайте добре.",
+          "Добавете 3 капки от всяка смесена проба с дилуента и ги поставете в отворите за проба, като накапвате вертикално и бавно.",
+          "Интерпретирайте резултатите от теста след 5-10 минути."
+        ]
+      }
+    ]
+  },
   {
     "type"          : "dog",
     "title"         : "CPV ag",
+    "manufacturer"  : "Anigen",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/cpv-ag.pdf",
     "section"       : [
       {
@@ -187,6 +263,7 @@
   {
     "type"          : "both",
     "title"         : "Giardia Ag",
+    "manufacturer"  : "Anigen",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/giardia-ag.pdf",
     "section"       : [
       {
@@ -227,6 +304,7 @@
   {
     "type"          : "cat",
     "title"         : "FeliD-3",
+    "manufacturer"  : "Anigen",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/felid-3.pdf",
     "section"       : [
       {
@@ -268,6 +346,7 @@
   {
     "type"          : "cat",
     "title"         : "FPV Ag",
+    "manufacturer"  : "VetExpert",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/fpv-ag.pdf",
     "section"       : [
       {
@@ -307,6 +386,7 @@
   {
     "type"          : "cat",
     "title"         : "FCoV Ab",
+    "manufacturer"  : "Anigen",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/fcov-ag-ab.pdf",
     "section"       : [
       {
@@ -338,13 +418,95 @@
       }
     ]
   },
-
-
-
-
+  {
+    "type"          : "cat",
+    "title"         : "FCV/FHV-1 Ag",
+    "manufacturer"  : "PetX",
+    "leafletLink"   : "",
+    "section"       : [
+      {
+        "title"   : "Какво изследва:",
+        "content" : [
+          "Feline Calicivirus antigen",
+          "Feline Herpesvirus Type-1 antigen"
+        ]
+      },
+      {
+        "title"   : "Проба:",
+        "content" : [
+          "секрет от очи, носни кухини и анус"
+        ]
+      },
+      {
+        "title": "Процедура:",
+        "content" : [
+          "@/assets/pdfs/@test/fcv-fhv/1.png",
+          "Съберете чрез тампон пробата.",
+          "Поставете тампона в епруветката с буфер и го разбъркайте.",
+          "Чрез капкомер вземете от епруветката с буфер и проба и накапете в отвора на теста.",
+          "Интерпретирайте резултатите от теста след 10 минути. Не четете след 10 минути."
+        ]
+      }
+    ]
+  },
+  {
+    "type"          : "cat",
+    "title"         : "Chlamydia Ag",
+    "manufacturer"  : "PetX",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/chlamydia-ag.pdf",
+    "section"       : [
+      {
+        "title"   : "Какво изследва:",
+        "content" : [
+          "Feline Chlamydia antigen"
+        ]
+      },
+      {
+        "title"   : "Проба:",
+        "content" : [
+          "очен секрет"
+        ]
+      },
+      {
+        "title": "Процедура:",
+        "content" : [
+          "assets/pdfs/@test/chlamydia-ag/chlamydia-ag.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "type"          : "cat",
+    "title"         : "FMP Ag",
+    "manufacturer"  : "PetX",
+    "leafletLink"   : "",
+    "section"       : [
+      {
+        "title"   : "Какво изследва:",
+        "content" : [
+          "Feline Mycoplasma Haemofelis antigen"
+        ]
+      },
+      {
+        "title"   : "Проба:",
+        "content" : [
+          "цяла кръв"
+        ]
+      },
+      {
+        "title": "Процедура:",
+        "content" : [
+          "Използвайки капилярна пипета, накапете 10 ml от пробата в отвора за проба на теста.",
+          "Накапете 3 капки от буфера за анализ ведната след пробата.",
+          "Интерпретирайте резултатите от теста след 10 минути. Не четете след 10 минути."
+        ]
+      }
+    ]
+  },
   {
     "type"          : "cat",
     "title"         : "FIV Ab/ FeLV Ag",
+    "manufacturer"  : "Anigen",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/fiv-ab-felv-ag.pdf",
     "section"       : [
       {
@@ -378,14 +540,10 @@
       }
     ]
   },
-
-
-
-
-
   {
     "type"          : "dog",
     "title"         : "CIRD-3 Ag",
+    "manufacturer"  : "Anigen",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/cird-3.pdf",
     "section"       : [
       {
@@ -417,11 +575,10 @@
       }
     ]
   },
-
-
   {
     "type"          : "dog",
     "title"         : "CDV Ag",
+    "manufacturer"  : "VetExpert",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/cdv-ag.pdf",
     "section"       : [
       {
@@ -454,12 +611,36 @@
       }
     ]
   },
-
-
-
+  {
+    "type"          : "dog",
+    "title"         : "Brucella Ab",
+    "manufacturer"  : "PetX",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/brucella-ab.pdf",
+    "section"       : [
+      {
+        "title"   : "Какво изследва:",
+        "content" : [
+          "Canine Brucella antibody"
+        ]
+      },
+      {
+        "title"   : "Проба:",
+        "content" : [
+          "серум, плазма или цяла кръв."
+        ]
+      },
+      {
+        "title": "Процедура:",
+        "content" : [
+          "@/assets/pdfs/@test/brucella-ab/brucella-ab.png"
+        ]
+      }
+    ]
+  },
   {
     "type"          : "cat",
     "title"         : "Toxoplasma Ab",
+    "manufacturer"  : "VetExpert",
     "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/toxoplasma-ab.pdf",
     "section"       : [
       {

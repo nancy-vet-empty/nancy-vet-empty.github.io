@@ -1,6 +1,6 @@
-G   - gastrointestinal
+G   - digestive
 R   - respiratory
-C   - cardiovascular
+C   - circulatory
 Er  - ears
 Ea  - eyes
 S   - skin
