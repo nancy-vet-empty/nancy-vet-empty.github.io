@@ -29,8 +29,8 @@ export class AddMedicationModalComponent {
 
   medicationTypeOptions = [
     { label: 'Дихателна система',        value: 'respiratory' },
-    { label: 'Храносмилателна система',  value: 'gastrointestinal' },
-    { label: 'Сърдечно-съдова система',  value: 'cardiovascular' },
+    { label: 'Храносмилателна система',  value: 'digestive' },
+    { label: 'Кръвоносна система',       value: 'circulatory' },
     { label: 'Пикочо-полова система',    value: 'urogenital' },
     { label: 'Нервна система',           value: 'nervous' },
     { label: 'Очи',                      value: 'eyes' },

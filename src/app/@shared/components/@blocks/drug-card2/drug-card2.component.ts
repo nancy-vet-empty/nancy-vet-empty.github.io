@@ -102,8 +102,8 @@ export class DrugCard2 implements OnInit {
   private buildAssetPath(): string {
 
     if(this.object?.type == 'respiratory'       ) return `/assets/icon/respiratory.png`;
-    if(this.object?.type == 'gastrointestinal'  ) return `/assets/icon/gastrointestinal.png`;
-    if(this.object?.type == 'cardiovascular'    ) return `/assets/icon/cardiovascular.png`;
+    if(this.object?.type == 'digestive'         ) return `/assets/icon/digestive.png`;
+    if(this.object?.type == 'circulatory'       ) return `/assets/icon/circulatory.png`;
     if(this.object?.type == 'urogenital'        ) return `/assets/icon/urogenital.png`;
     if(this.object?.type == 'nervous'           ) return `/assets/icon/nervous.png`;
     if(this.object?.type == 'eyes'              ) return `/assets/icon/eyes.png`;

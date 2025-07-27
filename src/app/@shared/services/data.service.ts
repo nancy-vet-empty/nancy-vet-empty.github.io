@@ -147,8 +147,8 @@ export class DataService {
 
       return [
         { category: 'respiratory'       , title: 'дихателна'            , imgPath: `/assets/icon/respiratory.png`       },
-        { category: 'gastrointestinal'  , title: 'храносмилателна'      , imgPath: `/assets/icon/gastrointestinal.png`  },
-        { category: 'cardiovascular'    , title: 'сърдечно-съдова'      , imgPath: `/assets/icon/cardiovascular.png`    },
+        { category: 'digestive'         , title: 'храносмилателна'      , imgPath: `/assets/icon/digestive.png`         },
+        { category: 'circulatory'       , title: 'кръвоносна'           , imgPath: `/assets/icon/circulatory.png`       },
         { category: 'urogenital'        , title: 'пикочо-полова'        , imgPath: `/assets/icon/urogenital.png`        },
         { category: 'nervous'           , title: 'нервна'               , imgPath: `/assets/icon/nervous.png`           },
         { category: 'eyes'              , title: 'очи'                  , imgPath: `/assets/icon/eyes.png`              },

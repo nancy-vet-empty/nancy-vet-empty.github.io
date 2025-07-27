@@ -325,7 +325,7 @@
   {
     "symptom"   : "Халитоза",
     "symptomEn" : "Halitosis",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "лош дъх от устната кухина",
     "isVisible" : true,
     "causes"    : [
@@ -346,13 +346,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Слюноотделяне",
     "symptomEn" : "Drooling",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "Отделяне на воднист секрет от устата",
     "isVisible" : true,
     "causes"    : [
@@ -372,13 +372,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Дисфагия",
     "symptomEn" : "Dysphagia",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "Затруднено хранене и преглъщане",
     "isVisible" : true,
     "causes"    : [
@@ -414,13 +414,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Анорексия/ хипорексия",
     "symptomEn" : "Loss of appetite",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "анорексия - отказ от храна, хипорексия - намален прием на храна",
     "isVisible" : true,
     "causes"    : [
@@ -444,13 +444,13 @@
       { "group": "Психологически причини"        }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Полифагия",
     "symptomEn" : "Polyphagia",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -461,13 +461,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Парорексия",
     "symptomEn" : "Parorexia",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -478,13 +478,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Пика",
     "symptomEn" : "Pica",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -495,13 +495,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Регургитация",
     "symptomEn" : "Regurgitation",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "връщане на стомашно съдържимо обратно през хранопровода и извън устната кухина, още се нар. гастро-езофагеален рефлукс (ГЕР)",
     "isVisible" : true,
     "causes"    : [
@@ -517,13 +517,13 @@
       }
     ],
     "links" : [
-      { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/gastrointestinal/regurgitation-algorihm-saim.png" }
+      { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/digestive/regurgitation-algorihm-saim.png" }
     ]
   },
   {
     "symptom"   : "Повръщане",
     "symptomEn" : "Vomiting",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : true,
     "causes"    : [
@@ -587,14 +587,14 @@
       }
     ],
     "links" : [
-      { "title": "алгоритъм - CSAD" , "link": "pdfs/@algorithms/gastrointestinal/vomiting-algorithm-csad.png" },
-      { "title": "алгоритъм - CB"   , "link": "pdfs/@algorithms/gastrointestinal/vomiting-algorithm-clinicians-brief.pdf" }
+      { "title": "алгоритъм - CSAD" , "link": "pdfs/@algorithms/digestive/vomiting-algorithm-csad.png" },
+      { "title": "алгоритъм - CB"   , "link": "pdfs/@algorithms/digestive/vomiting-algorithm-clinicians-brief.pdf" }
     ]
   },
   {
     "symptom"   : "Хематемеза",
     "symptomEn" : "Hematemesis",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "повръщане на кръв",
     "isVisible" : true,
     "causes"    : [
@@ -624,13 +624,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Прекалено близане на муцуната",
     "symptomEn" : "Excessive licking of lips",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -641,13 +641,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Кръв във фекалиите/ Хематохезия",
     "symptomEn" : "Blood in stool/ Hematochezia",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "изхождане на прясна кръв през ануса, обикновено в или с изпражнения",
     "isVisible" : true,
     "causes"    : [
@@ -675,13 +675,13 @@
       }
     ],
     "links" : [
-      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" }
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/digestive/diarrhea-minivet.pdf" }
     ]
   },
   {
     "symptom"   : "Мелена",
     "symptomEn" : "Melena",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "Отделяне на неоформени, катраненочерни изпражнения, които най-често се дължат на кръвоизлив от храносмилателния канал",
     "isVisible" : true,
     "causes"    : [
@@ -703,13 +703,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Слуз във фекалиите",
     "symptomEn" : "Mucus in stool",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -720,13 +720,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Тенезъм и/или дисхезия",
     "symptomEn" : "Tenesmus and/or dyschesia",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "тенезъм - Мъчителен, болезнен, неефективен позив за уриниране или дефекация. Дисхезия - затруднено или болезнено изхождане",
     "isVisible" : true,
     "causes"    : [
@@ -746,13 +746,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Диария, остра",
     "symptomEn" : "Diarrhea, acute",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "диария под 7-14 дни",
     "isVisible" : true,
     "causes"    : [
@@ -792,15 +792,15 @@
     ],
     "links" : [
       { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
-      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
-      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
-      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" }
+      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/digestive/diarrhea_acute_dog.pdf" },
+      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/digestive/diarrhea_acute_cat.pdf" },
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/digestive/diarrhea-minivet.pdf" }
     ]
   },
   {
     "symptom"   : "Диария, хронична",
     "symptomEn" : "Diarrhea, chronic",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "диария над 7-14 дни",
     "isVisible" : true,
     "causes"    : [
@@ -840,16 +840,16 @@
     ],
     "links" : [
       { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
-      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
-      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
-      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" },
-      { "title": "Хронична диария Котки" , "link": "pdfs/@algorithms/gastrointestinal/chronic-diarrhea-cats.pdf" }
+      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/digestive/diarrhea_acute_dog.pdf" },
+      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/digestive/diarrhea_acute_cat.pdf" },
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/digestive/diarrhea-minivet.pdf" },
+      { "title": "Хронична диария Котки" , "link": "pdfs/@algorithms/digestive/chronic-diarrhea-cats.pdf" }
     ]
   },
   {
     "symptom"   : "Запек",
     "symptomEn" : "Constipation",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "Запекът (констипацията) е състояние, при което изпражненията се втвърдяват и стават трудни за изхождане",
     "isVisible" : true,
     "causes"    : [
@@ -895,13 +895,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Фекална инконтиненция",
     "symptomEn" : "Fecal incontinention",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "незадържане на фекалии",
     "isVisible" : true,
     "causes"    : [
@@ -910,13 +910,13 @@
       { "group": "Тежък проктит" }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Загуба на тегло",
     "symptomEn" : "Loss of weight",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : true,
     "causes"    : [
@@ -958,13 +958,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Наддаване на тегло",
     "symptomEn" : "Weight Gain",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -975,13 +975,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Асцит",
     "symptomEn" : "Ascites",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "Събиране на течност в коремната кухина",
     "isVisible" : true,
     "causes"    : [
@@ -990,13 +990,13 @@
       { "title" : "Перитонеално възпаление" }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Коремна болка",
     "symptomEn" : "",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : true,
     "causes"    : [
@@ -1053,13 +1053,13 @@
       }
     ],
     "links": [
-      { "title": "Алгоритъм", "link": "pdfs/@algorithms/gastrointestinal/acute-abdominal-pain-algorithm.png" }
+      { "title": "Алгоритъм", "link": "pdfs/@algorithms/digestive/acute-abdominal-pain-algorithm.png" }
     ]
   },
   {
     "symptom"   : "Уголемяване/разширяване на корема",
     "symptomEn" : "Abdominal dilatation",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : true,
     "causes"    : [
@@ -1107,14 +1107,14 @@
       }
     ],
     "links": [
-      { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/gastrointestinal/abdominal-distention-algorithm-saim.png" },
-      { "title": "алгоритъм - CSAD", "link": "pdfs/@algorithms/gastrointestinal/abdominal-enlargement-CSAD.pdf" }
+      { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/digestive/abdominal-distention-algorithm-saim.png" },
+      { "title": "алгоритъм - CSAD", "link": "pdfs/@algorithms/digestive/abdominal-enlargement-CSAD.pdf" }
     ]
   },
   {
     "symptom"   : "Жълтеница",
     "symptomEn" : "Icterus",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "Пожълтяване на лигавиците и кожата",
     "isVisible" : true,
     "causes"    : [
@@ -1171,13 +1171,13 @@
       }
     ],
     "links": [
-      { "title": "Алгоритъм", "link": "pdfs/@algorithms/gastrointestinal/jaundice-algorithm.png" }
+      { "title": "Алгоритъм", "link": "pdfs/@algorithms/digestive/jaundice-algorithm.png" }
     ]
   },
   {
     "symptom"   : "Остър корем",
     "symptomEn" : "Abdominal pain",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "синдром, който се манифестира със силни болки в корема, гадене, повръщане, нарушенчревен пасаж, влошаващо се общо състояние и перитонеално дразнене, обективизиращо се с дефанс",
     "isVisible" : false,
     "causes"    : [
@@ -1223,7 +1223,7 @@
   {
     "symptom"   : "Метеоризъм",
     "symptomEn" : "Excessive gas",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1234,13 +1234,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
   {
     "symptom"   : "Търкане на задницата в земята",
     "symptomEn" : "Dog scooting",
-    "type"      : "gastrointestinal",
+    "type"      : "digestive",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1251,7 +1251,7 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/digestive/.pdf" }
     ]
   },
 
@@ -1280,7 +1280,7 @@
   {
     "symptom"   : "Синкоп",
     "symptomEn" : "Syncope",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1326,7 +1326,7 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
@@ -1343,7 +1343,7 @@
   {
     "symptom"   : "Аномален артериален пулс",
     "symptomEn" : "Anormal arterial pulse",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1373,13 +1373,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
     "symptom"   : "Сърдечен шум",
     "symptomEn" : "Heart murmur",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1408,13 +1408,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
     "symptom"   : "Аритмия",
     "symptomEn" : "Arrhythmia",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1425,13 +1425,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
     "symptom"   : "Тахикардия",
     "symptomEn" : "Tachycardia",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1442,13 +1442,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
     "symptom"   : "Брадикардия",
     "symptomEn" : "Bradycardia",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1459,13 +1459,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
     "symptom"   : "Хиповолемия",
     "symptomEn" : "Hypovolemia",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "намаление на обема на кръвта, циркулираща в тялото",
     "isVisible" : true,
     "causes"    : [
@@ -1482,13 +1482,13 @@
       {"group": "Топлинен удар"                          }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
     "symptom"   : "Бледи лигавици",
     "symptomEn" : "Pale gums",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1499,13 +1499,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
     "symptom"   : "Цианоза",
     "symptomEn" : "Cyanosis",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1516,13 +1516,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
     "symptom"   : "Студени крайници",
     "symptomEn" : "Cold extremities",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1533,13 +1533,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
     "symptom"   : "Оток на крайниците",
     "symptomEn" : "Swollen limbs",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1550,13 +1550,13 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
     "symptom"   : "Непоносимост към физическо натоварване",
     "symptomEn" : "Exercise intolerance",
-    "type"      : "cardiovascular",
+    "type"      : "circulatory",
     "meaning"   : "",
     "isVisible" : false,
     "causes"    : [
@@ -1567,7 +1567,7 @@
       }
     ],
     "links" : [
-      { "title": "няма-линк" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+      { "title": "няма-линк" , "link": "pdfs/@algorithms/circulatory/.pdf" }
     ]
   },
   {
@@ -1803,7 +1803,7 @@
       }
     ],
     "links": [
-      { "title": "Ендокринни разстройства, причиняващи полиурия и полидипсия", "link": "pdfs/@algorithms/gastrointestinal/endocrine-disorders-polyuria-polydipsia-saim.png" }
+      { "title": "Ендокринни разстройства, причиняващи полиурия и полидипсия", "link": "pdfs/@algorithms/digestive/endocrine-disorders-polyuria-polydipsia-saim.png" }
     ]
   },
   {

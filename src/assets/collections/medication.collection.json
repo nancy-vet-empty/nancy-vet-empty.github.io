@@ -1,6 +1,6 @@
 [
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Воминил 10 мг/мл",
     "titleEn": "Vominil 10 mg/ml",
     "activeSubstance": "маропитант",
@@ -24,7 +24,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Церения 10 мг/мл",
     "titleEn": "Cerenia 10 mg/ml",
     "activeSubstance": "маропитант",
@@ -48,7 +48,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Превомакс 10 мг/мл",
     "titleEn": "Prevomax 10 mg/ml",
     "activeSubstance": "маропитант",
@@ -72,7 +72,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Деган 10 мг/2 мл",
     "titleEn": "Degan 10 mg/2 ml",
     "activeSubstance": "метоклопрамид",
@@ -96,7 +96,7 @@
     "pharmacology"      : ["стимулира мотилитета на горния стомашно-чревен тракт без да стимулира стомашната, панкреатичната или билиарната секреция", "В ЦНС метоклопрамид антагонизира допамина"]
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Зофран 2 мг/мл",
     "titleEn": "Zofran 2 mg/ml",
     "activeSubstance": "ондансетрон",
@@ -120,7 +120,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Ондансетрон Акорд 2 мг/мл",
     "titleEn": "Ondansetron Accord 2 mg/ml",
     "activeSubstance": "ондансетрон",
@@ -144,7 +144,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Аповомин 3 мг/мл",
     "titleEn": "Apovomin 3 mg/ml",
     "activeSubstance": "апоморфин",
@@ -169,7 +169,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Клевор 30 мг/мл капки за очи",
     "titleEn": "Clevor 30 mg/ml eye drops",
     "activeSubstance": "ропинирол",
@@ -194,7 +194,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Нолпаза 40 мг/4 мл",
     "titleEn": "Nolpaza 40 mg/4 ml",
     "activeSubstance": "пантопразол",
@@ -218,7 +218,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Панразол 20 мг табл.",
     "titleEn": "Panrazol 20 mg tabl",
     "activeSubstance": "пантопразол",
@@ -243,7 +243,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Сопрал 20 мг капс",
     "titleEn": "Sopral 20 mg caps",
     "activeSubstance": "омепразол",
@@ -268,7 +268,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Нексиум 40 мг",
     "titleEn": "Nexium 40 mg",
     "activeSubstance": "езомепразол",
@@ -292,7 +292,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Квамател 20 мг/5 мл",
     "titleEn": "Quamatel 20 mg/5 ml",
     "activeSubstance": "фамотидин",
@@ -316,7 +316,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Фамотидин 20 мг табл.",
     "titleEn": "Famotidine 20 mg tabl.",
     "activeSubstance": "фамотидин",
@@ -340,7 +340,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Антепсин 1 г/5 мл",
     "titleEn": "Antepsin 1 g/5 ml",
     "activeSubstance": "сукралфат",
@@ -365,7 +365,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Имодиум 2 мг табл.",
     "titleEn": "Imodium 2 mg tabl",
     "activeSubstance": "лоперамид",
@@ -397,7 +397,7 @@
     "adverseEffects"    : ["Запек, подуване и седация."]
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Зирид 50 мг табл.",
     "titleEn": "Zirid 50 mg tabl",
     "activeSubstance": "итоприд",
@@ -422,7 +422,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Лактулоза-MIP 65 г/100 мл сироп",
     "titleEn": "Lactulose-MIP",
     "activeSubstance": "лактулоза",
@@ -446,7 +446,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Дуфалак 67 г/ 100 мл перорален р-р",
     "titleEn": "Duphalac",
     "activeSubstance": "лактулоза",
@@ -470,7 +470,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Хуск Псилиум",
     "titleEn": "Husk Psylium",
     "activeSubstance": "Люспи от семената на бял живовляк",
@@ -495,7 +495,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "ДаФорте",
     "titleEn": "DaForte",
     "activeSubstance": "олигозахариди, фибри, aтапулгит",
@@ -519,7 +519,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "ФортиФлора",
     "titleEn": "FortiFlora",
     "activeSubstance": "probiotic",
@@ -543,7 +543,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "ФермАктив прах",
     "titleEn": "FermActiv powder",
     "activeSubstance": "Enterococcus faecium",
@@ -575,7 +575,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Ентерофилус пробиотик и пребиотик",
     "titleEn": "Enterofilus probiotic and prebiotic",
     "activeSubstance": "probiotic, prebiotic",
@@ -608,7 +608,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Про-Колин Ентерогеник",
     "titleEn": "Pro-Kolin Enterogenic",
     "activeSubstance": "пробиотик, пребиотик, постбиотик, витамин Б12, бентонит",
@@ -639,7 +639,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Диалакту",
     "titleEn": "Dialactu",
     "activeSubstance": "лактулоза, декстроза",
@@ -663,7 +663,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Диа-Таб",
     "titleEn": "Dia-Tab",
     "activeSubstance": "пектин, декстроза, минерали",
@@ -688,7 +688,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "ЕнтероМикро паста",
     "titleEn": "EnteroMicro Pasta",
     "activeSubstance": "пребиотици, пробиотици",
@@ -711,7 +711,7 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },  {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Нутри Плюс Гел",
     "titleEn": "Nutri Plus Gel",
     "activeSubstance": "витамини, минерали, микроелементи",
@@ -735,7 +735,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "ВетГастрил",
     "titleEn": "VetGastril",
     "activeSubstance": "сукроза сулфат, алуминиев хидроксид",
@@ -759,7 +759,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Стомек табл",
     "titleEn": "Stomek tabl",
     "activeSubstance": "лайка, женско биле, джинджифил, бактерии",
@@ -783,7 +783,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Малцова паста",
     "titleEn": "Malt paste",
     "activeSubstance": "малц",
@@ -808,7 +808,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Ветоквинол Безопет",
     "titleEn": "Vetoquinol BezoPet",
     "activeSubstance": "малцова паста",
@@ -832,7 +832,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Диафарм Хеърбол Ремеди",
     "titleEn": "Diafarm Hairball Remedy ",
     "activeSubstance": "малцова паста",
@@ -857,7 +857,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "активен въглен",
     "titleEn": "Activated charcoal",
     "activeSubstance": "активен въглен",
@@ -882,7 +882,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Урзофалк 250 мг капсули",
     "titleEn": "Ursofalk 250 mg caps",
     "activeSubstance": "урзодезоксихолева киселина",
@@ -907,7 +907,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Трансметил 500 мг таблетки",
     "titleEn": "Transmetil 500 mg tabl",
     "activeSubstance": "адеметионин",
@@ -931,7 +931,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Зентонил Адванст 100",
     "titleEn": "Zentonil Advanced 100",
     "activeSubstance": "адеметионин",
@@ -955,7 +955,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Самилин",
     "titleEn": "Samylin",
     "activeSubstance": "адеметионин, силибин, витамин Е, витамин Ц",
@@ -979,7 +979,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Карсил 110 мг табл",
     "titleEn": "Carsil 110 mg tabl",
     "activeSubstance": "силимарин",
@@ -1012,7 +1012,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Легафитон 50",
     "titleEn": "Legaphyton 50",
     "activeSubstance": "лактоза, силибин/фосфолипиди, соеви фибри, орнитин",
@@ -1036,7 +1036,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Легафитон 200",
     "titleEn": "Legaphyton 200",
     "activeSubstance": "лактоза, силибин/фосфолипиди, соеви фибри, орнитин",
@@ -1060,7 +1060,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Хепатиале Форте малки породи 170 мг",
     "titleEn": "Hepatiale Forte 170 mg",
     "activeSubstance": "S-аденозилметионин, силимарин, орнитин, цинк, фосфолипиди",
@@ -1091,7 +1091,7 @@
     "pharmacology"      : ["S-Аденозилметионин (SAM) намалява при ЧД заболявания.", "Силимарин - антиоксидант върху хепатоцитите."]
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Хепатиале Форте Адвансд",
     "titleEn": "Hepatiale Forte Advanced",
     "activeSubstance": "S-аденозилметионин, силимарин, орнитин, цинк, фосфолипиди",
@@ -1115,7 +1115,7 @@
     "pharmacology"      : ["S-Аденозилметионин (SAM) намалява при ЧД заболявания.", "Силимарин - антиоксидант върху хепатоцитите."]
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Панкреалекс",
     "titleEn": "Pancrealex",
     "activeSubstance": "Atropa belladonna, Berberis vulgaris, Calcium carbonicum, Lycopodium clavatum, Matricaria recutita, Taraxacum officinalis, други",
@@ -1139,7 +1139,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Мезим форте 10 000 табл.",
     "titleEn": "Mezim forte",
     "activeSubstance": "панкреатин",
@@ -1163,7 +1163,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Ремирта 30 мг табл",
     "titleEn": "Remirta",
     "activeSubstance": "миртазапин",
@@ -1194,7 +1194,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "gastrointestinal",
+    "type": "digestive",
     "title": "Индигест инжективен",
     "titleEn": "Indigest Injectable",
     "activeSubstance": "menbutone",
@@ -1415,7 +1415,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Силденафил Стада",
     "titleEn": "Sildenafil Stada",
     "activeSubstance": "Силденафил",
@@ -1440,7 +1440,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Сотахексал 80 мг табл",
     "titleEn": "Sotahexal",
     "activeSubstance": "соталол",
@@ -1472,7 +1472,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Амодип 1.25 мг табл",
     "titleEn": "Amodip 1.25 mg tabl",
     "activeSubstance": "амлодипин",
@@ -1497,7 +1497,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Клопидогрел 75 мг табл.",
     "titleEn": "Clopidogrel 75 mg tabl",
     "activeSubstance": "клопидогрел",
@@ -1521,7 +1521,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Фурантрил 40 мг табл",
     "titleEn": "Furantril 40 mg tabl",
     "activeSubstance": "Фуроземид",
@@ -1546,7 +1546,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Фуроземид 5%",
     "titleEn": "Furosemide 5%",
     "activeSubstance": "Фуроземид",
@@ -1571,7 +1571,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Торсит SR 5 mg",
     "titleEn": "Torside SR 5 mg",
     "activeSubstance": "тораземид",
@@ -1596,7 +1596,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Иземид 4 мг табл",
     "titleEn": "Isemid 4 mg tabl",
     "activeSubstance": "тораземид",
@@ -1621,7 +1621,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Кардалис 2.5 мг табл.",
     "titleEn": "Cardalis 2.5 mg tabl",
     "activeSubstance": "беназеприл, спиронолактон",
@@ -1645,7 +1645,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Кардалис 5 мг/табл",
     "titleEn": "Cardalis 5 mg tabl",
     "activeSubstance": "беназеприл, спиронолактон",
@@ -1669,7 +1669,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Кардалис 10 мг/табл",
     "titleEn": "Cardalis 10 mg tabl",
     "activeSubstance": "беназеприл, спиронолактон",
@@ -1693,7 +1693,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Ветмедин 5 мг",
     "titleEn": "Vetmedin 5 mg",
     "activeSubstance": "пимобендан",
@@ -1718,7 +1718,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Кардишуър 10 мг",
     "titleEn": "Cardisure 10 mg",
     "activeSubstance": "пимобендан",
@@ -1743,7 +1743,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Фортекор Плюс 1,25 мг/2,5 мг табл",
     "titleEn": "Fortekor Plus 1,25 mg/2,5 mg",
     "activeSubstance": "пимобендан, беназеприл",
@@ -1768,7 +1768,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Енап 10 мг табл",
     "titleEn": "Enap 10 mg tabl",
     "activeSubstance": "еналаприл",
@@ -1792,7 +1792,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Енап 10 мг/12,5 мг табл",
     "titleEn": "Enap 10 mg/12,5 mg tabl",
     "activeSubstance": "еналаприл, хидрохлоротиазид",
@@ -1816,7 +1816,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "Манитол 15%",
     "titleEn": "Mannitol 15%",
     "activeSubstance": "манитол",
@@ -1841,7 +1841,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "cardiovascular",
+    "type": "circulatory",
     "title": "ХемоВет табл",
     "titleEn": "HemoVet tabl",
     "activeSubstance": "желязо, мед, витамин Б6, витамин Б9, витамин Б12, витамин Ц",
