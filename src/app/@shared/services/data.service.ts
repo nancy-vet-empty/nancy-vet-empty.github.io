@@ -95,26 +95,26 @@ export class DataService {
     ];
 
     if($preset == 'diseases') {
-
+//That's not the real path for diseases icon, but drug-card-diseases
       return [
-        { category: 'infectious'      , title: `Инфекциозни заболявания`,  imgPath: `/assets/pdfs/@diseases/icons/1-infectious.png`},
-        { category: 'parasitic'       , title: `Паразитни заболявания`,  imgPath: `/assets/pdfs/@diseases/icons/2-parasitic.png`},
-        { category: 'neoplasms'       , title: `Новообразувания`,  imgPath: `/assets/pdfs/@diseases/icons/3-neoplasms.png`},
-        { category: 'blood'           , title: `Болести на кръвта и имунната система`,  imgPath: `/assets/pdfs/@diseases/icons/4-blood.png`},
-        { category: 'nervous'         , title: `Болести на нервната система`,  imgPath: `/assets/pdfs/@diseases/icons/5-nervous.png`},
-        { category: 'eye'             , title: `Болести на окото`,  imgPath: `/assets/pdfs/@diseases/icons/6-eye.png`},
-        { category: 'ear'             , title: `Болести на ухото`,  imgPath: `/assets/pdfs/@diseases/icons/7-ear.png`},
-        { category: 'mental'          , title: `Поведенчески разстройства`,  imgPath: `/assets/pdfs/@diseases/icons/8-mental.png`},
-        { category: 'endocrine'       , title: `Болести на ендокринната система`,  imgPath: `/assets/pdfs/@diseases/icons/9-endocrine.png`},
-        { category: 'circulatory'     , title: `Болести на кръвообращението`,  imgPath: `/assets/pdfs/@diseases/icons/10-circulatory.png`},
-        { category: 'respiratory'     , title: `Болести на дихателната система`,  imgPath: `/assets/pdfs/@diseases/icons/11-respiratory.png`},
-        { category: 'digestive'       , title: `Болести на храносмилателната система`,  imgPath: `/assets/pdfs/@diseases/icons/12-digestive.png`},
-        { category: 'skin'            , title: `Болести на кожата`,  imgPath: `/assets/pdfs/@diseases/icons/13-skin.png`},
-        { category: 'muskuloskeletal' , title: `Болести на костно-мускулната система`,  imgPath: `/assets/pdfs/@diseases/icons/14-muskuloskeletal.png`},
-        { category: 'genitourinary'   , title: `Болести на пикочо-половата система`,  imgPath: `/assets/pdfs/@diseases/icons/15-genitourinary.png`},
-        { category: 'pregnancy'       , title: `Бременност и раждане`,  imgPath: `/assets/pdfs/@diseases/icons/16-pregnancy.png`},
-        { category: 'congenital'      , title: `Вродени аномалии`,  imgPath: `/assets/pdfs/@diseases/icons/17-congenital.png`},
-        { category: 'injuries'        , title: `Травми и отравяния`,  imgPath: `/assets/pdfs/@diseases/icons/18-injuries.png`}
+        { category: 'infectious'      , title: `Инфекциозни заболявания`,  imgPath: `/assets/icon/diseases/1-infectious.png`},
+        { category: 'parasitic'       , title: `Паразитни заболявания`,  imgPath: `/assets/icon/diseases/2-parasitic.png`},
+        { category: 'neoplasms'       , title: `Новообразувания`,  imgPath: `/assets/icon/diseases/3-neoplasms.png`},
+        { category: 'blood'           , title: `Болести на кръвта и имунната система`,  imgPath: `/assets/icon/diseases/4-blood.png`},
+        { category: 'nervous'         , title: `Болести на нервната система`,  imgPath: `/assets/icon/diseases/5-nervous.png`},
+        { category: 'eye'             , title: `Болести на окото`,  imgPath: `/assets/icon/diseases/6-eye.png`},
+        { category: 'ear'             , title: `Болести на ухото`,  imgPath: `/assets/icon/diseases/7-ear.png`},
+        { category: 'mental'          , title: `Поведенчески разстройства`,  imgPath: `/assets/icon/diseases/8-mental.png`},
+        { category: 'endocrine'       , title: `Болести на ендокринната система`,  imgPath: `/assets/icon/diseases/9-endocrine.png`},
+        { category: 'circulatory'     , title: `Болести на кръвообращението`,  imgPath: `/assets/icon/diseases/10-circulatory.png`},
+        { category: 'respiratory'     , title: `Болести на дихателната система`,  imgPath: `/assets/icon/diseases/11-respiratory.png`},
+        { category: 'digestive'       , title: `Болести на храносмилателната система`,  imgPath: `/assets/icon/diseases/12-digestive.png`},
+        { category: 'skin'            , title: `Болести на кожата`,  imgPath: `/assets/icon/diseases/13-skin.png`},
+        { category: 'muskuloskeletal' , title: `Болести на костно-мускулната система`,  imgPath: `/assets/icon/diseases/14-muskuloskeletal.png`},
+        { category: 'genitourinary'   , title: `Болести на пикочо-половата система`,  imgPath: `/assets/icon/diseases/15-genitourinary.png`},
+        { category: 'pregnancy'       , title: `Бременност и раждане`,  imgPath: `/assets/icon/diseases/16-pregnancy.png`},
+        { category: 'congenital'      , title: `Вродени аномалии`,  imgPath: `/assets/icon/diseases/17-congenital.png`},
+        { category: 'injuries'        , title: `Травми и отравяния`,  imgPath: `/assets/icon/diseases/18-injuries.png`}
       ];
     }
 
@@ -156,7 +156,7 @@ export class DataService {
         { category: 'skin'              , title: 'кожа'                 , imgPath: `/assets/icon/skin.png`              },
         { category: 'antibiotics'       , title: 'антибиотици'          , imgPath: `/assets/icon/antibiotics.png`       },
         { category: 'antiparasitic'     , title: 'противопаразитни'     , imgPath: `/assets/icon/antiparasitic.png`     },
-        { category: 'endocrine'         , title: 'ендокринни'           , imgPath: `/assets/icon/chemotherapeutics.png` },
+        { category: 'endocrine'         , title: 'ендокринни'           , imgPath: `/assets/icon/endocrine.png` },
         { category: 'antiinflammatory'  , title: 'противовъзпалителни'  , imgPath: `/assets/icon/antiinflammatory.png`  },
         { category: 'others'            , title: 'други'                , imgPath: `/assets/icon/others.png`            }
       ];

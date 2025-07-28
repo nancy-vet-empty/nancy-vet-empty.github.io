@@ -58,7 +58,7 @@ export class DrugCard implements OnInit {
     if(this.object?.type == 'skin'              ) return `/assets/icon/skin.png`;
     if(this.object?.type == 'antibiotics'       ) return `/assets/icon/antibiotics.png`;
     if(this.object?.type == 'antiparasitic'     ) return `/assets/icon/antiparasitic.png`;
-    if(this.object?.type == 'endocrine'         ) return `/assets/icon/chemotherapeutics.png`;
+    if(this.object?.type == 'endocrine'         ) return `/assets/icon/endocrine.png`;
     if(this.object?.type == 'antiinflammatory'  ) return `/assets/icon/antiinflammatory.png`;
     if(this.object?.type == 'others'            ) return `/assets/icon/others.png`;
 

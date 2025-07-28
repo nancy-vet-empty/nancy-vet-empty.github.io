@@ -46,25 +46,25 @@ export class DrugCardDiseases implements OnInit {
   }
 
     private buildAssetPath(): string {
-
-    if(this.object?.type == 'infectious'      ) return `/assets/pdfs/@diseases/icons/1-infectious.png`;
-    if(this.object?.type == 'parasitic'       ) return `/assets/pdfs/@diseases/icons/2-parasitic.png`;
-    if(this.object?.type == 'neoplasms'       ) return `/assets/pdfs/@diseases/icons/3-neoplasms.png`;
-    if(this.object?.type == 'blood'           ) return `/assets/pdfs/@diseases/icons/4-blood.png`;
-    if(this.object?.type == 'nervous'         ) return `/assets/pdfs/@diseases/icons/5-nervous.png`;
-    if(this.object?.type == 'eye'             ) return `/assets/pdfs/@diseases/icons/6-eye.png`;
-    if(this.object?.type == 'ear'             ) return `/assets/pdfs/@diseases/icons/7-ear.png`;
-    if(this.object?.type == 'mental'          ) return `/assets/pdfs/@diseases/icons/8-mental.png`;
-    if(this.object?.type == 'endocrine'       ) return `/assets/pdfs/@diseases/icons/9-endocrine.png`;
-    if(this.object?.type == 'circulatory'     ) return `/assets/pdfs/@diseases/icons/10-circulatory.png`;
-    if(this.object?.type == 'respiratory'     ) return `/assets/pdfs/@diseases/icons/11-respiratory.png`;
-    if(this.object?.type == 'digestive'       ) return `/assets/pdfs/@diseases/icons/12-digestive.png`;
-    if(this.object?.type == 'skin'            ) return `/assets/pdfs/@diseases/icons/13-skin.png`;
-    if(this.object?.type == 'muskuloskeletal' ) return `/assets/pdfs/@diseases/icons/14-muskuloskeletal.png`;
-    if(this.object?.type == 'genitourinary'   ) return `/assets/pdfs/@diseases/icons/15-genitourinary.png`;
-    if(this.object?.type == 'pregnancy'       ) return `/assets/pdfs/@diseases/icons/16-pregnancy.png`;
-    if(this.object?.type == 'congenital'      ) return `/assets/pdfs/@diseases/icons/17-congenital.png`;
-    if(this.object?.type == 'injuries'        ) return `/assets/pdfs/@diseases/icons/18-injuries.png`;
+//That's the real path for Diseases icons:
+    if(this.object?.type == 'infectious'      ) return `/assets/icon/diseases/1-infectious.png`;
+    if(this.object?.type == 'parasitic'       ) return `/assets/icon/diseases/2-parasitic.png`;
+    if(this.object?.type == 'neoplasms'       ) return `/assets/icon/diseases/3-neoplasms.png`;
+    if(this.object?.type == 'blood'           ) return `/assets/icon/diseases/4-blood.png`;
+    if(this.object?.type == 'nervous'         ) return `/assets/icon/diseases/5-nervous.png`;
+    if(this.object?.type == 'eye'             ) return `/assets/icon/diseases/6-eye.png`;
+    if(this.object?.type == 'ear'             ) return `/assets/icon/diseases/7-ear.png`;
+    if(this.object?.type == 'mental'          ) return `/assets/icon/diseases/8-mental.png`;
+    if(this.object?.type == 'endocrine'       ) return `/assets/icon/diseases/9-endocrine.png`;
+    if(this.object?.type == 'circulatory'     ) return `/assets/icon/diseases/10-circulatory.png`;
+    if(this.object?.type == 'respiratory'     ) return `/assets/icon/diseases/11-respiratory.png`;
+    if(this.object?.type == 'digestive'       ) return `/assets/icon/diseases/12-digestive.png`;
+    if(this.object?.type == 'skin'            ) return `/assets/icon/diseases/13-skin.png`;
+    if(this.object?.type == 'muskuloskeletal' ) return `/assets/icon/diseases/14-muskuloskeletal.png`;
+    if(this.object?.type == 'genitourinary'   ) return `/assets/icon/diseases/15-genitourinary.png`;
+    if(this.object?.type == 'pregnancy'       ) return `/assets/icon/diseases/16-pregnancy.png`;
+    if(this.object?.type == 'congenital'      ) return `/assets/icon/diseases/17-congenital.png`;
+    if(this.object?.type == 'injuries'        ) return `/assets/icon/diseases/18-injuries.png`;
 
     return ``;
   }
