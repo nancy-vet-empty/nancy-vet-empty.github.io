@@ -82,19 +82,31 @@ export class SymptomTab implements OnInit {
                                         .get();
   }
 
-    constructor(private modalCtrl: ModalController) {}
+  constructor(private modalCtrl: ModalController) {}
 
-    async onAddSymptom() {
-      const modal = await this.modalCtrl.create({
-        component: AddSymptomModalComponent
-      });
+  async onAddSymptom() {
+    const modal = await this.modalCtrl.create({
+      component: AddSymptomModalComponent
+    });
 
-      await modal.present();
+    await modal.present();
 
-      const { data } = await modal.onDidDismiss();
-      if (data) {
-        // Save the new medication (add to your collection or send to backend)
-        this.$collection.push(data); // if it's an array, or update the source
-      }
+    const { data } = await modal.onDidDismiss();
+    if (data) {
+      // Save the new medication (add to your collection or send to backend)
+      this.$collection.push(data); // if it's an array, or update the source
     }
+  }
+
+  async openDrugInfo(symptomData: any) {
+    const modal = await this.modalCtrl.create({
+      component: DrugInfoModal,
+      componentProps: {
+        selectedObject: symptomData // symptomData must contain `.name` or `.symptom`
+      }
+    });
+
+    await modal.present();
+  }
+
 }

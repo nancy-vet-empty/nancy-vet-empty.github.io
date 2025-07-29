@@ -1,6 +1,7 @@
 import { Component, OnInit, inject } from "@angular/core";
-import { ModalController } from "@ionic/angular";
+import { ModalController, NavParams } from '@ionic/angular';
 import { PatientDataService } from 'nv@services/patients-data.service';
+import PatientsCollectionJson from "nv@json/patients/patients.collection.json";
 
 @Component({
   selector: 'modal--patient-record',
@@ -12,6 +13,7 @@ export class PatientRecordModal implements OnInit {
   private modalController: ModalController = inject(ModalController);
   private $patientDataService: PatientDataService = inject(PatientDataService);
 
+  public pet_id!: number;
   public patient: any;
   public protocols: any[] = [];
   public selectedObject: any; // The chosen patient
@@ -35,11 +37,19 @@ export class PatientRecordModal implements OnInit {
     manipulations: '',
     differential_diagnosis: ''
   };
+  constructor(private navParams: NavParams) {}
 
   ngOnInit() {
-  this.loadProtocols();
-  this.loadResults();
+    this.pet_id = this.navParams.get('pet_id');
+    console.log("Received pet_id:", this.pet_id);
 
+    this.loadPatient();
+    this.loadProtocols();
+  }
+
+  loadPatient() {
+    this.patient = PatientsCollectionJson.find(p => p.pet_id === this.pet_id);
+    console.log("Loaded patient:", this.patient);
   }
 
   public loadProtocols() {
@@ -156,6 +166,7 @@ public addProtocol() {
       protocol_modification_date: '',
       protocol_completion_date: '',
       pet_id: this.patient.pet_id,
+      symptoms: this.newProtocol.symptoms.split(',').map((m: string) => m.trim()),
       medications: this.newProtocol.medications.split(',').map((m: string) => m.trim()),
       manipulations: this.newProtocol.manipulations.split(',').map((m: string) => m.trim()),
     };

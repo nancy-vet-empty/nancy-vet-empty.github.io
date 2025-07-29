@@ -49,6 +49,13 @@
     </div>
   }
 
+  <div *ngIf="selectedObject.link && selectedObject.link !== 'няма-линк'">
+    <nv-link-button
+      [inputTitle]="'Отвори линк'"
+      (onClick)="onOpenLink(selectedObject.link)">
+    </nv-link-button>
+  </div>
+
   <!-- @for(element of selectedObject.links; track element) {
     <nv-link-button
     *ngIf="element.title !== 'няма-линк'"
@@ -56,5 +63,21 @@
     (onClick)="onOpenPdfDocument(element.link)">
     </nv-link-button>
 } -->
+
+<h3>Пациенти с "{{ symptomName }}"</h3>
+
+<ion-list *ngIf="relatedPatients.length > 0; else noMatches">
+  <ion-item *ngFor="let patient of relatedPatients" button (click)="openPatientInfo(patient.pet_id)">
+    <ion-label>
+      <h2>{{ patient.pet_name }}</h2>
+      <p>{{ patient.pets_diseases }} • {{ patient.age }}</p>
+    </ion-label>
+  </ion-item>
+</ion-list>
+
+<ng-template #noMatches>
+  <p>Няма намерени пациенти с този симптом.</p>
+</ng-template>
+
 
 </nv-info-modal>
