@@ -50,8 +50,10 @@ export class PatientBar implements OnInit {
 
   private buildAssetPath(): string {
 
-    if(this.object?.animalType == 'котка' ) return `/assets/icon/picker/cat.png`;
-    if(this.object?.animalType == 'куче'  ) return `/assets/icon/picker/dog.png`;
+    if(this.object?.animalType == 'dog'       ) return `/assets/icon/picker/dog.png`;
+    if(this.object?.animalType == 'cat'       ) return `/assets/icon/picker/cat.png`;
+    if(this.object?.animalType == 'rabbit'    ) return `/assets/icon/picker/rabbit.png`;
+    if(this.object?.animalType == 'guineapig' ) return `/assets/icon/picker/guineapig.png`;
 
     return ``;
   }

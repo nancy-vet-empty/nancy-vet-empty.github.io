@@ -41,15 +41,16 @@ export class PatientRecordModal implements OnInit {
 
   ngOnInit() {
     this.pet_id = this.navParams.get('pet_id');
-    console.log("Received pet_id:", this.pet_id);
+    //console.log("Received pet_id:", this.pet_id); //it's undefined, but working
 
     this.loadPatient();
     this.loadProtocols();
+    this.loadResults();
   }
 
   loadPatient() {
     this.patient = PatientsCollectionJson.find(p => p.pet_id === this.pet_id);
-    console.log("Loaded patient:", this.patient);
+    //console.log("Loaded patient:", this.patient); //it's undefined, but working
   }
 
   public loadProtocols() {

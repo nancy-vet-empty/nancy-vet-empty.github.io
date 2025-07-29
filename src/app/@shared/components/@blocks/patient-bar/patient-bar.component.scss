@@ -8,12 +8,14 @@
 }
 
 .card-img img {
-  margin-top: 6px;
+  padding: 6px;
 }
 
 
-.cat      { background-color: #356cfe;  }
-.dog      { background-color: #85c15b;  }
+.cat        { background-color: #356cfe;  }
+.dog        { background-color: #85c15b;  }
+.rabbit     { background-color: #b9476f;  }
+.guineapig  { background-color: #fcad35;  }
 
 #petNameCol {
   display: flex;

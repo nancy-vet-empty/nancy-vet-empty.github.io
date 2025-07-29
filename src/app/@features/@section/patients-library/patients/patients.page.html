@@ -18,15 +18,42 @@
       <ion-col size="10">
         <ion-button (click)="onSearchCategorySelected('ownerName')">собственик - име</ion-button>
         <ion-button (click)="onSearchCategorySelected('ownerAdress')">собственик - адрес</ion-button>
-        <ion-button (click)="onSearchCategorySelected('telephone')">телефонен номер</ion-button>
+        <!-- <ion-button (click)="onSearchCategorySelected('telephone')">телефонен номер</ion-button> -->
         <ion-button (click)="onSearchCategorySelected('petName')">животно - име</ion-button>
         <ion-button (click)="onSearchCategorySelected('diagnosis')">заболяване</ion-button>
       </ion-col>
 
-      <ion-col >
-        <ion-button class="pet-button"><img src="/assets/icon/picker/dog.png"></ion-button>
-        <ion-button class="pet-button"><img src="/assets/icon/picker/cat.png"></ion-button>
+      <ion-col>
+        <ion-button
+          class="pet-button"
+          [color]="selectedAnimalType === 'dog' ? 'primary' : 'medium'"
+          (click)="onSearchCategorySelected('dog')">
+          <img src="/assets/icon/picker/dog.png">
+        </ion-button>
+
+        <ion-button
+          class="pet-button"
+          [color]="selectedAnimalType === 'cat' ? 'primary' : 'medium'"
+          (click)="onSearchCategorySelected('cat')">
+          <img src="/assets/icon/picker/cat.png">
+        </ion-button>
+
+        <ion-button
+          class="pet-button"
+          [color]="selectedAnimalType === 'rabbit' ? 'primary' : 'medium'"
+          (click)="onSearchCategorySelected('rabbit')">
+          <img src="/assets/icon/picker/rabbit.png">
+        </ion-button>
+
+        <ion-button
+          class="pet-button"
+          [color]="selectedAnimalType === 'guineapig' ? 'primary' : 'medium'"
+          (click)="onSearchCategorySelected('guineapig')">
+          <img src="/assets/icon/picker/guineapig.png">
+        </ion-button>
+
       </ion-col>
+
     </ion-row>
   </ion-grid>
 

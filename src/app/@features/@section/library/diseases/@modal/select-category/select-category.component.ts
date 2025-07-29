@@ -41,9 +41,17 @@ export class SelectCategoryModal {
    */
   /** При Филтриране на заболяванията, първо тази функция се изпълнява. */
   public processOnAnimalTypeSelect($animalType: any) {
-    this.selectedAnimalType = $animalType;
-    console.log(`selectedAnimalType: ${this.selectedAnimalType}`)
+    if (typeof $animalType === 'object' && $animalType?.category) {
+      this.selectedAnimalType = $animalType.category;
+    } else if (typeof $animalType === 'string') {
+      this.selectedAnimalType = $animalType;
+    } else {
+      this.selectedAnimalType = '';
+    }
+
+    console.log('selectedAnimalType:', this.selectedAnimalType);
   }
+
 
   /**
    * @author Mihail Petrov

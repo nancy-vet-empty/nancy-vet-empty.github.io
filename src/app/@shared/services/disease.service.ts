@@ -74,28 +74,33 @@ export class DiseasesService {
     return this;
   }
 
-    /**
-   * @author Mihail Petrov
-   * @param title
-   * @returns
-   */
-  /** Филтриране на заболявания: Пета функция */
-  public filterByAnimalType(categoryElement: any) {
 
-    if (categoryElement.length === 0) {
-      return this;
+
+  public filterByAnimalType(animalType: string | null) {
+    if (!animalType || animalType.trim() === '') {
+      return this; // No filter
     }
 
-    const categoryCollection = categoryElement.map((element: any) => {
-      return element.category;
-    });
+    const typeMap: any = {
+      dog: 'dogs',
+      cat: 'cats',
+      rabbit: 'rabbits',
+      guineapig: 'guinea pigs'
+    };
+
+    const typePlural = typeMap[animalType.toLowerCase()];
+    if (!typePlural) return this;
 
     this.$intermediateCollection = this.$intermediateCollection.filter((element: any) => {
-      return categoryCollection.some((o: any) => element.animals.includes(o));
+      return Array.isArray(element.animals) &&
+            element.animals.map((a: string) => a.toLowerCase()).includes(typePlural);
     });
+
 
     return this;
   }
+
+
 
   /**
    * @author Mihail Petrov

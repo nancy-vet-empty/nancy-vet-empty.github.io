@@ -21,6 +21,7 @@ export class PatientsPage implements OnInit {
 
   public $collection: any = [];
   public searchCategory = "ownerName";
+  public selectedAnimalType: 'dog' | 'cat' | "rabbit" | "guineapig" | null = null;
 
   public ngOnInit(): void {
     this.$collection = this.$dataService.$patient().getAll();
@@ -46,25 +47,54 @@ export class PatientsPage implements OnInit {
   //                     .getAll();
   // }
 
-  public onItemSearched($event: any) {
+public onItemSearched($event: any) {
+  let service = this.$dataService.$patient();
 
-    if(this.searchCategory == "ownerName") {
-      this.$collection = this.$dataService.$patient().filterByOwnerName($event).getAll();
-    }
-    if(this.searchCategory == "diagnosis") {
-      this.$collection = this.$dataService.$patient().filterByDiagnosis($event).getAll();
-    }
-
+  if (this.selectedAnimalType) {
+    service = service.filterByAnimalType(this.selectedAnimalType);
   }
+
+  if (this.searchCategory == "ownerName") {
+    service = service.filterByOwnerName($event);
+  }
+  if (this.searchCategory == "diagnosis") {
+    service = service.filterByDiagnosis($event);
+  }
+  if (this.searchCategory == "petName") {
+    service = service.filterByPetName($event);
+  }
+
+  this.$collection = service.getAll();
+}
+
 
 
   public onFilter($event: any) {
     console.log($event)
   }
 
-  public onSearchCategorySelected(searchCategory: string) {
-    this.searchCategory = searchCategory;
+  public onSearchCategorySelected(category: string) {
+    // Handle animalType selection separately
+    if (category === 'dog' || category === 'cat' || category === 'rabbit' || category === 'guineapig') {
+      // Toggle selection (same button clicked again)
+      this.selectedAnimalType = this.selectedAnimalType === category ? null : category;
+      this.applyFilters();
+      return;
+    }
+
+    this.searchCategory = category;
   }
+
+public applyFilters() {
+  let service = this.$dataService.$patient();
+
+  if (this.selectedAnimalType) {
+    service = service.filterByAnimalType(this.selectedAnimalType);
+  }
+
+  // This will handle search input from the toolbar (e.g., by owner, name, etc.)
+  this.$collection = service.getAll();
+}
 
 
 

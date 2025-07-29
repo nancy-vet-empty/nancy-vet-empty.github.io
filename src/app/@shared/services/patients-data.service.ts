@@ -79,6 +79,32 @@ export class PatientDataService {
     return this;
   }
 
+
+    public filterByPetName(petName: any) {
+
+
+    if(!petName) return this;
+
+    this.$patientCollection = this.$patientCollection.filter((element: any) => {
+      return (element.pet_name).toLowerCase().includes(petName.toLowerCase()) ||
+             (element.pet_name).toLowerCase().includes(petName.toLowerCase());
+    });
+
+    return this;
+  }
+
+public filterByAnimalType(animalType: any) {
+
+  if (animalType === 'dog' || animalType === 'cat' || animalType === 'rabbit' || animalType === 'guineapig') {
+    this.$patientCollection = this.$patientCollection.filter((element: any) => {
+      return (element.animalType).toLowerCase().includes(animalType.toLowerCase());
+    });
+  }
+
+  return this;
+}
+
+
   /**
    * @author Mihail Petrov
    * @param title
