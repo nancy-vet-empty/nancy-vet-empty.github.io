@@ -91,28 +91,44 @@
 
   // ADD PROTOCOL
 
-.form-popup {
-  margin-top: 20px;
-  padding: 15px;
-  border-radius: 10px;
-}
+  .form-popup {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+  }
 
-textarea {
-  width: 100%;
-  margin-bottom: 10px;
-}
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
-.form-one-style {
-  display: flex;
-  justify-content: space-between;
-}
+  .form-one-style {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.btn-success, .btn-primary{
- --background: #28b02f;
-}
+  .btn-success, .btn-primary{
+  --background: #28b02f;
+  }
 
-.btn-fail{
- --background: #d60b52;
-}
+  .btn-fail{
+  --background: #d60b52;
+  }
+
+  .medical_record {
+    padding: 16px;
+  }
+
+  .h1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 16px 0 8px;
+    color: #3880ff;
+  }
+
+  .label {
+    font-weight: 500;
+    color: #444;
+  }
 
 }

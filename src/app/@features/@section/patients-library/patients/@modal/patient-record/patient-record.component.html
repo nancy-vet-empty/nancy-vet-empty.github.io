@@ -1,70 +1,49 @@
 <nv-info-modal [inputTitle]="'Картон'" class="ion-page">
 
-  <div class="medical_record">
+<div class="medical_record">
 
-    <div class="h1">
-      Животно:
-    </div>
+  <div class="h1">Животно:</div>
 
-    <div class="component">
-      Номер: {{ selectedObject.pet_id }}
-    </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" class="label">Номер:</ion-col>
+      <ion-col size="6">{{ selectedObject.pet_id }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" class="label">Име:</ion-col>
+      <ion-col size="6">{{ selectedObject.pet_name }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" class="label">Вид:</ion-col>
+      <ion-col size="6">{{ getAnimalTypeLabel(selectedObject.animalType) }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" class="label">Пол:</ion-col>
+      <ion-col size="6">{{ selectedObject.sex }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" class="label">Порода:</ion-col>
+      <ion-col size="6">{{ selectedObject.breed }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" class="label">Възраст:</ion-col>
+      <ion-col size="6">{{ selectedObject.age }}</ion-col>
+    </ion-row>
 
-    <div class="component">
-      Име: {{ selectedObject.pet_name }}
-    </div>
+    <div class="h1">Собственик:</div>
 
-    <div class="component">
-      Вид: {{ selectedObject.animalType }}
-    </div>
+    <ion-row>
+      <ion-col size="6" class="label">Име:</ion-col>
+      <ion-col size="6">{{ selectedObject.owner_name }}</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" class="label">Адрес:</ion-col>
+      <ion-col size="6">{{ selectedObject.address }}</ion-col>
+    </ion-row>
+  </ion-grid>
 
-    <div class="component">
-      Пол: {{ selectedObject.sex }}
-    </div>
+</div>
 
-    <div class="component">
-      Порода: {{ selectedObject.breed }}
-    </div>
-
-    <div class="component">
-      Възраст: {{ selectedObject.age }}
-    </div>
-
-    <!-- <div class="component">
-      Кастрирано: {{ selectedObject.neutered }}
-    </div>
-
-    <div class="component">
-      Микрочип: {{ selectedObject.microchip }}
-    </div>
-
-    <div class="component">
-      Паспорт: {{ selectedObject.passport }}
-    </div>
-
-    <div class="component">
-      Последна ваксина: {{ selectedObject.last_vaccination }}
-    </div> -->
-
-
-
-    <div class="h1">
-      Собственик:
-    </div>
-
-    <div class="component">
-      Име: {{ selectedObject.owner_name }}
-    </div>
-
-    <!-- <div class="component">
-      Телефон: {{ selectedObject.telephone }}
-    </div> -->
-
-    <div class="component">
-      Адрес: {{ selectedObject.address }}
-    </div>
-
-  </div>
 
   <div class="protocols">
     <div class="h1">Протоколи:</div>

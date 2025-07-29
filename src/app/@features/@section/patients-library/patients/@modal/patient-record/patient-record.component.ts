@@ -192,4 +192,18 @@ public addProtocol() {
     this.showForm = false;
   }
 
+  public getAnimalTypeLabel(type: string | null): string {
+    const map: { [key: string]: string } = {
+      cat: 'котка',
+      dog: 'куче',
+      rabbit: 'заек',
+      guineapig: 'морско свинче'
+    };
+
+    //console.log(`animalType: ${type}`);
+
+    return type && map[type] ? map[type] : '';
+  }
+
+
 }
