@@ -80,7 +80,7 @@ export class PatientDataService {
   }
 
 
-    public filterByPetName(petName: any) {
+  public filterByPetName(petName: any) {
 
 
     if(!petName) return this;
@@ -93,16 +93,29 @@ export class PatientDataService {
     return this;
   }
 
-public filterByAnimalType(animalType: any) {
+  public filterByOwnerAddress(ownerAddress: any) {
 
-  if (animalType === 'dog' || animalType === 'cat' || animalType === 'rabbit' || animalType === 'guineapig') {
+
+    if(!ownerAddress) return this;
+
     this.$patientCollection = this.$patientCollection.filter((element: any) => {
-      return (element.animalType).toLowerCase().includes(animalType.toLowerCase());
+      return (element.address).toLowerCase().includes(ownerAddress.toLowerCase()) ||
+             (element.address).toLowerCase().includes(ownerAddress.toLowerCase());
     });
+
+    return this;
   }
 
-  return this;
-}
+  public filterByAnimalType(animalType: any) {
+
+    if (animalType === 'dog' || animalType === 'cat' || animalType === 'rabbit' || animalType === 'guineapig') {
+      this.$patientCollection = this.$patientCollection.filter((element: any) => {
+        return (element.animalType).toLowerCase().includes(animalType.toLowerCase());
+      });
+    }
+
+    return this;
+  }
 
 
   /**

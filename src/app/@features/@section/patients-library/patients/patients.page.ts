@@ -63,6 +63,10 @@ public onItemSearched($event: any) {
   if (this.searchCategory == "petName") {
     service = service.filterByPetName($event);
   }
+  if (this.searchCategory == "ownerAddress") {
+  service = service.filterByOwnerAddress($event); // spelling should match your method
+}
+
 
   this.$collection = service.getAll();
 }
