@@ -21,6 +21,7 @@ export class PatientBar implements OnInit {
   @Input() public inputSubTitle: string = '';
   @Input() public inputOwnerName: string = '';
   @Input() public inputPetsDiseases: string = '';
+  @Input() public inputPetsWard: string = '';
 
   @Output() public onSelectCard = new EventEmitter();
 

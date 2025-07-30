@@ -5,8 +5,8 @@ import { DialogService             } from 'nv@services/dialog.service';
 
 import { SelectCategoryModal       } from './@modal/select-category/select-category.component';
 import { PatientRecordModal        } from './@modal/patient-record/patient-record.component';
-import { ModalController } from '@ionic/angular';
-import { CreatePatientComponent } from './@modal/create-patient/create-patient.component'; // ✅ Adjust if needed
+import { ModalController           } from '@ionic/angular';
+import { CreatePatientComponent    } from './@modal/create-patient/create-patient.component'; // ✅ Adjust if needed
 
 
 @Component({

@@ -13,7 +13,7 @@ import { SelectCategoryModal      } from './@modal/select-category/select-catego
 import { PrimaryMenu              } from 'nv@features/@menu/primary-menu/primary-menu.component';
 
 import { NvRadioComponent         } from 'nv@components/@forms/nv-radio/nv-radio.component';
-import { PatientBar     } from 'nv@components/@blocks/patient-bar/patient-bar.component';
+import { PatientBar               } from 'nv@components/@blocks/patient-bar/patient-bar.component';
 import { NvSearchToolbarComponent } from 'nv@components/@layouts/nv-search-toolbar/nv-search-toolbar.component';
 import { DosePipe                 } from 'nv@pipes/doce.pipe';
 import { CategoryPickerComponent  } from 'nv@components/@blocks/category-picker/category-picker.component';

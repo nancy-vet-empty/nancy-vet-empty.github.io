@@ -24,10 +24,10 @@ const routes: Routes = [
         path          : 'tab1',
         loadChildren  : () => import('../patients/patients.module').then(m => m.PatientsPageModule)
       },
-      // {
-      //   path          : 'tab2',
-      //   loadChildren  : () => import('../ward/ward.module').then(m => m.WardPageModule)
-      // },
+      {
+        path          : 'tab2',
+        loadChildren  : () => import('../patients/ward/ward.module').then(m => m.WardPageModule)
+      },
       {
         path          : '',
         redirectTo    : 'tab1',

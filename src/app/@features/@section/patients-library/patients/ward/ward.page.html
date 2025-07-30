@@ -1,0 +1,61 @@
+<!-- App Header -->
+<!-- App Header -->
+<ion-header>
+  <nv-search-toolbar
+    (onSearch)      = "onItemSearched($event)"
+    (onFilter)      = "onFilter($event)">
+  </nv-search-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  id="main-content"
+  [fullscreen]="true">
+
+  <ion-grid style="padding: 16px; margin: 16px; border-bottom: solid 4px #3880ff;">
+    <ion-row>Какво искаш да намериш?</ion-row>
+    <ion-row class="vertical_buttons">
+        <ion-button
+          class="pet-button"
+          [color]="selectedAnimalType === 'dog' ? 'primary' : 'medium'"
+          (click)="onSearchCategorySelected('dog')">
+          <img src="/assets/icon/picker/dog.png">
+        </ion-button>
+
+        <ion-button
+          class="pet-button"
+          [color]="selectedAnimalType === 'cat' ? 'primary' : 'medium'"
+          (click)="onSearchCategorySelected('cat')">
+          <img src="/assets/icon/picker/cat.png">
+        </ion-button>
+
+        <ion-button
+          class="pet-button"
+          [color]="selectedAnimalType === 'rabbit' ? 'primary' : 'medium'"
+          (click)="onSearchCategorySelected('rabbit')">
+          <img src="/assets/icon/picker/rabbit.png">
+        </ion-button>
+
+        <ion-button
+          class="pet-button"
+          [color]="selectedAnimalType === 'guineapig' ? 'primary' : 'medium'"
+          (click)="onSearchCategorySelected('guineapig')">
+          <img src="/assets/icon/picker/guineapig.png">
+        </ion-button>
+    </ion-row>
+  </ion-grid>
+
+  <ng-container *ngFor="let element of filteredPatients">
+  <dc-card
+    [inputPetName]="element?.pet_name"
+    [inputOwnerName]="element?.owner_name"
+    [inputPetsDiseases]="element?.pets_diseases"
+    [inputPetsWard]="element?.ward"
+    [object]="element"
+    (onSelectCard)="onSelectCard($event)">
+  </dc-card>
+</ng-container>
+
+
+
+</ion-content>
