@@ -22,10 +22,16 @@ export class PatientsPage implements OnInit {
   public $collection: any = [];
   public searchCategory = "ownerName";
   public selectedAnimalType: 'dog' | 'cat' | "rabbit" | "guineapig" | null = null;
+  public searchQuery: string = '';
+  public filterWardOnly: boolean = false;
+  public allPatients: any[] = [];
+  public filteredPatients: any[] = [];
 
   public ngOnInit(): void {
     this.$collection = this.$dataService.$patient().getAll();
     // console.log("Loaded patients:", this.$collection);
+    this.allPatients = this.$collection;
+    this.filteredPatients = this.$collection;
   }
 
   /**
@@ -39,39 +45,10 @@ export class PatientsPage implements OnInit {
     }));
   }
 
-
-  // private processGetItemCollection() {
-
-  //   this.$collection = this.$dataService.$patient()
-  //                     // .filterByCategory(this.$selectedCategories)
-  //                     .getAll();
-  // }
-
-public onItemSearched($event: any) {
-  let service = this.$dataService.$patient();
-
-  if (this.selectedAnimalType) {
-    service = service.filterByAnimalType(this.selectedAnimalType);
+  public onItemSearched(value: string) {
+    this.searchQuery = value.toLowerCase();  // Store and lowercase it
+    this.applyFilters();                     // Re-apply filters
   }
-
-  if (this.searchCategory == "ownerName") {
-    service = service.filterByOwnerName($event);
-  }
-  if (this.searchCategory == "diagnosis") {
-    service = service.filterByDiagnosis($event);
-  }
-  if (this.searchCategory == "petName") {
-    service = service.filterByPetName($event);
-  }
-  if (this.searchCategory == "ownerAddress") {
-  service = service.filterByOwnerAddress($event); // spelling should match your method
-}
-
-
-  this.$collection = service.getAll();
-}
-
-
 
   public onFilter($event: any) {
     console.log($event)
@@ -89,20 +66,48 @@ public onItemSearched($event: any) {
     this.searchCategory = category;
   }
 
-public applyFilters() {
-  let service = this.$dataService.$patient();
+  applyFilters() {
+    this.filteredPatients = this.allPatients.filter(patient => {
+      const matchesName = this.searchCategory === 'petName'
+        ? patient.pet_name?.toLowerCase().includes(this.searchQuery.toLowerCase())
+        : true;
 
-  if (this.selectedAnimalType) {
-    service = service.filterByAnimalType(this.selectedAnimalType);
+      const matchesDiagnosis = this.searchCategory === 'diagnosis'
+        ? (patient.pets_diseases || []).some((d: string) =>
+          d.toLowerCase().includes(this.searchQuery.toLowerCase()))
+        : true;
+
+      const matchesOwner = this.searchCategory === 'ownerName'
+        ? patient.owner_name?.toLowerCase().includes(this.searchQuery.toLowerCase())
+        : true;
+
+      const matchesAddress = this.searchCategory === 'ownerAddress'
+        ? patient.address?.toLowerCase().includes(this.searchQuery.toLowerCase())
+        : true;
+
+      const matchesAnimalType = this.selectedAnimalType
+        ? patient.animalType?.toLowerCase() === this.selectedAnimalType
+        : true;
+
+      const matchesWard = this.filterWardOnly
+        ? Number(patient.ward) > 0
+        : true;
+
+      return (
+        matchesName &&
+        matchesDiagnosis &&
+        matchesOwner &&
+        matchesAddress &&
+        matchesAnimalType &&
+        matchesWard
+      );
+    });
   }
 
-  // This will handle search input from the toolbar (e.g., by owner, name, etc.)
-  this.$collection = service.getAll();
-}
-
-
-
-
+  toggleWardFilter() {
+    this.filterWardOnly = !this.filterWardOnly;
+    this.applyFilters(); // Apply the filters again
+  }
 
   constructor(private modalController: ModalController) {}
 

@@ -1,4 +1,4 @@
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA   } from '@angular/core';
 import { IonicModule              } from '@ionic/angular';
 import { NgModule                 } from '@angular/core';
 import { CommonModule             } from '@angular/common';
@@ -7,7 +7,7 @@ import { RouterModule, Routes     } from '@angular/router';
 
 import { PatientsPage             } from './patients.page';
 
-import { PatientRecordModal         } from './@modal/patient-record/patient-record.component';
+import { PatientRecordModal       } from './@modal/patient-record/patient-record.component';
 import { SelectCategoryModal      } from './@modal/select-category/select-category.component';
 
 import { PrimaryMenu              } from 'nv@features/@menu/primary-menu/primary-menu.component';
