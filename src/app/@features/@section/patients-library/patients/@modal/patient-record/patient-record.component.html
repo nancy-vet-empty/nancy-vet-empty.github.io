@@ -29,10 +29,11 @@
       <ion-col size="6" class="label">Възраст:</ion-col>
       <ion-col size="6">{{ selectedObject.age }}</ion-col>
     </ion-row>
-    <ion-row>
+    <ion-row *ngIf="selectedObject.ward && selectedObject.ward !== '0'">
       <ion-col size="6" class="label">Клетка:</ion-col>
       <ion-col size="6">{{ selectedObject.ward }}</ion-col>
     </ion-row>
+
 
     <div class="h1">Собственик:</div>
 

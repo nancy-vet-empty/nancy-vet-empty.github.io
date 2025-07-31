@@ -66,7 +66,7 @@
 
   <br>
 
-<h3>Пациенти с "{{ symptomName }}"</h3>
+<h3>Пациенти с "{{ selectedObject.symptom }}"</h3>
 
 <ion-list *ngIf="relatedPatients.length > 0; else noMatches">
   <ion-item *ngFor="let patient of relatedPatients" button (click)="openPatientInfo(patient.pet_id)">

@@ -45,31 +45,41 @@ export class DrugInfoModal implements OnInit {
   //   );
   // }
 
+
   ngOnInit() {
     this.selectedObject = this.navParams.get('selectedObject');
-    this.symptomName = this.selectedObject?.symptom?.toLowerCase().trim() || "";
 
-    const symptomLower = this.symptomName;
+    // ✅ Step 1: Collect all search names: symptom + otherNames
+    const rawNames: string[] = [
+      this.selectedObject?.symptom,
+      ...(this.selectedObject?.otherNames || [])
+    ];
+    const normalizedNames = rawNames
+      .filter(Boolean)
+      .map((name: string) => name.toLowerCase().trim());
 
-    // Normalize and match clinical signs
+    console.log("Searching for symptom or aliases:", normalizedNames);
+
+    // ✅ Step 2: Match any clinical_signs that include any of those names
     const matchingProtocols = protocolsData.filter(protocol => {
-      return Array.isArray(protocol.clinical_signs) && protocol.clinical_signs.some(sign => {
-        return sign && sign.toLowerCase().trim() === symptomLower;
-      });
+      return Array.isArray(protocol.clinical_signs) &&
+            protocol.clinical_signs.some(sign => {
+              const normalizedSign = sign?.toLowerCase().trim();
+              return normalizedNames.includes(normalizedSign);
+            });
     });
 
+    // ✅ Step 3: Collect pet_ids and find matching patients
     const matchingPetIds = [...new Set(matchingProtocols.map(p => p.pet_id))];
-
     this.relatedPatients = patientsData.filter(patient =>
       matchingPetIds.includes(patient.pet_id)
     );
 
-    console.log("Looking for:", symptomLower);
     console.log("Matched protocols:", matchingProtocols);
     console.log("Matched patient IDs:", matchingPetIds);
     console.log("Related patients:", this.relatedPatients);
-
   }
+
 
 
   public onOpenPdfDocument(url: string) {

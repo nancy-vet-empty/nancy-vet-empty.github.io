@@ -40,6 +40,7 @@
 }
 
 .ward_button {
-  max-width: calc(50% + 50px);
-  flex: 0 0 calc(50% + 50px);
+  width: calc(100% + 58px);
+  height: 48px;
+  text-transform: lowercase;
 }
