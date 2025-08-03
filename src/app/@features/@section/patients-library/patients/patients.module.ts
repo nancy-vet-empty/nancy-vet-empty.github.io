@@ -7,6 +7,8 @@ import { RouterModule, Routes     } from '@angular/router';
 
 import { PatientsPage             } from './patients.page';
 
+// import { DiseasesPageModule       } from 'nv@features/@section/library/diseases/diseases.module';
+// import { DrugInfoModal            } from '../../library/diseases/@modal/drug-info/drug-info.component';
 import { PatientRecordModal       } from './@modal/patient-record/patient-record.component';
 import { SelectCategoryModal      } from './@modal/select-category/select-category.component';
 
@@ -36,7 +38,8 @@ const routes: Routes = [{
       PatientsPage                  ,
       PatientRecordModal            ,
       SelectCategoryModal           ,
-      CreatePatientComponent
+      CreatePatientComponent        ,
+      // DrugInfoModal
     ],
     imports                         : [
       RouterModule.forChild(routes) ,
@@ -47,11 +50,12 @@ const routes: Routes = [{
       SplitPipe                     ,
       PrimaryMenu                   ,
       NvRadioComponent              ,
-      PatientBar          ,
+      PatientBar                    ,
       NvSearchToolbarComponent      ,
       CategoryPickerComponent       ,
       NvInfoModal                   ,
-      NvLinkButtonComponent
+      NvLinkButtonComponent         ,
+      // DiseasesPageModule
     ]
 })
 export class PatientsPageModule {}

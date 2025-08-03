@@ -33,6 +33,12 @@
       <ion-col size="6" class="label">Клетка:</ion-col>
       <ion-col size="6">{{ selectedObject.ward }}</ion-col>
     </ion-row>
+    <ion-row>
+      <ion-col size="6" class="label">Заболявания:</ion-col>
+      <ion-chip *ngFor="let disease of selectedObject.pets_diseases" (click)="openDiseaseInfo(disease)">
+        {{ disease }}
+      </ion-chip>
+    </ion-row>
 
 
     <div class="h1">Собственик:</div>

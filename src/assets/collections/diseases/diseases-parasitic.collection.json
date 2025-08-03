@@ -6,11 +6,11 @@
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "code"        : "B",
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
+    "etiology"      : ["blqblqblq"],
     "signs"         : ["", "", ""],
     "specificSigns" : [""],
     "diagnostics"   : [""],

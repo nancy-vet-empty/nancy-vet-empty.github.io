@@ -1,7 +1,9 @@
-import { Component, OnInit, inject } from "@angular/core";
+import { Component, OnInit, inject  } from "@angular/core";
 import { ModalController, NavParams } from '@ionic/angular';
-import { PatientDataService } from 'nv@services/patients-data.service';
-import PatientsCollectionJson from "nv@json/patients/patients.collection.json";
+import { PatientDataService         } from 'nv@services/patients-data.service';
+import  PatientsCollectionJson        from "nv@json/patients/patients.collection.json";
+import { DrugInfoModal              } from '../../../../library/diseases/@modal/drug-info/drug-info.component';
+import { DiseasesService            } from 'nv@services/disease.service';
 
 @Component({
   selector: 'modal--patient-record',
@@ -12,6 +14,7 @@ export class PatientRecordModal implements OnInit {
 
   private modalController: ModalController = inject(ModalController);
   private $patientDataService: PatientDataService = inject(PatientDataService);
+  private diseasesService: DiseasesService = inject(DiseasesService);
 
   public pet_id!: number;
   public patient: any;
@@ -37,6 +40,7 @@ export class PatientRecordModal implements OnInit {
     manipulations: '',
     differential_diagnosis: ''
   };
+
   constructor(private navParams: NavParams) {}
 
   ngOnInit() {
@@ -204,6 +208,44 @@ public addProtocol() {
 
     return type && map[type] ? map[type] : '';
   }
+
+  // DISEASE MODAL = DrugInfoModal fron folder Diseases
+
+async openDiseaseInfo(diseaseTitle: any) {
+  let title = '';
+
+  if (typeof diseaseTitle === 'string') {
+    title = diseaseTitle;
+  } else if (Array.isArray(diseaseTitle) && diseaseTitle.length > 0) {
+    title = diseaseTitle[0]; // Fallback just in case
+  }
+
+  console.log('Searching for disease title:', title);
+
+  const matchedDisease = this.diseasesService
+    .select()
+    .filterByTitle(title)
+    .get();
+
+  if (!matchedDisease || matchedDisease.length === 0) {
+    console.warn('❗ Disease not found in collection:', title);
+    return;
+  }
+
+  const modal = await this.modalController.create({
+    component: DrugInfoModal,
+    componentProps: {
+      selectedObject: matchedDisease[0]
+    },
+  });
+
+  return await modal.present();
+}
+
+
+
+
+
 
 
 }

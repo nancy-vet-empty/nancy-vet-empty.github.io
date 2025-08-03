@@ -32,14 +32,15 @@ const routes: Routes = [{
   schemas                           : [
     CUSTOM_ELEMENTS_SCHEMA
   ],
-
-
     declarations                    : [
       DiseasesPage                  ,
       DrugInfoModal                 ,
       SelectCategoryModal           ,
       GalleryModal                  ,
       AddDiseaseModalComponent
+    ],
+    exports: [
+      DrugInfoModal  // You export it for Section Patients library
     ],
     imports                         : [
       RouterModule.forChild(routes) ,
