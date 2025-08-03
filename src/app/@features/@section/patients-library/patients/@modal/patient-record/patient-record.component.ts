@@ -4,6 +4,7 @@ import { PatientDataService         } from 'nv@services/patients-data.service';
 import  PatientsCollectionJson        from "nv@json/patients/patients.collection.json";
 import { DrugInfoModal              } from '../../../../library/diseases/@modal/drug-info/drug-info.component';
 import { DiseasesService            } from 'nv@services/disease.service';
+import { AddDiseaseModalComponent   } from '../../../../library/diseases/@modal/add-disease/add-disease.component';
 
 @Component({
   selector: 'modal--patient-record',
@@ -211,27 +212,75 @@ public addProtocol() {
 
   // DISEASE MODAL = DrugInfoModal fron folder Diseases
 
-async openDiseaseInfo(diseaseTitle: any) {
-  let title = '';
+// async openDiseaseInfo(diseaseTitle: any) {
+//   let title = '';
 
-  if (typeof diseaseTitle === 'string') {
-    title = diseaseTitle;
-  } else if (Array.isArray(diseaseTitle) && diseaseTitle.length > 0) {
-    title = diseaseTitle[0]; // Fallback just in case
-  }
+//   if (typeof diseaseTitle === 'string') {
+//     title = diseaseTitle;
+//   } else if (Array.isArray(diseaseTitle) && diseaseTitle.length > 0) {
+//     title = diseaseTitle[0]; // Fallback just in case
+//   }
 
-  console.log('Searching for disease title:', title);
+//   console.log('Searching for disease title:', title);
+
+//   const matchedDisease = this.diseasesService
+//     .select()
+//     .filterByTitle(title)
+//     .get();
+
+//   if (!matchedDisease || matchedDisease.length === 0) {
+//     console.warn('❗ Disease not found in collection:', title);
+//     return;
+//   }
+
+//   const modal = await this.modalController.create({
+//     component: DrugInfoModal,
+//     componentProps: {
+//       selectedObject: matchedDisease[0]
+//     },
+//   });
+
+//   return await modal.present();
+// }
+
+async openDiseaseInfo(diseaseTitle: string) {
+  if (!diseaseTitle) return;
 
   const matchedDisease = this.diseasesService
     .select()
-    .filterByTitle(title)
+    .filterByTitle(diseaseTitle)
     .get();
 
   if (!matchedDisease || matchedDisease.length === 0) {
-    console.warn('❗ Disease not found in collection:', title);
-    return;
+    console.warn('❗ Disease not found in collection:', diseaseTitle);
+
+    const addModal = await this.modalController.create({
+      component: AddDiseaseModalComponent,
+      componentProps: {
+        form: {
+          title: diseaseTitle // prefill with the searched title
+        }
+      }
+    });
+
+    addModal.onDidDismiss().then((res) => {
+      if (res.data) {
+        console.log('✅ New disease created:', res.data);
+        // TODO: Save to collection (optional)
+        // Optionally, open modal with the new data:
+        this.modalController.create({
+          component: DrugInfoModal,
+          componentProps: {
+            selectedObject: res.data
+          }
+        }).then(modal => modal.present());
+      }
+    });
+
+    return await addModal.present();
   }
 
+  // If found — open the existing disease modal
   const modal = await this.modalController.create({
     component: DrugInfoModal,
     componentProps: {
@@ -241,7 +290,6 @@ async openDiseaseInfo(diseaseTitle: any) {
 
   return await modal.present();
 }
-
 
 
 
