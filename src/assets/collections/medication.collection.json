@@ -85,7 +85,7 @@
           0.25, 0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SC, IM, IV q8-24h"
+        "applicationMethod": "SC IM IV q8-24h"
       }
     },
     "link"              : "",
@@ -305,7 +305,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, SC, IM, IV q12-24h"
+        "applicationMethod": "PO SC IM IV q12-24h"
       }
     },
     "link"              : "",
@@ -329,7 +329,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, SC, IM, IV q12-24h"
+        "applicationMethod": "PO SC IM IV q12-24h"
       }
     },
     "link"              : "",
@@ -557,14 +557,14 @@
           5
         ],
         "activeSubstanceDoseDecorator": "g",
-        "applicationMethod": "на ден за 1-2 седмици или повече при необходимост."
+        "applicationMethod": "q24h за 1-2 седмици или повече при необходимост."
       },
       "cat": {
         "activeSubstanceDose": [
           1.5
         ],
         "activeSubstanceDoseDecorator": "g",
-        "applicationMethod": "на ден за 1-2 седмици или повече при необходимост."
+        "applicationMethod": "q24h за 1-2 седмици или повече при необходимост."
       }
     },
     "link"              : "",
@@ -589,7 +589,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "PO два пъти на ден (при КЧ > 30 кг - 15 мл)"
+        "applicationMethod": "PO q12h (при КЧ > 30 кг - 15 мл)"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -597,7 +597,7 @@
           5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "PO два пъти на ден"
+        "applicationMethod": "PO q12h"
       }
     },
     "link"              : "",
@@ -621,14 +621,14 @@
           1
         ],
         "activeSubstanceDoseDecorator": "same",
-        "applicationMethod": "PO веднъж дневно"
+        "applicationMethod": "PO q24h"
       },
       "cat": {
         "activeSubstanceDose": [
           1
         ],
         "activeSubstanceDoseDecorator": "same",
-        "applicationMethod": "PO веднъж дневно"
+        "applicationMethod": "PO q24h"
       }
     },
     "link"              : "",
@@ -677,7 +677,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "PO b.i.d. 2-3 дни"
+        "applicationMethod": "PO q12h 2-3 дни"
       }
     },
     "link"              : "",
@@ -701,7 +701,7 @@
           0.2
         ],
         "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "s.i.d. 6 дни"
+        "applicationMethod": "q24h 6 дни"
       }
     },
     "link"              : "",
@@ -724,7 +724,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tsp_5_kg",
-        "applicationMethod": "два пъти дневно директно в устата или смесен с храна"
+        "applicationMethod": "PO или смесен с храна q12h"
       }
     },
     "link"              : "",
@@ -772,7 +772,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "PO веднъж дневно преди хранене (над 20 кг - 3 табл.)"
+        "applicationMethod": "PO q24h преди хранене (над 20 кг - 3 табл.)"
       }
     },
     "link"              : "",
@@ -797,7 +797,7 @@
           6
         ],
         "activeSubstanceDoseDecorator": "cm",
-        "applicationMethod": "на ден"
+        "applicationMethod": "s.i.d."
       }
     },
     "link"              : "",
@@ -846,7 +846,7 @@
           3
         ],
         "activeSubstanceDoseDecorator": "cm",
-        "applicationMethod": "ПО 2-3 пъти дневно между храненията"
+        "applicationMethod": "PO 2-3 пъти дневно между храненията"
       }
     },
     "link"              : "",
@@ -896,7 +896,7 @@
           15
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "s.i.d."
+        "applicationMethod": "q24h"
       }
     },
     "link"              : "",
@@ -993,7 +993,7 @@
           50
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "на ден"
+        "applicationMethod": "s.i.d."
       },
       "cat": {
         "activeSubstanceDose": [
@@ -1001,7 +1001,7 @@
           8
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "на ден"
+        "applicationMethod": "s.i.d."
       }
     },
     "link"              : "",
@@ -1073,14 +1073,14 @@
           1
         ],
         "activeSubstanceDoseDecorator": "caps_5_kg",
-        "applicationMethod": "на ден"
+        "applicationMethod": "s.i.d."
       },
       "cat": {
         "activeSubstanceDose": [
           1
         ],
         "activeSubstanceDoseDecorator": "caps",
-        "applicationMethod": "на ден"
+        "applicationMethod": "s.i.d."
       }
     },
     "link"              : "",
@@ -1232,7 +1232,7 @@
           0.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SAIM: IM SC, IV, q6-8h"
+        "applicationMethod": "SAIM: IM SC IV q6-8h"
       }
     },
     "link"              : "",
@@ -1257,7 +1257,7 @@
           0.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SAIM: IM SC, IV, q6-8h"
+        "applicationMethod": "SAIM: IM SC IV q6-8h"
       }
     },
     "link"              : "",
@@ -1282,7 +1282,7 @@
           0.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SAIM: IM SC, IV, q6-8h"
+        "applicationMethod": "SAIM: IM SC IV q6-8h"
       }
     },
     "link"              : "",
@@ -1355,7 +1355,7 @@
           10
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "2 пъти на ден"
+        "applicationMethod": "b.i.d."
       }
     },
     "link"              : "",
@@ -1486,7 +1486,7 @@
           0.25
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ПО на ден"
+        "applicationMethod": "PO s.i.d."
       }
     },
     "link"              : "",
@@ -1535,7 +1535,7 @@
           5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "s.c., i.m., i.v., p.o. q12h. Може  4-6 mg_kg q8h"
+        "applicationMethod": "SC IM IV PO q12h. Може  4-6 mg/kg q8h"
       }
     },
     "link"              : "",
@@ -1634,7 +1634,7 @@
           0.25
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "benazepril qd"
+        "applicationMethod": "PO qd"
       }
     },
     "link"              : "",
@@ -1658,7 +1658,7 @@
           0.25
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "benazepril qd"
+        "applicationMethod": "PO qd"
       }
     },
     "link"              : "",
@@ -1682,7 +1682,7 @@
           0.25
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "benazepril qd"
+        "applicationMethod": "PO qd"
       }
     },
     "link"              : "",
@@ -1732,7 +1732,7 @@
           0.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "на ден (препоръчително е 0,5 mg/kg), разделен на два приема q12h"
+        "applicationMethod": "q24h (препоръчително е 0,5 mg/kg), разделен на два приема q12h"
       }
     },
     "link"              : "",
@@ -1757,7 +1757,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "на ден, разделен на два приема q12h"
+        "applicationMethod": "q24h, разделен на два приема q12h"
       }
     },
     "link"              : "",
@@ -1830,7 +1830,7 @@
           1000
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ИВ на 8, 12 или 24 ч, много бавно се прилага!"
+        "applicationMethod": "много бавно IV q12h"
       }
     },
     "link"              : "",
@@ -1854,7 +1854,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "q24h"
+        "applicationMethod": "PO q24h"
       }
     },
     "link"              : "",
@@ -1878,14 +1878,14 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ml_5_kg",
-        "applicationMethod": "PO два пъти дневно"
+        "applicationMethod": "PO q12h"
       },
       "cat": {
         "activeSubstanceDose": [
           1
         ],
         "activeSubstanceDoseDecorator": "ml_4_kg",
-        "applicationMethod": "PO два пъти дневно"
+        "applicationMethod": "PO q12h"
       }
     },
     "link"              : "",
@@ -1909,7 +1909,7 @@
           200
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "1 г/5 кг два пъти дневно през устата или смесено с основната храна."
+        "applicationMethod": "1 г/5 кг q12h през устата или смесено с основната храна."
       }
     },
     "link"              : "",
@@ -1976,8 +1976,8 @@
   },
   {
     "type": "urogenital",
-    "title": "RenalVet caps",
-    "titleEn": "РеналВет капс",
+    "title": "РеналВет капс",
+    "titleEn": "RenalVet caps",
     "activeSubstance": "калциев карбонат, хитозан, витамин D3",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -1988,7 +1988,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "caps_10_kg",
-        "applicationMethod": "веднъж дневно PO или с храната"
+        "applicationMethod": "PO или с храната s.i.d."
       }
     },
     "link"              : "",
@@ -2037,7 +2037,7 @@
           0.0035
         ],
         "activeSubstanceDoseDecorator": "µg_kg",
-        "applicationMethod": "PO веднъж дневно"
+        "applicationMethod": "PO s.i.d."
       },
       "cat": {
         "activeSubstanceDose": [
@@ -2045,7 +2045,7 @@
           0.0035
         ],
         "activeSubstanceDoseDecorator": "µg_kg",
-        "applicationMethod": "PO веднъж дневно"
+        "applicationMethod": "PO s.i.d."
       }
     },
     "link"              : "",
@@ -2069,7 +2069,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "PO"
+        "applicationMethod": "PO q24h"
       }
     },
     "link"              : "",
@@ -2093,7 +2093,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "caps",
-        "applicationMethod": "q24h"
+        "applicationMethod": "PO q24h"
       }
     },
     "link"              : "",
@@ -2119,7 +2119,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "caps",
-        "applicationMethod": "q24h, т. е. по 1 капсула сутрин и вечер"
+        "applicationMethod": "PO q24h, т. е. по 1 капсула сутрин и вечер"
       }
     },
     "link"              : "",
@@ -2143,7 +2143,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "PO два пъти дневно"
+        "applicationMethod": "PO q12h"
       }
     },
     "link"              : "",
@@ -2167,7 +2167,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "q24h, PO или смесена с храна"
+        "applicationMethod": "PO или смесена с храна q24h"
       }
     },
     "link"              : "",
@@ -2240,11 +2240,11 @@
           3
         ],
         "activeSubstanceDoseDecorator": "cm",
-        "applicationMethod": "два пъти дневно в продължение на 5 до 12 седмици"
+        "applicationMethod": "q12h в продължение на 5 до 12 седмици"
       }
     },
     "link"              : "",
-    "indications"       : ["Допълваща храна за котки, която повишава киселинността на урината (DL-Methionin и калиев цитрат). Ниско съдържание на фосфор и магнезий. За подпомагане за разтваряне на струвитни камъни.", "За подпомагане на бъбречната функция: 1-2 см паста-гел два пъти дневно за период до 6 месеца. Приложете директно в устата или смесете с храната."],
+    "indications"       : ["Допълваща храна за котки, която повишава киселинността на урината (DL-Methionin и калиев цитрат). Ниско съдържание на фосфор и магнезий. За подпомагане за разтваряне на струвитни камъни.", "За подпомагане на бъбречната функция: 1-2 см паста-гел q12h за период до 6 месеца. Приложете директно в устата или смесете с храната."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2264,14 +2264,14 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl",
-        "applicationMethod": "PO два пъти дневно (при КТ > 2 кг)"
+        "applicationMethod": "PO q12h (при КТ > 2 кг)"
       },
       "dog": {
         "activeSubstanceDose": [
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "PO два пъти дневно"
+        "applicationMethod": "PO q12h"
       }
     },
     "link"              : "",
@@ -2296,7 +2296,7 @@
           1.5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "на куче, ИМ или ПК, по възможност с 3-10 IU окситоцин."
+        "applicationMethod": "на куче, SC IM, по възможност с 3-10 IU окситоцин."
       },
       "cat": {
         "activeSubstanceDose": [
@@ -2304,7 +2304,7 @@
           0.4
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "на котка, ИМ или ПК"
+        "applicationMethod": "на котка, IM или SC"
       }
     },
     "link"              : "",
@@ -2384,7 +2384,7 @@
           5
         ],
         "activeSubstanceDoseDecorator": "µg_kg",
-        "applicationMethod": "PO, qd, до настъпване на проеструс"
+        "applicationMethod": "PO qd, до настъпване на проеструс"
       }
     },
     "link"              : "",
@@ -2408,7 +2408,7 @@
           5
         ],
         "activeSubstanceDoseDecorator": "µg_kg",
-        "applicationMethod": "PO, qd"
+        "applicationMethod": "PO qd"
       }
     },
     "link"              : "",
@@ -2489,7 +2489,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, qd за 7 дни"
+        "applicationMethod": "PO qd за 7 дни"
       }
     },
     "link"              : "",
@@ -2514,7 +2514,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, qd за 7 дни"
+        "applicationMethod": "PO qd за 7 дни"
       }
     },
     "link"              : "",
@@ -2539,7 +2539,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, qd за 7 дни"
+        "applicationMethod": "PO qd за 7 дни"
       }
     },
     "link"              : "",
@@ -2564,7 +2564,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, qd за 7 дни"
+        "applicationMethod": "PO qd за 7 дни"
       }
     },
     "link"              : "",
@@ -2612,7 +2612,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": ""
+        "applicationMethod": "PO"
       }
     },
     "link"              : "",
@@ -2636,7 +2636,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_25_kg",
-        "applicationMethod": ""
+        "applicationMethod": "PO"
       }
     },
     "link"              : "",
@@ -2732,7 +2732,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_15_kg",
-        "applicationMethod": "q24h"
+        "applicationMethod": "PO q24h"
       }
     },
     "link"              : "",
@@ -2757,7 +2757,7 @@
           1.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, SC q12-24h за 5-7 дни"
+        "applicationMethod": "PO SC q12-24h за 5-7 дни"
       }
     },
     "link"              : "",
@@ -2782,7 +2782,7 @@
           0
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SC, IV, IM"
+        "applicationMethod": "SC IV IM"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -2814,7 +2814,7 @@
           0.02
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, IV"
+        "applicationMethod": "IM IV"
       }
     },
     "link"              : "",
@@ -3003,7 +3003,7 @@
           0.12
         ],
         "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "IM, IV"
+        "applicationMethod": "IM IV"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -3034,7 +3034,7 @@
           0.12
         ],
         "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "IM, IV"
+        "applicationMethod": "IM IV"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -3127,14 +3127,14 @@
           0
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IV, IM"
+        "applicationMethod": "IV IM"
       },
       "cat": {
         "activeSubstanceDose": [
           0
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IV, IM"
+        "applicationMethod": "IV IM"
       }
     },
     "link"              : "",
@@ -3158,14 +3158,14 @@
           0
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IV, IM"
+        "applicationMethod": "IV IM"
       },
       "cat": {
         "activeSubstanceDose": [
           0
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IV, IM"
+        "applicationMethod": "IV IM"
       }
     },
     "link"              : "",
@@ -3222,7 +3222,7 @@
           8
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "бавно венозно"
+        "applicationMethod": "бавно IV"
       }
     },
     "link"              : "",
@@ -3279,7 +3279,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ИВ, ИМ, ПО, а при ректално дозата е двойна"
+        "applicationMethod": "IV IM PO, а при ректално дозата е двойна"
       }
     },
     "link"              : "",
@@ -3409,7 +3409,7 @@
           0
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IV, IM"
+        "applicationMethod": "IV IM"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -3547,7 +3547,7 @@
           8
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "на ден"
+        "applicationMethod": "s.i.d."
       }
     },
     "link"              : "",
@@ -3571,7 +3571,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "caps",
-        "applicationMethod": "на ден до 10 кг, 2 капс на ден 10-25 кг, 3 капсули на ден над 25 кг"
+        "applicationMethod": "s.i.d. до 10 кг, 2 капс s.i.d. 10-25 кг, 3 капсули s.i.d. над 25 кг"
       }
     },
     "link"              : "",
@@ -3595,7 +3595,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "caps",
-        "applicationMethod": "PO 3 пъти на ден за 1 месец (q8h)"
+        "applicationMethod": "PO t.i.d. за 1 месец (q8h)"
       }
     },
     "link"              : "",
@@ -3691,7 +3691,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "веднъж дневно. При КЧ < 30 кг - 2 табл/ ден. КЧ > 30 кг - 3 табл/ ден."
+        "applicationMethod": "PO q24h. При КЧ < 30 кг - 2 табл/ ден. КЧ > 30 кг - 3 табл/ ден."
       }
     },
     "link"              : "",
@@ -3772,7 +3772,7 @@
           0.2
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "¼ от дозата ИВ, ¾ от дозата ПК, колкото е необходимо"
+        "applicationMethod": "¼ от дозата IV, ¾ от дозата SC, колкото е необходимо"
       }
     },
     "link"              : "",
@@ -3797,7 +3797,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "на всеки 4 часа"
+        "applicationMethod": "q4h"
       }
     },
     "link"              : "",
@@ -3822,7 +3822,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "на всеки 4-6 часа от 5 до 10 дни"
+        "applicationMethod": "q4-6h от 5 до 10 дни"
       }
     },
     "link"              : "",
@@ -3847,7 +3847,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "на всеки 4 часа"
+        "applicationMethod": "q4h"
       }
     },
     "link"              : "",
@@ -3872,7 +3872,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "на всеки 4-6 часа от 5 до 10 дни"
+        "applicationMethod": "q4-6h от 5 до 10 дни"
       }
     },
     "link"              : "",
@@ -3996,10 +3996,10 @@
       }
     },
     "link"              : "",
-    "indications"       : ["хинолон", "for established gram negative corneal infections"],
+    "indications"       : ["хинолон", "за установени грам-отрицателни инфекции на роговицата"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : ["crusting or crystalline precipitates in the superficial portion of corneal defects"],
+    "adverseEffects"    : ["образуване на корички или кристални преципитати в повърхностната част на дефектите на роговицата"],
     "pharmacology"      : []
   },
   {
@@ -4040,7 +4040,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "малко количество",
-        "applicationMethod": "в конюнктивалния сак 4 пъти на ден до изчезване на лезиите."
+        "applicationMethod": "в конюнктивалния сак q.i.d. до изчезване на лезиите."
       }
     },
     "link"              : "",
@@ -4159,8 +4159,8 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "идк",
-        "applicationMethod": "идк"
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
       }
     },
     "link"              : "",
@@ -4207,8 +4207,8 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "идк",
-        "applicationMethod": "идк"
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
       }
     },
     "link"              : "",
@@ -4231,8 +4231,8 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "идк",
-        "applicationMethod": "идк"
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
       }
     },
     "link"              : "",
@@ -4330,7 +4330,7 @@
           5
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "два пъти дневно, после масаж в основата на ухото"
+        "applicationMethod": "q12h, после масаж в основата на ухото"
       }
     },
     "link"              : "",
@@ -4355,7 +4355,7 @@
           5
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "2 пъти дневно"
+        "applicationMethod": "b.i.d."
       }
     },
     "link"              : "",
@@ -4451,7 +4451,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "една тубичка веднъж дневно в ухото, две третирания през 7 дни"
+        "applicationMethod": "една тубичка s.i.d. в ухото, две третирания през 7 дни"
       }
     },
     "link"              : "",
@@ -4475,7 +4475,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "на всеки 6 часа"
+        "applicationMethod": "q6h"
       }
     },
     "link"              : "",
@@ -4499,7 +4499,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "на всеки 6 часа"
+        "applicationMethod": "q6h"
       }
     },
     "link"              : "",
@@ -4524,7 +4524,7 @@
           3
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "ПК през 4-7 дни"
+        "applicationMethod": "SC през 4-7 дни"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -4532,7 +4532,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "ПК през 4-7 дни"
+        "applicationMethod": "SC през 4-7 дни"
       }
     },
     "link"              : "",
@@ -4628,7 +4628,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "два пъти дневно, след 8 дни контрола"
+        "applicationMethod": "q12h, след 8 дни контрола"
       }
     },
     "link"              : "",
@@ -4652,7 +4652,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "1 мл се разрежда в 75 мл вода, маже се веднъж на 3 дни"
+        "applicationMethod": "1 мл се разрежда в 75 мл вода, маже се веднъж на 3 дни. Общо 4 пъти мазане."
       }
     },
     "link"              : "",
@@ -4676,7 +4676,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "1 мл се разрежда в 75 мл вода, маже се веднъж на 3 дни"
+        "applicationMethod": "1 мл се разрежда в 75 мл вода, маже се веднъж на 3 дни. Общо 4 пъти мазане."
       }
     },
     "link"              : "",
@@ -4701,7 +4701,7 @@
           0.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, два пъти дневно за максимум 14 дни, поддържаща е q24h"
+        "applicationMethod": "PO q12h за максимум 14 дни, поддържаща е q24h"
       }
     },
     "link"              : "",
@@ -4878,7 +4878,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4919,7 +4919,7 @@
           12.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h (два пъти дневно)"
+        "applicationMethod": "q12h"
       }
     },
     "link"              : "",
@@ -4943,7 +4943,7 @@
           12.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h (два пъти дневно)"
+        "applicationMethod": "q12h"
       }
     },
     "link"              : "",
@@ -4971,7 +4971,7 @@
       }
     },
     "link"              : "",
-    "indications"       : [],
+    "indications"       : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
@@ -4991,7 +4991,7 @@
           12.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h (два пъти дневно)"
+        "applicationMethod": "q12h"
       }
     },
     "link"              : "",
@@ -5015,7 +5015,7 @@
           12.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h (два пъти дневно)"
+        "applicationMethod": "q12h"
       }
     },
     "link"              : "",
@@ -5039,7 +5039,7 @@
           12.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h (два пъти дневно)"
+        "applicationMethod": "q12h"
       }
     },
     "link"              : "",
@@ -5063,7 +5063,7 @@
           12.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h (два пъти дневно)"
+        "applicationMethod": "q12h"
       }
     },
     "link"              : "",
@@ -5087,7 +5087,7 @@
           12.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h (два пъти дневно)"
+        "applicationMethod": "q12h"
       }
     },
     "link"              : "",
@@ -5111,7 +5111,7 @@
           12.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h (два пъти дневно)"
+        "applicationMethod": "q12h"
       }
     },
     "link"              : "",
@@ -5135,7 +5135,7 @@
           12.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h (два пъти дневно)"
+        "applicationMethod": "q12h"
       }
     },
     "link"              : "",
@@ -5163,10 +5163,10 @@
       }
     },
     "link"              : "",
-    "indications"       : [],
+    "indications"       : ["група: пеницилини, аминогликозиди"],
     "contraindications" : ["нарушена бъбречна функция", "бременни животни"],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["нелечима ототоксичност", "ББ увреждане"],
     "pharmacology"      : []
   },
   {
@@ -5257,7 +5257,7 @@
           15
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO 2 пъти дневно"
+        "applicationMethod": "PO b.i.d."
       }
     },
     "link"              : "",
@@ -5281,7 +5281,7 @@
           15
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO 2 пъти дневно"
+        "applicationMethod": "PO b.i.d."
       }
     },
     "link"              : "",
@@ -5306,7 +5306,7 @@
           50
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, IV q24h"
+        "applicationMethod": "IM IV q24h"
       }
     },
     "link"              : "",
@@ -5331,7 +5331,7 @@
           50
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, IV q24h"
+        "applicationMethod": "IM IV q24h"
       }
     },
     "link"              : "",
@@ -5356,7 +5356,7 @@
           50
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, IV q24h"
+        "applicationMethod": "IM IV q24h"
       }
     },
     "link"              : "",
@@ -5381,7 +5381,7 @@
           50
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, IV q24h"
+        "applicationMethod": "IM IV q24h"
       }
     },
     "link"              : "",
@@ -5438,7 +5438,7 @@
           4
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, IV 3 пъти дневно, или 0.05 мл/ 1 кг ПК, за 5 дни"
+        "applicationMethod": "IM IV t.i.d., или 0.05 мл/ 1 кг ПК, за 5 дни"
       }
     },
     "link"              : "",
@@ -5463,7 +5463,7 @@
           4
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "3 пъти дневно (IM или IV)"
+        "applicationMethod": "IM IV t.i.d."
       }
     },
     "link"              : "",
@@ -5517,8 +5517,8 @@
     "link"              : "",
     "indications"       : ["група: пеницилини, аминогликозиди"],
     "contraindications" : ["Не прилагайте на животни с увредена бъбречна функция.", "Не прилагайте едновременно с антибиотици, които имат антагонизъм (гентамицин или канамицин).", "Не прилагайте едновременно с други β-лактамни антибиотици от групата на пеницилините тип G."],
-      "drugInteractions"  : [],
-      "adverseEffects"    : [],
+      "drugInteractions": [],
+      "adverseEffects"  : [],
       "pharmacology": [
           "Бензатин бензилпеницилин е β-лактамен антибиотик от групата на пеницилините тип G с продължително действие. Има бактерицидно действие върху чувствителни микроорганизми чрез инхибиране на синтеза на мукопептидите на клетъчната стена. Активен е по отношение на грам-положителни микроорганизми: Staphylococcus spp. (неспособни за образуване на пеницилиназа), Streptococcus spp., включително Streptococcus pneumoniae и Streptococcus pyogenes A, Corynebacterium diphtheriae, Erysipelothrix rhusiopathiae, анаеробни спорогенни бацили: Bacillus anthracis, Clostridium spp., Actinomyces israelli; грам-отрицателни микроорганизми: Neisseria gonorrhoeae, Neisseria meningitidis, Treponema spp.",
           "След интрамускулно приложение пеницилините и дихидрострептомицинът се разпределят широко във всички тъкани на организма. Високи концентрации се откриват в бъбреците, черния дроб, мускулите и белите дробове. При екстрабукално приложение пеницилинът се резорбира бавно, така че неговата пикова концентрация в кръвния серум се наблюдава след 3-4 часа. Дихидрострептомицинът се абсорбира добре от мястото на инжектиране. Той прониква добре в млякото. Пиковата концентрация на дихидрострептомицин се проявява в рамките на 30-90 минути и остава в организма в терапевтична концентрация поне 24 часа. Пеницилинът и дихидрострептомицинът се екскретират основно с урината.",
@@ -5635,7 +5635,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SC? q24h"
+        "applicationMethod": "SC q24h"
       }
     },
     "link"              : "",
@@ -5878,7 +5878,7 @@
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ПО q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
+        "applicationMethod": "PO q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
       }
     },
     "link"              : "",
@@ -5913,7 +5913,7 @@
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ПО q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
+        "applicationMethod": "PO q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
       }
     },
     "link"              : "",
@@ -5948,7 +5948,7 @@
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ПО q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
+        "applicationMethod": "PO q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
       }
     },
     "link"              : "",
@@ -5983,7 +5983,7 @@
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ПО q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
+        "applicationMethod": "PO q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
       }
     },
     "link"              : "",
@@ -6018,7 +6018,7 @@
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ПО q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
+        "applicationMethod": "PO q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
       }
     },
     "link"              : "",
@@ -6052,7 +6052,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ml_10_kg",
-        "applicationMethod": "ИМ qd за 5 дни (може и 1 мл на 20 кг)"
+        "applicationMethod": "IM qd за 5 дни (може и 1 мл на 20 кг)"
       }
     },
     "link"              : "",
@@ -6702,14 +6702,14 @@
           15
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO q24h 3-6 days"
+        "applicationMethod": "PO q24h 3-6 дни"
       },
       "cat": {
         "activeSubstanceDose": [
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO q24h 2-3 days"
+        "applicationMethod": "PO q24h 2-3 дни"
       }
     },
     "link"              : "",
@@ -6733,14 +6733,14 @@
           15
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO q24h 3-6 days"
+        "applicationMethod": "PO q24h 3-6 дни"
       },
       "cat": {
         "activeSubstanceDose": [
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO q24h 2-3 days"
+        "applicationMethod": "PO q24h 2-3 дни"
       }
     },
     "link"              : "",
@@ -6764,14 +6764,14 @@
           15
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO q24h 3-6 days"
+        "applicationMethod": "PO q24h 3-6 дни"
       },
       "cat": {
         "activeSubstanceDose": [
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO q24h 2-3 days"
+        "applicationMethod": "PO q24h 2-3 дни"
       }
     },
     "link"              : "",
@@ -6795,7 +6795,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "Разклати флакона, ПО"
+        "applicationMethod": "Разклати флакона, PO"
       }
     },
     "link"              : "",
@@ -6819,7 +6819,7 @@
           0.05
         ],
         "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "ПК или ИМ. Дозата да се повтори след 2 седмици за общо 2 третирания."
+        "applicationMethod": "SC IM. Дозата да се повтори след 2 седмици за общо 2 третирания."
       }
     },
     "link"              : "",
@@ -6843,14 +6843,14 @@
           6.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ИМ или ПК, 2 пъти през 14-21 дни (бабезия)"
+        "applicationMethod": "SC IM, 2 пъти през 14-21 дни (бабезия)"
       },
       "cat": {
         "activeSubstanceDose": [
           5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ИМ или ПК, 2 пъти през 14-21 дни (ерлихия)"
+        "applicationMethod": "SC IM, 2 пъти през 14-21 дни (ерлихия)"
       }
     },
     "link"              : "",
@@ -6979,7 +6979,7 @@
           3.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "или 1 мл/ 22 кг ИМ, 2 пъти през 24 ч"
+        "applicationMethod": "или 1 мл/ 22 кг IM, 2 пъти през 24 ч"
       }
     },
     "link"              : "",
@@ -7035,7 +7035,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "IM, SC, а при бавно капково ИВ - 0.05-0.5 мл"
+        "applicationMethod": "IM SC, а при бавно капково IV - 0.05-0.5 мл"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -7043,7 +7043,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "IM, SC, а при бавно капково ИВ - 0.05-0.5 мл"
+        "applicationMethod": "IM SC, а при бавно капково IV - 0.05-0.5 мл"
       }
     },
     "link"              : "",
@@ -7356,14 +7356,14 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "IM, интраартикуларно, подкожно"
+        "applicationMethod": "IM, интраартикуларно, SC"
       },
       "cat": {
         "activeSubstanceDose": [
           0.3
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "IM, интраартикуларно, подкожно"
+        "applicationMethod": "IM, интраартикуларно, SC"
       }
     },
     "link"              : "",
@@ -7470,7 +7470,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, IV"
+        "applicationMethod": "IM IV"
       }
     },
     "link"              : "",
@@ -7495,7 +7495,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, IV"
+        "applicationMethod": "IM IV"
       }
     },
     "link"              : "",
@@ -7519,7 +7519,7 @@
           0.05
         ],
         "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "SC, IM, IV"
+        "applicationMethod": "SC IM IV"
       }
     },
     "link"              : "",
@@ -7544,14 +7544,14 @@
           1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ИВ или ИМ"
+        "applicationMethod": "IV IM"
       },
       "cat": {
         "activeSubstanceDose": [
           0.5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "ИВ или ИМ"
+        "applicationMethod": "IV IM"
       }
     },
     "link"              : "",
@@ -7576,14 +7576,14 @@
           1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "ИВ или ИМ"
+        "applicationMethod": "IV IM"
       },
       "cat": {
         "activeSubstanceDose": [
           0.5
         ],
         "activeSubstanceDoseDecorator": "мl",
-        "applicationMethod": "ИВ или ИМ"
+        "applicationMethod": "IV IM"
       }
     },
     "link"              : "",
@@ -7658,7 +7658,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SC IM IV ?"
+        "applicationMethod": ""
       }
     },
     "link"              : "",
@@ -7850,7 +7850,7 @@
           0.1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, първи ден - 0,2 mg_kg, после 0,1"
+        "applicationMethod": "PO, първи ден - 0,2 mg/kg, после 0,1"
       }
     },
     "link"              : "",
@@ -7874,7 +7874,7 @@
           0.2
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "еднократно ПК, после се дава перорална суспензия"
+        "applicationMethod": "еднократно PO, после се дава перорална суспензия"
       }
     },
     "link"              : "",
@@ -8051,14 +8051,14 @@
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM или ПК"
+        "applicationMethod": "IM или SC"
       },
       "cat": {
         "activeSubstanceDose": [
           15
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM или ПК"
+        "applicationMethod": "IM или SC"
       }
     },
     "link"              : "",
@@ -8082,14 +8082,14 @@
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM или SC"
+        "applicationMethod": "IM SC"
       },
       "cat": {
         "activeSubstanceDose": [
           15
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM или SC"
+        "applicationMethod": "IM SC"
       }
     },
     "link"              : "",
@@ -8114,7 +8114,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, SC"
+        "applicationMethod": "IM SC"
       }
     },
     "link"              : "",
@@ -8212,14 +8212,14 @@
           1
         ],
         "activeSubstanceDoseDecorator": "caps",
-        "applicationMethod": "q48h, PO или смесен с храната"
+        "applicationMethod": "PO или смесен с храната q48h"
       },
       "dog": {
         "activeSubstanceDose": [
           1
         ],
         "activeSubstanceDoseDecorator": "caps_10_kg",
-        "applicationMethod": "q24h, PO или смесен с храната (ако КЧ < 5 кг - по 1 капс на 2 дни)"
+        "applicationMethod": "PO или смесен с храната q24h (ако КЧ < 5 кг - по 1 капс на 2 дни)"
       }
     },
     "link"              : "",
@@ -8243,14 +8243,14 @@
           1
         ],
         "activeSubstanceDoseDecorator": "caps_5_kg",
-        "applicationMethod": "q24h, PO или смесен с храната"
+        "applicationMethod": "PO или смесен с храната q24h"
       },
       "cat": {
         "activeSubstanceDose": [
           1
         ],
         "activeSubstanceDoseDecorator": "caps",
-        "applicationMethod": "q24h, PO или смесен с храната"
+        "applicationMethod": "PO или смесен с храната q24h"
       }
     },
     "link"              : "",
@@ -8274,7 +8274,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_40_kg",
-        "applicationMethod": "q24h, PO или смесен с храната"
+        "applicationMethod": "PO или смесен с храната q24h"
       }
     },
     "link"              : "",
@@ -8322,7 +8322,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "q24h, PO или смесен с храната"
+        "applicationMethod": "PO  q24h"
       }
     },
     "link"              : "",
@@ -8370,11 +8370,11 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "PO mixed with food or directly with a syringe"
+        "applicationMethod": "PO или смесен с храната"
       }
     },
     "link"              : "",
-    "indications"       : ["Iron-deficiency anaemia: Up to 4 ml / 1 kg."],
+    "indications"       : ["Желязодефицитна анемия: До 4 мл / 1 кг."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -8395,7 +8395,7 @@
           300
         ],
         "activeSubstanceDoseDecorator": "mg",
-        "applicationMethod": "PO веднъж дневно 1 час преди или няколко часа след хранене"
+        "applicationMethod": "PO s.i.d. 1 час преди или няколко часа след хранене"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -8403,7 +8403,7 @@
           100
         ],
         "activeSubstanceDoseDecorator": "mg",
-        "applicationMethod": "PO веднъж дневно 1 час преди или няколко часа след хранене"
+        "applicationMethod": "PO s.i.d. 1 час преди или няколко часа след хранене"
       }
     },
     "link"              : "",
@@ -8451,7 +8451,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "директно в устата или размесен с храна или вода"
+        "applicationMethod": "PO или размесен с храна или вода"
       }
     },
     "link"              : "",
@@ -8615,7 +8615,7 @@
           5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "ИМ, ПК или бавно ИВ"
+        "applicationMethod": "IM SC или бавно IV"
       }
     },
     "link"              : "",
@@ -8673,7 +8673,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "SC, IM, IV (3.5 мг/кг)"
+        "applicationMethod": "SC IM IV (3.5 мг/кг)"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -8681,7 +8681,7 @@
           0.25
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "SC, IM, IV (3.5 мг/кг)"
+        "applicationMethod": "SC IM IV (3.5 мг/кг)"
       }
     },
     "link"              : "",
@@ -8706,7 +8706,7 @@
           1.5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "SC once weekly for 6 weeks, one more dose a month later"
+        "applicationMethod": "SC веднъж седмично за 6 седмици, след месец още една доза"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -8714,7 +8714,7 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "SC once weekly for 6 weeks, one more dose a month later"
+        "applicationMethod": "SC веднъж седмично за 6 седмици, след месец още една доза"
       }
     },
     "link"              : "",
@@ -8797,7 +8797,7 @@
           10
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "ПК, ИМ, бавно ИВ"
+        "applicationMethod": "SC IM или бавно IV"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -8805,7 +8805,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "ПК, ИМ, бавно ИВ"
+        "applicationMethod": "SC IM или бавно IV"
       }
     },
     "link"              : "",
@@ -8829,7 +8829,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "ПО веднъж дневно"
+        "applicationMethod": "PO s.i.d."
       }
     },
     "link"              : "",
@@ -8885,7 +8885,7 @@
           10
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "на ден за минимум 7 дни (при отравяне с кумарини)"
+        "applicationMethod": "s.i.d. за минимум 7 дни (при отравяне с кумарини)"
       }
     },
     "link"              : "",
@@ -9055,11 +9055,11 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl",
-        "applicationMethod": "два пъти дневно (КЧ <15 кг) PO или с храна"
+        "applicationMethod": "q12h (КЧ <15 кг) PO или с храна"
       }
     },
     "link"              : "",
-    "indications"       : ["Продуктът се препоръчва за кучета от дилативна кардиомиопатия или от митрална регургитация.", "Кучета >15 кг: 2 табл. два пъти дневно. В случаи на кучета >40 кг, ветеринарният лекар може да увеличи дозата."],
+    "indications"       : ["Продуктът се препоръчва за кучета от дилативна кардиомиопатия или от митрална регургитация.", "Кучета >15 кг: 2 табл. q12h. В случаи на кучета >40 кг, ветеринарният лекар може да увеличи дозата."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -9080,7 +9080,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "на ден (КТ под 6 месеца), а КТ над 6 месеца - по 2-4 мл. Веднъж дневно, в устата или смесена с храната"
+        "applicationMethod": "PO или смесена с храната s.i.d. (КТ под 6 месеца), а КТ над 6 месеца - по 2-4 мл"
       }
     },
     "link"              : "",
@@ -9105,7 +9105,7 @@
           2
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "КТ под 6 месеца - по 1 натискане на помпата, а КТ над 6 месеца - по 2 натискания на помпата. Два пъти дневно, в устата или смесена с храната"
+        "applicationMethod": "PO или смесена с храната b.i.d. КТ под 6 месеца - по 1 натискане на помпата, а КТ над 6 месеца - по 2 натискания на помпата"
       }
     },
     "link"              : "",
@@ -9129,7 +9129,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ampula",
-        "applicationMethod": "КЧ (за кученца е 1/2 ампула)"
+        "applicationMethod": "за КЧ (за кученца е 1/2 ампула)"
       }
     },
     "link"              : "",

@@ -1,0 +1,97 @@
+<nv-info-modal [inputTitle]="'Картон'" class="ion-page">
+
+  <div class="medical_record">
+
+    <div class="h1">Животно:</div>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6" class="label">Номер Пациент:</ion-col>
+        <ion-col size="6">{{ selectedObject.anesthetized_id }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="label">Име:</ion-col>
+        <ion-col size="6">{{ selectedObject.anesthetized_name }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="label">Вид:</ion-col>
+        <ion-col size="6">{{ getAnimalTypeLabel(selectedObject.animalType) }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="label">Пол:</ion-col>
+        <ion-col size="6">{{ selectedObject.sex }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="label">Порода:</ion-col>
+        <ion-col size="6">{{ selectedObject.breed }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="label">ASA статус*:</ion-col>
+        <ion-col size="6">{{ selectedObject.asa_status }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="label">Заболявания:</ion-col>
+        <ion-chip *ngFor="let disease of selectedObject.pets_diseases" (click)="openDiseaseInfo(disease)">
+          {{ disease }}
+        </ion-chip>
+      </ion-row>
+    </ion-grid>
+
+    <div class="h1">Процедура:</div>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6" class="label">Дата:</ion-col>
+        <ion-col size="6">{{ selectedObject.procedure_date }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="label">Процедура:</ion-col>
+        <ion-col size="6">{{ selectedObject.procedure_type }}</ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+    <div class="h1">Упойка:</div>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6" class="label">Дата:</ion-col>
+        <ion-col size="6">{{ selectedObject.procedure_date }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="label">Процедура:</ion-col>
+        <ion-col size="6">{{ selectedObject.procedure_type }}</ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+    <div class="h1">Мониторинг:</div>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6" class="label">Дата:</ion-col>
+        <ion-col size="6">{{ selectedObject.procedure_date }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="label">Процедура:</ion-col>
+        <ion-col size="6">{{ selectedObject.procedure_type }}</ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+    <div class="h1">Възстановяване:</div>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6" class="label">Дата:</ion-col>
+        <ion-col size="6">{{ selectedObject.procedure_date }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="label">Процедура:</ion-col>
+        <ion-col size="6">{{ selectedObject.procedure_type }}</ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+
+</nv-info-modal>

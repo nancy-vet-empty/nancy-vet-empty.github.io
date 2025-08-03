@@ -1,0 +1,26 @@
+
+.pet-button {
+  // font-size: 22px!important;
+  // margin-left: 5px!important;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: #dedede;
+  border-radius: 28px;
+  text-align: center;
+}
+
+.pet-button img {
+  max-width: 200%;
+}
+
+.vertical_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+
+.ward {
+  color: #3880ff;
+  font-weight: 800;
+}

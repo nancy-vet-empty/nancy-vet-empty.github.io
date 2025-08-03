@@ -29,6 +29,11 @@ const routes: Routes = [
         loadChildren  : () => import('../patients/ward/ward.module').then(m => m.WardPageModule)
       },
       {
+        path          : 'tab3',
+        loadChildren  : () => import('../patients/anesthetized/anesthetized.module').then(m => m.AnesthetizedPageModule)
+      },
+
+      {
         path          : '',
         redirectTo    : 'tab1',
         pathMatch     : 'full'

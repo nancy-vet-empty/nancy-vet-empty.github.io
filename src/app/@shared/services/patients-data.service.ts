@@ -1,7 +1,8 @@
-import { Injectable }         from "@angular/core";
-import PatientsCollectionJson from "nv@json/patients/patients.collection.json";
-import ProtocolsCollection    from "nv@json/patients/protocols.collection.json";
-import PatientsResults        from "nv@json/patients/patients-results.collection.json";
+import { Injectable }               from "@angular/core";
+import PatientsCollectionJson       from "nv@json/patients/patients.collection.json";
+import AnesthetizedCollectionJson   from "nv@json/patients/anesthetized.collection.json";
+import ProtocolsCollection          from "nv@json/patients/protocols.collection.json";
+import PatientsResults              from "nv@json/patients/patients-results.collection.json";
 
 function containsAny(arr1: any, arr2: any) {
   return arr1.some((item: any) => arr2.includes(item));
@@ -12,9 +13,8 @@ function containsAny(arr1: any, arr2: any) {
 })
 export class PatientDataService {
 
-
   private patients: any[] = (PatientsCollectionJson as any).default || PatientsCollectionJson;
-
+  private anesthetized: any[] = (AnesthetizedCollectionJson as any).default || AnesthetizedCollectionJson;
 
   $patients() {
     return {
@@ -22,9 +22,6 @@ export class PatientDataService {
       addPatient: (patient: any) => this.patients.push(patient)
     };
   }
-
-
-
 
   private $patientCollection: any = [];
   private $protocolCollection: any = [];
@@ -58,6 +55,19 @@ export class PatientDataService {
 
   public getAllresults(): any {
     return this.$resultCollection;
+  }
+
+  // PAGE ANESTHETIZED PATIENTS:
+
+  private $anesthetizedCollection: any = [];
+
+  public $anesthetized() {
+    this.$anesthetizedCollection = structuredClone(AnesthetizedCollectionJson);
+    return this;
+  }
+
+  public getAllAnesthetized(): any {
+    return this.$anesthetizedCollection;
   }
 
 

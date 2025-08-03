@@ -5,14 +5,6 @@ import { CommonModule             } from '@angular/common';
 import { FormsModule              } from '@angular/forms';
 import { RouterModule, Routes     } from '@angular/router';
 
-import { PatientsPage             } from './patients.page';
-
-// import { DiseasesPageModule       } from 'nv@features/@section/library/diseases/diseases.module';
-// import { DrugInfoModal            } from '../../library/diseases/@modal/drug-info/drug-info.component';
-import { PatientRecordModal       } from './@modal/patient-record/patient-record.component';
-import { SelectCategoryModal      } from './@modal/select-category/select-category.component';
-import { AnesthetizedRecordModal  } from './@modal/anesthetized-record/anesthetized-record.component';
-
 import { PrimaryMenu              } from 'nv@features/@menu/primary-menu/primary-menu.component';
 
 import { NvRadioComponent         } from 'nv@components/@forms/nv-radio/nv-radio.component';
@@ -23,25 +15,21 @@ import { CategoryPickerComponent  } from 'nv@components/@blocks/category-picker/
 import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/nv-info-modal.component';
 import { SplitPipe                } from 'nv@pipes/split.pipe';
 import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
-import { CreatePatientComponent   } from './@modal/create-patient/create-patient.component';
+import { AnesthetizedPage         } from './anesthetized.page';
+
 
 const routes: Routes = [{
     path      : '',
-    component : PatientsPage,
+    component : AnesthetizedPage,
   }
 ];
 
 @NgModule({
-    schemas                           : [
+    schemas                         : [
       CUSTOM_ELEMENTS_SCHEMA
     ],
     declarations                    : [
-      PatientsPage                  ,
-      PatientRecordModal            ,
-      AnesthetizedRecordModal       ,
-      SelectCategoryModal           ,
-      CreatePatientComponent        ,
-      // DrugInfoModal
+      AnesthetizedPage
     ],
     imports                         : [
       RouterModule.forChild(routes) ,
@@ -56,8 +44,7 @@ const routes: Routes = [{
       NvSearchToolbarComponent      ,
       CategoryPickerComponent       ,
       NvInfoModal                   ,
-      NvLinkButtonComponent         ,
-      // DiseasesPageModule
+      NvLinkButtonComponent
     ]
 })
-export class PatientsPageModule {}
+export class AnesthetizedPageModule {}
