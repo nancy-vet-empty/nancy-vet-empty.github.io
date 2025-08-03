@@ -1,0 +1,62 @@
+[
+  {
+    "anesthetized_id"   : 0,
+    "anesthetized_name" : "Лъчко",
+    "animalType"        : "cat",
+    "breed"             : "",
+    "age"               : "",
+    "weight_kg"         : 0,
+    "sex"               : "",
+    "neutered"          : "",
+    "asa_status"        : 1,
+    "diseases"          : [],
+
+    "procedure_date"    : "",
+    "procedure_type"    : "",
+    "procedure_duration": "",
+
+    "drug_induction_type"         : [],
+    "drug_induction_description"  : "",
+    "drug_maintenance_type"       : [],
+    "drug_maintenance_description": "",
+    "endotracheal_tube"           : "",
+    "anesthesia_complications"    : "",
+    "anesthesia_interventions"    : "",
+
+    "recovery_duration"     : "",
+    "recovery_quality"      : "",
+    "recovery_complications": "",
+    "notes"                 : "",
+    "self-assessment"       : ""
+  },
+  {
+    "anesthetized_id"   : 1,
+    "anesthetized_name" : "Лъчко",
+    "animalType"        : "dog",
+    "breed"             : "",
+    "age"               : "",
+    "weight_kg"         : 0,
+    "sex"               : "",
+    "neutered"          : "",
+    "asa_status"        : 1,
+    "diseases"          : [],
+
+    "procedure_date"    : "",
+    "procedure_type"    : "",
+    "procedure_duration": "",
+
+    "drug_induction_type"         : [],
+    "drug_induction_description"  : "",
+    "drug_maintenance_type"       : [],
+    "drug_maintenance_description": "",
+    "endotracheal_tube"           : "",
+    "anesthesia_complications"    : "",
+    "anesthesia_interventions"    : "",
+
+    "recovery_duration"     : "",
+    "recovery_quality"      : "",
+    "recovery_complications": "",
+    "notes"                 : "",
+    "self-assessment"       : ""
+  }
+]
