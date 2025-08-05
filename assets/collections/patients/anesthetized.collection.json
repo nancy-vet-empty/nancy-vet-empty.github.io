@@ -1,7 +1,162 @@
 [
   {
     "anesthetized_id"   : 0,
-    "anesthetized_name" : "Лъчко",
+    "anesthetized_name" : "Неизвестно",
+    "animalType"        : "dog",
+    "breed"             : "кавалер",
+    "age"               : "4 години",
+    "weight_kg"         : 5.7,
+    "sex"               : "женски",
+    "neutered"          : "не",
+    "asa_status"        : 1,
+    "diseases"          : [],
+
+    "procedure_date"    : "01.04.2025",
+    "procedure_type"    : "Оварихистеректомия",
+    "procedure_duration": "30 мин",
+
+    "drug_induction_type"         : ["Коктейл"],
+    "drug_induction_description"  : "Коктейл 0,025 мл/кг.",
+    "other_medications"           : ["Синулокс", "Ревмокам", "Деган"],
+    "drug_maintenance_type"       : ["Пропофол", "Изофлуран"],
+    "drug_maintenance_description": "Изофлуран 1",
+    "endotracheal_tube"           : "5",
+    "anesthesia_complications"    : "Нямаше",
+    "anesthesia_interventions"    : "",
+
+    "recovery_duration"     : "Бързо",
+    "recovery_quality"      : "Високо",
+    "recovery_complications": "Нямаше",
+    "notes"                 : "",
+    "self_assessment"       : ""
+  },
+  {
+    "anesthetized_id"   : 1,
+    "anesthetized_name" : "Неизвестно",
+    "animalType"        : "dog",
+    "breed"             : "метис",
+    "age"               : "2 години",
+    "weight_kg"         : 18,
+    "sex"               : "мъжки",
+    "neutered"          : "не",
+    "asa_status"        : 1,
+    "diseases"          : [],
+
+    "procedure_date"    : "01.04.2025",
+    "procedure_type"    : "орхиектомия",
+    "procedure_duration": "30 мин",
+
+    "drug_induction_type"         : ["Коктейл"],
+    "drug_induction_description"  : "Коктейл 0,25 мг/кг - 0,45 мл ИМ.",
+    "other_medications"           : ["Синулокс", "Ревмокам", "Деган"],
+    "drug_maintenance_type"       : ["Изофлуран"],
+    "drug_maintenance_description": "Нямаше нужда от пропофол.",
+    "endotracheal_tube"           : "7",
+    "anesthesia_complications"    : "Нямаше",
+    "anesthesia_interventions"    : "Нямаше",
+
+    "recovery_duration"     : "Бързо",
+    "recovery_quality"      : "Високо",
+    "recovery_complications": "Нямаше",
+    "notes"                 : "",
+    "self_assessment"       : ""
+  },
+  {
+    "anesthetized_id"   : 3,
+    "anesthetized_name" : "",
+    "animalType"        : "dog",
+    "breed"             : "",
+    "age"               : "8",
+    "weight_kg"         : 4.7,
+    "sex"               : "женски",
+    "neutered"          : "",
+    "asa_status"        : 2,
+    "diseases"          : ["Пиометра"],
+
+    "procedure_date"    : "04.08.2025",
+    "procedure_type"    : "Оварихистеректомия",
+    "procedure_duration": "30 мин",
+
+    "drug_induction_type"         : [],
+    "drug_induction_description"  : "",
+    "other_medications"           : [],
+    "drug_maintenance_type"       : ["Изофлуран", "Фентанил"],
+    "drug_maintenance_description": "Изофлуран 1.5. Кислород 0.1",
+    "endotracheal_tube"           : "",
+    "anesthesia_complications"    : "Нямаше",
+    "anesthesia_interventions"    : "",
+
+    "recovery_duration"     : "",
+    "recovery_quality"      : "",
+    "recovery_complications": "",
+    "notes"                 : "",
+    "self_assessment"       : ""
+  },
+  {
+    "anesthetized_id"   : 4,
+    "anesthetized_name" : "",
+    "animalType"        : "dog",
+    "breed"             : "френски булдог",
+    "age"               : "3 години",
+    "weight_kg"         : 13.3,
+    "sex"               : "мъжки",
+    "neutered"          : "да",
+    "asa_status"        : 1,
+    "diseases"          : ["Язва на роговицата"],
+
+    "procedure_date"    : "04.08.2025",
+    "procedure_type"    : "Тарзорафия",
+    "procedure_duration": "10 минути",
+
+    "drug_induction_type"         : ["Коктейл", "Пропофол"],
+    "drug_induction_description"  : "Коктейл 0,022 мл/кг, Пропофол до заспиване 10 мин след коктейла",
+    "other_medications"           : [],
+    "drug_maintenance_type"       : ["Изофлуран"],
+    "drug_maintenance_description": "Изофлуран 1.7. Кислород 0.3",
+    "endotracheal_tube"           : "6",
+    "anesthesia_complications"    : "Нямаше",
+    "anesthesia_interventions"    : "Нямаше",
+
+    "recovery_duration"     : "40 минути",
+    "recovery_quality"      : "Животното бе спокойно и изведнъж скокна. Не махнахме тубуса, докато не се събуди.",
+    "recovery_complications": "",
+    "notes"                 : "",
+    "self_assessment"       : ""
+  },
+  {
+    "anesthetized_id"   : 5,
+    "anesthetized_name" : "",
+    "animalType"        : "dog",
+    "breed"             : "метис",
+    "age"               : "9",
+    "weight_kg"         : 0,
+    "sex"               : "мъжки",
+    "neutered"          : "",
+    "asa_status"        : 2,
+    "diseases"          : ["Тумор на тестиса"],
+
+    "procedure_date"    : "04.08.2025",
+    "procedure_type"    : "орхиектомия",
+    "procedure_duration": "30 мин",
+
+    "drug_induction_type"         : ["Пропофол с буторфанол и мидазолам"],
+    "drug_induction_description"  : "Пропофол 5 мг/кг, буторфанол 0.25 мг/кг, мидазолам 0.2 мг/кг",
+    "other_medications"           : [],
+    "drug_maintenance_type"       : ["Изофлуран"],
+    "drug_maintenance_description": "Изофлуран 1.5, после 2. Кислород 0.3, после 0.1",
+    "endotracheal_tube"           : "6",
+    "anesthesia_complications"    : "Мърдаше се от време на време",
+    "anesthesia_interventions"    : "Добавяне на пропофол",
+
+    "recovery_duration"     : "Бавно, с часове",
+    "recovery_quality"      : "",
+    "recovery_complications": "",
+    "notes"                 : "",
+    "self_assessment"       : ""
+  },
+  {
+    "anesthetized_id"   : 0,
+    "anesthetized_name" : "",
     "animalType"        : "cat",
     "breed"             : "",
     "age"               : "",
@@ -17,6 +172,7 @@
 
     "drug_induction_type"         : [],
     "drug_induction_description"  : "",
+    "other_medications"           : [],
     "drug_maintenance_type"       : [],
     "drug_maintenance_description": "",
     "endotracheal_tube"           : "",
@@ -27,12 +183,12 @@
     "recovery_quality"      : "",
     "recovery_complications": "",
     "notes"                 : "",
-    "self-assessment"       : ""
+    "self_assessment"       : ""
   },
   {
-    "anesthetized_id"   : 1,
-    "anesthetized_name" : "Лъчко",
-    "animalType"        : "dog",
+    "anesthetized_id"   : 0,
+    "anesthetized_name" : "",
+    "animalType"        : "cat",
     "breed"             : "",
     "age"               : "",
     "weight_kg"         : 0,
@@ -47,6 +203,7 @@
 
     "drug_induction_type"         : [],
     "drug_induction_description"  : "",
+    "other_medications"           : [],
     "drug_maintenance_type"       : [],
     "drug_maintenance_description": "",
     "endotracheal_tube"           : "",
@@ -57,6 +214,6 @@
     "recovery_quality"      : "",
     "recovery_complications": "",
     "notes"                 : "",
-    "self-assessment"       : ""
+    "self_assessment"       : ""
   }
 ]
