@@ -66,10 +66,20 @@ export class AnesthetizedPage implements OnInit {
     this.searchCategory = category;
   }
 
+  //I don't change petName, ownerAddress, diagnosis because of the [inputPetName], etc. For PatientRecord and AnesthetizedRecord are common
   applyFilters() {
     this.filteredPatients = this.allAnesthetized.filter(patient => {
       const matchesName = this.searchCategory === 'petName'
         ? patient.anesthetized_name?.toLowerCase().includes(this.searchQuery.toLowerCase())
+        : true;
+
+      const matchesDrug = this.searchCategory === 'ownerAddress'
+        ? (patient.drug_induction_type || []).some((d: string) =>
+          d.toLowerCase().includes(this.searchQuery.toLowerCase()))
+        : true;
+
+      const matchesProcedure = this.searchCategory === 'diagnosis'
+        ? patient.procedure_type?.toLowerCase().includes(this.searchQuery.toLowerCase())
         : true;
 
       const matchesAnimalType = this.selectedAnimalType
@@ -78,6 +88,8 @@ export class AnesthetizedPage implements OnInit {
 
       return (
         matchesName &&
+        matchesProcedure &&
+        matchesDrug &&
         matchesAnimalType
       );
     });

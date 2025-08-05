@@ -18,6 +18,32 @@ export class AnesthetizedRecordModal implements OnInit {
   private diseasesService: DiseasesService = inject(DiseasesService);
 
   public anesthetized_id!: number;
+  public anesthetized_name!: any;
+  public sex!: any;
+  public breed!: any;
+  public asa_status!: number;
+  public diseases: any[] = [];
+
+  public procedure_date!: any;
+  public procedure_type!: any;
+  public procedure_duration!: any;
+
+  public drug_induction_type: any[] = [];
+  public drug_induction_description!: any;
+  public drug_maintenance_type: any[] = [];
+  public drug_maintenance_description!: any;
+  public other_medications: any[] = [];
+  public endotracheal_tube!: number;
+  public anesthesia_complications!: any;
+  public anesthesia_interventions!: any;
+
+  public recovery_duration!: any;
+  public recovery_quality!: any;
+  public recovery_complications!: any;
+  public notes!: any;
+  public self_assessment!: any;
+
+
   public patient: any;
   public selectedObject: any; // The chosen patient
 

@@ -21,7 +21,21 @@
           (click)="onSearchCategorySelected('petName')">
           животно - име
         </ion-button>
+
+        <ion-button class="patient_button"
+          [color]="searchCategory === 'diagnosis' ? 'primary' : 'medium'"
+          (click)="onSearchCategorySelected('diagnosis')">
+          Процедура
+        </ion-button>
+
+        <ion-button class="patient_button"
+          [color]="searchCategory === 'ownerAddress' ? 'primary' : 'medium'"
+          (click)="onSearchCategorySelected('ownerAddress')">
+          Упойка
+        </ion-button>
       </ion-col>
+
+
 
       <ion-col class="vertical_buttons">
         <ion-button
@@ -60,8 +74,9 @@
 
   <ng-container *ngFor="let element of filteredPatients">
   <dc-card
-    [inputPetName]="element?.pet_name"
-    [inputPetsDiseases]="element?.pets_diseases"
+    [inputPetName]="element?.anesthetized_name"
+    [inputOwnerName]="element?.procedure_type"
+    [inputPetsDiseases]="element?.asa_status"
     [object]="element"
     (onSelectCard)="onSelectCard($event)">
   </dc-card>
