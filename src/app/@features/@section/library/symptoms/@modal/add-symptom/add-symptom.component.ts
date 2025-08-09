@@ -29,24 +29,24 @@ export class AddSymptomModalComponent {
 
 
   symptomTypeOptions = [
-    { label: 'infectious', value: 'Инфекциозни заболявания' },
-    { label: 'parasitic', value: 'Паразитни заболявания' },
-    { label: 'neoplasms', value: 'Новообразувания' },
-    { label: 'blood', value: 'Болести на кръвта и имунната система' },
-    { label: 'nervous', value: 'Болести на нервната система' },
-    { label: 'eye', value: 'Болести на окото' },
-    { label: 'ear', value: 'Болести на ухото' },
-    { label: 'mental', value: 'Поведенчески разстройства' },
-    { label: 'endocrine', value: 'Болести на ендокринната система' },
-    { label: 'circulatory', value: 'Болести на кръвообращението' },
-    { label: 'respiratory', value: 'Болести на дихателната система' },
-    { label: 'digestive', value: 'Болести на храносмилателната система' },
-    { label: 'skin', value: 'Болести на кожата' },
-    { label: 'muskuloskeletal', value: 'Болести на костно-мускулната система' },
-    { label: 'genitourinary', value: 'Болести на пикочо-половата система' },
-    { label: 'pregnancy', value: 'Бременност и раждане' },
-    { label: 'congenital', value: 'Вродени аномалии' },
-    { label: 'injuries', value: 'Травми и отравяния' }
+    { label: 'Инфекциозни заболявания'              , value: 'infectious' },
+    { label: 'Паразитни заболявания'                , value: 'parasitic' },
+    { label: 'Новообразувания'                      , value: 'neoplasms' },
+    { label: 'Болести на кръвта и имунната система' , value: 'blood' },
+    { label: 'Болести на нервната система'          , value: 'nervous' },
+    { label: 'Болести на окото'                     , value: 'eye' },
+    { label: 'Болести на ухото'                     , value: 'ear' },
+    { label: 'Поведенчески разстройства'            , value: 'mental' },
+    { label: 'Болести на ендокринната система'      , value: 'endocrine' },
+    { label: 'Болести на кръвообращението'          , value: 'circulatory' },
+    { label: 'Болести на дихателната система'       , value: 'respiratory' },
+    { label: 'Болести на храносмилателната система' , value: 'digestive' },
+    { label: 'Болести на кожата'                    , value: 'skin' },
+    { label: 'Болести на костно-мускулната система' , value: 'muskuloskeletal' },
+    { label: 'Болести на пикочо-половата система'   , value: 'genitourinary' },
+    { label: 'Бременност и раждане'                 , value: 'pregnancy' },
+    { label: 'Вродени аномалии'                     , value: 'congenital' },
+    { label: 'Травми и отравяния'                   , value: 'injuries' }
   ];
 
  constructor(private modalCtrl: ModalController) {}
