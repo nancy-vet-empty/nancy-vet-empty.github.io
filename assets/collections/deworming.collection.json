@@ -404,12 +404,12 @@
     "effect"            : "Парализира паразитите. Убива яйцата, ларвите и възрастните бълхи.",
     "typeDeworming"     : "both",
     "killingActivity"   : "1 месец",
-    "indications"       : ["бълхи", "кърлежи", "въшки", "Otodectes", "Dirofilaria", "нематоди", "не убива цестоди (Tenia spp.)"],
+    "indications"       : ["бълхи", "не убива кърлежи", "въшки", "Otodectes", "Dirofilaria", "нематоди", "не убива цестоди (Tenia spp.)"],
     "contraindications" : "Не давай на кученца и котенца по-малки от 6 седмици.",
     "precautions"       : "Животните могат да се къпят 2 часа след третиране с продукта без това да доведе до намаляване на ефективността.",
     "pregnancy"         : "Може да се използва при лактиращи, бременни и животни за разплод.",
     "howToGive"         : "Върху кожата.",
-    "dosage"            : "",
+    "dosage"            : "@assets/pdfs/@deworming/stronghold-tablitsa.png",
     "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2021/09/stronghold-epar-product-information_bg.pdf",
     "image"             : "assets/pdfs/@deworming/stronghold.png"
   },
@@ -886,7 +886,7 @@
     "precautions"       : "",
     "pregnancy"         : "",
     "howToGive"         : "Върху кожата.",
-    "dosage"            : "",
+    "dosage"            : "@assets/pdfs/@deworming/stronghold-plus-cats-tablitsa.png",
     "link"              : "assets/pdfs/@deworming/pdfs/stronghold-plus.pdf",
     "image"             : "assets/pdfs/@deworming/stronghold-plus-cats.png"
   },

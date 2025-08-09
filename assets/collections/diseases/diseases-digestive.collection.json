@@ -649,17 +649,17 @@
     "title"       : "Котешки хроничен гингивостоматит",
     "titleEn"     : "Feline Chronic Gingivostomatitis",
     "type"        : "digestive",
-    "animals"     : ["dogs", "cats"],
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
+    "etiology"      : ["Други имена: Lymphocytic plasmacytic stomatitis (LPS)", "Това е болезнено заболяване, което засяга венците, бузните лигавици и задната част на гърлото. Вместо нормална имунна реакция, която контролира бактериите, при FCGS имунната система на котката започва да атакува собствените си тъкани в устната кухина. Това води до хронично възпаление, което е изключително болезнено и трудно за овладяване."],
+    "signs"         : ["дисфагия", "анорексия", "слюноотделяне", "загуба на тегло"],
+    "specificSigns" : ["зачервени венци"],
     "diagnostics"   : [""],
-    "treatment"     : [""],
+    "treatment"     : ["Медикаментозна терапия", "Вадене на зъби"],
     "differential"  : [""]
   },
   {

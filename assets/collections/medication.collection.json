@@ -9235,6 +9235,62 @@
   },
   {
     "type": "others",
+    "title": "Догферон флак.",
+    "titleEn": "Dogferon.",
+    "activeSubstance": "интерферон алфа",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_10_kg",
+        "applicationMethod": "SC q24h"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.2,
+          0.5
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "SC q24h"
+      }
+    },
+    "link"              : "",
+    "indications"       : ["При лечение на панлевкопения, парвовироза и др. вирусни инфекции.", "0,2-0,3 мл на малко коте, 0,5 мл на голяма котка.", "Догферона стимулира хуморалния имунитет и се понася добре."],
+    "contraindications" : ["Автоимунни заболявания", "ББ заболяване", "Хипохромна анемия"],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Ронколейкин амп.",
+    "titleEn": "Ronkoleikin amp.",
+    "activeSubstance": "интерлевкин 2",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          0.12
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "SC q24h"
+      }
+    },
+    "link"              : "",
+    "indications"       : ["Стимулира клетъчния имунитет. Не винаги се понася добре. Дозата при малки КТ - наполовина, при големи КТ - 0,12 мл", "При лечение на панлевкопения, парвовироза, инфекциозен хепатит, лептоспироза и др. вирусни инфекции. Също така и за тумори на мл. жл."],
+    "contraindications" : ["Автоимунни заболявания", "ББ заболяване", "Хипохромна анемия"],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
     "title": "Флексадин Адванст",
     "titleEn": "Flexadin Advanced",
     "activeSubstance": "-",
