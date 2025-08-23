@@ -20,7 +20,7 @@ export class PatientsPage implements OnInit {
   private dialogService: DialogService      = inject(DialogService);
 
   public $collection: any = [];
-  public searchCategory = "ownerName";
+  public searchCategory = "petName";
   public selectedAnimalType: 'dog' | 'cat' | "rabbit" | "guineapig" | null = null;
   public searchQuery: string = '';
   public filterWardOnly: boolean = false;
