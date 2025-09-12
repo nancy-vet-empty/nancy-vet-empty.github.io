@@ -12,7 +12,8 @@
     "treatment"                 : "Синулокс 2,4, Байтрил 2,7, Мелбек 0,54, Витамин Б12 1 мл. Ако прояде, започвам Хемовет/ Уолмарк, Имидокарб, Глюкортин.",
     "medications"               : ["Синулокс", "Байтрил", "Мелбек", "Витамин Б12"],
     "manipulations"             : ["взимане на кръв", "CaniV-4", "ПКК"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 1,
@@ -27,7 +28,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 2,
@@ -42,7 +44,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 3,
@@ -57,7 +60,8 @@
     "treatment"                 : "Превомакс",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 4,
@@ -72,7 +76,8 @@
     "treatment"                 : "Синулокс 1,7 мл. Глюкортин 0.6 мл. Пет-седем дни инжекции. Ранулата на шестия ден изчезна.",
     "medications"               : ["Синулокс", "Глюкортин"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 5,
@@ -87,7 +92,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 6,
@@ -102,7 +108,8 @@
     "treatment"                 : "Байтрил 3,4 мл, Мелбек 0,68 мл.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 7,
@@ -117,7 +124,8 @@
     "treatment"                 : "Преднизолон. Глюкортин 1 мл. Имидокарб 1,7 мл. Атропин 0,5 мл. Доксициклин по 7 табл дневно след хранене, разделено на два приема. След 2 седмици отново инжектирах Имидокарб ИМ с атропин. Оздраввя.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 8,
@@ -132,7 +140,8 @@
     "treatment"                 : "Глюкортин. Витамин Б12. За инжектиране на Имидокарб.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 9,
@@ -147,7 +156,8 @@
     "treatment"                 : "Терапия със Синулокс и Ревмокам. На следващия ден е бил още отпаднал - тогава са включени Имидокарб, Глюкортин и Синулокс. Доксициклин за 10 дни и Имидокарб след 14 дни отново. В същия ден на първия Имидокарб КЧ е силно отпаднало и е повърнало - Аналгин 0,6 мл и нолпаза 0,6 мл. На следващия ден - Бусколизин, Нолпаза, Глюкортин.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 10,
@@ -162,7 +172,8 @@
     "treatment"                 : "Синулокс 1,3 мл. Глюкортин 0,8 мл.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 11,
@@ -177,7 +188,8 @@
     "treatment"                 : "Кастрация",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 12,
@@ -192,7 +204,8 @@
     "treatment"                 : "Инжекции няколко дни: Интрамицин и Байтрил 2-3 дни, докато състоянието на КЧ се подобри, след това на ципрофлоксацин 8-10 мг/кг табл. за 10 дни. След което контрола ехограф. При нормално протичащо лечение - Ипозан. Не се предприема кастрация поради възрастта на кучето (13 години). Бусколизин, Мелбек.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 13,
@@ -207,7 +220,8 @@
     "treatment"                 : "Давам Ципрофлоксацин за 10 дни въпреки че не яде още като хората. След 2 седмицин - контролна ехография и след това Ипозан за 1 седмица.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 14,
@@ -222,7 +236,8 @@
     "treatment"                 : "Калциделис по 1/2 табл. на ден. След 5 дни контрола. Сменяне на храната с висок клас.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 15,
@@ -237,7 +252,8 @@
     "treatment"                 : "Калциев бороглюконат 2 мл. АД3Е 0,7 мл. Шина (Dog Hock Brace) за десния крайник. ВИкнах го вдругиден. Предупредих го, че инжекциите са болезнени и че може да станат бучки. И че тъй като КЧ е с отдавна такъв проблем, може и така да си остане.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 16,
@@ -252,7 +268,8 @@
     "treatment"                 : "Калциев бороглюконат 2 мл. АД3Е 0,7 мл. Ще пробваме през три дни за една седмица. След 2 седмици КЧ се оправи.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 17,
@@ -267,7 +284,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 18,
@@ -282,7 +300,8 @@
     "treatment"                 : "Овлажняващи капки с АБ Околофарм 4х дн. Цикло 2% с такро 2 х дн. Такро маз 2 х дн. Бетадин. След 14 дни контрола.",
     "medications"               : ["Околофарм капки за очи", "Такро 0,1% + Цикло 1% колир"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 19,
@@ -297,7 +316,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 20,
@@ -312,7 +332,8 @@
     "treatment"                 : "Овлажняващи капки с Унифлокс 1:1 3 х дн. Почистване с Оптикскеър лосион. Контрола след месец.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 21,
@@ -327,7 +348,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 22,
@@ -342,7 +364,8 @@
     "treatment"                 : "Овлажняващи капки с АБ.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 23,
@@ -357,7 +380,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 24,
@@ -372,7 +396,8 @@
     "treatment"                 : "Унифлокс 3 х дн. Диферион 3 х дн. Циклоспорин 1% и Такролимус 0,03% 2 х дн. Легафитон 2 х дн. Алто-флекс 2,5 мл/ден. Бетадин. Контрола след 25 дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 25,
@@ -387,7 +412,8 @@
     "treatment"                 : "Циклоспорин 1% и Такролимус 0,03% капки плюс 4 капс. х 25 мг Неорал 2-3 х дн. Диферион с 1/2 Околофарм 3 х дн.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 26,
@@ -402,7 +428,8 @@
     "treatment"                 : "Колир Улцере и Хлорамфеникол 4 х дн. Докси 1/3 табл/ден. Контрола след седмица. Евентуално да мине на преднизолон, ако няма подобрение? Да начисля един блистерд Доксициклин.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 27,
@@ -417,7 +444,8 @@
     "treatment"                 : "Изписвам само Доксициклин.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 28,
@@ -432,7 +460,8 @@
     "treatment"                 : "Хлорамфеникол + НА колир. Амоксиклав 125 мг/5 мл. Лизинвирал плюс.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 29,
@@ -447,7 +476,8 @@
     "treatment"                 : "Бетадин. Хлорамфеникол 3-4 х дн. Такролимус 2 х дн. Контрола след 20 дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 30,
@@ -462,7 +492,8 @@
     "treatment"                 : "Почистване на уши при отодектоза. Дермосцент Пио Ото Клийн ампула. Хлорамфеникол + НА колир.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 31,
@@ -477,7 +508,8 @@
     "treatment"                 : "Оптикскеър Плюс. Аптус Сентрикс гел. Тобракулин - 0,3%.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 32,
@@ -492,7 +524,8 @@
     "treatment"                 : "Дорзасопт капки. Ксалатан. Енроксил табл.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 33,
@@ -507,7 +540,8 @@
     "treatment"                 : "Хлорамфеникол + НА колир. Амоксиклав 125 мг/5 мл. Колир Улцере.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 34,
@@ -522,7 +556,8 @@
     "treatment"                 : "Чил протокол (Транквилин, Габагамма, Мелатонин табл.) и Взимане на кръв ПКК с биохимия, T4, TSH.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 35,
@@ -537,7 +572,8 @@
     "treatment"                 : "Офталмологичен ехограф. Тонометрия. Такролимус 0,03% + Преднизолон 0,5% колир.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 36,
@@ -552,7 +588,8 @@
     "treatment"                 : "Ентропион операция. Дуплоцилин, Ревмокам, Нолпаза. Хирургичен неабс. конец - полипропилен.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 37,
@@ -567,7 +604,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 38,
@@ -582,7 +620,8 @@
     "treatment"                 : "Почистване с избелващи разтвори около очите (Хипохлорин Вет Експерт р-р за рани), Овлажняващи капки с АБ.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 39,
@@ -597,7 +636,8 @@
     "treatment"                 : "Оспексин 500 мг табл. Ревмокам 1 мг/табл.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 40,
@@ -612,7 +652,8 @@
     "treatment"                 : "Хипохлорин ВетЕксперт за почистване на очите. ОптиксКеър Плюс 2 х дн дългосрочно. Нужно е изследване на липиден профил и калций в кръвта на гладно.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 41,
@@ -627,7 +668,8 @@
     "treatment"                 : "Седация с Пропофол и мидазолам. Локална анестезия на око. Остраняване на чуждото тяло. Почистване с Бетадин/ Аркол. Капки Флоксал 5 х дн. Капки Улцере 5 х дн. Ревмокам, превомакс, Бетамокс ПК. Контрола след 5 дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 42,
@@ -642,7 +684,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 43,
@@ -657,7 +700,8 @@
     "treatment"                 : "Синулокс инж. Ентеромикро паста. Колир Улцере. Хлорамфеникол + НА колир. Алпрамил, Ефинол спрей.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 44,
@@ -672,7 +716,8 @@
     "treatment"                 : "Алпрамил, фипринол спрей. Продължаваме с капките. Спираме антибиотика. Енуклеация след 2 седмици.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 45,
@@ -687,7 +732,8 @@
     "treatment"                 : "Без терапия.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 46,
@@ -702,7 +748,8 @@
     "treatment"                 : "Колир Улцере. Флоксал капки. Ревмокам ПО. Аркол. На 02.07.2025 - Колир Улцере. Ревмокам орален сироп.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 47,
@@ -717,7 +764,8 @@
     "treatment"                 : "Флоксал 4 х дн. Колир Улцере 4 х дн. Аркол с бетадин почистване.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 48,
@@ -732,7 +780,8 @@
     "treatment"                 : "Упояване с Пропофол и Мидазолам. Поставяне на дренаж - сонда за хранене. Цефтриаксон, Байтрил, Ревмокам, Венозно Рингер.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 49,
@@ -747,7 +796,8 @@
     "treatment"                 : "Цефтриаксон, Байтрил, Доксициклин ПО, Катозал, Бетадин промивка, Флоксал капки + ?? капки. 24-26.06.2025 на стационар",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 50,
@@ -762,7 +812,8 @@
     "treatment"                 : "Колир Улцере. Хлорамфеникол + НА колир.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 51,
@@ -777,7 +828,8 @@
     "treatment"                 : "Още 10 дни тази терапия 3 х дн. След това поддържаща Висвите гел 2 х дни и Такролимус 0,1% маз 2 х дн.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 52,
@@ -792,7 +844,8 @@
     "treatment"                 : "Докси 3 т/ден. Хедилон 2 т/ден. Такро?Предни 3 х ден болно, 2 х дн здраво. Хлорамфеникол същото.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : "Увеодерматологичен. Перзистираща а. хиоидалис. Тумор очен нерв. Хемоспоридиоза. Друг системен тумор."
+    "differential_diagnosis"    : "Увеодерматологичен. Перзистираща а. хиоидалис. Тумор очен нерв. Хемоспоридиоза. Друг системен тумор.",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 53,
@@ -807,7 +860,8 @@
     "treatment"                 : "Докси 1 и 1/2 т/12 ч още 16 дни. Хедилон 25 мг по 1/4 т/12 ч. След като свършат сегашните капки, продължаваме с поддържаща терапия околофарм 2 х дн пои 1 к в двете очи, Оптикскеър хелп 1к 2 х дн в двете очи. Контрола след 20 дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 54,
@@ -822,7 +876,8 @@
     "treatment"                 : "Още седмица терапия и остава само Оптикскеър хелт 2 х дн. Контрола началото на август.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 55,
@@ -837,7 +892,8 @@
     "treatment"                 : "Упояване с Пропофол и Мидазолам. Коктейл?. Операция ентропион тотал на двете очи. Бетамокс, Ревмокам ПК и Бупак ИВ. ",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 56,
@@ -852,7 +908,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 57,
@@ -867,7 +924,8 @@
     "treatment"                 : "Контролен преглед.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 58,
@@ -882,7 +940,8 @@
     "treatment"                 : "Натриев хлорид банка, Такролимус 0,1% офт. маз, Овлажняващи капки + антибиотик. Вю Вет капсули.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 59,
@@ -897,7 +956,8 @@
     "treatment"                 : "Такролимус 0,1% офт. маз, Овлажняващи капки с АБ, Бетадин.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 60,
@@ -912,7 +972,8 @@
     "treatment"                 : "Офталмологичен сертификат. Косопт.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 61,
@@ -927,7 +988,8 @@
     "treatment"                 : "Косопт и Оптикскеър 2 х дн.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 62,
@@ -942,7 +1004,8 @@
     "treatment"                 : "Косопт 2 х дн. Ксалатан (Латанопрост) 1 х вечер. Овлажняващи капки НА 0,2% колир 2 х дн. Контрола след месец.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 63,
@@ -957,7 +1020,8 @@
     "treatment"                 : "Контрола 1 път годишно за динамика. тест FIV/ FeLV ако не е правен.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 64,
@@ -972,7 +1036,8 @@
     "treatment"                 : "Тарзорафия. Упояване с коктейл. Бупак. Байтирл. Цефтриаксон. Калиеркортин. Манитол 15% 183 мл.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 65,
@@ -987,7 +1052,8 @@
     "treatment"                 : "Нужно е няколко дни венозна АБ терапия за ретробулбарна инфекция, да се проследят кръвните показатели. Цефтриаксон. Байтрил. Бупак. Калиеркортин.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 66,
@@ -1002,7 +1068,8 @@
     "treatment"                 : "Байтрил. Бупак. Калиеркортин. Катозал. Подкожно флуиди. Интровит-Б комплекс.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 67,
@@ -1017,7 +1084,8 @@
     "treatment"                 : "Байтрил. Бупак. Калиеркортин. Катозал. Подкожно флуиди. Интровит-Б комплекс. На 03.07.2025 сваляне на конци.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 68,
@@ -1032,7 +1100,8 @@
     "treatment"                 : "Упояване с Пропофол и Мидазолам. Изваждане на чуждото тяло. Оцветяване на роговица. Тобримед. Аптус Сентрикс гел.ОптиксКеър Плюс. Доксициклин табл. Ревмокам табл. На 15.06 контролен преглед + оцветяване на роговицата. На 22.06 - контролен преглед.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 69,
@@ -1047,7 +1116,8 @@
     "treatment"                 : "Упояване с коктейл. Отстраняване на чуждото тяло. Флоксал капки. Аркол. ПотиксКеър Плюс.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 70,
@@ -1062,7 +1132,8 @@
     "treatment"                 : "Доксициклин. Дермипред",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 71,
@@ -1077,7 +1148,8 @@
     "treatment"                 : "Почистване с Бетадин/Аркол. Хлорамфеникол с НА 4-5 х дн. Колир Улцере 4-5 х дн. в окото. Синулокс 50 по 1/4 табл/12 ч ПО. Лизинвирал 1 мл/ден. Контрола след 10 дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 72,
@@ -1092,7 +1164,8 @@
     "treatment"                 : "Доксициклин 50 по 1табл./ден. Тетрациклин унгвент 3 х дн. Овлажняващи капки НА 0,2% 3-4 х дн. Контрола след седмица.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 73,
@@ -1107,7 +1180,8 @@
     "treatment"                 : "Почистване на очите с Аркол/ Бетадин преди накапване. Колир Улцере 5 х дн по 1 к в двете очи. Хлорамфеникол с НА 1к 5 х дн. в двете очи. Лизинвирал 1 мл/ден ПО 10 дни. Амоксиклав 156 по 0,15 мл/12 ч 12 дни. Прококс сега. Контрола след 10 дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 74,
@@ -1122,7 +1196,8 @@
     "treatment"                 : "Офтоциклин маз. Доксициклин 50 мг табл. Ревмокам инж.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 75,
@@ -1137,7 +1212,8 @@
     "treatment"                 : "Упояване с коктейл. Обработка на абсцес. Оцветяване на роговица. Синулокс. Байтрил. Ревмокам.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 76,
@@ -1152,7 +1228,8 @@
     "treatment"                 : "Синулокс. Байтрил. Ревмокам. Промивка на абсцес. Пурина Фортифлора. На 26.06 и 27.06 същата терапия + Метоклопрамид.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 77,
@@ -1167,7 +1244,8 @@
     "treatment"                 : "Торимед капки. Аркол. Амоксиклав 125/5мл. Ефинол спрей. Алпрамил.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 78,
@@ -1182,7 +1260,8 @@
     "treatment"                 : "Упояване с ??? ИМ. Корекция на ентропиум или ектропиум двустранно. Хлорамфеникол + вит. А колир.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 79,
@@ -1197,7 +1276,8 @@
     "treatment"                 : "Упояване с Пропофол и Торфадин. Ретробулбарна пункция. Тарзорафия. Полипропилен конец. Цефтриаксон, Байтрил, Нолпаза, Превомакс, Орнипурал ПК (веднъж на 19.06), Бупак, Спазмиум, Тобримед, Бетадин р-р за почистване, Аркол, Реналвет, Пронефра, венозна инфузия - терапия за 19-23.06 дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 80,
@@ -1212,7 +1292,8 @@
     "treatment"                 : "Бетадин. ОптиксКеър Плюс 2 х дн. Ако пак има рецидив, трябва да се качи на терапия за Сух кератоконюнктивит.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 81,
@@ -1227,7 +1308,8 @@
     "treatment"                 : "Такролимус 0,1% офт. маз, Овлажняващи капки с АБ, Бетадин.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 82,
@@ -1242,7 +1324,8 @@
     "treatment"                 : "Аптус сентрикс гел, Тобракулин.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 83,
@@ -1257,7 +1340,8 @@
     "treatment"                 : "",
     "medications"               : ["Posatex", "Отодин"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 84,
@@ -1272,7 +1356,8 @@
     "treatment"                 : "ТОбрин. Флоксал 4 х дн. Колир Улцере. Доксициклин табл. Бетадин р-р.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 85,
@@ -1287,7 +1372,8 @@
     "treatment"                 : "Същото лечение.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 86,
@@ -1302,7 +1388,8 @@
     "treatment"                 : "Околофарм. Оптикскеър хелт.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 87,
@@ -1317,7 +1404,8 @@
     "treatment"                 : "Доксициклин табл. Овлажняващи капки + АБ. Аркол. Колир Улцере. Хлорамфеникол + НА колир. Екстемпорален антибиотик. Ефинол спрей. Алпрамил.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 88,
@@ -1332,7 +1420,8 @@
     "treatment"                 : "Преднизон с Такролимус колир 2 х дн. Хлорамфеникол с НА 2-3 х. дн локално. Хедилон 5 мг по 1/4т/12ч ПО. Цикло 25 мг капс по 1/2 капс/12ч с храна. Контрола след 10 дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 89,
@@ -1347,7 +1436,8 @@
     "treatment"                 : "Такро + Предни колир 3 х дн. Такролимус маз 2 х дн.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 90,
@@ -1362,7 +1452,8 @@
     "treatment"                 : "Оптикскеър Хелт",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 91,
@@ -1377,7 +1468,8 @@
     "treatment"                 : "Колир Улцере. Диферион. Ленидерм шампоан.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 92,
@@ -1389,10 +1481,11 @@
     "clinical_signs"            : [""],
     "examination"               : "Тоновет ОС 50",
     "diagnosis"                 : "Posterior lens luxation, Secondary Glaucoma OD",
-    "treatment"                 : "Брунзоламид 1 к/сутрин. Ксалатан 1к/вечер. Лакристал Нео 1к 2 х дн. Контрола след 14 дни. Евентуално преглед под седация и енуклеация на ОД в зависимост от резултата ОС екстракапсуларна методика. Премахване леща или евтаназия око.",
+    "treatment"                 : "Бринзоламид 1 к/сутрин. Ксалатан 1к/вечер. Лакристал Нео 1к 2 х дн. Контрола след 14 дни. Евентуално преглед под седация и енуклеация на ОД в зависимост от резултата ОС екстракапсуларна методика. Премахване леща или евтаназия око.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 93,
@@ -1407,7 +1500,8 @@
     "treatment"                 : "Овлажняващи капки + АБ. Имаверол 5 мл.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 94,
@@ -1422,7 +1516,8 @@
     "treatment"                 : "Околофарм. Дентихекс паста.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 95,
@@ -1436,7 +1531,8 @@
     "treatment"                 : "Овлажняващи капки с АБ 2-3 х дн в двете очи. Почистване.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 96,
@@ -1451,7 +1547,8 @@
     "treatment"                 : "Хедилон 5 мг по 1/4т. / ден. Цикло 25 мг капс по 1/2 капс/12ч. Капки Такро + Предни колир 1 к 2 х дн. Контрола след 14 дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 97,
@@ -1466,7 +1563,8 @@
     "treatment"                 : "Имидокарб двукратно през 14 дни. Доксициклин 1 1/2т/12ч 3 седмици след храна. Добавка липомезин 1т/вечер след храна",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 98,
@@ -1481,7 +1579,8 @@
     "treatment"                 : "Синулокс. Байтрил. Метамизол 30% инж. Бетадин. Хлорамфеникол + НА колир. АЦЦ + НА колир. Флоксал.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 99,
@@ -1496,7 +1595,8 @@
     "treatment"                 : "Корекция на ентропиум. Полипропилен конец. Хлорамфеникол + вит. А колир.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 100,
@@ -1511,7 +1611,8 @@
     "treatment"                 : "Такро 0,1% + Цикло 1% колир 2 х дн. Овлажняващи капки с АБ 3-4 х дн. Бетадин почистване. Контрола след 20 дни.",
     "medications"               : [""],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 101,
@@ -1526,7 +1627,8 @@
     "treatment"                 : "Доксициклин. Кардишуър 5 мг. Дермипред 10 мг табл. Силденадил. Епато блистер. Интермектин.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 102,
@@ -1541,7 +1643,8 @@
     "treatment"                 : "Промивка с Бетадин и локална анестезия. Колир Улцере. Флоксал капки. АЦЦ + НА колир. Хлорамфеникол + вит. А колир. Доксициклин табл. Ревмокам табл. След 5 дни контрола. След това на 02.07 - Колир Улцере, Флоксал капки, АЦЦ + НА колир, Доксициклин на блистер.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 103,
@@ -1556,7 +1659,8 @@
     "treatment"                 : "Кортизем. Хибитан за 250 мл вода. Енрофлоксацин орал. Ревмокам орал.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 104,
@@ -1571,7 +1675,8 @@
     "treatment"                 : "Дермипред 1 т/ден. Имуран 1 т/ден. Контрола след 10 дни.",
     "medications"               : ["Дермипред", "Имуран"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 105,
@@ -1586,7 +1691,8 @@
     "treatment"                 : "Дексафорт на 22.03.2024. Дермипред 1 т/ден, после 1 и 1/2 т/ден и така се редуват, Имуран 1 т/ден на 06.04.2024. Следващата контрола е ан 21.05, 02.06, 16.10, 05.11",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 106,
@@ -1601,7 +1707,8 @@
     "treatment"                 : "Упояване с коктейл. Почистване на уши с Отодин, Позатекс капки за уши.Бетамокс инж.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 107,
@@ -1616,7 +1723,8 @@
     "treatment"                 : "Упояване с коктейл. Почистване на уши с Хипохлорин Вет Експерт, Позатекс капки за уши.Бетамокс инж. След това на стационар до 02.07, когато отново почистихме ушите.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 108,
@@ -1631,7 +1739,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 109,
@@ -1646,22 +1755,24 @@
     "treatment"                 : "Флоксал 3 х дн",
     "medications"               : ["Флоксал"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 110,
-    "protocol_creation_date"    : "",
+    "protocol_creation_date"    : "02.07.2025",
     "pet_id"                    : 21,
     "temperature"               : "",
-    "weight"                    : "",
+    "weight"                    : "8.8 кг",
     "anamnesis"                 : "",
     "clinical_signs"            : [""],
     "examination"               : "Ехограф",
     "diagnosis"                 : "Грануломно образувание под окото",
-    "treatment"                 : "Упояване с Коктейл. Премахване на образуванието и поставяне на дренаж. Оспексин. Бупак. Метоклопрамид. Ревмокам. Тобримед.",
-    "medications"               : [],
+    "treatment"                 : "Упояване с Коктейл. Премахване на образуванието и поставяне на дренаж. Оспексин. Бупак. Метоклопрамид. Ревмокам. Тобримед. Контролен преглед бе извършен на 09.07.2025.",
+    "medications"               : ["Оспексин табл", "Бупак", "Метоклопрамид", "Ревмокам", "Тобримед"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 111,
@@ -1676,7 +1787,8 @@
     "treatment"                 : "Вътрешно и външно обезпаразитяване. Продължаваме с капките и почистване по същия начин. Без перорален АБ повече. Контрола преди да свършат капките. Аркол. Колир Улцере. Хлорамфеникол + НА колир. АЦЦ + НА колир. Алпрамил. Стронгхолд.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 112,
@@ -1691,7 +1803,8 @@
     "treatment"                 : "Байтрил. Калиеркортин 8 мл. Витамин К 6 мл. Цефтриаксон. Нолпаза. Силденафил. Метамизол. Торфадин. Кислород. Торакоцентеза. На следващия ден терапията се повтаря.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 113,
@@ -1706,7 +1819,8 @@
     "treatment"                 : "Цефтриаксон. Калиеркортин. Метоклопрамид. Байтрил.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 114,
@@ -1721,7 +1835,8 @@
     "treatment"                 : "Оспексин 1000 по 1/2 т/12ч. Хедилон 25 мг по 1 и 1/2 т/12ч. Хемовет 5 т/ден. Контрола след 5 дни без да се спира терапията.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 115,
@@ -1736,7 +1851,8 @@
     "treatment"                 : "Спрени са всички препарати от седмица. Хедилон 25 по 1т/12ч. Азатиопрен Имуран 1 и 1/2 т/ден. Контрола след 10 дни.Ако се повлияе, вероятно е хемангиосарком.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 116,
@@ -1751,7 +1867,8 @@
     "treatment"                 : "",
     "medications"               : ["Имуран 50 мг", "Хедилон 25 мг", "Милпразон 12.5 мг"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 117,
@@ -1766,7 +1883,8 @@
     "treatment"                 : "Продължаваме същата терапия. Ще запишем Оп енуклеация ОД.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 118,
@@ -1781,7 +1899,8 @@
     "treatment"                 : "Бензоик саше и Зинкосеб редуване на кожата. Ветоскин. Цикло/ Такро 2 х дн. Диферион 304 х. Почистване. Унифлокс.",
     "medications"               : ["Такро 0,1% + Цикло 1% колир", "Бензоик саше", "Диферион", "Абелия Цинк-отик", "Шампоан доза бензоик", "Ветоскин капс."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 119,
@@ -1796,7 +1915,8 @@
     "treatment"                 : "Продължават назначената терапия.",
     "medications"               : ["Ксалатан"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 120,
@@ -1811,7 +1931,8 @@
     "treatment"                 : "Без терапия. Контролни прегледи веднъж годишно.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 121,
@@ -1826,7 +1947,8 @@
     "treatment"                 : "Няма терапия.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 122,
@@ -1841,7 +1963,8 @@
     "treatment"                 : "Слагат Тобрин и Крнерегел, подобрява се. Да продължават и да се следи.",
     "medications"               : ["Тобрин", "Корнерегел"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 123,
@@ -1856,7 +1979,8 @@
     "treatment"                 : "Продължават същата терапия.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 124,
@@ -1871,7 +1995,8 @@
     "treatment"                 : "ЛаКристал Нео по 1 к. 2 х дн в двете очи с протективна функция дъългосрочно.",
     "medications"               : ["Лакристал нео"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 125,
@@ -1886,7 +2011,8 @@
     "treatment"                 : "Като свърши Тобрина - Диферион с Тобрин 3 х дн. Цикло/предни 2 х дн. Като свърши Цикло с Такро за поддържане. Почистване.",
     "medications"               : ["Тобрин", "Диферион"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
 
   {
@@ -1902,7 +2028,8 @@
     "treatment"                 : "Хлорамфеникол + НА колир 3-4 х дн. Аркол. Доксициклин за 14 дни. Контрола засега не е за корекция, трябва да се проследи.",
     "medications"               : ["Хлорамфеникол + НА колир", "Аркол", "Доксициклин"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 127,
@@ -1917,7 +2044,8 @@
     "treatment"                 : "",
     "medications"               : ["Колир Улцере", "Хлорамфеникол + НА колир", "Оптикскеър Плюс", "Аптус Сентрикс гел", "Флоксал капки", "Доксициклин", "Ревмокам", "Ретавитрол амп."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 128,
@@ -1932,7 +2060,8 @@
     "treatment"                 : "",
     "medications"               : ["Колир Улцере", "Хлорамфеникол + НА колир", "Флоксал капки", "Ретавитрол амп."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 129,
@@ -1947,7 +2076,8 @@
     "treatment"                 : "Упояване с коктейл. Корнеална язва - дебрайдмент. Тарзорафия.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 130,
@@ -1962,7 +2092,8 @@
     "treatment"                 : "Лакристал Нео 2 х дн. Оптикскеър Хелт 2 х дн. Околофарм 2 х дн. Контрола след 14 дни. Мерене на кр. захар на 5 и 12-и час, коригиране на дозировките. Храна диабетик.",
     "medications"               : ["Лакристал нео", "Оптикскеър Хелт", "Околофарм"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 131,
@@ -1977,7 +2108,8 @@
     "treatment"                 : "Лакристал Нео 2 х дн. и Околофарм 2 х дн за месец. Добавка Оптисан 1 т/12 ч. Контрола след месец.",
     "medications"               : ["Лакристал нео", "Околофарм", "Оптисан"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 132,
@@ -1992,7 +2124,8 @@
     "treatment"                 : "",
     "medications"               : ["Оспексин табл", "Дермипред"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 133,
@@ -2007,7 +2140,8 @@
     "treatment"                 : "Промивка на ухо и отоскопски преглед на двете уши. Мазане с Фусидин на проблемните кожни участъци 2 х дн. За очите предни с такро 2 х дн. Овлажняващи с АБ 3 х дн. Почистване. Копър боди. Контрола след 10 дни. Продължава приема на Оспексин и Преднивет.",
     "medications"               : ["Фусидин Н крем", "Овлажняващи капки + антибиотик", "Такро 0,03% + Предни 0,5% колир", "Copper Boddy"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 134,
@@ -2022,7 +2156,8 @@
     "treatment"                 : "",
     "medications"               : ["Хлорамфеникол + НА колир", "Амоксиклав 125 мг/5 мл", "Л-лизин хапки"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 135,
@@ -2037,7 +2172,8 @@
     "treatment"                 : "",
     "medications"               : ["Тобрекс"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 136,
@@ -2052,7 +2188,8 @@
     "treatment"                 : "Ерадия. Хилс биом храна. Фортифлора пробиотик. След 10 дни контрола.",
     "medications"               : ["Ерадия", "Хилс биом", "Фортифлора пробиотик"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 137,
@@ -2067,7 +2204,8 @@
     "treatment"                 : "10 дни Ерадия + фенбендазол 3 последователни дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 138,
@@ -2082,7 +2220,8 @@
     "treatment"                 : "Подкожна инфузия и инжекции 5 дни поред. На петия ден се оправи.",
     "medications"               : ["Глюкортин", "Синулокс", "Байтрил"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 139,
@@ -2097,7 +2236,8 @@
     "treatment"                 : "Терапия 5 дни с инжекции.",
     "medications"               : ["Интерспектин", "Глюкортин"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 140,
@@ -2112,7 +2252,8 @@
     "treatment"                 : "Итраконазол Фунгизол по 1/5 табл/ден",
     "medications"               : ["Итраконазол Фунгизол"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 141,
@@ -2127,7 +2268,8 @@
     "treatment"                 : "Миконафин по 1/4 табл веднъж дневно. След 8 дни - контрола. За собствениците - енизол 3 дни.",
     "medications"               : ["Миконафин", "Енизол"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 142,
@@ -2142,7 +2284,8 @@
     "treatment"                 : "Симптоматично инжекции за 2 дни. На втория ден котката започна да се храни нормално.",
     "medications"               : ["Синулокс", "Бусколизин", "Превомакс", "Катозал", "Ревмокам"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 143,
@@ -2157,7 +2300,8 @@
     "treatment"                 : "Ревмокам 5 дни.",
     "medications"               : ["Ревмокам"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 144,
@@ -2172,7 +2316,8 @@
     "treatment"                 : "Ентеротомия. Силни антибиотици - Цефтриаксон, Метронидазол, Нолпаза, Превомакс.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 145,
@@ -2187,7 +2332,8 @@
     "treatment"                 : "Инжекции за 5 дни. На петия ден изходи обелка от кренвирш.",
     "medications"               : ["Интрамицин", "Превомакс", "Нолпаза", "Бусколизин", "Ревмокам", "Байтрил"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 146,
@@ -2202,7 +2348,8 @@
     "treatment"                 : "Опресняване на язвата: локалка анестезия на око; корнеална язва - дебрайтмент. Елизабетова яка. Бетадин р-р. Колир Улцере и Хлорамфеникол ХА 4 х дн. Докси 1 и 1/2 т/ден. Контрола след 1 седмица.",
     "medications"               : ["Бетадин р-р", "Колир Улцере", "Хлорамфеникол + НА колир"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 147,
@@ -2217,7 +2364,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 148,
@@ -2232,7 +2380,8 @@
     "treatment"                 : "Доксициклин табл.",
     "medications"               : ["Доксициклин"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 149,
@@ -2247,7 +2396,8 @@
     "treatment"                 : "Упояване с коктейл. Тарзорафия. Абсорбируем конец PGO. Ревмокам. Превомакс. Бупак. Унифлокс.",
     "medications"               : ["Унифлокс капки"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 150,
@@ -2262,7 +2412,8 @@
     "treatment"                 : "Висвите гел офталмо",
     "medications"               : ["Висвите гел офталмо"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 151,
@@ -2277,7 +2428,8 @@
     "treatment"                 : "",
     "medications"               : ["Сперсадекс колир", "Тобрекс маз"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 152,
@@ -2292,7 +2444,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 153,
@@ -2307,7 +2460,8 @@
     "treatment"                 : "",
     "medications"               : ["Флоксал капки", "Колир Улцере", "АЦЦ + ХА колир", "Хлорамфеникол + НА колир", "Доксициклин"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 154,
@@ -2322,7 +2476,8 @@
     "treatment"                 : "",
     "medications"               : ["Колир Улцере", "Хлорамфеникол + НА колир", "АЦЦ + ХА колир"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 155,
@@ -2337,7 +2492,8 @@
     "treatment"                 : "",
     "medications"               : ["Доксициклин табл.", "Ревмокам табл.", "Колир Улцере", "Хлорамфеникол + НА колир", "Аптус Сентрикс гел", "Дуфалайт 10 мл", "Ретавитрол амп."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 156,
@@ -2352,7 +2508,8 @@
     "treatment"                 : "Тобрин и Марфлоксин. Хлорамфеникол колир. Сентрикс. Ретавитрол 2 мл/ден. Докси 14 дни. Ревмокам 5 дни. Контрола след 10 дни.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 157,
@@ -2367,7 +2524,8 @@
     "treatment"                 : "Ваксина. Висвите гел офталмо.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 158,
@@ -2382,7 +2540,8 @@
     "treatment"                 : "Упояване с коктейл. Отстраняване на папилом на клепач. Флоксал маз. Тобримед.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 159,
@@ -2397,7 +2556,8 @@
     "treatment"                 : "За тарзорафия, ламбо е.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 160,
@@ -2412,7 +2572,8 @@
     "treatment"                 : "2-3 месеца Оптикскеър плюс 2-3 х дн.",
     "medications"               : ["Оптикскеър Плюс"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 161,
@@ -2427,7 +2588,8 @@
     "treatment"                 : "Зашиване на децеметоцелето и тарзорафия за 3-4 седмици. Докси ПК 15 дни. Ревмокам 4 дни. Капки до сваляне на конците 3 х дн и почистване. Упояване с Пропофол, Торфадин и Мидазолам.",
     "medications"               : ["Флоксал капки", "Тобримед"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 162,
@@ -2442,7 +2604,8 @@
     "treatment"                 : "Упояване с коктейл. Конюнктивално ламбо. Цефтриаксон. Превомакс. Нолпаза. Адреналин амп? Бупак. Доксициклин табл. Флоксал капки. Тобримед. Колир Улцере. На 08.08.2025 - Тобримед и Флоксал капки.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 163,
@@ -2457,7 +2620,8 @@
     "treatment"                 : "Такро 0,1% + Цикло 1% колир 2 х дн. Диферион с АБ 3 х дн. Контрола след месец. Терапията до октомври вкл. поне, ако рецидивира постоянно или поне овлажняващи.",
     "medications"               : ["Такро 0,1% + Цикло 1% колир", "Диферион"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 164,
@@ -2472,7 +2636,8 @@
     "treatment"                 : "",
     "medications"               : ["Околофарм капки за очи"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 165,
@@ -2487,7 +2652,8 @@
     "treatment"                 : "След седация и оглед под увеличение се установява ектопична мигла в конюнктивата точно под корнеалната лезия - оперативно изрязване. Дебраидмент на епитела до здрава основа. Тарзорафия за 3 седмици. Индукция с коктейл, пропофол, изо поддържане. Венозно Л/К обезболяване. Зофран и нолпаза венозно. Ревмокам. За вкъщи яка. Унифлокс 2-3 х дн. в окото и почистване. Доксициклин 1 1/2 табл./ден 10 дни. Ревмокам 2.5 по 1/2 т/ден за 4 дни.",
     "medications"               : ["Унифлокс капки", "Доксициклин табл.", "Ревмокам табл."],
     "manipulations"             : ["Упояване с коктейл", "Отстраняване на ектопична мигла", "Корнеална язва - дебрайдмент", "Тарзорафия"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 166,
@@ -2502,7 +2668,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 167,
@@ -2517,7 +2684,8 @@
     "treatment"                 : "Висвите гел офталмо 2 х дн за месец и контрола. Не е уместно за оп корекция.",
     "medications"               : ["Висвите гел офталмо"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 168,
@@ -2532,7 +2700,8 @@
     "treatment"                 : "",
     "medications"               : ["Такро 0,03% + Цикло 1% колир"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 169,
@@ -2547,7 +2716,8 @@
     "treatment"                 : "Ревмокам инж. Ревмокам орален сироп.",
     "medications"               : ["Ревмокам"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 170,
@@ -2562,7 +2732,8 @@
     "treatment"                 : "",
     "medications"               : ["Такро 0,03% колир", "Диферион", "Унифлокс капки"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 171,
@@ -2577,7 +2748,8 @@
     "treatment"                 : "Дясно око 2 х дн Циклоспорин 2%, Диферион поне 3 х дн. Такролимус маз 1 х дн последно вечер. Ляво око - Циклоспорин 2% 1 х дн. Вечер - такролимус маз.",
     "medications"               : ["Циклоспорин 2% + ХА колир", "Диферион", "Такролимус маз"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 172,
@@ -2592,7 +2764,8 @@
     "treatment"                 : "Продължават същата терапия.",
     "medications"               : ["Такро 0,03% + Цикло 1% колир", "Такролимус 0,1% офт. маз", "Диферион"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 173,
@@ -2607,7 +2780,8 @@
     "treatment"                 : "Често почистване. Цикло 2% с такро 2 х дн. Такро маз 2 х дн. Диферион колкото често могат.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 174,
@@ -2622,7 +2796,8 @@
     "treatment"                 : "Мелатонин 1 мг табл. Фортирон.",
     "medications"               : ["Фортирон", "Мелатонин 1 мг табл."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 175,
@@ -2637,7 +2812,8 @@
     "treatment"                 : "Хлорамфеникол с вит А 3 х дн. Кеър очен лосион почистване. Контрола след месец.",
     "medications"               : ["Хлорамфеникол + вит. А колир", "Окулар кеър лосион за очи Диафарм", "Шампоан доза бензоик"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 176,
@@ -2652,7 +2828,8 @@
     "treatment"                 : "Стационарно лечение. Доксициклин табл. Ревмокам табл. за 3-4 дни. Хлорамфеникол + ХА колир. Колир Улцере. АЦЦ + ХА колир. Тимолол колир.",
     "medications"               : ["Хлорамфеникол + НА колир", "АЦЦ + ХА колир", "Колир Улцере", "Тимолол колир"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 177,
@@ -2667,7 +2844,8 @@
     "treatment"                 : "Упояване с коктейл. Ретробулбарен блок анестезия. Пропофол. Превомакс, Ревмокам, Цефтриаксон, Лидокаин. Конец PGO. Силаник. Бетадин р-р. Енуклеация.",
     "medications"               : [],
     "manipulations"             : ["Упояване с коктейл", "Ретробулбарен блок анестезия", "Енуклеация"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 178,
@@ -2682,7 +2860,8 @@
     "treatment"                 : "Яка. Локална анестезия и дебрайтмънт на язвата. Бетадин. Флоксал/Тобрин 4-5 х дн. Колир Улцере 5 х дн. Сентрикс 2 х дн. Докси 1/3/ден с храна. Контрола след 5 дни - всичко е добре.",
     "medications"               : ["Бетадин р-р", "Флоксал + Тобрин капки", "Колир Улцере", "Аптус Сентрикс гел"],
     "manipulations"             : ["Локална анестезия на око", "Корнеална язва - дебрайдмент"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 179,
@@ -2697,7 +2876,8 @@
     "treatment"                 : "Хлорамфеникол + НА колир 4 х дн. Бетадин р-р. Доксициклин ПО. Мелоксикам ПО. На 19.08.2025 имаше контролен преглед, взеха и Кортизем.",
     "medications"               : ["Хлорамфеникол + НА колир", "Бетадин р-р", "Доксициклин табл.", "Мелоксикам табл."],
     "manipulations"             : ["Временна корекция на ентропион - едностранно"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 180,
@@ -2712,7 +2892,8 @@
     "treatment"                 : "Флостерон амп. 0,6 мл.",
     "medications"               : ["Флостерон амп."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 181,
@@ -2727,7 +2908,8 @@
     "treatment"                 : "",
     "medications"               : ["Деган амп.", "Спазмиум инж.", "Пурина Фортифлора"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 182,
@@ -2742,7 +2924,8 @@
     "treatment"                 : "",
     "medications"               : ["Фусидин Н крем"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 183,
@@ -2757,7 +2940,8 @@
     "treatment"                 : "",
     "medications"               : ["Тобракулин Д"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 184,
@@ -2772,7 +2956,8 @@
     "treatment"                 : "",
     "medications"               : ["Бетамокс инж.", "Нолпаза", "Деган амп.", "Дентихекс паста"],
     "manipulations"             : ["Упояване с коктейл", "Отстраняване на чуждо тяло от нос чрез риноскопия", "Почистване на зъбен камък"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 185,
@@ -2787,7 +2972,8 @@
     "treatment"                 : "",
     "medications"               : ["Тобракулин 0.3%", "Оптикскеър Плюс"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 185,
@@ -2802,7 +2988,8 @@
     "treatment"                 : "",
     "medications"               : ["Аптус Сентрикс гел", "Колир Улцере"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 187,
@@ -2817,7 +3004,8 @@
     "treatment"                 : "",
     "medications"               : ["Ксалатан", "Бетадин р-р", "Такро 0,03% + Предни 0,5% колир"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 188,
@@ -2832,7 +3020,8 @@
     "treatment"                 : "",
     "medications"               : ["Ксалатан", "Такро 0,03% + Предни 0,5% колир"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 189,
@@ -2847,7 +3036,8 @@
     "treatment"                 : "",
     "medications"               : ["Алпрамил", "Тетрациклин очен", "Овлажняващи капки + антибиотик", "Ветомун капсула", "Бетадин р-р", "Азитромицин 200мг/мл", "Пурина Фортифлора"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 190,
@@ -2862,7 +3052,8 @@
     "treatment"                 : "Стронгхолд плюс, продължават само с капките в двете очи, след това висвите само в дясно око 2-3 х дн. за поне месец. Ваксина след 20-25 дни.",
     "medications"               : ["Стронгхолд 15 мг кч кт до 2,5 кг", "Висвите гел офталмо"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 191,
@@ -2877,7 +3068,8 @@
     "treatment"                 : "Хлорхексидин и Фусидин намазване. За очите същата терапия.",
     "medications"               : ["Хлорхексидин спрей", "Фусидин Н крем"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 192,
@@ -2892,7 +3084,8 @@
     "treatment"                 : "Лакристал Нео 2 х дн и още докато свършат Цикло с Такро. Контрола след месец.",
     "medications"               : [],
     "manipulations"             : ["Лакристал Нео"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 193,
@@ -2907,7 +3100,8 @@
     "treatment"                 : "За ОП е.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 194,
@@ -2922,7 +3116,8 @@
     "treatment"                 : "Упояване с коктейл. Ретробулбарен блок анестезия. Цефтриаксон. Ревмокам. Нолпаза. Превомакс. Бупак. Абсорбируем конец. Бетадин р-р. Синулокс табл. Ревмокам табл. Енроксил табл.",
     "medications"               : [],
     "manipulations"             : ["Упояване с коктейл", "Ретробулбарен блок анестезия"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 195,
@@ -2937,7 +3132,8 @@
     "treatment"                 : "",
     "medications"               : ["Аптус Сентрикс гел", "Колир Улцере"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 196,
@@ -2952,7 +3148,8 @@
     "treatment"                 : "",
     "medications"               : ["Байтрил", "Ревмокам", "Деган амп."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 197,
@@ -2967,7 +3164,8 @@
     "treatment"                 : "",
     "medications"               : ["Зирид табл.", "Мотилиум 10 мг табл.", "Вигор фарма сироп", "Метамизол 30% инж.", "Деган амп.", "Лидокаин 10 мл амп."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 198,
@@ -2982,7 +3180,8 @@
     "treatment"                 : "",
     "medications"               : ["Деган амп.", "Вигор фарма сироп", "Метамизол 30% инж.", "Зирид табл.", "Мотис 1 мг в мл"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 199,
@@ -2997,7 +3196,8 @@
     "treatment"                 : "",
     "medications"               : ["Колир Улцере", "Флоксал капки"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 200,
@@ -3012,7 +3212,8 @@
     "treatment"                 : "колир улцере 2-3 х дн",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 201,
@@ -3027,7 +3228,8 @@
     "treatment"                 : "",
     "medications"               : ["Колир Улцере"],
     "manipulations"             : ["Корнеална язва - дебрайдмент"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 202,
@@ -3042,7 +3244,8 @@
     "treatment"                 : "Флоксал с ацц/Хепарин. Тобрамицин с ХА 0.2%. Актовегин/дуфалайт. Пер ос докси 50 по 1/2т/ден или 1/4т/12ч. с храна. Кнтр. след седмица.",
     "medications"               : ["Аркол", "Тобримед", "Флоксал маз", "АЦЦ + ХА колир", "Хепарин", "Колир Улцере", "Доксициклин табл."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 203,
@@ -3057,7 +3260,8 @@
     "treatment"                 : "същата терапия още седмица и контрола.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 204,
@@ -3072,7 +3276,8 @@
     "treatment"                 : "лакристал нео по 1к. 2х дн. в двете очи с протективна функция дългосрочно",
     "medications"               : ["Лакристал нео"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 205,    "protocol_creation_date"    : "19.08.2025",
@@ -3086,7 +3291,8 @@
     "treatment"                 : "",
     "medications"               : ["Тобракулин 0.3%"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 206,
@@ -3101,7 +3307,8 @@
     "treatment"                 : "сукралфат 0.7мл/12ч. ентеромикро 1 дел/ден. храна хилс гастро гранула и пауч. Кнтр. след 10-14 дни ако няма подобрение ехограф",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 207,
@@ -3116,7 +3323,8 @@
     "treatment"                 : "",
     "medications"               : ["Стомех сироп 50 мл."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 208,
@@ -3131,7 +3339,8 @@
     "treatment"                 : "диета, пробиотици, антибиотик",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 209,
@@ -3146,7 +3355,8 @@
     "treatment"                 : "Терапия на 20.08.2025 и 21.08.2025, на 22.08 - вкл. и Миратаз към терапията.",
     "medications"               : ["Байтрил", "Синулокс", "Превомакс"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 210,
@@ -3161,7 +3371,8 @@
     "treatment"                 : "за кератектомия + тарзорафия поетапно двете очи. ще се чуем началото на август. ПКК с биохимия и проБНП предоперативно около 100 лв. ОП по 500-550 лв.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 211,
@@ -3176,7 +3387,8 @@
     "treatment"                 : "лакристал нео 2 х дн и още докато свършат цикло с такро",
     "medications"               : ["Лакристал нео"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 212,
@@ -3191,7 +3403,8 @@
     "treatment"                 : "",
     "medications"               : ["Оспексин табл","Стимудерм комплект шампоан и серум", "Милпразон", "Симпарика"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 213,
@@ -3206,7 +3419,8 @@
     "treatment"                 : "ще намалят малко Фортирона. Давам хедилон 5 по 1/2 т. Сстаналите продължават",
     "medications"               : ["Хедилон 5 мг"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 214,
@@ -3221,7 +3435,8 @@
     "treatment"                 : "",
     "medications"               : ["Левофлоксан капки"],
     "manipulations"             : ["Хоспитализация"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 215,
@@ -3236,7 +3451,8 @@
     "treatment"                 : "Хоспитализация от 15.08.2025.",
     "medications"               : ["Ревмокам"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 216,
@@ -3251,7 +3467,8 @@
     "treatment"                 : "Алпрамил. Прилагане на три вида капки: 1) Капки с рифамицин; 2) Капки с Дуфалайт; 3) Капки с Хлорамфеникол и вит. А? Трите вида се слагат на всеки час, като има време 10 мин между всеки вид капки.",
     "medications"               : [],
     "manipulations"             : ["Тонометрия"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 217,
@@ -3266,7 +3483,8 @@
     "treatment"                 : "тобримед/флоксал/сцц по 1 к 4 х дн. Почистване със сребърна вода. Дронтал куче, след това Симпарика.",
     "medications"               : ["Тобримед", "Флоксал капки", "АЦЦ + ХА колир"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 218,
@@ -3281,7 +3499,8 @@
     "treatment"                 : "лакристал нео",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 219,
@@ -3296,7 +3515,8 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 220,
@@ -3311,7 +3531,8 @@
     "treatment"                 : "",
     "medications"               : ["Колир Улцере", "Тобримед", "Флоксал капки"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 221,
@@ -3326,7 +3547,8 @@
     "treatment"                 : "",
     "medications"               : ["Офтоциклин маз", "Хлорамфеникол + НА колир", "Окулар кеър лосион за очи Диафарм", "Доксициклин табл."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 222,
@@ -3341,7 +3563,8 @@
     "treatment"                 : "",
     "medications"               : ["Синулокс", "Байтрил", "Спазмиум инж."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 223,
@@ -3356,7 +3579,8 @@
     "treatment"                 : "",
     "medications"               : ["Байтрил", "Спазмиум инж.", "Дротаверин ампула", "Про План Уринари суха храна", "Уриновет Дилюшън 45 капс."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 224,
@@ -3371,7 +3595,8 @@
     "treatment"                 : "",
     "medications"               : ["Байтрил", "Енроксил 150 мг", "Спазмиум инж.", "Рингер банка 500мл."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 225,
@@ -3386,7 +3611,8 @@
     "treatment"                 : "",
     "medications"               : ["Алпрамил", "Ефинол спрей"],
     "manipulations"             : ["Обезпаразитяване"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 226,
@@ -3401,7 +3627,8 @@
     "treatment"                 : "",
     "medications"               : ["Ерадия", "Гастро Биом храна", "Фортифлора пробиотик"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 227,
@@ -3416,7 +3643,8 @@
     "treatment"                 : "",
     "medications"               : ["Флоксал капки"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 228,
@@ -3431,7 +3659,8 @@
     "treatment"                 : "",
     "medications"               : ["Синулокс", "Байтрил", "Спазмиум инж.", "Нолпаза", "Рингер банка 500мл."],
     "manipulations"             : ["Седиране с Торфадин"],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 229,
@@ -3446,7 +3675,8 @@
     "treatment"                 : "Упояване с коктейл. Ентеротомия. Остана на стационар и венозна инфузия с Дуфалайт два дни при нас, като след събуждане имаше хематурия и анизокория с миоза на лявото око. Изписване на 21.08, като на 22-24.08 дойдоха за терапия със Синулокс, Байтрил, Спазмиум. Дадена им бе Ентерофилус ампула и Пурина Фортифлора саше.",
     "medications"               : ["Превомакс", "Нолпаза", "Бупак", "Цефтриаксон", "Метронидазол"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 230,
@@ -3461,7 +3691,8 @@
     "treatment"                 : "докси 5 по 1/2т/ден. ветомун 1 капс/ден. овла с аб 3 х дн в очи. Бенер 0.5мл/ден. Контрола след 12 дни.",
     "medications"               : ["Овлажняващи капки + антибиотик", "Доксициклин табл.", "Ветомун капсула", "Бенер 60мл."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 231,
@@ -3476,7 +3707,8 @@
     "treatment"                 : "азарга 2 х дн бромонидин 2 х дн овл. с аб. 3 х дн почистване",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 232,
@@ -3491,7 +3723,8 @@
     "treatment"                 : "тобра/лево 5 х дн улцере 5 х дн центрикс 2 х дн докси 2/3т/ден ревмо 1/3т/ден с храна",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 233,
@@ -3506,7 +3739,8 @@
     "treatment"                 : "ОС оптикексър хелт 2 х дн; ОД лакристал нео 2 х дн. ПО Ретавитрол 1 мл/ден. Контрола след месец.",
     "medications"               : ["Лакристал нео", "Оптикскеър Хелт", "Ретавитрол амп."],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 234,
@@ -3521,7 +3755,8 @@
     "treatment"                 : "Упояване с коктейл. Корекция при изпадане на ректума.",
     "medications"               : ["Байтрил", "Деган амп.", "Хедилон 5 мг", "Енроксил 50 мг", "Ентерофилус ампула", "Калиеркортин 0,4%", "Про План конвалесценс консерва", "Про План гастроинтестинал консерва"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 235,
@@ -3536,7 +3771,8 @@
     "treatment"                 : "",
     "medications"               : ["Офтоциклин маз", "Имуностимулатор котка"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 236,
@@ -3551,147 +3787,237 @@
     "treatment"                 : "",
     "medications"               : ["Оспексин табл", "Шампоан доза бензоик", "Овлажняващи капки ХА 0.2%"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 237,
-    "protocol_creation_date"    : "",
-    "pet_id"                    : 88,
+    "protocol_creation_date"    : "27.08.2025",
+    "pet_id"                    : 50,
     "temperature"               : "",
     "weight"                    : "",
-    "anamnesis"                 : "",
+    "anamnesis"                 : "ОС е спокойно, без болка и зачервяване.",
     "clinical_signs"            : [""],
-    "examination"               : "",
+    "examination"               : "Тонометрия ОС 12.",
     "diagnosis"                 : "",
-    "treatment"                 : "",
+    "treatment"                 : "Продължаваме същата терапия.",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : "Продължаваме с терапията, защото налягането се поддържа нормално. Терапията е доживот, другият вариант е да се премахне окото. Има очни протези за животните. Ако се хване навреме глаукомата, може да се унищожи цилиарното тяло, което произвежда вътреочна течност. При КЧ е по-успешна в сравнение при КТ. КТ отново правят глаукома след 1-2 години и пак трябва да се маха. За тази инжекция трябва ЖВ да е упоено. Според ИИ това намалява течността в окото, окото намалява размерите и болката. Прави се в крайния стадий на глаукомата, където окото е вече сляпо и болезнено."
   },
   {
     "protocol_number"           : 238,
-    "protocol_creation_date"    : "",
-    "pet_id"                    : 88,
+    "protocol_creation_date"    : "26.08.2025",
+    "pet_id"                    : 97,
     "temperature"               : "",
     "weight"                    : "",
     "anamnesis"                 : "",
     "clinical_signs"            : [""],
     "examination"               : "",
-    "diagnosis"                 : "",
-    "treatment"                 : "",
-    "medications"               : [],
-    "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "diagnosis"                 : "Кератектомия",
+    "treatment"                 : "Операция - упояване с коктейл. Байтрил. Ревмокам. Превомакс. Бупак. Кератектомия. Тарзорафия. Доксициклин. табл. Ревмокам орален сироп. Флоксал капки. Бетадин р-р. Luxcryl PGA 6/0. Polypropylene blue 4-0. Острие но. 15. Disposable sterile ophthalmic surgical knife - Crescent knife.",
+    "medications"               : ["Байтрил", "Доксициклин табл.", "Флоксал капки"],
+    "manipulations"             : ["Кератектомия", "Тарзорафия"],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 239,
-    "protocol_creation_date"    : "",
-    "pet_id"                    : 88,
+    "protocol_creation_date"    : "27.08.2025",
+    "pet_id"                    : 114,
     "temperature"               : "",
-    "weight"                    : "",
-    "anamnesis"                 : "",
+    "weight"                    : "10,5 кг",
+    "anamnesis"                 : "Препратен от Бургас.",
     "clinical_signs"            : [""],
     "examination"               : "",
-    "diagnosis"                 : "",
-    "treatment"                 : "",
-    "medications"               : [],
-    "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "diagnosis"                 : "Булозна кератопатия ОС",
+    "treatment"                 : "Операция - упояване с коктейл 0,22 мл. Поддържане с пропофол. Венозно обезболяване Л/К. Почистване с йоден р-р. Байтрил, Ревмокам, Деган ПК. Термокаутеризация при булозна кератопатия. Тарзорафия. Бупак. АЦЦ + ХА колир. Флоксал капки. Яка.",
+    "medications"               : ["АЦЦ + ХА колир", "Флоксал капки", "Деган амп.", "Ревмокам", "Байтрил"],
+    "manipulations"             : ["Термокаутеризация при булозна кератопатия", "Тарзорафия"],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 240,
-    "protocol_creation_date"    : "",
-    "pet_id"                    : 88,
+    "protocol_creation_date"    : "04.07.2025",
+    "pet_id"                    : 115,
     "temperature"               : "",
     "weight"                    : "",
-    "anamnesis"                 : "",
+    "anamnesis"                 : "Оток на горен клепач ОС без нараняване и проходим слъзен канал, вероятно алергичен.",
     "clinical_signs"            : [""],
     "examination"               : "",
     "diagnosis"                 : "",
-    "treatment"                 : "",
-    "medications"               : [],
+    "treatment"                 : "Декса 0,5 мг/кг. Сперсадекс 3 х дн за 5-6 дни и при нужда контрола.",
+    "medications"               : ["Калиеркортин 0,4%", "Сперсадекс колир"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 241,
-    "protocol_creation_date"    : "",
-    "pet_id"                    : 88,
+    "protocol_creation_date"    : "26.08.2025",
+    "pet_id"                    : 115,
     "temperature"               : "",
     "weight"                    : "",
-    "anamnesis"                 : "",
+    "anamnesis"                 : "тумор?",
     "clinical_signs"            : [""],
     "examination"               : "",
     "diagnosis"                 : "",
-    "treatment"                 : "",
+    "treatment"                 : "евтаназия",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 242,
-    "protocol_creation_date"    : "",
-    "pet_id"                    : 88,
+    "protocol_creation_date"    : "25.08.2025",
+    "pet_id"                    : 116,
     "temperature"               : "",
     "weight"                    : "",
-    "anamnesis"                 : "",
+    "anamnesis"                 : "След почистване на уши с Малацетик птоза, епифора, оток под долен клепач, блефароспазъм.",
     "clinical_signs"            : [""],
-    "examination"               : "",
+    "examination"               : "Централно след флуоресцин пунктиращо централно нараняване. Ушният канал зачервен поред тъпанчето без много секрет, възможно е да пропуска.",
     "diagnosis"                 : "",
-    "treatment"                 : "",
-    "medications"               : [],
+    "treatment"                 : "Флоксал и овлажняващи 4 х дн 2 седмици. Отодин.",
+    "medications"               : ["Флоксал капки", "Овлажняващи капки ХА 0.2%"],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 243,
-    "protocol_creation_date"    : "",
-    "pet_id"                    : 88,
+    "protocol_creation_date"    : "24.03.2025",
+    "pet_id"                    : 117,
     "temperature"               : "",
-    "weight"                    : "",
-    "anamnesis"                 : "",
+    "weight"                    : "3.9",
+    "anamnesis"                 : "Преди около 2 г. тежка респираторна инфекция преболедувал,след това остават стридори при дишане.След това развива ФИП с неврологичен дефицит и увеит на очите.Лекуван е с ГС таблекти 100 дни. Приема от тогава преднивет по 1/4т/през ден или иначе получава гърчове. Понякога има инконтиненция на урина докато спи или временно блокиране на заден крайник.Като О.С. и АП е стабилен. При офталмологичен преглед- добър ирисвет респонс на двете очи, няма корнеални лезии. Антериорни синехии от увеита повече на ОД. Задните очни дъна са нормални доколкото е възможно преглед.",
     "clinical_signs"            : [""],
-    "examination"               : "",
-    "diagnosis"                 : "",
-    "treatment"                 : "",
+    "examination"               : "Тонометър ОС 19 ОД 13. ПКК и биохимия б.о. Тест токсоплазма отрицателен",
+    "diagnosis"                 : "Posterior capsule cataract OS OD Заднокапсулна катаракта двустранна",
+    "treatment"                 : "лакристал нео 2 х дн. В очите дългосрочно да продължи с приема на преднивет по 1/4т/през ден",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 244,
-    "protocol_creation_date"    : "",
-    "pet_id"                    : 88,
+    "protocol_creation_date"    : "29.08.2025",
+    "pet_id"                    : 67,
     "temperature"               : "",
-    "weight"                    : "",
-    "anamnesis"                 : "",
+    "weight"                    : "0",
+    "anamnesis"                 : "Клинически са спокойни, без конюнктивит и секреция,без блефароспазъм.Нормален ирисвет тест на двете очи. ОД е с преднокапсулна и нуйлеарна катаракта,ОС само ограничена преднокапсулна.",
     "clinical_signs"            : [""],
-    "examination"               : "",
+    "examination"               : "Фундус ОС б.о. след мидриаза Тонометрия ОД 13 ОС 14",
     "diagnosis"                 : "",
-    "treatment"                 : "",
+    "treatment"                 : "Определена е дата за факоемулсификация ОД- д-р Антонов Варна до тогава лакристал нео 1к. 2 х дн в двете очи",
     "medications"               : [],
-    "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "manipulations"             : ["Факоемулсификация"],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 245,
-    "protocol_creation_date"    : "",
-    "pet_id"                    : 88,
+    "protocol_creation_date"    : "26.08.2025",
+    "pet_id"                    : 63,
     "temperature"               : "",
-    "weight"                    : "",
-    "anamnesis"                 : "",
+    "weight"                    : "3.4",
+    "anamnesis"                 : "има гранулация на мястото на дефекта и периферна опацитация",
     "clinical_signs"            : [""],
     "examination"               : "",
     "diagnosis"                 : "",
-    "treatment"                 : "",
+    "treatment"                 : "докси до петък, още капки",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   },
   {
     "protocol_number"           : 246,
+    "protocol_creation_date"    : "04.09.2025",
+    "pet_id"                    : 63,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "Контролен преглед.",
+    "medications"               : ["Тобримед", "Флоксал капки"],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 247,
+    "protocol_creation_date"    : "31.08.2025",
+    "pet_id"                    : 89,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : ["Контролен преглед", "ПКК + биохимия", "Vcheck fNT proBNP"],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 248,
     "protocol_creation_date"    : "",
-    "pet_id"                    : 88,
+    "pet_id"                    : 89,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : ["Ентропион тотал на око", "Кератектомия", "Кератом-еднократно острие", "Тарзорафия", "Мускулна инжекция", "Поставяне на венозен катетър", "Венозно обезболяване по време на операция", "Инхалационна анестезия, аналгезия - на час", "Мониторинг по време н анестезия на час", "Комбинирана седация (коктейл)", "Ревмокам инж. на мл.", "Нолпаза на мл.", "Бупак на мл.", "Натриев Хлорид 0.9% 250мл.", "Бетадин 250мл.", "Операционна кърпа стерилна", "Ръкавици Стерилни", "Острие за скалпел", "Стерилни марли 7.5х7.5", "Памперсова пелена Gigico 60х60 бр.", "Изо мл.", "Хирургичен абсорбиращ конец - PGO", "Яка 12.5 см", "Ревмокам орален сироп 1.5мг в мл.", "Флоксал капки", "Ревмокам 2.5 мг. на табл.", "Доксициклин на блистер", "Унифлокс", "Яка 15 см.", "Зофран инж."],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 249,
+    "protocol_creation_date"    : "04.09.2025",
+    "pet_id"                    : 100,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "Оток на дясно око, сърдечен систоличен шум",
+    "clinical_signs"            : [""],
+    "examination"               : "ПКК с биохимия ок",
+    "diagnosis"                 : "",
+    "treatment"                 : "кардисан 1.25 по 3/4т/12ч, кардалис 2.5 по 1/2т/вечер, докси 50 по 1/3т/ден, капките продължават. За ОП конюнктивално ламбо и папилом клепач ОС",
+    "medications"               : ["Кардисан", "Кардалис", "Доксициклин табл."],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 250,
+    "protocol_creation_date"    : "04.09.2025",
+    "pet_id"                    : 100,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : ["Бетадин р-р", "Торфадин инж.", "Нолпаза", "Превомакс", "Ревмокам"],
+    "manipulations"             : ["Конюнктивално ламбо", "Корнеална язва - дебрайдмент", "Папилом на клепач-отстраняване", "Локална анестезия на око", "Премахване на ектопична мигла от конюнктива"],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 251,
+    "protocol_creation_date"    : "25.08.2025",
+    "pet_id"                    : 118,
     "temperature"               : "",
     "weight"                    : "",
     "anamnesis"                 : "",
@@ -3701,6 +4027,935 @@
     "treatment"                 : "",
     "medications"               : [],
     "manipulations"             : [],
-    "differential_diagnosis"    : ""
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 252,
+    "protocol_creation_date"    : "27.08.2025",
+    "pet_id"                    : 109,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "Ограничаване на процеса и възпалението, формиране на централно десцеметоцеле със склонност към перфорация",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "терапията остава същата",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 253,
+    "protocol_creation_date"    : "27.08.2025",
+    "pet_id"                    : 119,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "Хемофталм се обособява като образувание, което произхожда от цилиарното тяло в областта на медиален очен ъгъл и пролабира към зеницата. Иначе запазено ОС двукратно повръщане, храни се избирателно с нелечебни храни. Аускултация галопиращ неравномерен сърдечен ритъм. Сенилна дехидратация.",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "поддържаме същата терапия, правим контролни прегледи",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 254,
+    "protocol_creation_date"    : "28.08.2025",
+    "pet_id"                    : 120,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "Микрофталм с микроблефарон, незрящ, вроден",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 255,
+    "protocol_creation_date"    : "28.08.2025",
+    "pet_id"                    : 121,
+    "temperature"               : "",
+    "weight"                    : "7.2",
+    "anamnesis"                 : "Ендотелна дегенерация със стромален оток и силна опацитация с кератоконус ОД,не вижда,лек дискомфорт. Има начален етап на ПС",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "ацц с флоксал 3 х дн. Цикло с такро 3 х дн ОД. ОС 2 х дн двете. Кнтр. след 20 дни (беше извършен на 05.09.2025)",
+    "medications"               : ["АЦЦ + ХА колир", "Флоксал капки", "Такро 0,03% + Цикло 1% колир", "Доксициклин табл."],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 256,
+    "protocol_creation_date"    : "05.09.2025",
+    "pet_id"                    : 122,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "ринит,конюнктивит,ОД с гноен изтекло, дясно ухо възпалено гнойно,отодекоза в двете уши,храни се",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "медоклав 156 по 0.3мл/12ч лизинвирал 1мл/ден флоксал в очите,носа и ушите бетадин",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 257,
+    "protocol_creation_date"    : "05.09.2025",
+    "pet_id"                    : 122,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "ринит, конюнктивит, ОД е изтекло, дясно ухо възпалено гнойно,отодекоза в двете уши, храни се.",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "Медоклав 156 по 0.3мл/12ч. лизинвирал 1мл/ден. флоксал в очите,носа и ушите. Бетадин. Стронгхолд сега и алпрамил. Контрола след 14 дни.",
+    "medications"               : ["Медоклав 125 в 5 мл", "Лизинвирал Плюс", "Бетадин р-р", "Флоксал капки"],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 258,
+    "protocol_creation_date"    : "28.08.2025",
+    "pet_id"                    : 96,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : ["Байтрил", "Метоклопрамид", "Калиеркортин 0,4%"],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 259,
+    "protocol_creation_date"    : "29.08.2025",
+    "pet_id"                    : 82,
+    "temperature"               : "",
+    "weight"                    : "17",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : ["Корнеална язва - дебрайдмент", "Локална анестезия на око"],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 260,
+    "protocol_creation_date"    : "04.09.2025",
+    "pet_id"                    : 82,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : ["Торфадин инж.", "Мидазолам инж.", "Пропофол", "Ревмокам", "Нолпаза", "Превомакс", "Бупак", "Бетадин р-р", "Унифлокс капки", "Доксициклин табл.", "Ревмокам табл."],
+    "manipulations"             : ["Корнеална язва - дебрайдмент", "Тарзорафия", "Хирургичен абсорбиращ конец - PGO"],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 261,
+    "protocol_creation_date"    : "29.08.2025",
+    "pet_id"                    : 123,
+    "temperature"               : "",
+    "weight"                    : "6",
+    "anamnesis"                 : "Централна ерозия на роговицата на ОД с лек стромален оток и кератоконус",
+    "clinical_signs"            : ["стромален оток", "кератоконус", "язва на роговицата"],
+    "examination"               : "флуоресцин положителен",
+    "diagnosis"                 : "",
+    "treatment"                 : "флоксал 4 х дн. Сентрикс 2 х дн. Контрола след седмица.",
+    "medications"               : ["Флоксал капки", "Аптус Сентрикс гел"],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 262,
+    "protocol_creation_date"    : "05.09.2025",
+    "pet_id"                    : 123,
+    "temperature"               : "",
+    "weight"                    : "6",
+    "anamnesis"                 : "клинически няма никакви следи от травмата на роговицата",
+    "clinical_signs"            : [""],
+    "examination"               : "флуоресцин тест - негативен",
+    "diagnosis"                 : "",
+    "treatment"                 : "още 3 дни терапия",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 263,
+    "protocol_creation_date"    : "29.08.2025",
+    "pet_id"                    : 124,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "ОД спукано. ОС силно отекло.",
+    "diagnosis"                 : "",
+    "treatment"                 : "Стациониране и капки 3-4 пъти дневно: Тобракулин капки, като след 10 мин. слагаш Хлорамфеникол 2% + ХА 0,1% колир",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : "Почистване на очите с Бетадин. На третия ден клепачите не бяха слепналии, котето вече спокойно си отваряше очите."
+  },
+  {
+    "protocol_number"           : 264,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 265,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 266,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 267,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 268,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 269,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 270,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 271,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 272,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 273,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 274,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 275,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 276,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 277,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 278,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 279,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 280,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 281,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 282,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 283,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 284,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 285,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 286,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 287,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 288,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 289,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 290,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 291,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 292,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 293,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 294,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 295,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 296,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 297,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 298,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 299,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 300,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 301,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 302,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 303,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 304,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 305,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 306,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 307,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 308,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
+  },
+  {
+    "protocol_number"           : 309,
+    "protocol_creation_date"    : "",
+    "pet_id"                    : 0,
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "",
+    "clinical_signs"            : [""],
+    "examination"               : "",
+    "diagnosis"                 : "",
+    "treatment"                 : "",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : "",
+    "notes"                     : ""
   }
 ]
