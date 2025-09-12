@@ -89,7 +89,7 @@
       </ion-row>
 
       <ion-row class="form-two-style">
-        <label>Преглед</label>
+        <label>Изследвания</label>
         <textarea [(ngModel)]="newProtocol.examination" class="form-control"></textarea>
       </ion-row>
 
@@ -116,6 +116,11 @@
       <ion-row class="form-two-style">
         <label>Диференциална диагноза</label>
         <textarea [(ngModel)]="newProtocol.differential_diagnosis" class="form-control"></textarea>
+      </ion-row>
+
+      <ion-row class="form-two-style">
+        <label>Бележки</label>
+        <textarea [(ngModel)]="newProtocol.notes" class="form-control"></textarea>
       </ion-row>
 
       <ion-row class="form-one-style">
@@ -156,8 +161,11 @@
             <ion-row size="2">Медикаменти:</ion-row>
             <ion-row class="protocol-info">{{ protocol.medications }}</ion-row>
 
-            <ion-row size="2">Манипулации":</ion-row>
+            <ion-row size="2">Манипулации:</ion-row>
             <ion-row class="protocol-info">{{ protocol.manipulations }}</ion-row>
+
+            <ion-row size="2">Бележки:</ion-row>
+            <ion-row class="protocol-info">{{ protocol.notes }}</ion-row>
         </ion-grid>
 
       </div>

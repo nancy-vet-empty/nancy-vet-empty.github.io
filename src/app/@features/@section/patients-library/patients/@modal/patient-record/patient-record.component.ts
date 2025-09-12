@@ -39,7 +39,8 @@ export class PatientRecordModal implements OnInit {
     treatment: '',
     medications: '',
     manipulations: '',
-    differential_diagnosis: ''
+    differential_diagnosis: '',
+    notes: ''
   };
 
   constructor(private navParams: NavParams) {}
@@ -172,6 +173,7 @@ public addProtocol() {
       // protocol_modification_date: '',
       // protocol_completion_date: '',
       pet_id: this.patient.pet_id,
+      notes: this.patient.notes,
       symptoms: this.newProtocol.symptoms.split(',').map((m: string) => m.trim()),
       medications: this.newProtocol.medications.split(',').map((m: string) => m.trim()),
       manipulations: this.newProtocol.manipulations.split(',').map((m: string) => m.trim()),
@@ -191,7 +193,8 @@ public addProtocol() {
       treatment: '',
       medications: '',
       manipulations: '',
-      differential_diagnosis: ''
+      differential_diagnosis: '',
+      notes: ''
     };
 
     this.showForm = false;
