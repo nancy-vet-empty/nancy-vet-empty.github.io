@@ -626,7 +626,7 @@
     "address"           : "Ирв",
     "protocols"         : [77, 99],
     "results"           : [],
-    "pets_diseases"     : ["Ентропиум"],
+    "pets_diseases"     : ["Ентропион"],
     "ward"              : 0
   },
   {
@@ -1329,7 +1329,7 @@
     "neutered"          : "не",
     "owner_name"        : "Емили Драганова",
     "address"           : "Ирв",
-    "protocols"         : [179, 247, 248, 332],
+    "protocols"         : [179, 247, 248, 332, 379],
     "results"           : [],
     "pets_diseases"     : ["Секвестър на роговицата", "Ентропион"],
     "ward"              : 0
@@ -1391,7 +1391,7 @@
     "address"           : "Ирв",
     "protocols"         : [193, 194],
     "results"           : [],
-    "pets_diseases"     : ["Ендофталм"],
+    "pets_diseases"     : ["Енофталм"],
     "ward"              : 0
   },
   {
@@ -1494,7 +1494,7 @@
     "neutered"          : "не",
     "owner_name"        : "Милена Костовска",
     "address"           : "Ирв",
-    "protocols"         : [219, 220, 249, 250, 277, 287],
+    "protocols"         : [219, 220, 249, 250, 277, 287, 381],
     "results"           : [],
     "pets_diseases"     : ["Язва на роговицата", "Ектопични мигли", "Папилом на клепач"],
     "ward"              : 0
@@ -1991,7 +1991,7 @@
     "address"           : "Ирв",
     "protocols"         : [280, 319],
     "results"           : [],
-    "pets_diseases"     : ["Еозинофилни плаки"],
+    "pets_diseases"     : ["Еозинофилен кератоконюнктивит"],
     "ward"              : 0
   },
     {
@@ -2094,7 +2094,7 @@
     "neutered"          : "да",
     "owner_name"        : "Илиян Казаков",
     "address"           : "Ирв",
-    "protocols"         : [289],
+    "protocols"         : [289, 309, 310, 311],
     "results"           : [],
     "pets_diseases"     : ["Луксация на лещата", "Глаукома"],
     "ward"              : 0
@@ -2281,17 +2281,17 @@
   },
   {
     "pet_id"            : 153,
-    "pet_name"          : "Лъки",
+    "pet_name"          : "",
     "animalType"        : "dog",
-    "breed"             : "Метис",
-    "sex"               : "мъжки",
-    "age"               : "9 години",
-    "neutered"          : "да",
-    "owner_name"        : "Илиян Казаков",
+    "breed"             : "",
+    "sex"               : "",
+    "age"               : "",
+    "neutered"          : "",
+    "owner_name"        : "",
     "address"           : "Ирв",
-    "protocols"         : [309, 310, 311],
+    "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : ["Луксация на лещата"],
+    "pets_diseases"     : [],
     "ward"              : 0
   },
   {
@@ -2409,9 +2409,9 @@
     "neutered"          : "да",
     "owner_name"        : "София Пърчева",
     "address"           : "Ирв",
-    "protocols"         : [328],
+    "protocols"         : [328, 378],
     "results"           : [],
-    "pets_diseases"     : ["Кератит", "Язва на роговицата", "Увеит"],
+    "pets_diseases"     : ["Кератит", "Язва на роговицата", "Увеит", "Енуклеация"],
     "ward"              : 0
   },
   {
@@ -2821,17 +2821,17 @@
   },
   {
     "pet_id"            : 189,
-    "pet_name"          : "",
-    "animalType"        : "cat",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "pet_name"          : "Рей",
+    "animalType"        : "dog",
+    "breed"             : "френски булдог",
+    "sex"               : "мъжки",
+    "age"               : "4 години",
+    "neutered"          : "не",
+    "owner_name"        : "Даниел Банков",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [380],
     "results"           : [],
-    "pets_diseases"     : [""],
+    "pets_diseases"     : ["Сух кератоконюнктивит"],
     "ward"              : 0
   },
   {
