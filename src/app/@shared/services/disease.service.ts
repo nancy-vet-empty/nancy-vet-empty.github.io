@@ -77,15 +77,24 @@ export class DiseasesService {
 
 
   public filterByAnimalType(animalType: string | null) {
+
+    if(animalType == null) {
+      return this;
+    }
+
+    if(animalType.length == 0) {
+      return this;
+    }
+
     if (!animalType || animalType.trim() === '') {
       return this; // No filter
     }
 
     const typeMap: any = {
-      dog: 'dogs',
-      cat: 'cats',
-      rabbit: 'rabbits',
-      guineapig: 'guinea pigs'
+      dog       : 'dogs',
+      cat       : 'cats',
+      rabbit    : 'rabbits',
+      guineapig : 'guinea pigs'
     };
 
     const typePlural = typeMap[animalType.toLowerCase()];
