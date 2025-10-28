@@ -54,8 +54,15 @@
 
 <div *ngIf="selectedObject.link && selectedObject.link !== 'няма-линк'">
   <nv-link-button
-    [inputTitle]="'Отвори линк'"
-    (onClick)="onOpenLink(selectedObject.link)">
+    [inputTitle]="'Листовка'"
+    (onClick)="onOpenPdfDocument(selectedObject.link)">
+  </nv-link-button>
+</div>
+
+<div *ngIf="selectedObject.plumb && selectedObject.plumb !== 'няма-линк'">
+  <nv-link-button
+    [inputTitle]="'Plumbs'"
+    (onClick)="onOpenPdfDocument(selectedObject.plumb)">
   </nv-link-button>
 </div>
 

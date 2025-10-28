@@ -32,10 +32,6 @@ export class DrugInfoModal implements OnInit {
     window.open(`assets/${url}`, '_blank')?.focus();
   }
 
-   public onOpenLink(url: string) {
-    window.open(url, '_blank')?.focus();
-  }
-
   /**
    * @author Mihail Petrov
    * @returns

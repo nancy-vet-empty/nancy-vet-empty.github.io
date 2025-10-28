@@ -1,20 +1,50 @@
-import { Component, OnInit, inject  } from "@angular/core";
-import { ModalController            } from "@ionic/angular";
+import { Component, OnInit, inject  } from '@angular/core';
+import { ModalController, NavParams } from '@ionic/angular';
 import { DialogService      } from "nv@services/dialog.service";
 import { GalleryModal       } from "../gallery/gallery.component";
+import { PatientRecordModal } from '../../../../patients-library/patients/@modal/patient-record/patient-record.component';
+import patientsData from 'nv@json/patients/patients.collection.json';
+import protocolsData from 'nv@json/patients/protocols.collection.json';
 
 @Component({
   selector    : 'modal--drug-info',
   templateUrl : './drug-info.component.html',
   styleUrl    : './drug-info.component.scss'
 })
-export class DrugInfoModal {
+export class DrugInfoModal implements OnInit {
 
   private modalController: ModalController  = inject(ModalController);
   private dialogService: DialogService      = inject(DialogService);
+  private navParams: NavParams            = inject(NavParams);
 
   public selectedObject: any;
   public selectedObjectApplicationCollection: any[] = [];
+
+  ngOnInit() {
+    this.selectedObject = this.navParams.get('selectedObject');
+    this.diseaseName = this.selectedObject?.title; // Assuming the disease name is in 'name'
+    // console.log('Disease Name:', this.selectedObject);
+
+
+    if (!this.diseaseName) return;
+
+    const diseaseNameLower = this.diseaseName.toLowerCase().trim();
+
+    // Find protocols where the diagnosis matches the disease name
+    const matchingProtocols = protocolsData.filter(protocol =>
+      protocol.diagnosis?.toLowerCase().trim() === diseaseNameLower
+    );
+
+    // Collect pet_ids from matching protocols and find the corresponding patients
+    const matchingPetIds = [...new Set(matchingProtocols.map(p => p.pet_id))];
+    this.relatedPatients = patientsData.filter(patient =>
+      matchingPetIds.includes(patient.pet_id)
+    );
+
+    // console.log("Matched protocols:", matchingProtocols);
+    // console.log("Matched patient IDs:", matchingPetIds);
+    // console.log("Related patients:", this.relatedPatients);
+  }
 
   /**
    * @author Mihail Petrov
@@ -71,4 +101,25 @@ export class DrugInfoModal {
         if(this.selectedObject?.type == 'injuries'        ) return `Травми и отравяния`;
         return '';
       }
+
+
+  public diseaseName!: string;
+  public relatedPatients: any[] = [];
+
+  // Open the PATIENT record in the DISEASE INFO modal
+  public async openPatientInfo(pet_id: number) {
+    const patient = patientsData.find(p => p.pet_id === pet_id);
+    if (!patient) {
+      console.error('Patient not found!');
+      return;
+    }
+
+    const modal = await this.modalController.create({
+      component: PatientRecordModal,
+      componentProps: {
+        selectedObject: patient
+      }
+    });
+    await modal.present();
+  }
 }

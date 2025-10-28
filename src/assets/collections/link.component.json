@@ -1,51 +1,6 @@
+Първо Листовка
+После Плъмбс
 
-{ "title": "листовка", "link": "pdfs/@medication/digestive/vominil.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/maropitant.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/cerenia.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/maropitant.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/prevomax.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/maropitant.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/degan.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/metoclopramide.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/zofran.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ondansetron.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/ondansentron.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ondansetron.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/nervous/apovomin.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/apomorphine.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/nervous/clevor.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/nolpaza.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/panrazol.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/sopral.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/omeprazole.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/neksium.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/quamatel.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/famotidine.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/famotidin-alkaloid.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/famotidine.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/antepsin.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sucralfate.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/imodium.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/loperamide.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/zirid.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/laktuloza.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/lactulose.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/dufalak.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/lactulose.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/psyllium.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/daforte.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/fortiflora.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/fortiflora.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/fortiflora.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/pro-kolin-enterogenic.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/dialactu.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/diatab.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/enteromicro.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/activated-charcoal.pdf" }
-{ "title": "листовка", "link": "pdfs/@medication/digestive/ursofalk.pdf" }
-{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ursodiol.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ademethionine.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/digestive/zentonil.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ademethionine.pdf" }
@@ -56,6 +11,7 @@
 { "title": "листовка", "link": "pdfs/@medication/digestive/legaphyton.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/digestive/mezim-forte.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/digestive/remirta.pdf" }
+
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/mirtazapine.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/digestive/remirta.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/mirtazapine.pdf" }
@@ -68,10 +24,12 @@
 { "title": "листовка", "link": "pdfs/@medication/respiratory/ventolin.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/albuterol.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/respiratory/sophafylin.pdf" }
-{ "title": "Plumbs Theophylline", "link": "pdfs/@medication/plumbs-pdf/theophylline.pdf" }
+{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/theophylline.pdf" }
+
 { "title": "листовка", "link": "pdfs/@medication/respiratory/teotard.pdf" }
-{ "title": "Plumbs Theophylline", "link": "pdfs/@medication/plumbs-pdf/theophylline.pdf" }
+{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/theophylline.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/respiratory/bromxeksin.pdf" }
+
 { "title": "листовка", "link": "pdfs/@medication/respiratory/bromxeksin.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sildenafil.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sotalol.pdf" }
@@ -84,6 +42,7 @@
 { "title": "листовка", "link": "pdfs/@medication/circulatory/isemid.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/torasemide.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/circulatory/cardalis.pdf" }
+
 { "title": "Plumbs Benazepril", "link": "pdfs/@medication/plumbs-pdf/benazepril.pdf" }
 { "title": "Plumbs Spironolactone", "link": "pdfs/@medication/plumbs-pdf/spironolactone.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/circulatory/cardalis.pdf" }
@@ -97,10 +56,11 @@
 { "title": "листовка", "link": "pdfs/@medication/circulatory/cardisure.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/circulatory/fortekor.pdf" }
-{ "title": "Plumbs Pimobendan", "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" }
+{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" }
 { "title": "Plumbs Benazepril", "link": "pdfs/@medication/plumbs-pdf/benazepril.pdf" }
 { "title": "Plumbs ", "link": "pdfs/@medication/plumbs-pdf/enalapril.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/circulatory/mannitol.pdf" }
+
 { "title": "листовка", "link": "pdfs/@medication/urogenital/rocaltrol.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/calcitriol.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/urogenital/nonovulin.pdf" }
@@ -111,6 +71,7 @@
 { "title": "листовка", "link": "pdfs/@medication/urogenital/kabergovet.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cabergoline.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/urogenital/covinan.pdf" }
+
 { "title": "листовка", "link": "pdfs/@medication/urogenital/suprelorin.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/deslorelin.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/urogenital/ipozan.pdf" }
@@ -123,6 +84,7 @@
 { "title": "листовка", "link": "pdfs/@medication/urogenital/caniphedrin-50.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ephedrine.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/urogenital/incurin.pdf" }
+
 { "title": "листовка", "link": "pdfs/@medication/urogenital/alizin.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/aglepristone.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/nervous/insistor.pdf" }
@@ -132,6 +94,7 @@
 { "title": "листовка", "link": "pdfs/@medication/nervous/trankvilin.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/acepromazine.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/nervous/nevrotrank.pdf" }
+
 { "title": "листовка", "link": "pdfs/@medication/nervous/zoletil.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/tiletamine.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/nervous/zoletil.pdf" }
@@ -156,7 +119,7 @@
 { "title": "листовка", "link": "pdfs/@medication/nervous/finlepsin.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/diazepam.pdf" }
 { "title": "листовка", "link":  "pdfs/@medication/nervous/noepix.pdf" }
-{ "title": "Plumbs", "link":    "pdfs/@medication/plumbs-pdf/levetiracetam.pdf" }
+{ "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/levetiracetam.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/nervous/finlepsin.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/propofol.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/nervous/anaket.pdf" }
@@ -168,10 +131,20 @@
 { "title": "листовка", "link": "pdfs/@medication/nervous/buscolizin.pdf" }
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/lidocaine.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/nervous/novokain.pdf" }
+
+
+
+
 { "title": "Схема", "link": "pdfs/@medication/nervous/nivalin.jpg" }
 { "title": "Характеристика", "link": "pdfs/@medication/nervous/nivalin-harakt.pdf" }
+
+
+
 { "title": "схема", "link": "pdfs/@medication/nervous/nevrobeks-shema.pdf" }
 { "title": "листовка", "link": "pdfs/@medication/nervous/gabagamma.pdf" }
+
+Качих Плъмба дотук.
+
 { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/gabapentin.pdf" }
 { "title": "листовка Тобрин", "link": "pdfs/@medication/eyes/tobrin.pdf" }
 { "title": "листовка Тобракулин", "link": "pdfs/@medication/eyes/tobrakulin.pdf" }
