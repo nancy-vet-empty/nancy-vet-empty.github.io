@@ -29,17 +29,21 @@ export class DrugInfoModal implements OnInit {
     if (!this.diseaseName) return;
 
     const diseaseNameLower = this.diseaseName.toLowerCase().trim();
+    const diseaseNameEnLower = this.selectedObject?.titleEn?.toLowerCase().trim();
 
-    // Find protocols where the diagnosis matches the disease name
-    const matchingProtocols = protocolsData.filter(protocol =>
-      protocol.diagnosis?.toLowerCase().trim() === diseaseNameLower
-    );
+    // Find patients that have the disease in their `pets_diseases` array
+    this.relatedPatients = patientsData.filter(patient => {
+      if (!patient.pets_diseases || !Array.isArray(patient.pets_diseases)) {
+        return false;
+      }
 
-    // Collect pet_ids from matching protocols and find the corresponding patients
-    const matchingPetIds = [...new Set(matchingProtocols.map(p => p.pet_id))];
-    this.relatedPatients = patientsData.filter(patient =>
-      matchingPetIds.includes(patient.pet_id)
-    );
+      // Check if any of the patient's diseases match the current disease (Cyrillic or Latin)
+      return patient.pets_diseases.some(d => {
+        const patientDiseaseLower = d.toLowerCase().trim();
+        return patientDiseaseLower.includes(diseaseNameLower) ||
+               (diseaseNameEnLower && patientDiseaseLower.includes(diseaseNameEnLower));
+      });
+    });
 
     // console.log("Matched protocols:", matchingProtocols);
     // console.log("Matched patient IDs:", matchingPetIds);
