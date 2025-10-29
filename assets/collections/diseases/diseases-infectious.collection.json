@@ -944,7 +944,7 @@
     "code"        : "A",
     "isVisible"   : true,
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/panleukopenia.pdf" }
+      { "title": "описание", "link": "https://docs.google.com/document/d/1foHskwp5knOyqj2bjz68raC0fTRX16I3/edit" }
     ],
     "etiology"      : ["Панлевкопенията е остро вирусно заболяване по котките, което протича с левкопения, повръщане, ентерит, дехидратация и атаксия с висока заболеваемост и смъртност.", "Източник на инфекцията са болните и преболедувалите животни (до 12-ия месец).", "Вирусът атакува лимфоидните тъкани, костния мозък и предизвиква имуносупресия."],
     "signs"         : ["повръщане", "анорексия", "диария", "дехидратация", "треска", "аборт"],
@@ -954,20 +954,20 @@
     "differential"  : [""]
   },
   {
-    "title"       : "Котешка коронавирусна инфекция",
+    "title"       : "Котешка Коронавироза",
     "titleEn"     : "Feline Coronavirus Infection",
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
     "code"        : "A",
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
+    "etiology"      : ["Причинява се от FCoV (Feline Coronavirus), който е силно заразен вирус. Повечето щамове причиняват само лека чревна инфекция (FeCV). При някои котки FCoV мутира в силно патогенен щам, който причинява Фелинен инфекциозен перитонит (FIP)."],
+    "signs"         : ["диария", "повръщане", "отпадналост", "треска", "дехидратация"],
     "specificSigns" : [""],
-    "diagnostics"   : [""],
+    "diagnostics"   : ["Бърз тест FeliD-3"],
     "treatment"     : [""],
     "differential"  : [""]
   },

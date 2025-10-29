@@ -810,7 +810,7 @@
     "symptomEn" : "Diarrhea, acute",
     "otherNames": ["остра диария"],
     "type"      : "digestive",
-    "link"      : "",
+    "link"      : "https://app.diagrams.net/#G1EY4xoFnSelX_nueSx_gs3D0WJQeAA8Ja#%7B%22pageId%22%3A%22rXR7AtxXvP9lBkORjXrG%22%7D",
     "meaning"   : "диария под 7-14 дни",
     "isVisible" : true,
     "causes"    : [
