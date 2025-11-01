@@ -984,7 +984,7 @@
         "applicationMethod": "PO, час преди хранене"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/digestive/zentonil.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/ademethionine.pdf",
     "indications"       : ["При чернодробна цироза е установено значително понижение на адеметионина в черния дроб", "Лечение на застой на жлъчка в черния дроб (интрахепатална холестаза) при пациенти с прецирозни и цирозни състояния."],
     "contraindications" : [],
@@ -1043,7 +1043,7 @@
         "applicationMethod": "s.i.d."
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/digestive/carsil.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/silymarin.pdf",
     "indications"       : ["при ЧД недостатъчност, ЧД цироза."],
     "contraindications" : [],
@@ -1068,7 +1068,7 @@
         "applicationMethod": "PO за 10 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/digestive/legaphyton.pdf",
     "plumb"             : "",
     "indications"       : ["Диетична допълваща храна за кучета и котки, поддържаща функцията на черния дроб и доставяща антиоксиданти", "препоръчително е дневната доза да се раздели на два приема – сутрин и вечер"],
     "contraindications" : [],
@@ -1093,7 +1093,7 @@
         "applicationMethod": "PO за 10 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/digestive/legaphyton.pdf",
     "plumb"             : "",
     "indications"       : ["Диетична допълваща храна за кучета и котки, поддържаща функцията на черния дроб и доставяща антиоксиданти", "препоръчително е дневната доза да се раздели на два приема – сутрин и вечер"],
     "contraindications" : [],
@@ -1200,7 +1200,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/digestive/mezim-forte.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -1232,7 +1232,7 @@
         "applicationMethod": "на котка PO q72h (всеки 3 дни)"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/digestive/remirta.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/mirtazapine.pdf",
     "indications"       : ["антидепресант", "апетитостимулиращо и антиеметично при КЧ и КТ"],
     "contraindications" : [],
@@ -1283,7 +1283,7 @@
         "applicationMethod": "SAIM: IM SC IV q6-8h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/respiratory/butomidor.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/butorphanol.pdf",
     "indications"       : [],
     "contraindications" : ["Противопоказан или с повишено внимание при пациенти с чернодробно заболяване, хипотиреоидизъм или бъбречна недостатъчност, Адисонова болест, черепно-мозъчна травма, повишено вътречерепно налягане или друга дисфункция на ЦНС (например кома) и при гериатрични или силно отслабени пациенти."],
@@ -1309,7 +1309,7 @@
         "applicationMethod": "SAIM: IM SC IV q6-8h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/respiratory/torphadine.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/butorphanol.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -1361,7 +1361,7 @@
         "applicationMethod": "PO q8-12h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/respiratory/ventolin.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/albuterol.pdf",
     "indications"       : ["бронходилататор, облекчаване на кашлица;", "като бронходилататор при котешка астма"],
     "contraindications" : ["С повишено внимание при диабет, хипертиреоидизъм, хипертензия, епилепсия, сърдечно-съдово заболяване.", "може да инхибира маточните съкращения по време на бременност."],
@@ -1386,7 +1386,7 @@
         "applicationMethod": "бавно IV"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/respiratory/sophafylin.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/theophylline.pdf",
     "indications"       : ["Бронходилататор с диуретично действие.", "При бронхоспазми и кардиогенен БД оток."],
     "contraindications" : [],
@@ -1411,8 +1411,8 @@
         "applicationMethod": "b.i.d."
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/respiratory/teotard.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/theophylline.pdf",
     "indications"       : ["Бронходилататор с диуретично действие.", "При бронхоспазми и кардиогенен БД оток."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -1436,7 +1436,7 @@
         "applicationMethod": "PO q12h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/respiratory/bromxeksin.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/theophylline.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -1449,7 +1449,6 @@
     "title": "ВеТусин",
     "titleEn": "VeTussin",
     "drugConcentration": 1,
-
     "drugConcentrationDecorator": "same",
     "activeSubstance": "меласа от изомалтулоза, сорбитол",
     "favouriteMedicaton": false,
@@ -1488,7 +1487,7 @@
         "applicationMethod": "PO q8-12h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/plumbs-pdf/sildenafil.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/sildenafil.pdf",
     "indications"       : ["при БД хипертензия"],
     "contraindications" : ["заедно с органични нитрати"],
@@ -1547,7 +1546,7 @@
         "applicationMethod": "PO s.i.d."
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/circulatory/amodip.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/clopidogrel.pdf",
     "indications"       : ["За лечение на системна хипертония при котки.", "Таблетките се прилагат PO с препоръчителна начална доза от 0.125 – 0.25 mg/kg/ден. След 14 дни прием дозата може да се удвои или повиши до 0.5 mg/kg веднъж на ден при необходимост."],
     "contraindications" : ["Не трябва да се използва при сърдечен шок, тежка стеноза на аортата, тежка чернодробна недостатъчност или алергия към активната съставка или някой от ексципиентите."],
@@ -1573,7 +1572,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "pdfs/@medication/plumbs-pdf/furosemide.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/clopidogrel.pdf",
     "indications"       : ["Перорален, веднъж дневно, инхибирор на агрегацията на тромбоцитите, който може да помогне в предотввратяването на тромбоемболизъм при котките."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -1598,7 +1597,7 @@
         "applicationMethod": "SC IM IV PO q12h. Може  4-6 mg/kg q8h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/circulatory/furozemid.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/furosemide.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -1624,8 +1623,8 @@
         "applicationMethod": "IV q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "pdfs/@medication/plumbs-pdf/torsemide.pdf",
+    "link"              : "pdfs/@medication/circulatory/furozemid.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/furosemide.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -1676,7 +1675,7 @@
         "applicationMethod": "PO (таблица в листовката)"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/circulatory/isemid.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/torasemide.pdf",
     "indications"       : ["За лечение на клинични признаци, свързани със застойна сърдечна недостатъчност при кучета, включително белодробен оток."],
     "contraindications" : ["бъбречна недостатъчност", "хиповолемия, дехидратация, хипотензия", "Не се използва заедно с други диуретици."],
@@ -1701,7 +1700,7 @@
         "applicationMethod": "PO qd"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/circulatory/cardalis.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/benazepril.pdf",
     "indications"       : ["За лечение на конгестивна сърдечна недостатъчност, причинена от хронично дегенеративно заболяване на клапите при кучета (в комбинация с диуретици, където е необходимо)."],
     "contraindications" : ["Да не се използва по време на бременност или лактация, или животни, използвани за развъждане.", "Да не се използва при случаи на сърдечна недостатъчност вследствие на стеноза на аортата или пулмоналната артерия."],
@@ -1726,7 +1725,7 @@
         "applicationMethod": "PO qd"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/circulatory/cardalis.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/benazepril.pdf",
     "indications"       : ["За лечение на конгестивна сърдечна недостатъчност, причинена от хронично дегенеративно заболяване на клапите при кучета (в комбинация с диуретици, където е необходимо)."],
     "contraindications" : ["Да не се използва по време на бременност или лактация, или животни, използвани за развъждане.", "Да не се използва при случаи на сърдечна недостатъчност вследствие на стеноза на аортата или пулмоналната артерия."],
@@ -1751,7 +1750,7 @@
         "applicationMethod": "PO qd"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/circulatory/cardalis.pdf",
     "plumb"             : "",
     "indications"       : ["За лечение на конгестивна сърдечна недостатъчност, причинена от хронично дегенеративно заболяване на клапите при кучета (в комбинация с диуретици, където е необходимо)."],
     "contraindications" : ["Да не се използва по време на бременност или лактация, или животни, използвани за развъждане.", "Да не се използва при случаи на сърдечна недостатъчност вследствие на стеноза на аортата или пулмоналната артерия."],
@@ -1777,7 +1776,7 @@
         "applicationMethod": "разделена на 2 приема за 24 ч, един час преди хранене."
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/circulatory/vetmedin.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/pimobendan.pdf",
     "indications"       : ["За лечение на конгестивна сърдечна недостатъчност при кучета, причинена от дилатативна кардиомиопатия или клапанна недостатъчност (митрална и/или трикуспидална клапанна регургитация).", "За лечение на дилатативна кардиомиопатия в предклиничен стадий (асимптоматична с увеличаване на разликата в диапазона между систоличното и диастоличното налягане в лявата камера) при доберман-пинчери след ехокардиографско диагностициране на сърдечното заболяване.", "За лечение на кучета с миксоматозно заболяване на митралната клапа (MMVD) в предклиничен стадий (асимптоматично със систоличен митрален шум и данни за увеличен размер на сърцето), за да се забави появата на клинични симптоми на сърдечна недостатъчност.", "Предпочитаната доза е 0,5 mg пимобендан/kg телесна маса, разделена на две дневни дози."],
     "contraindications" : ["Не използвайте пимобендан при хипертрофични кардиомиопатии или при заболявания, при които не може да се получи подобрение на ударния обем поради функционални или анатомични причини (напр. аортна стеноза).", "Не трябва да се използва при кучета с тежко нарушение на чернодробната функция."],
@@ -1803,7 +1802,7 @@
         "applicationMethod": "q24h (препоръчително е 0,5 mg/kg), разделен на два приема q12h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/circulatory/cardisure.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/pimobendan.pdf",
     "indications"       : ["За лечение на конгестивна сърдечна недостатъчност при кучета, причинена от дилатативна кардиомиопатия или клапанна недостатъчност (митрална и/или трикуспидална клапанна регургитация).", "За лечение на дилатативна кардиомиопатия в предклиничен стадий (асимптоматична с увеличаване на разликата в диапазона между систоличното и диастоличното налягане в лявата камера) при доберман-пинчери след ехокардиографско диагностициране на сърдечното заболяване.", "За лечение на кучета с миксоматозно заболяване на митралната клапа (MMVD) в предклиничен стадий (асимптоматично със систоличен митрален шум и данни за увеличен размер на сърцето), за да се забави появата на клинични симптоми на сърдечна недостатъчност.", "Предпочитаната доза е 0,5 mg пимобендан/kg телесна маса, разделена на две дневни дози."],
     "contraindications" : ["Не използвайте пимобендан при хипертрофични кардиомиопатии или при заболявания, при които не може да се получи подобрение на ударния обем поради функционални или анатомични причини (напр. аортна стеноза).", "Не трябва да се използва при кучета с тежко нарушение на чернодробната функция."],
@@ -1829,7 +1828,7 @@
         "applicationMethod": "q24h, разделен на два приема q12h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/circulatory/fortekor.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/pimobendan.pdf",
     "indications"       : ["застойна сърдечна недостатъчност, причинена от недостатъчност на атриовентрикуларния клапан или от разширена кардиомиопатия"],
     "contraindications" : [],
@@ -1905,7 +1904,7 @@
         "applicationMethod": "много бавно IV q12h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/circulatory/mannitol.pdf",
     "plumb"             : "",
     "indications"       : ["Осмотичен диуретик, използван при остра бъбречна недостатъчност с олигурия, за намаляване на вътреочното и вътремозъчното налягане, за повишаване на отделянето на някои токсини с урината и заедно с други диуретици за бързо намаляване на отока или асцита (с повишено внимание)."],
     "contraindications" : ["Анурия, вторично възникнала след бъбречно заболяване, тежка дехидратация, вътречерепно кървене (освен по време на краниотомия), тежка белодробна конгестия или белодробен оток"],
@@ -2013,7 +2012,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/sodium-bicarbonate.pdf",
     "indications"       : ["за повишаване рН на кръвта (алкализиране)"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -2094,8 +2093,8 @@
         "applicationMethod": "чрез разклащане и приложение PO или върху храната"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/urogenital/rocaltrol.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/calcitriol.pdf",
     "indications"       : ["за бъбречни проблеми", "предпазва ББ клетки", "свързва ентерално фосфора", "синергично действие с Ипакитин и Рубенал"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -2128,8 +2127,8 @@
         "applicationMethod": "PO s.i.d."
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/urogenital/rocaltrol.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/calcitriol.pdf",
     "indications"       : ["калцитриолът е най-активната форма на витамин D3", "подпомага усвояването на калций от храната и регулира костната минерализация.", "при бъбречна недостатъчност", "при идиопатична себорея"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -2307,7 +2306,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ammonium-chloride.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -2430,7 +2429,7 @@
         "applicationMethod": "PO за 8 последователни дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/nonovulin.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/megestrol-acetate.pdf",
     "indications"       : ["За прекъсване и отлагане на еструса при кучета и котки; за успокояване на сексуално възбудени мъжки кучета и котараци (сатириазис); при котки се препоръчва за успешно лечение на милиарен дерматит и еозинофилен гранулом."],
     "contraindications" : ["бременни животни, захарен диабет или тумори на млечните жлези.", "Не използвайте при кучета преди първия им еструс."],
@@ -2455,7 +2454,7 @@
         "applicationMethod": "qd 4-6 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/galastop.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/cabergoline.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -2505,7 +2504,7 @@
         "applicationMethod": "PO qd"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/kabergovet.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/cabergoline.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -2538,7 +2537,7 @@
         "applicationMethod": "SC в областта на врата или бедрото"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/covinan.pdf",
     "plumb"             : "",
     "indications"       : ["За предпазване и потискане на еструс при кучета и котки."],
     "contraindications" : ["Да не се използва при животни преди първия еструс."],
@@ -2563,7 +2562,7 @@
         "applicationMethod": "на куче"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/suprelorin.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/deslorelin.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -2589,7 +2588,7 @@
         "applicationMethod": "PO qd за 7 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/ipozan.pdf",
     "plumb"             : "",
     "indications"       : ["При доброкачествена хиперплазия на простатата.", "1 табл. веднъж дневно за 7 дни.", "Има 6-месечен ефект."],
     "contraindications" : [],
@@ -2615,7 +2614,7 @@
         "applicationMethod": "PO qd за 7 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/ipozan.pdf",
     "plumb"             : "",
     "indications"       : ["При доброкачествена хиперплазия на простатата.", "1 табл. веднъж дневно за 7 дни.", "Има 6-месечен ефект."],
     "contraindications" : [],
@@ -2641,7 +2640,7 @@
         "applicationMethod": "PO qd за 7 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/ipozan.pdf",
     "plumb"             : "",
     "indications"       : ["При доброкачествена хиперплазия на простатата.", "1 табл. веднъж дневно за 7 дни.", "Има 6-месечен ефект."],
     "contraindications" : [],
@@ -2667,7 +2666,7 @@
         "applicationMethod": "PO qd за 7 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/ipozan.pdf",
     "plumb"             : "",
     "indications"       : ["При доброкачествена хиперплазия на простатата.", "1 табл. веднъж дневно за 7 дни.", "Има 6-месечен ефект."],
     "contraindications" : [],
@@ -2717,7 +2716,7 @@
         "applicationMethod": "PO"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/caniphedrin-20.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/ephedrine.pdf",
     "indications"       : ["Лечение на уринарна инконтиненция, предизвикана от недостатъчност на уретралния сфинктеров механизъм след овариохистеротомия на женски кучета."],
     "contraindications" : ["Лекарствена концентрация тази таблетка не е предназначена за кучета с телесно тегло под 2,5 kg (препоръчителна начална доза 2 mg/kg).", "сърдечносъдово заболяване, хипертиреоидизъм, захарен диабет, увредена бъбречна функция или глаукома. Да не се използва едновременно с халогенирани наркотични средства като халотан или метоксифлуран."],
@@ -2742,7 +2741,7 @@
         "applicationMethod": "PO"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/caniphedrin-50.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/ephedrine.pdf",
     "indications"       : ["Лечение на уринарна инконтиненция, предизвикана от недостатъчност на уретралния сфинктеров механизъм след овариохистеротомия на женски кучета.", "Препоръчителна начална доза 2 mg/kg ефедрин."],
     "contraindications" : ["сърдечносъдово заболяване, хипертиреоидизъм, захарен диабет, увредена бъбречна функция или глаукома. Да не се използва едновременно с халогенирани наркотични средства като халотан или метоксифлуран."],
@@ -2767,7 +2766,7 @@
         "applicationMethod": "PO"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/incurin.pdf",
     "plumb"             : "",
     "indications"       : ["За лечение на уринарна инконтиненция при женски кучета след кастрация."],
     "contraindications" : [],
@@ -2792,7 +2791,7 @@
         "applicationMethod": "SC, двукратно, през 24 часа"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/urogenital/alizin.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/aglepristone.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -2901,7 +2900,7 @@
         "applicationMethod": "IM"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/insistor.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -2927,7 +2926,7 @@
         "applicationMethod": "IM IV"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/bupaq.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -2953,7 +2952,7 @@
         "applicationMethod": "PO"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/trankvilin.pdf",
     "plumb"             : "",
     "indications"       : ["фенотиазинов транквилант"],
     "contraindications" : [],
@@ -3005,7 +3004,7 @@
         "applicationMethod": "IV IM"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/nevrotrank.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -3039,7 +3038,7 @@
         "applicationMethod": "IV"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/zoletil.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/tiletamine.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -3073,7 +3072,7 @@
         "applicationMethod": "IV"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/zoletil.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/tiletamine.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -3130,7 +3129,7 @@
         "applicationMethod": "SC"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/ksilazin.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/xylazine.pdf",
     "indications"       : ["еметик при КТ: 0,44 мг/кг ИМ", "Препаратът действа седативно, аналгетично, анестетично и мускулно- релаксантно при говеда, коне, кучета и котки. При всички случаи на необходимост от аналгезия и релаксия – транспорт, хирургични намеси, тежки раждания, при манипулации на злонрави животни."],
     "contraindications" : ["Да не се прилага при говеда в последния месец на бременността и при животни с хронични сърдечни или белодробни заболявания."],
@@ -3162,7 +3161,7 @@
         "applicationMethod": "SC"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/xylamidor.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/xylazine.pdf",
     "indications"       : ["еметик при КТ: 0,44 мг/кг ИМ", "Препаратът действа седативно, аналгетично, анестетично и мускулно- релаксантно при говеда, коне, кучета и котки. При всички случаи на необходимост от аналгезия и релаксия – транспорт, хирургични намеси, тежки раждания, при манипулации на злонрави животни."],
     "contraindications" : ["Да не се прилага при говеда в последния месец на бременността и при животни с хронични сърдечни или белодробни заболявания."],
@@ -3194,7 +3193,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/dorben.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/medetomidine.pdf",
     "indications"       : ["За премедикация преди обща анестезия", "За седиране с цел улеснение манипулация.", "При котки: В комбинация с кетамин за обща анестезия", "Личев упояване на кт: дорбен 0,04 мл/котка и бутомидор 0,1 мл/котка"],
     "contraindications" : [],
@@ -3226,7 +3225,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/sedin.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/medetomidine.pdf",
     "indications"       : ["За премедикация преди обща анестезия", "За седиране с цел улеснение манипулация.", "При котки: В комбинация с кетамин за обща анестезия", "Личев упояване на кт: дорбен 0,04 мл/котка и бутомидор 0,1 мл/котка"],
     "contraindications" : [],
@@ -3258,7 +3257,7 @@
         "applicationMethod": "IV IM"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/antisedan.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/atipamezole.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -3290,7 +3289,7 @@
         "applicationMethod": "IV IM"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/atipazol.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/atipamezole.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -3324,7 +3323,7 @@
         "applicationMethod": "intranasal"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/dopram.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/doxapram.pdf",
     "indications"       : ["Стимулиране на дишането и постнатална реанимация.", "Продуктът се аплицира през 20 минути при необходимост. Не добавяй, докато ефектът на първата доза не е изчезнал. Преди приложение, дихателните пътища на новороденото трябва да се почистят."],
     "contraindications" : [],
@@ -3382,7 +3381,7 @@
         "applicationMethod": "PO q12h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/epityl.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/phenobarbital.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -3466,8 +3465,8 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
-    "plumb"             : "pdfs/@medication/plumbs-pdf/propofol.pdf",
+    "link"              : "pdfs/@medication/nervous/finlepsin.pdf",
+    "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -3493,7 +3492,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "pdfs/@medication/plumbs-pdf/ketamine.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/propofol.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -3517,8 +3516,8 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/nervous/anaket.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ketamine.pdf",
     "indications"       : ["Интравенозна инфузия за обезболяване при КЧ: В 500 мл банка се добавят 0,3 мл кетамин и 5 мл лидокаин от 20 мг за 5 мл/кг/ч. Лидокаин на КОТКА не се дава!", "Интравенозна инфузия за обезболяване при КТ: В 250 мл банка се добавят 0,6 мл кетамин за 5 мл/кг/ч."],
     "contraindications" : [],
     "drugInteractions"  : ["Комбинацията кетамин/ксилазин води до сърдечни аритмии, белодробен оток и дихателна депресия при кучета. Тази комбинация трябва да се използва с внимание."],
@@ -3550,7 +3549,7 @@
         "applicationMethod": "IM"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/dexdomidor.pdf",
     "plumb"             : "pdfs/@medication/plumbs-pdf/dexmedetomidine.pdf",
     "indications"       : [],
     "contraindications" : [],
@@ -3576,8 +3575,8 @@
         "applicationMethod": "PO q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "pdfs/@medication/nervous/amitriptilin.pdf",
+    "link"              : "pdfs/@medication/nervous/amitriptilin.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amitriptyline.pdf",
     "indications"       : ["трицикличен антидепресант", "За лечение на психогенен сърбеж."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -3610,8 +3609,8 @@
         "applicationMethod": "IM или бавно IV"
       }
     },
-    "link"              : "",
-    "plumb"             : "pdfs/@medication/plumbs-pdf/amitriptyline.pdf",
+    "link"              : "pdfs/@medication/nervous/buscolizin.pdf",
+    "plumb"             : "",
     "indications"       : ["При спазми на червата, жлъчните и пикочните пътища, придружени с колики, при остро запушване на хранопровода; при спазми на маточната шийка през време на раждане; при начален аборт."],
     "contraindications" : [" Механични стенози на стомашно-чревния тракт, глаукома, тахикардия. Да не се използва при свръхчувствителност към активната субстанция или към някой от ексципиентите."],
     "drugInteractions"  : [],
@@ -3661,7 +3660,7 @@
         "applicationMethod": "за лумбална анестезия"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/novokain.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -3686,8 +3685,8 @@
         "applicationMethod": "s.i.d."
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/nervous/nivalin.jpg",
+    "plumb"             : "pdfs/@medication/nervous/nivalin-harakt.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -3786,7 +3785,7 @@
         "applicationMethod": "по схема"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/nervous/nevrobeks-shema.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -3921,7 +3920,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/atropine-sulfate.pdf",
     "indications"       : ["при отравяне с ФОС и карбамати"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -3946,7 +3945,7 @@
         "applicationMethod": "q4h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/tobrin.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -3972,7 +3971,7 @@
         "applicationMethod": "q4-6h от 5 до 10 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/dex-tobrin.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -3998,7 +3997,7 @@
         "applicationMethod": "q4h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/tobrakulin.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4024,7 +4023,7 @@
         "applicationMethod": "q4-6h от 5 до 10 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/tobrakulin-d.pdf",
     "plumb"             : "",
     "indications"       : ["Преди употреба флаконът се разклаща енергично.", "След всяко накапване вътрешният ъгъл на окото се притиска за около 30 - 60 секунди, за да се предотврати изтичане на суспензията през слъзните канали", "Продуктът се прилага при възпалителни състояния на конюнктивата, роговицата и предната очна камера, при които се препоръчва употребата на кортикостероиди и е налице повърхностна бактериална инфекция или съществува риск от нея - конюнктивити, кератити, кератоконюнктивити, блефарити, блефароконюнктивити, хордеолуми, дакриоцистити, ирит, след екстракция на чужди тела на роговицата и конюнктивата, предоперативно и следоперативно при екстра- и интрабулбови операции при кучета и котки."],
     "contraindications" : ["Да не се използва при вирусни и гъбни инфекции на очите.", "Да не се използват други очни капки или унгвенти по време на лечението с Тобракулин-Д"],
@@ -4049,7 +4048,7 @@
         "applicationMethod": "2-3 пъти дневно"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/gentakulin.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4074,7 +4073,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/gentazon.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4099,7 +4098,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/gentamicin-vision-maz.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4124,7 +4123,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/floxal.pdf",
     "plumb"             : "",
     "indications"       : ["Хинолон", "за установени грамотрицателни инфекции на роговицата"],
     "contraindications" : [],
@@ -4149,7 +4148,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/ciloxan.pdf",
     "plumb"             : "",
     "indications"       : ["хинолон", "за установени грам-отрицателни инфекции на роговицата"],
     "contraindications" : [],
@@ -4174,7 +4173,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/spersadeks.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4224,7 +4223,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/oftagel.pdf",
     "plumb"             : "",
     "indications"       : ["капки за овлажняване, при сухота на очите."],
     "contraindications" : [],
@@ -4249,7 +4248,7 @@
         "applicationMethod": "в окото"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/alkain.pdf",
     "plumb"             : "",
     "indications"       : ["за обезболяване на окото"],
     "contraindications" : [],
@@ -4274,7 +4273,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/korneregel.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4299,8 +4298,8 @@
         "applicationMethod": "в окото, q12h за 7-14 дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/eyes/aciklovir.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/acyclovir.pdf",
     "indications"       : ["при херпесвироза"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -4325,7 +4324,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/acyclovir.pdf",
     "indications"       : ["1 амп. глюкоза 40%, 1 амп вит Б1, 1 амп вит Б12, 0,1 инсулин."],
     "contraindications" : ["Срок на годност: 2 седмици."],
     "drugInteractions"  : [],
@@ -4349,8 +4348,8 @@
         "applicationMethod": "в окото q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/eyes/oftan.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/timolol.pdf",
     "indications"       : ["глаукома", "едем на роговицата"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -4400,7 +4399,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/diclofenak.pdf",
     "indications"       : ["При КТ с язви на езика, за да се облекчи болката при хранене."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -4501,7 +4500,7 @@
         "applicationMethod": "q12h, после масаж в основата на ухото"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/ears/mitex.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4527,7 +4526,7 @@
         "applicationMethod": "b.i.d."
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/ears/surolan.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4552,7 +4551,7 @@
         "applicationMethod": "q24h за 7-14 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/ears/otoxolan.pdf",
     "plumb"             : "",
     "indications"       : ["Лечение на отит на външното ухо,както от бактириален,така и от гъбичен произход,дължащ се съответно на бактерии,чувствителни към марбофлоксацин и гъбички,чувствителни към клотримазол, особено Malassezia pachydermatis."],
     "contraindications" : ["Да не се използва при кучета,страдащи от перфорация на тъпанчевата мембрана. Да не се използва при свръхчувствителност към активните субстанции,към други азолни противогъбични средства или към които и да е други флуорохинолони,или към някой от ексципиентите.Да не се прилага при бременни или кърмещи кучета."],
@@ -4577,7 +4576,7 @@
         "applicationMethod": "q24h за 7-14 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/aurizon.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4602,7 +4601,7 @@
         "applicationMethod": "q24h за 7-14 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/eyes/marbogen-complex.pdf",
     "plumb"             : "",
     "indications"       : ["Лечение на остър външен отит при кучета, когато, въз основа на микробиологично изследване, са установени смесени инфекции, причинени от Staphylococcus pseudintermedius и Pseudomonas aeruginosa, и чувствителни към кетоконазол Malassezia pachydermatis, както и въз основа на изследване за чувствителност, поради развитие на резистентност, приложението на марбофлоксацин и на гентамицин се смята за необходимо срещу горепосочените бактерии."],
     "contraindications" : ["Да не се използва при кучета, страдащи от перфорация на тъпанчевата мембрана"],
@@ -4627,7 +4626,7 @@
         "applicationMethod": "една тубичка s.i.d. в ухото, две третирания през 7 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/ears/osurnia.pdf",
     "plumb"             : "",
     "indications"       : ["Лечение на остър външен отит и изостряне на хроничен външен отит, свързан със Staphylococcus pseudintermedius и Malassezia pachydermatis.", "Използвайте една тубичка за всяко инфектирано ухо. Повторете след 7 дни.", "Максималният клиничен отговор обикновено е видим 21 дни след второто приложение.", "Преди първото приложение на продукта е препоръчително да се почисти и подсуши външният ушен канал. Следващото почистване на ушите е препоръчително да бъде най-рано 21 дни след второто приложение на продукта. Ако лечението с този продукт се преустанови, ушните канали трябва да бъдат почистени преди да започне лечение с алтернативен продукт. "],
     "contraindications" : ["Да не се използва при перфорирано тъпанче.", "Да не се използва при кучета с множествена демодекоза.", "Да не се използва при бременни или разплодни животни."],
@@ -4652,7 +4651,7 @@
         "applicationMethod": "q6h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/ears/uniflox.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4677,7 +4676,7 @@
         "applicationMethod": "q6h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/ears/furotalgin.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4711,7 +4710,7 @@
         "applicationMethod": "SC през 4-7 дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/skin/teranekron.pdf",
     "plumb"             : "",
     "indications"       : ["Септични състояния, супурация на кожата, възпалително заболяване на нокътя (панарициум), флегмони, кожни язви, карбункули, циреи, гнойно-некротични процеси и за демаркация на патологично променени тъкани при всички видове животни, за които продуктът е предназначен."],
     "contraindications" : [],
@@ -4736,7 +4735,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/skin/betazon.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4761,7 +4760,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/skin/betazontrio.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4786,7 +4785,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/skin/triderm.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4811,7 +4810,7 @@
         "applicationMethod": "q12h, след 8 дни контрола"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/skin/daktacort.pdf",
     "plumb"             : "",
     "indications"       : ["за гъбична инфекция"],
     "contraindications" : [],
@@ -4887,7 +4886,7 @@
         "applicationMethod": "PO q12h за максимум 14 дни, поддържаща е q24h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/skin/apoquel.pd",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4912,7 +4911,7 @@
         "applicationMethod": "веднъж седмично"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/skin/cytopoint.pdf",
     "plumb"             : "",
     "indications"       : ["Лечение на клиничните прояви на атопичен дерматит при кучетата."],
     "contraindications" : ["Да не се използва при кучета с тегло под 3 kg."],
@@ -4938,7 +4937,7 @@
         "applicationMethod": "-"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/skin/panaveyxal.pdf",
     "plumb"             : "",
     "indications"       : [],
     "contraindications" : [],
@@ -4988,7 +4987,7 @@
         "applicationMethod": "1-2 пъти на ден няколко дни"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/skin/cortizem.pdf",
     "plumb"             : "",
     "indications"       : ["Лечение на екземи и инфекциозни дерматити при кучета и котки.","Да се прилага най-много в продължение на 2 седмици."],
     "contraindications" : [],
@@ -5065,7 +5064,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5089,8 +5088,8 @@
         "applicationMethod": "SC q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/synulox-rtu.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5114,8 +5113,8 @@
         "applicationMethod": "q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/synulox-tabs.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5139,8 +5138,8 @@
         "applicationMethod": "q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/synulox-tabs.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5164,8 +5163,8 @@
         "applicationMethod": "PO"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/medoklav.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5190,7 +5189,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5215,7 +5214,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5240,7 +5239,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5264,8 +5263,8 @@
         "applicationMethod": "q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/clavaseptin.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5289,8 +5288,8 @@
         "applicationMethod": "q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/clavaseptin.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5314,8 +5313,8 @@
         "applicationMethod": "q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/clavaseptin250.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5339,8 +5338,8 @@
         "applicationMethod": "q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/clavaseptin250.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5365,7 +5364,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/amoxicillin.pdf",
     "indications"       : ["група: пеницилини, аминогликозиди"],
     "contraindications" : ["нарушена бъбречна функция", "бременни животни"],
     "drugInteractions"  : [],
@@ -5390,7 +5389,7 @@
         "applicationMethod": "IV q8h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/antibiotics/unazin.pdf",
     "plumb"             : "",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
@@ -5415,8 +5414,8 @@
         "applicationMethod": "IM SC, с интервал от 72 часа"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/duplocillin-la.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/penicillin-g.pdf",
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5441,8 +5440,8 @@
         "applicationMethod": "PO"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/ospexin-500mg.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/cephalexin.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5466,8 +5465,8 @@
         "applicationMethod": "PO b.i.d."
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/tsefalen.",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/cephalexin.pdf",
     "indications"       : ["група: цефалоспорини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5491,8 +5490,8 @@
         "applicationMethod": "PO b.i.d."
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/tsefalen.",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/cephalexin.pdf",
     "indications"       : ["група: цефалоспорини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5518,7 +5517,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf",
     "indications"       : ["група: цефалоспорини", "Цефтриаксон се използва за лечение на сериозни инфекции.", "за лечение на Лаймска болест."],
     "contraindications" : [],
     "drugInteractions"  : ["Аминогликозиди/нефротоксични лекарства: Едновременното използване на парентерални аминогликозиди или други нефротоксични лекарства (напр. амфотерицин B) с цефалоспорини е според някои противопоказано.", "Калций: Едновременната употреба с калций-съдържащи разтвори е причинила фатални калциево-цефтриаксонови преципитати в белите дробове и бъбреците на новородени."],
@@ -5543,8 +5542,8 @@
         "applicationMethod": "IM IV q24h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/medaxon.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf",
     "indications"       : ["група: цефалоспорини", "Цефтриаксон се използва за лечение на сериозни инфекции.", "за лечение на Лаймска болест."],
     "contraindications" : [],
     "drugInteractions"  : ["Аминогликозиди/нефротоксични лекарства: Едновременното използване на парентерални аминогликозиди или други нефротоксични лекарства (напр. амфотерицин B) с цефалоспорини е според някои противопоказано.", "Калций: Едновременната употреба с калций-съдържащи разтвори е причинила фатални калциево-цефтриаксонови преципитати в белите дробове и бъбреците на новородени."],
@@ -5570,7 +5569,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf",
     "indications"       : ["група: цефалоспорини", "Цефтриаксон се използва за лечение на сериозни инфекции.", "за лечение на Лаймска болест."],
     "contraindications" : [],
     "drugInteractions"  : ["Аминогликозиди/нефротоксични лекарства: Едновременното използване на парентерални аминогликозиди или други нефротоксични лекарства (напр. амфотерицин B) с цефалоспорини е според някои противопоказано.", "Калций: Едновременната употреба с калций-съдържащи разтвори е причинила фатални калциево-цефтриаксонови преципитати в белите дробове и бъбреците на новородени."],
@@ -5596,7 +5595,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf",
     "indications"       : ["група: цефалоспорини", "Цефтриаксон се използва за лечение на сериозни инфекции.", "за лечение на Лаймска болест."],
     "contraindications" : [],
     "drugInteractions"  : ["Аминогликозиди/нефротоксични лекарства: Едновременното използване на парентерални аминогликозиди или други нефротоксични лекарства (напр. амфотерицин B) с цефалоспорини е според някои противопоказано.", "Калций: Едновременната употреба с калций-съдържащи разтвори е причинила фатални калциево-цефтриаксонови преципитати в белите дробове и бъбреците на новородени."],
@@ -5628,8 +5627,8 @@
         "applicationMethod": "PO q24h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/ksimebak.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/cefpodoxime.pdf",
     "indications"       : ["група: цефалоспорини"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5654,8 +5653,8 @@
         "applicationMethod": "IM IV t.i.d., или 0.05 мл/ 1 кг ПК, за 5 дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/genta-100.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/gentamicin.pdf",
     "indications"       : ["група: аминогликозиди"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5680,8 +5679,8 @@
         "applicationMethod": "IM IV t.i.d."
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/gentamicin.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/gentamicin.pdf",
     "indications"       : ["група: аминогликозиди"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5705,8 +5704,8 @@
         "applicationMethod": "Засегнатите участъци се намазват с шпатула 2-3 пъти дневно до пълно оздравяване."
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/gentamicin-maz.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/gentamicin.pdf",
     "indications"       : ["група: аминогликозиди"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5730,7 +5729,7 @@
         "applicationMethod": "SC q24h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/antibiotics/intramicin.pdf",
     "plumb"             : "",
     "indications"       : ["група: пеницилини, аминогликозиди"],
     "contraindications" : ["Не прилагайте на животни с увредена бъбречна функция.", "Не прилагайте едновременно с антибиотици, които имат антагонизъм (гентамицин или канамицин).", "Не прилагайте едновременно с други β-лактамни антибиотици от групата на пеницилините тип G."],
@@ -5759,8 +5758,8 @@
         "applicationMethod": "SC 5-10 дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/baytril.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf",
     "indications"       : ["група: хинолони", "Tози лекарствен продукт се използва при кучета и котки за лечение на бактериални инфекции на храносмилателния, респираторния и урогениталния тракт, кожата, вторични инфекции на рани и otitis externa, когато клиничният опит определя енрофлоксацин като подходящо лекарствено средство."],
     "contraindications" : ["Да не се използва при кучета по-малки от 1 година или при изключително големи породи кучета, с по-дълъг период на растеж, по-малки от 18 месечна възраст, тъй като ставният хрущял може да се увреди по време на периода на бърз растеж.", "Да не се използва при котки, по-малки от 8 седмици.", "Да не се използва при кучета, които имат гърчове, тъй като енрофлоксацин може да доведе до стимулиране на ЦНС. ", "Да не се използва за профилактика."],
     "drugInteractions"  : ["Да не се комбинира с тетрациклини, фениколи или макролиди.", "Да не се комбинира с теофилин", "Едновременното приложение със субстанции, съдържащи магнезий или алуминий може да бъде последвано от забавена резорбция на енрофлоксацин."],
@@ -5784,8 +5783,8 @@
         "applicationMethod": "SC 5-10 дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/baytril.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf",
     "indications"       : ["група: хинолони", "Tози лекарствен продукт се използва при кучета и котки за лечение на бактериални инфекции на храносмилателния, респираторния и урогениталния тракт, кожата, вторични инфекции на рани и otitis externa, когато клиничният опит определя енрофлоксацин като подходящо лекарствено средство."],
     "contraindications" : ["Да не се използва при кучета по-малки от 1 година или при изключително големи породи кучета, с по-дълъг период на растеж, по-малки от 18 месечна възраст, тъй като ставният хрущял може да се увреди по време на периода на бърз растеж.", "Да не се използва при котки, по-малки от 8 седмици.", "Да не се използва при кучета, които имат гърчове, тъй като енрофлоксацин може да доведе до стимулиране на ЦНС. ", "Да не се използва за профилактика."],
     "drugInteractions"  : ["Да не се комбинира с тетрациклини, фениколи или макролиди.", "Да не се комбинира с теофилин", "Едновременното приложение със субстанции, съдържащи магнезий или алуминий може да бъде последвано от забавена резорбция на енрофлоксацин."],
@@ -5809,8 +5808,8 @@
         "applicationMethod": "q24h или два пъти на ден през 12 часа"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/enroksil-50.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf",
     "indications"       : ["група: хинолони", "Tози лекарствен продукт се използва при кучета и котки за лечение на бактериални инфекции на храносмилателния, респираторния и урогениталния тракт, кожата, вторични инфекции на рани и otitis externa, когато клиничният опит определя енрофлоксацин като подходящо лекарствено средство."],
     "contraindications" : ["Да не се използва при кучета по-малки от 1 година или при изключително големи породи кучета, с по-дълъг период на растеж, по-малки от 18 месечна възраст, тъй като ставният хрущял може да се увреди по време на периода на бърз растеж.", "Да не се използва при котки, по-малки от 8 седмици.", "Да не се използва при кучета, които имат гърчове, тъй като енрофлоксацин може да доведе до стимулиране на ЦНС. ", "Да не се използва за профилактика."],
     "drugInteractions"  : ["Да не се комбинира с тетрациклини, фениколи или макролиди.", "Да не се комбинира с теофилин", "Едновременното приложение със субстанции, съдържащи магнезий или алуминий може да бъде последвано от забавена резорбция на енрофлоксацин."],
@@ -5834,8 +5833,8 @@
         "applicationMethod": "q24h или два пъти на ден през 12 часа"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/enroksil-15.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf",
     "indications"       : ["група: хинолони", "Tози лекарствен продукт се използва при кучета и котки за лечение на бактериални инфекции на храносмилателния, респираторния и урогениталния тракт, кожата, вторични инфекции на рани и otitis externa, когато клиничният опит определя енрофлоксацин като подходящо лекарствено средство."],
     "contraindications" : ["Да не се използва при кучета по-малки от 1 година или при изключително големи породи кучета, с по-дълъг период на растеж, по-малки от 18 месечна възраст, тъй като ставният хрущял може да се увреди по време на периода на бърз растеж.", "Да не се използва при котки, по-малки от 8 седмици.", "Да не се използва при кучета, които имат гърчове, тъй като енрофлоксацин може да доведе до стимулиране на ЦНС. ", "Да не се използва за профилактика."],
     "drugInteractions"  : ["Да не се комбинира с тетрациклини, фениколи или макролиди.", "Да не се комбинира с теофилин", "Едновременното приложение със субстанции, съдържащи магнезий или алуминий може да бъде последвано от забавена резорбция на енрофлоксацин."],
@@ -5859,8 +5858,8 @@
         "applicationMethod": "SC q24h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/marfloksin-inj.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/marbofloxacin.pdf",
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5884,8 +5883,8 @@
         "applicationMethod": "PO q24h, 5-7 дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/marfloksin-20-tabl.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/marbofloxacin.pdf",
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5911,7 +5910,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ciprofloxacin.pdf",
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -5935,7 +5934,7 @@
         "applicationMethod": "PO q24h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/antibiotics/veraflox.pdf",
     "plumb"             : "",
     "indications"       : ["група: хинолони", "Използва се при Хемотропна микоплазмоза (Haemobartonella felis, Haemobartonella canis).", "Pradofloxacin не повлиява хрущялното развитие при котенца на 6-седмична възраст и по-големи."],
     "contraindications" : ["Поради липса на данни, pradofloxacin не трябва да се използва при котенца под 6-седмична възраст.", "Да не се използва при котки с нарушения в централната нервна система (ЦНС).", "Не използвай по време на бременност."],
@@ -5960,7 +5959,7 @@
         "applicationMethod": "PO q24h"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/antibiotics/veraflox.pdf",
     "plumb"             : "",
     "indications"       : ["група: хинолони", "Pradofloxacin не повлиява хрущялното развитие при котенца на 6 седмична възраст и поголеми."],
     "contraindications" : ["Да не се използва при кучета през периода на растеж, тъй като може да бъде засегнат ставния хрущял. Да не се използва при кучета с нарушения в централната нервна система (ЦНС)."],
@@ -5985,7 +5984,7 @@
         "applicationMethod": "PO"
       }
     },
-    "link"              : "",
+    "link"              : "pdfs/@medication/antibiotics/levofloxacin.pdf",
     "plumb"             : "",
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
@@ -6012,7 +6011,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/doxycycline.pdf",
     "indications"       : ["група: тетрациклини", "За лечение на кърлежово-преносими заболявания при кучетата и някои вирусни инфекции при котки.", "Доксициклина, въведен ИВ, причинява алергична реакция? при много кучета и котки!"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6036,8 +6035,8 @@
         "applicationMethod": "PO q12h за 7-14 дни (или 28 дни), или 10 mg/kg PO q24h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/doxybactin.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/doxycycline.pdf",
     "indications"       : ["група: тетрациклини", "За лечение на кърлежово-преносими заболявания при кучетата и някои вирусни инфекции при котки."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6061,8 +6060,8 @@
         "applicationMethod": "IM за 3 дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/plumbs-pdf/oxytetracycline",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/oxytetracycline.pdf",
     "indications"       : ["група: тетрациклини"],
     "contraindications" : ["Дозата не трябва да надвишава в едно място на инжектиране повече от 1 ml при кучета и котки."],
     "drugInteractions"  : [],
@@ -6112,8 +6111,8 @@
         "applicationMethod": "PO q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/biseptol.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf",
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
     "drugInteractions"  : [
@@ -6148,8 +6147,8 @@
         "applicationMethod": "PO q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/biseptol.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf",
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
     "drugInteractions"  : [
@@ -6184,8 +6183,8 @@
         "applicationMethod": "PO q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/biseptol.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf",
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
     "drugInteractions"  : [
@@ -6221,7 +6220,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf",
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
     "drugInteractions"  : [
@@ -6257,7 +6256,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf",
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
     "drugInteractions"  : [
@@ -6292,7 +6291,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf",
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
     "drugInteractions"  : [
@@ -6326,8 +6325,8 @@
         "applicationMethod": "SC"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/intertrim-la.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf",
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6377,7 +6376,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/spectinomycin.pdf",
     "indications"       : ["група: линкозамиди"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6402,8 +6401,8 @@
         "applicationMethod": "IM или бавно IV q24h, или разделено на две q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/lincoject.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/lincomycin.pdf",
     "indications"       : ["група: линкозамиди", "Линкоджект се препоръчва при кучета и котки за лечение на: тонзилити, ларингити и други инфекции на дихателната система, абсцеси, инфектирани рани и гнойни дерматити, септицемии."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6427,8 +6426,8 @@
         "applicationMethod": "PO q12h 7-10 дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/zodon",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/clindamycin.pdf",
     "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
     "contraindications" : [
       "при пациенти със свръхчувствителност към него или към линкомицин.",
@@ -6456,8 +6455,8 @@
         "applicationMethod": "PO q12h 7-10 дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/dalacin-c.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/clindamycin.pdf",
     "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
     "contraindications" : [
       "при пациенти със свръхчувствителност към него или към линкомицин.",
@@ -6485,8 +6484,8 @@
         "applicationMethod": "PO q12h 7-10 дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/clindavet.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/clindamycin.pdf",
     "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
     "contraindications" : [
       "при пациенти със свръхчувствителност към него или към линкомицин.",
@@ -6522,7 +6521,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/azithromycin.pdf",
     "indications"       : ["група: макролиди"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6553,8 +6552,8 @@
         "applicationMethod": "PO за 8 последователни дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/sumamed.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/azithromycin.pdf",
     "indications"       : ["група: макролиди", "разтваря се в 12 мл вода", "дава се преди вит. Б12"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6585,8 +6584,8 @@
         "applicationMethod": "PO за 8 последователни дни"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/azatril.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/azithromycin.pdf",
     "indications"       : ["група: макролиди", "дава се преди вит. Б12"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6611,8 +6610,8 @@
         "applicationMethod": "PO q24h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/azatril.png",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/azithromycin.pdf",
     "indications"       : ["група: макролиди"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6637,8 +6636,8 @@
         "applicationMethod": "PO q12h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/klacid.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/clarithromycin.pdf",
     "indications"       : ["група: макролиди"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6662,8 +6661,8 @@
         "applicationMethod": "IM q24h"
       }
     },
-    "link"              : "",
-    "plumb"             : "",
+    "link"              : "pdfs/@medication/antibiotics/tylovet.pdf",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/tylosin.pdf",
     "indications"       : ["група: макролиди"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6689,7 +6688,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/metronidazole.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6714,7 +6713,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/metronidazole.pdf",
     "indications"       : ["Лечение на инфекции в областта на храносмилателния тракт, причинени от Giardia spp. и Clostridium spp. (напр.: C. perfringens или C. difficile).", "Лечение на инфекции в областта на урогениталния тракт, устната кухина, гърлото и кожата, причинени от облигатни анаеробни бактерии (напр. Clostridium spp.), чувствителни на метронидазол.", "Метронидазолът е ефективен срещу протозои, но не е ефективен срещу факултативни анаероби, облигатни аероби и микроаерофилни бактерии."],
     "contraindications" : ["Да не се използва при увреждания на черния дроб."],
     "drugInteractions"  : [],
@@ -6739,7 +6738,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/metronidazole.pdf",
     "indications"       : ["гиардиаза при котки", "антибактериален (анаероби) и антипаразитен агент"],
     "contraindications" : ["чернодробна дисфункция", "бременни или кърмещи"],
     "drugInteractions"  : ["Циметидин: Може да намали метаболизма на метронидазол и да увеличи вероятността от появата на странични ефекти, свързани с дозата.", "Фенобарбитал или фенитоин: Може да увеличи метаболизма на метронидазол, като по този начин намалява нивата в кръвта."],
@@ -6764,7 +6763,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/metronidazole.pdf",
     "indications"       : ["спирамицин (макролиди)", "Инфекции, причинени от чувствителни аеробни и анаеробни бактерии, в частност инфекции в устната кухина: стоматити, гингивити, периодонтални заболявания, пиореа, халитоза."],
     "contraindications" : ["Да не се използва при свръхчувствителност към активните субстанции."],
     "drugInteractions"  : ["Продуктът не трябва да се използва едновременно с други антибиотици от макролидната група."],
@@ -6789,7 +6788,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/metronidazole.pdf",
     "indications"       : ["спирамицин (макролиди)", "Инфекции, причинени от чувствителни аеробни и анаеробни бактерии, в частност инфекции в устната кухина: стоматити, гингивити, периодонтални заболявания, пиореа, халитоза."],
     "contraindications" : ["Да не се използва при свръхчувствителност към активните субстанции."],
     "drugInteractions"  : ["Продуктът не трябва да се използва едновременно с други антибиотици от макролидната група."],
@@ -6814,7 +6813,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/metronidazole.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6839,7 +6838,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/metronidazole.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6864,7 +6863,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/fluconazole.pdf",
     "indications"       : ["маласезиен дерматит"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6889,7 +6888,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/fluconazole.pdf",
     "indications"       : ["маласезиен дерматит"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6914,7 +6913,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/terbinafine.pdf",
     "indications"       : ["не се дава повече от 2 седмици;", "за лечение на дерматофитни и други гъбични инфекции при кучета и котки."],
     "contraindications" : ["не се препоръчва да се прилага при пациенти с активно или хронично чернодробно заболяване или със значително нарушена бъбречна функция. Ако тербинафин трябва да се използва при ветеринарни пациенти с изразено нарушена чернодробна или бъбречна функция, направете го с изключителна предпазливост и евентуална корекция на дозата."],
     "drugInteractions"  : [
@@ -6942,7 +6941,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/clotrimazole.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6974,7 +6973,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/toltrazuril.pdf",
     "indications"       : ["за лечение на кокцидиоза", "за стадия на изхвърляне на ооцисти при токсоплазмоза при котки"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7006,7 +7005,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/toltrazuril.pdf",
     "indications"       : ["за лечение на кокцидиоза", "за стадия на изхвърляне на ооцисти при токсоплазмоза при котки"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7038,7 +7037,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/toltrazuril.pdf",
     "indications"       : ["за лечение на кокцидиоза", "за стадия на изхвърляне на ооцисти при токсоплазмоза при котки"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7063,7 +7062,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/emodepside-praziquantel.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7088,7 +7087,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/imidocarb.pdf",
     "indications"       : ["За КЧ бабезиоза."],
     "contraindications" : ["Да не се използва при ЖВ с увредени ЧД или ББ функции."],
     "drugInteractions"  : [],
@@ -7120,7 +7119,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/imidocarb.pdf",
     "indications"       : ["За КЧ бабезиоза.", "Използва се заедно с атропин (0,1 мл/10 кг).", "Доза за КЧ: 0,05 мл/кг."],
     "contraindications" : ["Да не се използва при ЖВ с увредени ЧД или ББ функции."],
     "drugInteractions"  : [],
@@ -7153,7 +7152,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ivermectin.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7178,7 +7177,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ivermectin.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7204,7 +7203,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ivermectin.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7229,7 +7228,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/melarsomine.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7254,7 +7253,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/diminazene.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7286,7 +7285,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/fenbendazole.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7320,7 +7319,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/oxytocin.pdf",
     "indications"       : ["Повторно може да се приложи след 20-40 минути", "За стимулиране на родовата дейност при слаби и неефективни контракции на матката (само при отворена маточна шийка);", "при атония на матката след раждане;", "при след родилни маточни кръвотечения; при задържане на плацентата;", "при пуерперални ендометрити;", "при изпадане на матката;", "при хипогалакция и агалакция след раждане;", "при задържане на млякото."],
     "contraindications" : ["Не се прилага до разкритие на маточната шийка преди раждане. Окситоцинът е противопоказан при животни с дистоция (затруднено раждане) поради неправилно положение на плода, освен ако е извършена корекция"],
     "drugInteractions"  : [],
@@ -7345,7 +7344,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/trilostane.pdf",
     "indications"       : ["Лечение на хипофизно-зависим и надбъбречно-зависим хиперадренокортицизъм (болест и синдром на Кушинг)."],
     "contraindications" : ["Да не се използва при животни, страдащи от първично чернодробно заболяване и/или бъбречна недостатъчност.", "Да не се използва при кучета с телесна маса под 10 kg."],
     "drugInteractions"  : [],
@@ -7371,7 +7370,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/levothyroxine.pdf",
     "indications"       : ["За лечение на хипотиреоидизъм.", "Първоначална доза: 20 µg/kg."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7396,7 +7395,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/levothyroxine.pdf",
     "indications"       : ["за лечение на хипотиреоидизъм"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7421,7 +7420,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/methimazole.pdf",
     "indications"       : ["За дългосрочно лечение на хипертиреоидизъм при котки.", "Общата дневна доза трябва да се раздели на две равни дози и да се прилага сутрин и вечер."],
     "contraindications" : ["Да не се използва при котки, страдащи от системни заболявания, като първично чернодробно заболяване или захарен диабет, автоимунно заболяване, коагулопатии, бременни или кърмещи."],
     "drugInteractions"  : [],
@@ -7446,7 +7445,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/methimazole.pdf",
     "indications"       : ["За дългосрочно лечение на хипертиреоидизъм при котки.", "Общата дневна доза трябва да се раздели на две равни дози и да се прилага сутрин и вечер."],
     "contraindications" : ["Да не се използва при котки, страдащи от системни заболявания, като първично чернодробно заболяване или захарен диабет, автоимунно заболяване, коагулопатии, бременни или кърмещи."],
     "drugInteractions"  : [],
@@ -7471,7 +7470,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/epoetin.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7496,7 +7495,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/insulin.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7521,7 +7520,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/insulin.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7546,7 +7545,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/insulin.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7571,7 +7570,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/insulin.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7596,7 +7595,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/insulin.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7621,7 +7620,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/cosyntropin.pdf",
     "indications"       : ["За изследване функцията на надбъбречната жлеза при кучета (извършване на ACTH стимулационен тест).", "Вземете първата кръвна проба непосредствено преди прилагането на продукта и вземете втората кръвна проба между 60 и 90 минути след прилагане на продукта, за да се оцени отговора на кортизола."],
     "contraindications" : ["Да не се използва при бременни животни."],
     "drugInteractions"  : [],
@@ -7653,7 +7652,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/dexamethasone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7687,7 +7686,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/dexamethasone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7712,7 +7711,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/dexamethasone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7738,7 +7737,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/dexamethasone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7764,7 +7763,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/dexamethasone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7790,7 +7789,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/dexamethasone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7815,7 +7814,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/dexamethasone.pdf",
     "indications"       : [],
     "contraindications" : ["захарен диабет", "бъбречна недостатъчност", "сърдечна недостатъчност", "хиперадренокортицизъм", "остеопороза","вирусни и микотични инфекции", "стомашно-чревни или роговични язви"],
     "drugInteractions"  : [],
@@ -7881,7 +7880,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/dexamethasone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7907,7 +7906,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/dexamethasone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7933,7 +7932,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/dexamethasone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7959,7 +7958,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ketoprofen.pdf",
     "indications"       : [],
     "contraindications" : ["гастро-интестинални лезии,хеморагична диатеза,нарушена чернодробна, бъбречна или сърдечна функция."],
     "drugInteractions"  : [],
@@ -7984,7 +7983,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/meloxicam.pdf",
     "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастроинтестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти. Rheumocam не трябва да се прилага едновременно с други нестероидни противовъзпалителни средства или глюкокортикостероиди. Предшестващо третиране с противовъзпалителни средства може да причини допълнителни или повишени неблагоприятни реакции и съобразно с това трябва да се спази период, свободен от прилагането на такива ветеринарномедицински продукти, най-малко 24 часа преди започване на лечението. При периода, свободен от медикаменти, трябва да се вземат предвид фармакологичните свойства на ветеринарните продукти, използвани преди това."],
@@ -8009,7 +8008,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/meloxicam.pdf",
     "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти. Rheumocam не трябва да се прилага едновременно с други нестероидни противовъзпалителни средства или глюкокортикостероиди. Предшестващо третиране с противовъзпалителни средства може да причини допълнителни или повишени неблагоприятни реакции и съобразно с това трябва да се спази период, свободен от прилагането на такива ветеринарномедицински продукти, най-малко 24 часа преди започване на лечението. При периода, свободен от медикаменти, трябва да се вземат предвид фармакологичните свойства на ветеринарните продукти, използвани преди това."],
@@ -8034,7 +8033,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/meloxicam.pdf",
     "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти. Rheumocam не трябва да се прилага едновременно с други нестероидни противовъзпалителни средства или глюкокортикостероиди. Предшестващо третиране с противовъзпалителни средства може да причини допълнителни или повишени неблагоприятни реакции и съобразно с това трябва да се спази период, свободен от прилагането на такива ветеринарномедицински продукти, най-малко 24 часа преди започване на лечението. При периода, свободен от медикаменти, трябва да се вземат предвид фармакологичните свойства на ветеринарните продукти, използвани преди това."],
@@ -8059,7 +8058,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/meloxicam.pdf",
     "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
@@ -8084,7 +8083,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/meloxicam.pdf",
     "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
@@ -8109,7 +8108,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/meloxicam.pdf",
     "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
@@ -8134,7 +8133,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/meloxicam.pdf",
     "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
@@ -8159,7 +8158,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/meloxicam.pdf",
     "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
@@ -8184,7 +8183,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/meloxicam.pdf",
     "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
@@ -8209,7 +8208,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/firocoxib.pdf",
     "indications"       : ["За намаляване на болката и възпалението, свързани с остеоартрити при кучета. За намаляване на следоперативната болка и възпалението, свързани с хирургична интервенция на меките тъкани, ортопедична и зъбна хирургия при кучета."],
     "contraindications" : ["Да не се прилага при бременни и лактиращи кучки. Да не се прилага при животни на възраст, по-малка от 10 седмици или с телесна маса, по-малка от 3 кг. Да не се прилага при животни, страдащи от стомашно-чревни кръвоизливи, кръвна дискразия или хеморагични нарушения. Да не се прилага едновременно с кортикостероиди или с други нестероидни противовъзпалителни средства (НСПВС)."],
     "drugInteractions"  : [],
@@ -8260,7 +8259,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -8286,7 +8285,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -8808,7 +8807,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/filgrastim.pdf",
     "indications"       : ["цитокин, който в костния мозък стимулира пролиферацията, дирефенциацията и активацията на прогениторни клетки на неутрофилите.", "при неутропения"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -8867,7 +8866,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ascorbic-acid.pdf",
     "indications"       : ["Подкиселява урината при дребните животни."],
     "contraindications" : ["използва се с внимание при пациенти със захарен диабет или при пациенти, склонни към уролитиаза.", "избягвайте употребата на витамин C при животни с хепатопатия, предизвикана от мед."],
     "drugInteractions"  : ["Аминогликозиди (напр. гентамицин) и еритромицин: Те са по-ефективни в алкална среда; подкиселяването на урината може да намали тяхната ефективност в лечението на бактериални урогенитални инфекции", "Кинидин: подкиселяването на урината може да увеличи бъбречният клирънс.", "Дефероксамин: Въпреки че витамин C може да е синергичен с дефероксамин в премахването на желязото, той може да увеличи токсичността на желязото в тъканите, особено в сърдечния мускул. Трябва да се използва с внимание, особено при пациенти със заболявания на сърцето."],
@@ -8901,7 +8900,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ascorbic-acid.pdf",
     "indications"       : ["Подкиселява урината при дребните животни."],
     "contraindications" : ["използва се с внимание при пациенти със захарен диабет или при пациенти, склонни към уролитиаза.", "избягвайте употребата на витамин C при животни с хепатопария, предизвикана от мед."],
     "drugInteractions"  : ["Аминогликозиди (напр. гентамицин) и еритромицин: Те са по-ефективни в алкална среда; подкиселяването на урината може да намали тяхната ефективност в лечението на бактериални урогенитални инфекции", "Кинидин: подкиселяването на урината може да увеличи бъбречният клирънс.", "Дефероксамин: Въпреки че витамин C може да е синергичен с дефероксамин в премахването на желязото, той може да увеличи токсичността на желязото в тъканите, особено в сърдечния мускул. Трябва да се използва с внимание, особено при пациенти със заболявания на сърцето."],
@@ -8987,7 +8986,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/cyanocobalamin.pdf",
     "indications"       : ["Смущения в метаболизма причинени от лошо хранене, неправилно отглеждане или заболяване.", "Смущения в развитието и храненето на млади животни поради заболяване в ранна възраст.", "Метафилактика при безплодие и следродилни заболявания и поддържащо лечение при безплодие.", "При мускулни спазми и парези, като допълнение на Ca/Mg терапия.", "Като подсилващо средство при стрес, пренапрежение и намалени съпротивителни сили при здрави животни.", "Като тонизиращо средство в случаи на слабост и преумора."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -9021,7 +9020,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/thiamine.pdf",
     "indications"       : ["Витамин Б, използван за лечение или предотвратяване на дефицит на тиамин. Може да бъде полезен за допълващо лечение при отравяване с олово и токсикоза с етиленгликол. Клиничните признаци на дефицит на тиамин включват гастроинтестинални симптоми (анорексия, слюноотделяне), невромускулни/ЦНС симптоми (атаксия, судороги, загуба на рефлекси) или сърдечни смущения (бради- или тахиаритмии).","При периферни парализи, неврити и невралгии;", "при сърдечни и чернодробни увреждания; при дерматити;", "като спомагателен препарат при заразни заболявания; ", "при вътрешно прилагане на сулфаниламиди, нитрофуранови съединения и антибиотици; "],
     "contraindications" : [],
     "drugInteractions"  : ["Витамин Б1 може да усили действието на нервно-мускулните блокатори. Не се препоръчва едновременното прилагане в една спринцовка или инфузионен разтвор на вит. Б1 с вит. Б12 поради прякото разграждащо витамините действие на кобалта във вит. Б12.", " При предозиране, особено при венозно вкарване може да предизвика шокови явления (“тиаминов шок”). При въвеждане на много високи дози (LD50 е 350 mg/ml) се наблюдава нервно-мускулна блокада при животните; хипотензия и учестено дишане."],
@@ -9089,7 +9088,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/phytonadione.pdf",
     "indications"       : ["При А-, Д- и Е-хиповитаминозни състояния;", "при гастроинтестинални и белодробни заболявания;", "при мускулна дистрофия при агнета и телета;", "при смущение в спермиогенезата при разплодници;", "за повишаване на резистентността при младите животни при инфекциозни и инвазионни болести;", "при остеомалация."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -9115,7 +9114,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/phytonadione.pdf",
     "indications"       : ["При А-, Д- и Е-хиповитаминозни състояния;", "при гастроинтестинални и белодробни заболявания;", "при мускулна дистрофия при агнета и телета;", "при смущение в спермиогенезата при разплодници;", "за повишаване на резистентността при младите животни при инфекциозни и инвазионни болести;", "при остеомалация."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -9149,7 +9148,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/calcium.pdf",
     "indications"       : ["Доза КЧ и КТ при хипокалцемия: 50-150 мг/кг -> 0,25-0,75 мл/кг бавно венозно над 20 мин.","При възпалителни процеси с различна етиология в началната фаза /включително при оток на белия дроб/; при кръвотечения и хеморагична диатеза; при алергични състояния – уртикария, серумна болест, при акутен тотален асептичен пододерматит и др.; при хипокалцемични състояния – тетания при кравите, рахит, остеомалация, родилна пареза, при паралитична миоглобинурия при коне; при отравяния."],
     "contraindications" : ["При заболявания на сърцето и бъбреците, при животни с дихателна недостатъчност, респираторна ацидоза, стомашна фибрилация, хиперкалцемия."],
     "drugInteractions"  : ["Приемането на калциеви препарати едновременно с тиазидни диуретици, витамин А, витамин Д или негови аналози може да предизвика хиперкалцемия.Калцият при парентерално приложение може да намали ефекта на неполярните миорелаксанти.Калцият усилва действието на Тубокурарина.Магнезиевите йони усилват действието на барбитуратите."],
@@ -9435,7 +9434,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/lysine.pdf",
     "indications"       : ["Намаляване на тежестта на клиничните симптоми при заразени с FHV-1 котки.", "Намаляване на броя на рецидивите при котки с повторни инфекции.", "Намаляване на заразителността.", "Подобряване на имунната система.", "Препоръчително е лечението да продължи от 2 до 3 седмици в зависимост от тежестта на симптомите или за профилактика."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -9461,7 +9460,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/lysine.pdf",
     "indications"       : ["Намаляване на тежестта на клиничните симптоми при заразени с FHV-1 котки.", "Намаляване на броя на рецидивите при котки с повторни инфекции.", "Намаляване на заразителността.", "Подобряване на имунната система.", "Препоръчително е лечението да продължи от 2 до 3 седмици в зависимост от тежестта на симптомите или за профилактика."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -9518,7 +9517,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/lysine.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -9550,7 +9549,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/lysine.pdf",
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -9691,7 +9690,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/ethanol.pdf",
     "indications"       : ["за отравяне с етиленгликол виж 'Калкулатори -> Дози антидоти'"],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -10072,7 +10071,7 @@
       }
     },
     "link"              : "",
-    "plumb"             : "",
+    "plumb"             : "pdfs/@medication/plumbs-pdf/potassium.pdf",
     "indications"       : ["При хипокалцемия, която се среща при парвовироза, захарен диабет и др.", "Дозира се според схема."],
     "contraindications" : [],
     "drugInteractions"  : [],
