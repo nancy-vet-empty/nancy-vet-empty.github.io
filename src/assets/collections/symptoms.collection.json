@@ -4,7 +4,7 @@
     "symptomEn" : "Nasal discharge",
     "otherNames": ["носни изтечения", "кървави носни изтечения", "кървави изтечения от носа"],
     "type"      : "respiratory",
-    "link"      : "",
+    "link"      : "https://app.diagrams.net/#G18WI3bvyh1zixo_7jcBbdi2FCGmmpzyrd#%7B%22pageId%22%3A%22q0t6lh2lJ3C1xU-Df99W%22%7D",
     "meaning"   : "Носните изтечения (разговорно сопол), представлява телесен продукт, който се образува в носа. Той се отделя под формата на слуз от жлезите на носовата лигавица",
     "isVisible" : true,
     "causes"    : [
@@ -73,9 +73,9 @@
   {
     "symptom"   : "Кашлица",
     "symptomEn" : "Cough",
-    "otherNames": [""],
+    "otherNames": ["кихане"],
     "type"      : "respiratory",
-    "link"      : "",
+    "link"      : "https://app.diagrams.net/#G17x9wkaFiFmIFTbQaMq9YoasfTOi35YBy#%7B%22pageId%22%3A%22Yam71vVJiEDjWTXOHnfD%22%7D",
     "meaning"   : "Представлява защитен рефлекс, възникващ в резултат на дразненето на дихателните пътища от секрети, дразнещи вещества и др",
     "isVisible" : true,
     "causes"    : [
@@ -183,7 +183,7 @@
     "symptomEn" : "Dyspnea",
     "otherNames": ["трудно дишане", "затруднено дишане"],
     "type"      : "respiratory",
-    "link"      : "",
+    "link"      : "https://app.diagrams.net/#G1fuzX_NXOYDnCmEmaga0sVIuFBl6YUjTV#%7B%22pageId%22%3A%22ctGMlh9oHPDkB9sW4bzm%22%7D",
     "meaning"   : "неправилно и затруднено дишане",
     "isVisible" : true,
     "causes"    : [
@@ -353,7 +353,7 @@
     "symptomEn" : "Halitosis",
     "otherNames": ["лош дъх"],
     "type"      : "digestive",
-    "link"      : "",
+    "link"      : "https://app.diagrams.net/#G1qwjjKSNLg3GtKGVKXSEwgnAIqpxAOAzt#%7B%22pageId%22%3A%22jfEGcqt8qLcVGfHaTlJc%22%7D",
     "meaning"   : "лош дъх от устната кухина",
     "isVisible" : true,
     "causes"    : [
@@ -454,7 +454,7 @@
     "symptomEn" : "Loss of appetite",
     "otherNames": ["анорексия", "хипорексия", "отказ от храна"],
     "type"      : "digestive",
-    "link"      : "",
+    "link"      : "https://app.diagrams.net/#G1lFa2rHvoTYL-Io4Ost2gBALGaGhDi28J",
     "meaning"   : "анорексия - отказ от храна, хипорексия - намален прием на храна",
     "isVisible" : true,
     "causes"    : [
@@ -911,7 +911,7 @@
     "symptomEn" : "Constipation",
     "otherNames": ["констипация"],
     "type"      : "digestive",
-    "link"      : "",
+    "link"      : "https://app.diagrams.net/#G1u_qwloCezbI4Xj4QZ3FHkXGhuL9fDQLL#%7B%22pageId%22%3A%22Vcv4-E5hvntuSw6bReTr%22%7D",
     "meaning"   : "Запекът (констипацията) е състояние, при което изпражненията се втвърдяват и стават трудни за изхождане",
     "isVisible" : true,
     "causes"    : [
@@ -1681,13 +1681,13 @@
     ]
   },
   {
-    "symptom"   : "Запушване на уретрата",
+    "symptom"   : "Запушване на уретрата, анурия, олигурия",
     "symptomEn" : "Urine retention",
-    "otherNames": [""],
+    "otherNames": ["олигурия", "анурия", "запушване на уретрата"],
     "type"      : "urogenital",
-    "link"      : "",
+    "link"      : "https://app.diagrams.net/#G1BjRHwB5-s8n0xPpkMV4RLDfJV7ZHE_x5",
     "meaning"   : "",
-    "isVisible" : false,
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "", "children": [
@@ -2367,7 +2367,7 @@
     "symptomEn" : "Status epilepticus",
     "otherNames": [""],
     "type"      : "nervous",
-    "link"      : "",
+    "link"      : "https://app.diagrams.net/#G11hv5d7-f6AeqyN8dQ3YogGvBJ7Xmt9A4#%7B%22pageId%22%3A%22BghfXQK9GrZpPWRw2bZU%22%7D",
     "meaning"   : "характеризира се с последователни епилептични пристъпи, без възстановяване на съзнанието между тях",
     "isVisible" : true,
     "causes"    : [
